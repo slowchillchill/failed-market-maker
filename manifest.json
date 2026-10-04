@@ -31752,7 +31752,7 @@
       "transformation": "curated_publication_content",
       "license": "CC-BY-4.0",
       "evaluation_record": null,
-      "bytes": 2607
+      "bytes": 2633
     },
     {
       "path": "figures/iql-execution-zh.svg",
@@ -31762,7 +31762,7 @@
       "transformation": "curated_publication_content",
       "license": "CC-BY-4.0",
       "evaluation_record": null,
-      "bytes": 2616
+      "bytes": 2642
     },
     {
       "path": "figures/m3_run3.svg",
@@ -31842,7 +31842,7 @@
       "transformation": "curated_publication_content",
       "license": "CC-BY-4.0",
       "evaluation_record": null,
-      "bytes": 1597
+      "bytes": 1623
     },
     {
       "path": "figures/overview-zh.svg",
@@ -31852,7 +31852,7 @@
       "transformation": "curated_publication_content",
       "license": "CC-BY-4.0",
       "evaluation_record": null,
-      "bytes": 1644
+      "bytes": 1670
     },
     {
       "path": "figures/paper-latest-en.svg",
@@ -31862,7 +31862,7 @@
       "transformation": "curated_publication_content",
       "license": "CC-BY-4.0",
       "evaluation_record": null,
-      "bytes": 2265
+      "bytes": 2291
     },
     {
       "path": "figures/paper-latest-zh.svg",
@@ -31872,7 +31872,7 @@
       "transformation": "curated_publication_content",
       "license": "CC-BY-4.0",
       "evaluation_record": null,
-      "bytes": 2282
+      "bytes": 2308
     },
     {
       "path": "figures/policy_phase67_C0_control_anchor.svg",
@@ -34712,7 +34712,7 @@
       "transformation": "curated_publication_content",
       "license": "Apache-2.0",
       "evaluation_record": null,
-      "bytes": 15927
+      "bytes": 15961
     },
     {
       "path": "scripts/verify.py",

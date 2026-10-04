@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 310" role="img" aria-label="IQL: fixed versus native execution">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="310" viewBox="0 0 1000 310" role="img" aria-label="IQL: fixed versus native execution">
 <title>IQL: fixed versus native execution</title>
 <rect width="1000" height="310" rx="12" fill="#ffffff"/>
 <text x="28" y="35" fill="#263e39" font-family="Arial,Noto Sans CJK SC,sans-serif" font-size="19" text-anchor="start">IQL · SAME CANDIDATE, DIFFERENT EXECUTION</text>

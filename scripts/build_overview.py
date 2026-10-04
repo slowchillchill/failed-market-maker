@@ -66,7 +66,7 @@ def candidate_row(m):
 
 
 def svg_start(width, height, title, bg='#ffffff'):
-    return [f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {width} {height}" role="img" aria-label="{html.escape(title, quote=True)}">', f'<title>{html.escape(title)}</title>', f'<rect width="{width}" height="{height}" rx="12" fill="{bg}"/>']
+    return [f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" aria-label="{html.escape(title, quote=True)}">', f'<title>{html.escape(title)}</title>', f'<rect width="{width}" height="{height}" rx="12" fill="{bg}"/>']
 
 
 def svg_text(x, y, text, size=16, color='#263e39', anchor='start'):
