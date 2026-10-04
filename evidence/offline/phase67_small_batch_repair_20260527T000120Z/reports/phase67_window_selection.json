@@ -1,0 +1,65 @@
+{
+  "confirmation_day": null,
+  "independent_test_dates_excluded": [
+    "20260514",
+    "20260515",
+    "20260516",
+    "20260517",
+    "20260518"
+  ],
+  "primary_day": "20260425",
+  "schema_version": "phase67_window_selection_v1",
+  "window_mode": "phase67_small_batch",
+  "windows": [
+    {
+      "dataset_version": "20260425",
+      "valid_join_rows": 46,
+      "window_id": "1777017600-1777032000"
+    },
+    {
+      "dataset_version": "20260425",
+      "valid_join_rows": 47,
+      "window_id": "1777032000-1777046400"
+    },
+    {
+      "dataset_version": "20260425",
+      "valid_join_rows": 39,
+      "window_id": "1777046400-1777060800"
+    },
+    {
+      "dataset_version": "20260425",
+      "valid_join_rows": 47,
+      "window_id": "1777060800-1777075200"
+    },
+    {
+      "dataset_version": "20260425",
+      "valid_join_rows": 45,
+      "window_id": "1777075200-1777089600"
+    },
+    {
+      "dataset_version": "20260425",
+      "valid_join_rows": 47,
+      "window_id": "1777089600-1777104000"
+    },
+    {
+      "dataset_version": "20260425",
+      "valid_join_rows": 47,
+      "window_id": "1777104000-1777118400"
+    },
+    {
+      "dataset_version": "20260425",
+      "valid_join_rows": 45,
+      "window_id": "1777118400-1777132800"
+    },
+    {
+      "dataset_version": "20260425",
+      "valid_join_rows": 44,
+      "window_id": "1777132800-1777147200"
+    },
+    {
+      "dataset_version": "20260425",
+      "valid_join_rows": 45,
+      "window_id": "1777147200-1777161600"
+    }
+  ]
+}

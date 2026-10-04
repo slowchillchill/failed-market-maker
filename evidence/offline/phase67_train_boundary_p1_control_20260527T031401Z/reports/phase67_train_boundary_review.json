@@ -1,0 +1,62 @@
+{
+  "artifact_sha256_manifest": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_train_boundary_p1_control_20260527T031401Z/reports/artifact_sha256_manifest.json",
+  "command_failure_count": 0,
+  "command_result_count": 522,
+  "control_separation_review": {
+    "leaderboard_interpretation_allowed": true,
+    "paper_trade_approval": false,
+    "reason": "one or more primaries separated from control",
+    "verdict": "PASS_REVIEW"
+  },
+  "decision_surface_action_gate": {
+    "paper_trade_approval": false,
+    "reason": "decision-surface threshold sweep found nonzero differing decoded rows",
+    "short_replay_allowed": true,
+    "verdict": "PASS_REVIEW"
+  },
+  "leaderboard_review": {
+    "paper_trade_approval": false,
+    "phase66_independent_offline_test": {
+      "not_started_reason": "FAIL_CONTROL_AMPLIFICATION leaves no approved final candidate for Phase 6.6",
+      "required_window": "20260514..20260518",
+      "started": false
+    },
+    "reason": "control candidate ranks first by train-boundary replay PnL",
+    "verdict": "FAIL_CONTROL_AMPLIFICATION"
+  },
+  "raw_output_gate": {
+    "paper_trade_approval": false,
+    "reason": "raw model outputs show nonzero cross-candidate differences",
+    "short_replay_allowed": true,
+    "verdict": "PASS_REVIEW"
+  },
+  "replay_report_count": 526,
+  "resource_summary": {
+    "avg_gpu_util_pct": 88.55509118541033,
+    "avg_load1": 25.32697568389058,
+    "first_ts_utc": "2026-05-27T04:08:15.406136Z",
+    "last_cgroup_memory_events": "low=0;high=0;max=15304010;oom=0;oom_kill=0",
+    "last_ts_utc": "2026-05-27T18:53:07.872539Z",
+    "max_cgroup_memory_current_bytes": 96623816704,
+    "max_gpu_util_pct": 91.0,
+    "max_load1": 81.82,
+    "max_process_tree_rss_kib": 12403300,
+    "sample_rows": 5264
+  },
+  "review": {
+    "paper_trade_approval": false,
+    "phase66_independent_offline_test": {
+      "not_started_reason": "FAIL_CONTROL_AMPLIFICATION leaves no approved final candidate for Phase 6.6",
+      "required_window": "20260514..20260518",
+      "started": false
+    },
+    "phase67_full_train_boundary_replay": {
+      "not_started_reason": "FAIL_CONTROL_AMPLIFICATION blocks Step 5 full train-boundary replay",
+      "started": false
+    },
+    "reason": "control candidate ranks first by train-boundary replay PnL",
+    "verdict": "FAIL_CONTROL_AMPLIFICATION"
+  },
+  "schema_version": "phase67_train_boundary_review_v1",
+  "sync_manifest": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_train_boundary_p1_control_20260527T031401Z/reports/sync_manifest.json"
+}

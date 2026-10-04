@@ -1,0 +1,684 @@
+{
+  "artifact_sha256_manifest": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/reports/artifact_sha256_manifest.json",
+  "candidate_matrix": [
+    {
+      "action_support_change": "Current support-gated runtime.",
+      "alpha_source_run_id": "primary_R6_C2_control_seq180_bs4096_ep30_lev0p25_sr0p1_sm0p0_seed2",
+      "batch_size": 4096,
+      "design_id": "C0_control_anchor",
+      "purpose": "Existing control/calibration anchor.",
+      "quote_sparsity_lambda": 0.0,
+      "quote_threshold": 0.55,
+      "role": "control",
+      "run_id": "phase67_C0_control_anchor",
+      "seq_len": 180,
+      "training_change": "Reuse current control objective for same-window comparability.",
+      "training_objective": "behavior_clone_advantage"
+    },
+    {
+      "action_support_change": "Current support-gated runtime.",
+      "alpha_source_run_id": "primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed2",
+      "batch_size": 2048,
+      "design_id": "P1_signed_reward_filter",
+      "purpose": "Suppress zero or negative reward legal slots.",
+      "quote_sparsity_lambda": 0.0,
+      "quote_threshold": 0.55,
+      "role": "primary",
+      "run_id": "phase67_P1_signed_reward_filter",
+      "seq_len": 120,
+      "training_change": "Positive reward keeps behavior quote; nonpositive reward trains no-quote.",
+      "training_objective": "signed_reward_filter"
+    },
+    {
+      "action_support_change": "Threshold sweep over 0.75, 0.90, and 0.99.",
+      "alpha_source_run_id": "primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed2",
+      "batch_size": 2048,
+      "design_id": "P2_quote_sparsity_calibrated",
+      "purpose": "Reduce quote-probability saturation.",
+      "quote_sparsity_lambda": 0.05,
+      "quote_threshold": 0.9,
+      "role": "primary",
+      "run_id": "phase67_P2_quote_sparsity_calibrated",
+      "seq_len": 120,
+      "training_change": "Add legal-slot quote sparsity/calibration pressure.",
+      "training_objective": "quote_sparsity_calibrated"
+    },
+    {
+      "action_support_change": "Current support-gated renderer; offset/size non-gating in review.",
+      "alpha_source_run_id": "primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed2",
+      "batch_size": 2048,
+      "design_id": "P3_binary_slot_policy",
+      "purpose": "Align training with the runtime slot-enable contract.",
+      "quote_sparsity_lambda": 0.0,
+      "quote_threshold": 0.55,
+      "role": "primary",
+      "run_id": "phase67_P3_binary_slot_policy",
+      "seq_len": 120,
+      "training_change": "Train slot-enable decision and keep offset/size diagnostic.",
+      "training_objective": "binary_slot_policy"
+    }
+  ],
+  "command_results": [
+    {
+      "command_file": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/commands/python_validate_phase67_C0_control_anchor.sh",
+      "elapsed_seconds": 1.424811065196991,
+      "exit_code": 0,
+      "name": "python_validate_phase67_C0_control_anchor",
+      "stderr_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/python_validate_phase67_C0_control_anchor.stderr.log",
+      "stderr_size_bytes": 0,
+      "stdout_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/python_validate_phase67_C0_control_anchor.stdout.log",
+      "stdout_size_bytes": 27
+    },
+    {
+      "command_file": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/commands/rust_validate_phase67_C0_control_anchor.sh",
+      "elapsed_seconds": 0.17896230891346931,
+      "exit_code": 0,
+      "name": "rust_validate_phase67_C0_control_anchor",
+      "stderr_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/rust_validate_phase67_C0_control_anchor.stderr.log",
+      "stderr_size_bytes": 474,
+      "stdout_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/rust_validate_phase67_C0_control_anchor.stdout.log",
+      "stdout_size_bytes": 166
+    },
+    {
+      "command_file": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/commands/python_validate_phase67_P1_signed_reward_filter.sh",
+      "elapsed_seconds": 1.4993346333503723,
+      "exit_code": 0,
+      "name": "python_validate_phase67_P1_signed_reward_filter",
+      "stderr_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/python_validate_phase67_P1_signed_reward_filter.stderr.log",
+      "stderr_size_bytes": 0,
+      "stdout_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/python_validate_phase67_P1_signed_reward_filter.stdout.log",
+      "stdout_size_bytes": 27
+    },
+    {
+      "command_file": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/commands/rust_validate_phase67_P1_signed_reward_filter.sh",
+      "elapsed_seconds": 0.19999342411756516,
+      "exit_code": 0,
+      "name": "rust_validate_phase67_P1_signed_reward_filter",
+      "stderr_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/rust_validate_phase67_P1_signed_reward_filter.stderr.log",
+      "stderr_size_bytes": 480,
+      "stdout_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/rust_validate_phase67_P1_signed_reward_filter.stdout.log",
+      "stdout_size_bytes": 166
+    },
+    {
+      "command_file": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/commands/python_validate_phase67_P2_quote_sparsity_calibrated.sh",
+      "elapsed_seconds": 1.5882299020886421,
+      "exit_code": 0,
+      "name": "python_validate_phase67_P2_quote_sparsity_calibrated",
+      "stderr_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/python_validate_phase67_P2_quote_sparsity_calibrated.stderr.log",
+      "stderr_size_bytes": 0,
+      "stdout_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/python_validate_phase67_P2_quote_sparsity_calibrated.stdout.log",
+      "stdout_size_bytes": 27
+    },
+    {
+      "command_file": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/commands/rust_validate_phase67_P2_quote_sparsity_calibrated.sh",
+      "elapsed_seconds": 0.16684515401721,
+      "exit_code": 0,
+      "name": "rust_validate_phase67_P2_quote_sparsity_calibrated",
+      "stderr_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/rust_validate_phase67_P2_quote_sparsity_calibrated.stderr.log",
+      "stderr_size_bytes": 485,
+      "stdout_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/rust_validate_phase67_P2_quote_sparsity_calibrated.stdout.log",
+      "stdout_size_bytes": 166
+    },
+    {
+      "command_file": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/commands/python_validate_phase67_P3_binary_slot_policy.sh",
+      "elapsed_seconds": 1.5079389736056328,
+      "exit_code": 0,
+      "name": "python_validate_phase67_P3_binary_slot_policy",
+      "stderr_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/python_validate_phase67_P3_binary_slot_policy.stderr.log",
+      "stderr_size_bytes": 0,
+      "stdout_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/python_validate_phase67_P3_binary_slot_policy.stdout.log",
+      "stdout_size_bytes": 27
+    },
+    {
+      "command_file": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/commands/rust_validate_phase67_P3_binary_slot_policy.sh",
+      "elapsed_seconds": 0.19903869926929474,
+      "exit_code": 0,
+      "name": "rust_validate_phase67_P3_binary_slot_policy",
+      "stderr_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/rust_validate_phase67_P3_binary_slot_policy.stderr.log",
+      "stderr_size_bytes": 478,
+      "stdout_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/rust_validate_phase67_P3_binary_slot_policy.stdout.log",
+      "stdout_size_bytes": 166
+    },
+    {
+      "command_file": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/commands/replay_phase67_C0_control_anchor_20260425_1777075200_1777089600.sh",
+      "elapsed_seconds": 873.3474398069084,
+      "exit_code": 0,
+      "name": "replay_phase67_C0_control_anchor_20260425_1777075200_1777089600",
+      "stderr_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/replay_phase67_C0_control_anchor_20260425_1777075200_1777089600.stderr.log",
+      "stderr_size_bytes": 120,
+      "stdout_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/replay_phase67_C0_control_anchor_20260425_1777075200_1777089600.stdout.log",
+      "stdout_size_bytes": 12238
+    },
+    {
+      "command_file": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/commands/replay_phase67_C0_control_anchor_20260425_1777118400_1777132800.sh",
+      "elapsed_seconds": 880.1920561604202,
+      "exit_code": 0,
+      "name": "replay_phase67_C0_control_anchor_20260425_1777118400_1777132800",
+      "stderr_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/replay_phase67_C0_control_anchor_20260425_1777118400_1777132800.stderr.log",
+      "stderr_size_bytes": 120,
+      "stdout_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/replay_phase67_C0_control_anchor_20260425_1777118400_1777132800.stdout.log",
+      "stdout_size_bytes": 12234
+    },
+    {
+      "command_file": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/commands/replay_phase67_C0_control_anchor_20260425_1777089600_1777104000.sh",
+      "elapsed_seconds": 883.1080117337406,
+      "exit_code": 0,
+      "name": "replay_phase67_C0_control_anchor_20260425_1777089600_1777104000",
+      "stderr_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/replay_phase67_C0_control_anchor_20260425_1777089600_1777104000.stderr.log",
+      "stderr_size_bytes": 120,
+      "stdout_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/replay_phase67_C0_control_anchor_20260425_1777089600_1777104000.stdout.log",
+      "stdout_size_bytes": 12730
+    },
+    {
+      "command_file": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/commands/replay_phase67_C0_control_anchor_20260425_1777046400_1777060800.sh",
+      "elapsed_seconds": 883.384270682931,
+      "exit_code": 0,
+      "name": "replay_phase67_C0_control_anchor_20260425_1777046400_1777060800",
+      "stderr_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/replay_phase67_C0_control_anchor_20260425_1777046400_1777060800.stderr.log",
+      "stderr_size_bytes": 120,
+      "stdout_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/replay_phase67_C0_control_anchor_20260425_1777046400_1777060800.stdout.log",
+      "stdout_size_bytes": 10756
+    },
+    {
+      "command_file": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/commands/replay_phase67_C0_control_anchor_20260425_1777104000_1777118400.sh",
+      "elapsed_seconds": 895.3646861240268,
+      "exit_code": 0,
+      "name": "replay_phase67_C0_control_anchor_20260425_1777104000_1777118400",
+      "stderr_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/replay_phase67_C0_control_anchor_20260425_1777104000_1777118400.stderr.log",
+      "stderr_size_bytes": 120,
+      "stdout_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/replay_phase67_C0_control_anchor_20260425_1777104000_1777118400.stdout.log",
+      "stdout_size_bytes": 12731
+    },
+    {
+      "command_file": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/commands/replay_phase67_C0_control_anchor_20260425_1777060800_1777075200.sh",
+      "elapsed_seconds": 962.3282103613019,
+      "exit_code": 0,
+      "name": "replay_phase67_C0_control_anchor_20260425_1777060800_1777075200",
+      "stderr_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/replay_phase67_C0_control_anchor_20260425_1777060800_1777075200.stderr.log",
+      "stderr_size_bytes": 120,
+      "stdout_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/replay_phase67_C0_control_anchor_20260425_1777060800_1777075200.stdout.log",
+      "stdout_size_bytes": 12742
+    },
+    {
+      "command_file": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/commands/replay_phase67_C0_control_anchor_20260425_1777017600_1777032000.sh",
+      "elapsed_seconds": 1009.187896091491,
+      "exit_code": 0,
+      "name": "replay_phase67_C0_control_anchor_20260425_1777017600_1777032000",
+      "stderr_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/replay_phase67_C0_control_anchor_20260425_1777017600_1777032000.stderr.log",
+      "stderr_size_bytes": 120,
+      "stdout_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/replay_phase67_C0_control_anchor_20260425_1777017600_1777032000.stdout.log",
+      "stdout_size_bytes": 12496
+    },
+    {
+      "command_file": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/commands/replay_phase67_C0_control_anchor_20260425_1777032000_1777046400.sh",
+      "elapsed_seconds": 1032.7267497479916,
+      "exit_code": 0,
+      "name": "replay_phase67_C0_control_anchor_20260425_1777032000_1777046400",
+      "stderr_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/replay_phase67_C0_control_anchor_20260425_1777032000_1777046400.stderr.log",
+      "stderr_size_bytes": 120,
+      "stdout_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/replay_phase67_C0_control_anchor_20260425_1777032000_1777046400.stdout.log",
+      "stdout_size_bytes": 12879
+    },
+    {
+      "command_file": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/commands/replay_phase67_C0_control_anchor_20260425_1777147200_1777161600.sh",
+      "elapsed_seconds": 700.4276952408254,
+      "exit_code": 0,
+      "name": "replay_phase67_C0_control_anchor_20260425_1777147200_1777161600",
+      "stderr_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/replay_phase67_C0_control_anchor_20260425_1777147200_1777161600.stderr.log",
+      "stderr_size_bytes": 120,
+      "stdout_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/replay_phase67_C0_control_anchor_20260425_1777147200_1777161600.stdout.log",
+      "stdout_size_bytes": 12224
+    },
+    {
+      "command_file": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/commands/replay_phase67_P1_signed_reward_filter_20260425_1777046400_1777060800.sh",
+      "elapsed_seconds": 691.6986493580043,
+      "exit_code": 0,
+      "name": "replay_phase67_P1_signed_reward_filter_20260425_1777046400_1777060800",
+      "stderr_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/replay_phase67_P1_signed_reward_filter_20260425_1777046400_1777060800.stderr.log",
+      "stderr_size_bytes": 120,
+      "stdout_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/replay_phase67_P1_signed_reward_filter_20260425_1777046400_1777060800.stdout.log",
+      "stdout_size_bytes": 10747
+    },
+    {
+      "command_file": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/commands/replay_phase67_C0_control_anchor_20260425_1777132800_1777147200.sh",
+      "elapsed_seconds": 723.43723834306,
+      "exit_code": 0,
+      "name": "replay_phase67_C0_control_anchor_20260425_1777132800_1777147200",
+      "stderr_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/replay_phase67_C0_control_anchor_20260425_1777132800_1777147200.stderr.log",
+      "stderr_size_bytes": 120,
+      "stdout_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/replay_phase67_C0_control_anchor_20260425_1777132800_1777147200.stdout.log",
+      "stdout_size_bytes": 11982
+    },
+    {
+      "command_file": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/commands/replay_phase67_P1_signed_reward_filter_20260425_1777075200_1777089600.sh",
+      "elapsed_seconds": 643.7243742905557,
+      "exit_code": 0,
+      "name": "replay_phase67_P1_signed_reward_filter_20260425_1777075200_1777089600",
+      "stderr_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/replay_phase67_P1_signed_reward_filter_20260425_1777075200_1777089600.stderr.log",
+      "stderr_size_bytes": 120,
+      "stdout_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/replay_phase67_P1_signed_reward_filter_20260425_1777075200_1777089600.stdout.log",
+      "stdout_size_bytes": 12224
+    },
+    {
+      "command_file": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/commands/replay_phase67_P1_signed_reward_filter_20260425_1777089600_1777104000.sh",
+      "elapsed_seconds": 646.3265332356095,
+      "exit_code": 0,
+      "name": "replay_phase67_P1_signed_reward_filter_20260425_1777089600_1777104000",
+      "stderr_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/replay_phase67_P1_signed_reward_filter_20260425_1777089600_1777104000.stderr.log",
+      "stderr_size_bytes": 120,
+      "stdout_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/replay_phase67_P1_signed_reward_filter_20260425_1777089600_1777104000.stdout.log",
+      "stdout_size_bytes": 12713
+    },
+    {
+      "command_file": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/commands/replay_phase67_P1_signed_reward_filter_20260425_1777060800_1777075200.sh",
+      "elapsed_seconds": 721.0578843615949,
+      "exit_code": 0,
+      "name": "replay_phase67_P1_signed_reward_filter_20260425_1777060800_1777075200",
+      "stderr_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/replay_phase67_P1_signed_reward_filter_20260425_1777060800_1777075200.stderr.log",
+      "stderr_size_bytes": 120,
+      "stdout_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/replay_phase67_P1_signed_reward_filter_20260425_1777060800_1777075200.stdout.log",
+      "stdout_size_bytes": 12727
+    },
+    {
+      "command_file": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/commands/replay_phase67_P1_signed_reward_filter_20260425_1777017600_1777032000.sh",
+      "elapsed_seconds": 802.251021258533,
+      "exit_code": 0,
+      "name": "replay_phase67_P1_signed_reward_filter_20260425_1777017600_1777032000",
+      "stderr_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/replay_phase67_P1_signed_reward_filter_20260425_1777017600_1777032000.stderr.log",
+      "stderr_size_bytes": 120,
+      "stdout_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/replay_phase67_P1_signed_reward_filter_20260425_1777017600_1777032000.stdout.log",
+      "stdout_size_bytes": 12484
+    },
+    {
+      "command_file": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/commands/replay_phase67_P1_signed_reward_filter_20260425_1777032000_1777046400.sh",
+      "elapsed_seconds": 829.8223090544343,
+      "exit_code": 0,
+      "name": "replay_phase67_P1_signed_reward_filter_20260425_1777032000_1777046400",
+      "stderr_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/replay_phase67_P1_signed_reward_filter_20260425_1777032000_1777046400.stderr.log",
+      "stderr_size_bytes": 120,
+      "stdout_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/replay_phase67_P1_signed_reward_filter_20260425_1777032000_1777046400.stdout.log",
+      "stdout_size_bytes": 12871
+    },
+    {
+      "command_file": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/commands/replay_phase67_P1_signed_reward_filter_20260425_1777104000_1777118400.sh",
+      "elapsed_seconds": 577.7460396811366,
+      "exit_code": 0,
+      "name": "replay_phase67_P1_signed_reward_filter_20260425_1777104000_1777118400",
+      "stderr_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/replay_phase67_P1_signed_reward_filter_20260425_1777104000_1777118400.stderr.log",
+      "stderr_size_bytes": 120,
+      "stdout_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/replay_phase67_P1_signed_reward_filter_20260425_1777104000_1777118400.stdout.log",
+      "stdout_size_bytes": 12709
+    },
+    {
+      "command_file": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/commands/replay_phase67_P1_signed_reward_filter_20260425_1777118400_1777132800.sh",
+      "elapsed_seconds": 576.7945124357939,
+      "exit_code": 0,
+      "name": "replay_phase67_P1_signed_reward_filter_20260425_1777118400_1777132800",
+      "stderr_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/replay_phase67_P1_signed_reward_filter_20260425_1777118400_1777132800.stderr.log",
+      "stderr_size_bytes": 120,
+      "stdout_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/replay_phase67_P1_signed_reward_filter_20260425_1777118400_1777132800.stdout.log",
+      "stdout_size_bytes": 12211
+    },
+    {
+      "command_file": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/commands/replay_phase67_P1_signed_reward_filter_20260425_1777132800_1777147200.sh",
+      "elapsed_seconds": 652.2318999096751,
+      "exit_code": 0,
+      "name": "replay_phase67_P1_signed_reward_filter_20260425_1777132800_1777147200",
+      "stderr_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/replay_phase67_P1_signed_reward_filter_20260425_1777132800_1777147200.stderr.log",
+      "stderr_size_bytes": 120,
+      "stdout_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/replay_phase67_P1_signed_reward_filter_20260425_1777132800_1777147200.stdout.log",
+      "stdout_size_bytes": 11979
+    },
+    {
+      "command_file": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/commands/replay_phase67_P1_signed_reward_filter_20260425_1777147200_1777161600.sh",
+      "elapsed_seconds": 621.5631918720901,
+      "exit_code": 0,
+      "name": "replay_phase67_P1_signed_reward_filter_20260425_1777147200_1777161600",
+      "stderr_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/replay_phase67_P1_signed_reward_filter_20260425_1777147200_1777161600.stderr.log",
+      "stderr_size_bytes": 120,
+      "stdout_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/replay_phase67_P1_signed_reward_filter_20260425_1777147200_1777161600.stdout.log",
+      "stdout_size_bytes": 12221
+    },
+    {
+      "command_file": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/commands/replay_phase67_P2_quote_sparsity_calibrated_20260425_1777046400_1777060800.sh",
+      "elapsed_seconds": 644.9147521443665,
+      "exit_code": 0,
+      "name": "replay_phase67_P2_quote_sparsity_calibrated_20260425_1777046400_1777060800",
+      "stderr_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/replay_phase67_P2_quote_sparsity_calibrated_20260425_1777046400_1777060800.stderr.log",
+      "stderr_size_bytes": 120,
+      "stdout_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/replay_phase67_P2_quote_sparsity_calibrated_20260425_1777046400_1777060800.stdout.log",
+      "stdout_size_bytes": 10750
+    },
+    {
+      "command_file": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/commands/replay_phase67_P2_quote_sparsity_calibrated_20260425_1777060800_1777075200.sh",
+      "elapsed_seconds": 687.772412635386,
+      "exit_code": 0,
+      "name": "replay_phase67_P2_quote_sparsity_calibrated_20260425_1777060800_1777075200",
+      "stderr_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/replay_phase67_P2_quote_sparsity_calibrated_20260425_1777060800_1777075200.stderr.log",
+      "stderr_size_bytes": 120,
+      "stdout_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/replay_phase67_P2_quote_sparsity_calibrated_20260425_1777060800_1777075200.stdout.log",
+      "stdout_size_bytes": 12733
+    },
+    {
+      "command_file": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/commands/replay_phase67_P2_quote_sparsity_calibrated_20260425_1777017600_1777032000.sh",
+      "elapsed_seconds": 749.4205182231963,
+      "exit_code": 0,
+      "name": "replay_phase67_P2_quote_sparsity_calibrated_20260425_1777017600_1777032000",
+      "stderr_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/replay_phase67_P2_quote_sparsity_calibrated_20260425_1777017600_1777032000.stderr.log",
+      "stderr_size_bytes": 120,
+      "stdout_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/replay_phase67_P2_quote_sparsity_calibrated_20260425_1777017600_1777032000.stdout.log",
+      "stdout_size_bytes": 12494
+    },
+    {
+      "command_file": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/commands/replay_phase67_P2_quote_sparsity_calibrated_20260425_1777032000_1777046400.sh",
+      "elapsed_seconds": 784.5908237993717,
+      "exit_code": 0,
+      "name": "replay_phase67_P2_quote_sparsity_calibrated_20260425_1777032000_1777046400",
+      "stderr_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/replay_phase67_P2_quote_sparsity_calibrated_20260425_1777032000_1777046400.stderr.log",
+      "stderr_size_bytes": 120,
+      "stdout_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/replay_phase67_P2_quote_sparsity_calibrated_20260425_1777032000_1777046400.stdout.log",
+      "stdout_size_bytes": 12879
+    },
+    {
+      "command_file": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/commands/replay_phase67_P2_quote_sparsity_calibrated_20260425_1777075200_1777089600.sh",
+      "elapsed_seconds": 616.745694629848,
+      "exit_code": 0,
+      "name": "replay_phase67_P2_quote_sparsity_calibrated_20260425_1777075200_1777089600",
+      "stderr_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/replay_phase67_P2_quote_sparsity_calibrated_20260425_1777075200_1777089600.stderr.log",
+      "stderr_size_bytes": 120,
+      "stdout_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/replay_phase67_P2_quote_sparsity_calibrated_20260425_1777075200_1777089600.stdout.log",
+      "stdout_size_bytes": 12234
+    },
+    {
+      "command_file": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/commands/replay_phase67_P2_quote_sparsity_calibrated_20260425_1777089600_1777104000.sh",
+      "elapsed_seconds": 625.3596172519028,
+      "exit_code": 0,
+      "name": "replay_phase67_P2_quote_sparsity_calibrated_20260425_1777089600_1777104000",
+      "stderr_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/replay_phase67_P2_quote_sparsity_calibrated_20260425_1777089600_1777104000.stderr.log",
+      "stderr_size_bytes": 120,
+      "stdout_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/replay_phase67_P2_quote_sparsity_calibrated_20260425_1777089600_1777104000.stdout.log",
+      "stdout_size_bytes": 12723
+    },
+    {
+      "command_file": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/commands/replay_phase67_P2_quote_sparsity_calibrated_20260425_1777104000_1777118400.sh",
+      "elapsed_seconds": 604.3477446623147,
+      "exit_code": 0,
+      "name": "replay_phase67_P2_quote_sparsity_calibrated_20260425_1777104000_1777118400",
+      "stderr_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/replay_phase67_P2_quote_sparsity_calibrated_20260425_1777104000_1777118400.stderr.log",
+      "stderr_size_bytes": 120,
+      "stdout_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/replay_phase67_P2_quote_sparsity_calibrated_20260425_1777104000_1777118400.stdout.log",
+      "stdout_size_bytes": 12723
+    },
+    {
+      "command_file": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/commands/replay_phase67_P2_quote_sparsity_calibrated_20260425_1777118400_1777132800.sh",
+      "elapsed_seconds": 604.4751691557467,
+      "exit_code": 0,
+      "name": "replay_phase67_P2_quote_sparsity_calibrated_20260425_1777118400_1777132800",
+      "stderr_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/replay_phase67_P2_quote_sparsity_calibrated_20260425_1777118400_1777132800.stderr.log",
+      "stderr_size_bytes": 120,
+      "stdout_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/replay_phase67_P2_quote_sparsity_calibrated_20260425_1777118400_1777132800.stdout.log",
+      "stdout_size_bytes": 12227
+    },
+    {
+      "command_file": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/commands/replay_phase67_P2_quote_sparsity_calibrated_20260425_1777132800_1777147200.sh",
+      "elapsed_seconds": 644.1615056432784,
+      "exit_code": 0,
+      "name": "replay_phase67_P2_quote_sparsity_calibrated_20260425_1777132800_1777147200",
+      "stderr_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/replay_phase67_P2_quote_sparsity_calibrated_20260425_1777132800_1777147200.stderr.log",
+      "stderr_size_bytes": 120,
+      "stdout_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/replay_phase67_P2_quote_sparsity_calibrated_20260425_1777132800_1777147200.stdout.log",
+      "stdout_size_bytes": 11991
+    },
+    {
+      "command_file": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/commands/replay_phase67_P2_quote_sparsity_calibrated_20260425_1777147200_1777161600.sh",
+      "elapsed_seconds": 628.3870940357447,
+      "exit_code": 0,
+      "name": "replay_phase67_P2_quote_sparsity_calibrated_20260425_1777147200_1777161600",
+      "stderr_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/replay_phase67_P2_quote_sparsity_calibrated_20260425_1777147200_1777161600.stderr.log",
+      "stderr_size_bytes": 120,
+      "stdout_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/replay_phase67_P2_quote_sparsity_calibrated_20260425_1777147200_1777161600.stdout.log",
+      "stdout_size_bytes": 12235
+    },
+    {
+      "command_file": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/commands/replay_phase67_P3_binary_slot_policy_20260425_1777017600_1777032000.sh",
+      "elapsed_seconds": 766.166283916682,
+      "exit_code": 0,
+      "name": "replay_phase67_P3_binary_slot_policy_20260425_1777017600_1777032000",
+      "stderr_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/replay_phase67_P3_binary_slot_policy_20260425_1777017600_1777032000.stderr.log",
+      "stderr_size_bytes": 120,
+      "stdout_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/replay_phase67_P3_binary_slot_policy_20260425_1777017600_1777032000.stdout.log",
+      "stdout_size_bytes": 12476
+    },
+    {
+      "command_file": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/commands/replay_phase67_P3_binary_slot_policy_20260425_1777032000_1777046400.sh",
+      "elapsed_seconds": 811.3668623715639,
+      "exit_code": 0,
+      "name": "replay_phase67_P3_binary_slot_policy_20260425_1777032000_1777046400",
+      "stderr_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/replay_phase67_P3_binary_slot_policy_20260425_1777032000_1777046400.stderr.log",
+      "stderr_size_bytes": 120,
+      "stdout_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/replay_phase67_P3_binary_slot_policy_20260425_1777032000_1777046400.stdout.log",
+      "stdout_size_bytes": 12861
+    },
+    {
+      "command_file": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/commands/replay_phase67_P3_binary_slot_policy_20260425_1777046400_1777060800.sh",
+      "elapsed_seconds": 665.3384567685425,
+      "exit_code": 0,
+      "name": "replay_phase67_P3_binary_slot_policy_20260425_1777046400_1777060800",
+      "stderr_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/replay_phase67_P3_binary_slot_policy_20260425_1777046400_1777060800.stderr.log",
+      "stderr_size_bytes": 120,
+      "stdout_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/replay_phase67_P3_binary_slot_policy_20260425_1777046400_1777060800.stdout.log",
+      "stdout_size_bytes": 10733
+    },
+    {
+      "command_file": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/commands/replay_phase67_P3_binary_slot_policy_20260425_1777075200_1777089600.sh",
+      "elapsed_seconds": 610.6891349107027,
+      "exit_code": 0,
+      "name": "replay_phase67_P3_binary_slot_policy_20260425_1777075200_1777089600",
+      "stderr_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/replay_phase67_P3_binary_slot_policy_20260425_1777075200_1777089600.stderr.log",
+      "stderr_size_bytes": 120,
+      "stdout_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/replay_phase67_P3_binary_slot_policy_20260425_1777075200_1777089600.stdout.log",
+      "stdout_size_bytes": 12210
+    },
+    {
+      "command_file": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/commands/replay_phase67_P3_binary_slot_policy_20260425_1777060800_1777075200.sh",
+      "elapsed_seconds": 697.2745986878872,
+      "exit_code": 0,
+      "name": "replay_phase67_P3_binary_slot_policy_20260425_1777060800_1777075200",
+      "stderr_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/replay_phase67_P3_binary_slot_policy_20260425_1777060800_1777075200.stderr.log",
+      "stderr_size_bytes": 120,
+      "stdout_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/replay_phase67_P3_binary_slot_policy_20260425_1777060800_1777075200.stdout.log",
+      "stdout_size_bytes": 12718
+    },
+    {
+      "command_file": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/commands/replay_phase67_P3_binary_slot_policy_20260425_1777089600_1777104000.sh",
+      "elapsed_seconds": 612.6588078513741,
+      "exit_code": 0,
+      "name": "replay_phase67_P3_binary_slot_policy_20260425_1777089600_1777104000",
+      "stderr_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/replay_phase67_P3_binary_slot_policy_20260425_1777089600_1777104000.stderr.log",
+      "stderr_size_bytes": 120,
+      "stdout_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/replay_phase67_P3_binary_slot_policy_20260425_1777089600_1777104000.stdout.log",
+      "stdout_size_bytes": 12703
+    },
+    {
+      "command_file": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/commands/replay_phase67_P3_binary_slot_policy_20260425_1777104000_1777118400.sh",
+      "elapsed_seconds": 553.3220747932792,
+      "exit_code": 0,
+      "name": "replay_phase67_P3_binary_slot_policy_20260425_1777104000_1777118400",
+      "stderr_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/replay_phase67_P3_binary_slot_policy_20260425_1777104000_1777118400.stderr.log",
+      "stderr_size_bytes": 120,
+      "stdout_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/replay_phase67_P3_binary_slot_policy_20260425_1777104000_1777118400.stdout.log",
+      "stdout_size_bytes": 12700
+    },
+    {
+      "command_file": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/commands/replay_phase67_P3_binary_slot_policy_20260425_1777118400_1777132800.sh",
+      "elapsed_seconds": 543.876798696816,
+      "exit_code": 0,
+      "name": "replay_phase67_P3_binary_slot_policy_20260425_1777118400_1777132800",
+      "stderr_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/replay_phase67_P3_binary_slot_policy_20260425_1777118400_1777132800.stderr.log",
+      "stderr_size_bytes": 120,
+      "stdout_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/replay_phase67_P3_binary_slot_policy_20260425_1777118400_1777132800.stdout.log",
+      "stdout_size_bytes": 12204
+    },
+    {
+      "command_file": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/commands/replay_phase67_P3_binary_slot_policy_20260425_1777132800_1777147200.sh",
+      "elapsed_seconds": 499.10750076547265,
+      "exit_code": 0,
+      "name": "replay_phase67_P3_binary_slot_policy_20260425_1777132800_1777147200",
+      "stderr_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/replay_phase67_P3_binary_slot_policy_20260425_1777132800_1777147200.stderr.log",
+      "stderr_size_bytes": 120,
+      "stdout_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/replay_phase67_P3_binary_slot_policy_20260425_1777132800_1777147200.stdout.log",
+      "stdout_size_bytes": 11965
+    },
+    {
+      "command_file": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/commands/replay_phase67_P3_binary_slot_policy_20260425_1777147200_1777161600.sh",
+      "elapsed_seconds": 458.59997441992164,
+      "exit_code": 0,
+      "name": "replay_phase67_P3_binary_slot_policy_20260425_1777147200_1777161600",
+      "stderr_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/replay_phase67_P3_binary_slot_policy_20260425_1777147200_1777161600.stderr.log",
+      "stderr_size_bytes": 120,
+      "stdout_log": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/logs/replay_phase67_P3_binary_slot_policy_20260425_1777147200_1777161600.stdout.log",
+      "stdout_size_bytes": 12211
+    }
+  ],
+  "control_separation_review": {
+    "leaderboard_interpretation_allowed": true,
+    "paper_trade_approval": false,
+    "reason": "one or more primaries separated from control",
+    "verdict": "PASS_REVIEW"
+  },
+  "decision_surface_action_gate": {
+    "paper_trade_approval": false,
+    "reason": "decision-surface threshold sweep found nonzero differing decoded rows",
+    "short_replay_allowed": true,
+    "verdict": "PASS_REVIEW"
+  },
+  "raw_output_gate": {
+    "paper_trade_approval": false,
+    "reason": "raw model outputs show nonzero cross-candidate differences",
+    "short_replay_allowed": true,
+    "verdict": "PASS_REVIEW"
+  },
+  "resource_summary": {
+    "avg_gpu_util_pct": 80.678391959799,
+    "avg_load1": 16.02781407035176,
+    "first_ts_utc": "2026-05-27T01:50:08.489372Z",
+    "last_cgroup_memory_events": "low=0;high=0;max=13972459;oom=0;oom_kill=0",
+    "last_ts_utc": "2026-05-27T02:57:03.003894Z",
+    "max_cgroup_memory_current_bytes": 96621563904,
+    "max_gpu_util_pct": 90.0,
+    "max_load1": 45.51,
+    "max_process_tree_rss_kib": 11126936,
+    "sample_rows": 398
+  },
+  "review": {
+    "leaderboard_interpretation_allowed": true,
+    "paper_trade_approval": false,
+    "phase67_full_train_boundary_replay": {
+      "not_started_reason": "small-batch PASS_REVIEW enters user review before Step 5",
+      "started": false
+    },
+    "reason": "one or more primaries separated from control",
+    "verdict": "PASS_REVIEW"
+  },
+  "run_root": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z",
+  "schema_version": "phase67_small_batch_summary_v1",
+  "short_replay": {
+    "not_started_reason": null,
+    "reports": [
+      "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/replays/phase67_C0_control_anchor/20260425/1777075200_1777089600/maker_policy_v2_replay_report.json",
+      "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/replays/phase67_C0_control_anchor/20260425/1777118400_1777132800/maker_policy_v2_replay_report.json",
+      "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/replays/phase67_C0_control_anchor/20260425/1777089600_1777104000/maker_policy_v2_replay_report.json",
+      "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/replays/phase67_C0_control_anchor/20260425/1777046400_1777060800/maker_policy_v2_replay_report.json",
+      "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/replays/phase67_C0_control_anchor/20260425/1777104000_1777118400/maker_policy_v2_replay_report.json",
+      "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/replays/phase67_C0_control_anchor/20260425/1777060800_1777075200/maker_policy_v2_replay_report.json",
+      "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/replays/phase67_C0_control_anchor/20260425/1777017600_1777032000/maker_policy_v2_replay_report.json",
+      "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/replays/phase67_C0_control_anchor/20260425/1777032000_1777046400/maker_policy_v2_replay_report.json",
+      "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/replays/phase67_C0_control_anchor/20260425/1777147200_1777161600/maker_policy_v2_replay_report.json",
+      "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/replays/phase67_P1_signed_reward_filter/20260425/1777046400_1777060800/maker_policy_v2_replay_report.json",
+      "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/replays/phase67_C0_control_anchor/20260425/1777132800_1777147200/maker_policy_v2_replay_report.json",
+      "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/replays/phase67_P1_signed_reward_filter/20260425/1777075200_1777089600/maker_policy_v2_replay_report.json",
+      "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/replays/phase67_P1_signed_reward_filter/20260425/1777089600_1777104000/maker_policy_v2_replay_report.json",
+      "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/replays/phase67_P1_signed_reward_filter/20260425/1777060800_1777075200/maker_policy_v2_replay_report.json",
+      "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/replays/phase67_P1_signed_reward_filter/20260425/1777017600_1777032000/maker_policy_v2_replay_report.json",
+      "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/replays/phase67_P1_signed_reward_filter/20260425/1777032000_1777046400/maker_policy_v2_replay_report.json",
+      "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/replays/phase67_P1_signed_reward_filter/20260425/1777104000_1777118400/maker_policy_v2_replay_report.json",
+      "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/replays/phase67_P1_signed_reward_filter/20260425/1777118400_1777132800/maker_policy_v2_replay_report.json",
+      "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/replays/phase67_P1_signed_reward_filter/20260425/1777132800_1777147200/maker_policy_v2_replay_report.json",
+      "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/replays/phase67_P1_signed_reward_filter/20260425/1777147200_1777161600/maker_policy_v2_replay_report.json",
+      "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/replays/phase67_P2_quote_sparsity_calibrated/20260425/1777046400_1777060800/maker_policy_v2_replay_report.json",
+      "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/replays/phase67_P2_quote_sparsity_calibrated/20260425/1777060800_1777075200/maker_policy_v2_replay_report.json",
+      "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/replays/phase67_P2_quote_sparsity_calibrated/20260425/1777017600_1777032000/maker_policy_v2_replay_report.json",
+      "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/replays/phase67_P2_quote_sparsity_calibrated/20260425/1777032000_1777046400/maker_policy_v2_replay_report.json",
+      "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/replays/phase67_P2_quote_sparsity_calibrated/20260425/1777075200_1777089600/maker_policy_v2_replay_report.json",
+      "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/replays/phase67_P2_quote_sparsity_calibrated/20260425/1777089600_1777104000/maker_policy_v2_replay_report.json",
+      "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/replays/phase67_P2_quote_sparsity_calibrated/20260425/1777104000_1777118400/maker_policy_v2_replay_report.json",
+      "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/replays/phase67_P2_quote_sparsity_calibrated/20260425/1777118400_1777132800/maker_policy_v2_replay_report.json",
+      "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/replays/phase67_P2_quote_sparsity_calibrated/20260425/1777132800_1777147200/maker_policy_v2_replay_report.json",
+      "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/replays/phase67_P2_quote_sparsity_calibrated/20260425/1777147200_1777161600/maker_policy_v2_replay_report.json",
+      "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/replays/phase67_P3_binary_slot_policy/20260425/1777017600_1777032000/maker_policy_v2_replay_report.json",
+      "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/replays/phase67_P3_binary_slot_policy/20260425/1777032000_1777046400/maker_policy_v2_replay_report.json",
+      "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/replays/phase67_P3_binary_slot_policy/20260425/1777046400_1777060800/maker_policy_v2_replay_report.json",
+      "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/replays/phase67_P3_binary_slot_policy/20260425/1777075200_1777089600/maker_policy_v2_replay_report.json",
+      "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/replays/phase67_P3_binary_slot_policy/20260425/1777060800_1777075200/maker_policy_v2_replay_report.json",
+      "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/replays/phase67_P3_binary_slot_policy/20260425/1777089600_1777104000/maker_policy_v2_replay_report.json",
+      "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/replays/phase67_P3_binary_slot_policy/20260425/1777104000_1777118400/maker_policy_v2_replay_report.json",
+      "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/replays/phase67_P3_binary_slot_policy/20260425/1777118400_1777132800/maker_policy_v2_replay_report.json",
+      "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/replays/phase67_P3_binary_slot_policy/20260425/1777132800_1777147200/maker_policy_v2_replay_report.json",
+      "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/replays/phase67_P3_binary_slot_policy/20260425/1777147200_1777161600/maker_policy_v2_replay_report.json"
+    ],
+    "started": true
+  },
+  "sync_manifest": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/reports/sync_manifest.json",
+  "windows": [
+    {
+      "dataset_version": "20260425",
+      "valid_join_rows": 46,
+      "window_id": "1777017600-1777032000"
+    },
+    {
+      "dataset_version": "20260425",
+      "valid_join_rows": 47,
+      "window_id": "1777032000-1777046400"
+    },
+    {
+      "dataset_version": "20260425",
+      "valid_join_rows": 39,
+      "window_id": "1777046400-1777060800"
+    },
+    {
+      "dataset_version": "20260425",
+      "valid_join_rows": 47,
+      "window_id": "1777060800-1777075200"
+    },
+    {
+      "dataset_version": "20260425",
+      "valid_join_rows": 45,
+      "window_id": "1777075200-1777089600"
+    },
+    {
+      "dataset_version": "20260425",
+      "valid_join_rows": 47,
+      "window_id": "1777089600-1777104000"
+    },
+    {
+      "dataset_version": "20260425",
+      "valid_join_rows": 47,
+      "window_id": "1777104000-1777118400"
+    },
+    {
+      "dataset_version": "20260425",
+      "valid_join_rows": 45,
+      "window_id": "1777118400-1777132800"
+    },
+    {
+      "dataset_version": "20260425",
+      "valid_join_rows": 44,
+      "window_id": "1777132800-1777147200"
+    },
+    {
+      "dataset_version": "20260425",
+      "valid_join_rows": 45,
+      "window_id": "1777147200-1777161600"
+    }
+  ]
+}

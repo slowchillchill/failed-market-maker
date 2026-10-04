@@ -1,0 +1,176 @@
+{
+  "candidate_count": 2,
+  "candidate_reports": [
+    {
+      "candidate_id": "phase67_C0_control_anchor",
+      "legal_quote_prob_summary": {
+        "count": 113784,
+        "max": 1.0,
+        "mean": 0.9999954814075217,
+        "min": 0.999339759349823,
+        "p01": 0.9999294281005859,
+        "p99": 1.0
+      },
+      "policy_tick_count": 50000,
+      "risk_score_summary": {
+        "count": 50000,
+        "max": 0.281072735786438,
+        "mean": 0.016580617524981498,
+        "min": 0.004074782133102417,
+        "p01": 0.00475322812795639,
+        "p99": 0.2539406996965408
+      },
+      "slot_quote_prob_summary": {
+        "down_buy": {
+          "count": 50000,
+          "max": 1.0,
+          "mean": 0.9999999842333793,
+          "min": 0.9999997615814209,
+          "p01": 0.9999998807907104,
+          "p99": 1.0
+        },
+        "down_sell": {
+          "count": 50000,
+          "max": 0.9999822378158569,
+          "mean": 0.999940867524147,
+          "min": 0.9993385672569275,
+          "p01": 0.999505877494812,
+          "p99": 0.9999809265136719
+        },
+        "up_buy": {
+          "count": 50000,
+          "max": 1.0,
+          "mean": 0.9999999976730347,
+          "min": 0.9999997615814209,
+          "p01": 0.9999998807907104,
+          "p99": 1.0
+        },
+        "up_sell": {
+          "count": 50000,
+          "max": 1.0,
+          "mean": 0.9999998453307152,
+          "min": 0.9999996423721313,
+          "p01": 0.9999996423721313,
+          "p99": 1.0
+        }
+      }
+    },
+    {
+      "candidate_id": "phase67_P1_signed_reward_filter",
+      "legal_quote_prob_summary": {
+        "count": 113784,
+        "max": 0.813967764377594,
+        "mean": 0.14977287319054036,
+        "min": 0.014437929727137089,
+        "p01": 0.019910396952182056,
+        "p99": 0.644668276309967
+      },
+      "policy_tick_count": 50000,
+      "risk_score_summary": {
+        "count": 50000,
+        "max": 4.5746564865112305e-05,
+        "mean": 1.5638347864151e-05,
+        "min": 5.662441253662109e-07,
+        "p01": 1.4007091522216797e-06,
+        "p99": 3.7044286727905273e-05
+      },
+      "slot_quote_prob_summary": {
+        "down_buy": {
+          "count": 50000,
+          "max": 0.8046619296073914,
+          "mean": 0.1379616533461772,
+          "min": 0.014437929727137089,
+          "p01": 0.01932236297056079,
+          "p99": 0.6365553504228593
+        },
+        "down_sell": {
+          "count": 50000,
+          "max": 0.8388761281967163,
+          "mean": 0.2292679516106844,
+          "min": 0.08550074696540833,
+          "p01": 0.101409145668149,
+          "p99": 0.787435736656189
+        },
+        "up_buy": {
+          "count": 50000,
+          "max": 0.7885797023773193,
+          "mean": 0.14022350274560974,
+          "min": 0.014768717810511589,
+          "p01": 0.02013268109411001,
+          "p99": 0.6393657058477402
+        },
+        "up_sell": {
+          "count": 50000,
+          "max": 0.8119039535522461,
+          "mean": 0.2372368336558342,
+          "min": 0.09140188992023468,
+          "p01": 0.1118156810104847,
+          "p99": 0.7539868122339248
+        }
+      }
+    }
+  ],
+  "common_row_count": 50000,
+  "cross_candidate_raw_output": {
+    "pairwise": [
+      {
+        "common_rows": 50000,
+        "left": "phase67_C0_control_anchor",
+        "quote_prob_max_abs_diff": 0.9855620861053467,
+        "quote_prob_mean_abs_diff": 0.8138126730918884,
+        "right": "phase67_P1_signed_reward_filter",
+        "risk_score_max_abs_diff": 0.2810680568218231,
+        "risk_score_mean_abs_diff": 0.01656497917711735
+      }
+    ]
+  },
+  "provenance": {
+    "candidate_ids": [
+      "phase67_C0_control_anchor",
+      "phase67_P1_signed_reward_filter"
+    ],
+    "max_rows": 50000,
+    "row_key_samples": [
+      {
+        "dataset_version": "20260425",
+        "decision_ts_ms": 1777030510250,
+        "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+        "window_id": "1777017600-1777032000"
+      },
+      {
+        "dataset_version": "20260425",
+        "decision_ts_ms": 1777030510500,
+        "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+        "window_id": "1777017600-1777032000"
+      },
+      {
+        "dataset_version": "20260425",
+        "decision_ts_ms": 1777030510750,
+        "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+        "window_id": "1777017600-1777032000"
+      },
+      {
+        "dataset_version": "20260425",
+        "decision_ts_ms": 1777030511000,
+        "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+        "window_id": "1777017600-1777032000"
+      },
+      {
+        "dataset_version": "20260425",
+        "decision_ts_ms": 1777030511250,
+        "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+        "window_id": "1777017600-1777032000"
+      }
+    ],
+    "source_run_root": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_train_boundary_p1_control_20260527T031401Z",
+    "source_summary": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_train_boundary_p1_control_20260527T031401Z/reports/phase65_summary.json"
+  },
+  "raw_output_gate": {
+    "paper_trade_approval": false,
+    "reason": "raw model outputs show nonzero cross-candidate differences",
+    "short_replay_allowed": true,
+    "verdict": "PASS_REVIEW"
+  },
+  "sampled_row_count": 100000,
+  "schema_version": "phase67_raw_output_surface_audit_v1"
+}

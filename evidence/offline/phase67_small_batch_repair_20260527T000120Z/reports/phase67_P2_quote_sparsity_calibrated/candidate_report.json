@@ -1,0 +1,154 @@
+{
+  "action_slot_coverage": {
+    "legal_mask_down_buy": 432206,
+    "legal_mask_down_sell": 83906,
+    "legal_mask_up_buy": 432092,
+    "legal_mask_up_sell": 84983
+  },
+  "alpha_bundle_hash": "f0632600456be4af701439d56cf2fc0870dfb76f4402bba4d993c344b29e92e9",
+  "alpha_bundle_path": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase61_preprocess_20260519T150552Z/alpha_v2_bundles/primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed2",
+  "artifact_hashes": {
+    "replay_reports": {},
+    "train_report": "75e66e6a6f6b8196044e17f857dc73fd8f8efffa183e4cd9a1f7e9c920d8af5b"
+  },
+  "artifact_paths": {
+    "replay_report": null,
+    "replay_reports": [],
+    "train_report": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/policies/phase67_P2_quote_sparsity_calibrated/bundle/maker_policy_v2_smoke_report.json",
+    "transition_paths": [
+      "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/transitions/20260425/1777017600-1777032000/primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed2/transitions_250ms.parquet",
+      "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/transitions/20260425/1777032000-1777046400/primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed2/transitions_250ms.parquet",
+      "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/transitions/20260425/1777046400-1777060800/primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed2/transitions_250ms.parquet",
+      "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/transitions/20260425/1777060800-1777075200/primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed2/transitions_250ms.parquet",
+      "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/transitions/20260425/1777075200-1777089600/primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed2/transitions_250ms.parquet",
+      "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/transitions/20260425/1777089600-1777104000/primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed2/transitions_250ms.parquet",
+      "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/transitions/20260425/1777104000-1777118400/primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed2/transitions_250ms.parquet",
+      "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/transitions/20260425/1777118400-1777132800/primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed2/transitions_250ms.parquet",
+      "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/transitions/20260425/1777132800-1777147200/primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed2/transitions_250ms.parquet",
+      "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/transitions/20260425/1777147200-1777161600/primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed2/transitions_250ms.parquet"
+    ]
+  },
+  "bc_loss_trace": [
+    0.6957879342082748
+  ],
+  "candidate": {
+    "batch_size": 2048,
+    "family": "P2_quote_sparsity_calibrated",
+    "role": "primary",
+    "run_id": "phase67_P2_quote_sparsity_calibrated",
+    "seed": 0,
+    "seq_len": 120
+  },
+  "final_train_loss": 0.3147335035684414,
+  "offline_rl_loss_trace": [
+    0.3147335035684414
+  ],
+  "policy_bundle_hash": "9967518552127cc27cb34657b1f61bd1d22c1834f3033ff58aa3a6cdd118a899",
+  "policy_bundle_path": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/policies/phase67_P2_quote_sparsity_calibrated/bundle",
+  "resource_utilization_summary": {
+    "avg_gpu_util_pct": 0.0,
+    "avg_load1": 5.42,
+    "first_ts_utc": "2026-05-27T01:50:08.489372Z",
+    "last_cgroup_memory_events": "low=0;high=0;max=13962588;oom=0;oom_kill=0",
+    "last_ts_utc": "2026-05-27T01:50:08.489372Z",
+    "max_cgroup_memory_current_bytes": 90022191104,
+    "max_gpu_util_pct": 0.0,
+    "max_load1": 5.42,
+    "max_process_tree_rss_kib": 556976,
+    "sample_rows": 1
+  },
+  "reward_decomposition_summary": {
+    "reward_cancel_replace_penalty": {
+      "max": -0.0,
+      "mean": -0.0004693346963177279,
+      "min": -0.012
+    },
+    "reward_clipped": {
+      "max": 1.0,
+      "mean": -0.06829275279510416,
+      "min": -1.0
+    },
+    "reward_drawdown_penalty": {
+      "max": -0.0,
+      "mean": -0.06648478283894411,
+      "min": -1.0041699999999991
+    },
+    "reward_fill_edge": {
+      "max": 0.0,
+      "mean": 0.0,
+      "min": 0.0
+    },
+    "reward_inventory_penalty": {
+      "max": -0.0,
+      "mean": -0.003598818768631366,
+      "min": -0.02
+    },
+    "reward_nav_delta": {
+      "max": 12.500099999999975,
+      "mean": 0.0020286494276203597,
+      "min": -12.264899999999898
+    },
+    "reward_raw": {
+      "max": 12.488619393192486,
+      "mean": -0.06852428687627285,
+      "min": -12.889625606807382
+    },
+    "reward_reject_penalty": {
+      "max": -0.0,
+      "mean": 0.0,
+      "min": -0.0
+    }
+  },
+  "schema_version": "phase65_candidate_report_v1",
+  "support_audit_summary": {
+    "active_slots": [
+      "up_buy",
+      "down_buy",
+      "up_sell",
+      "down_sell"
+    ],
+    "alpha_run_role": "tiny_smoke",
+    "bad_support_rows": 0,
+    "behavior_slot_counts": {
+      "down_buy": 432206,
+      "down_sell": 83906,
+      "up_buy": 432092,
+      "up_sell": 84983
+    },
+    "legal_slot_counts": {
+      "down_buy": 432206,
+      "down_sell": 83906,
+      "up_buy": 432092,
+      "up_sell": 84983
+    },
+    "offset_class_counts": {
+      "improve_1_tick": 26249,
+      "join_best": 1006938,
+      "passive_1_tick": 0
+    },
+    "offset_size_support_source": "transition_explicit_support_metadata",
+    "passed": true,
+    "rows": 541948,
+    "schema_version": "maker_policy_v2_support_audit_v1",
+    "size_class_counts": {
+      "min_order_size": 1033187
+    },
+    "total_supported_actions": 1033187,
+    "unsupported_reason_counts": {
+      "market_end_no_quote": 17628,
+      "no_legal_quote_target": 5728,
+      "stale_features": 56602,
+      "warmup": 18080
+    }
+  },
+  "training_replay_gate": {
+    "all_windows_passed": true,
+    "window_count": 0
+  },
+  "training_replay_gate_passed": true,
+  "training_replay_stats": {
+    "reports": [],
+    "window_count": 0
+  },
+  "training_replay_window_reports": []
+}

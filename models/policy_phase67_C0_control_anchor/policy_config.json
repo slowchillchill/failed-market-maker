@@ -1,0 +1,15 @@
+{
+  "amp": false,
+  "batch_size": 4096,
+  "bc_epochs": 1,
+  "d_model": 64,
+  "max_paths_per_shard": 4,
+  "n_features": 160,
+  "n_layers": 1,
+  "offline_rl_epochs": 1,
+  "quote_sparsity_lambda": 0.0,
+  "schema_version": "maker_policy_v2_policy_config_v1",
+  "seq_len": 180,
+  "training_objective": "behavior_clone_advantage",
+  "transition_shard_count": 3
+}

@@ -1,0 +1,360 @@
+{
+  "config": {
+    "oracle_mode": "B",
+    "freeze_scope": "j1",
+    "init_source": "m3",
+    "seq_len": 240,
+    "epochs": 20,
+    "batch_size": 2048,
+    "lr_policy": 0.001,
+    "lr_open": 0.0001,
+    "weight_decay": 1e-05,
+    "oracle_c_threshold": null
+  },
+  "best_epoch": 1,
+  "split_info": {
+    "source_path": "[PRIVATE_ROOT]/autodl-tmp/code/poly-arb-2/poly-arb-ai/training/checkpoints/m5_run_bc_diag/split_info.frozen.json",
+    "copied_path": "[PRIVATE_ROOT]/autodl-tmp/code/poly-arb-2/poly-arb-ai/training/checkpoints/poly-arb-ai/training/checkpoints/m5_run_v7v72_bc/j1_b_from_m3/split_info.json",
+    "sha256": "7a770e8421e8eca5d0fd784bc396b1d7ecf8cade1d2d5c002d15f5dc9e3dd16b",
+    "counts": {
+      "train": 39,
+      "val": 8,
+      "test": 10
+    }
+  },
+  "params": {
+    "trainable": 4326,
+    "frozen": 463631,
+    "total": 467957
+  },
+  "decision": "strong",
+  "train": {
+    "loss": 0.3449813158738832,
+    "accuracy": 0.8487224113378172,
+    "n_samples": 2149479,
+    "target_counts": {
+      "Hold": 0,
+      "OpenUp": 1073064,
+      "OpenDown": 1076415,
+      "Reduce": 0,
+      "Close": 0,
+      "Flip": 0
+    },
+    "pred_counts": {
+      "Hold": 0,
+      "OpenUp": 1098324,
+      "OpenDown": 1051155,
+      "Reduce": 0,
+      "Close": 0,
+      "Flip": 0
+    },
+    "argmax_distribution": {
+      "Hold": 0.0,
+      "OpenUp": 0.510972193726945,
+      "OpenDown": 0.48902780627305503,
+      "Reduce": 0.0,
+      "Close": 0.0,
+      "Flip": 0.0
+    },
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        923110,
+        149954,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        175214,
+        901201,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "confusion_labels": [
+      "Hold",
+      "OpenUp",
+      "OpenDown",
+      "Reduce",
+      "Close",
+      "Flip"
+    ],
+    "hold_argmax_share": 0.0,
+    "openup_argmax_share": 0.510972193726945,
+    "opendown_argmax_share": 0.48902780627305503,
+    "directional_argmax_share": 1.0,
+    "non_directional_argmax_share": 0.0,
+    "logit_std": 5.65428172615298
+  },
+  "val": {
+    "loss": 0.6357351212419851,
+    "accuracy": 0.7107007466309146,
+    "n_samples": 346088,
+    "target_counts": {
+      "Hold": 0,
+      "OpenUp": 174483,
+      "OpenDown": 171605,
+      "Reduce": 0,
+      "Close": 0,
+      "Flip": 0
+    },
+    "pred_counts": {
+      "Hold": 0,
+      "OpenUp": 158626,
+      "OpenDown": 187462,
+      "Reduce": 0,
+      "Close": 0,
+      "Flip": 0
+    },
+    "argmax_distribution": {
+      "Hold": 0.0,
+      "OpenUp": 0.4583400753565567,
+      "OpenDown": 0.5416599246434433,
+      "Reduce": 0.0,
+      "Close": 0.0,
+      "Flip": 0.0
+    },
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        116493,
+        57990,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        42133,
+        129472,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "confusion_labels": [
+      "Hold",
+      "OpenUp",
+      "OpenDown",
+      "Reduce",
+      "Close",
+      "Flip"
+    ],
+    "hold_argmax_share": 0.0,
+    "openup_argmax_share": 0.4583400753565567,
+    "opendown_argmax_share": 0.5416599246434433,
+    "directional_argmax_share": 1.0,
+    "non_directional_argmax_share": 0.0,
+    "logit_std": 5.536159742992041
+  },
+  "test": {
+    "loss": 0.669195241008594,
+    "accuracy": 0.6825902547341633,
+    "n_samples": 400810,
+    "target_counts": {
+      "Hold": 0,
+      "OpenUp": 215283,
+      "OpenDown": 185527,
+      "Reduce": 0,
+      "Close": 0,
+      "Flip": 0
+    },
+    "pred_counts": {
+      "Hold": 0,
+      "OpenUp": 160794,
+      "OpenDown": 240016,
+      "Reduce": 0,
+      "Close": 0,
+      "Flip": 0
+    },
+    "argmax_distribution": {
+      "Hold": 0.0,
+      "OpenUp": 0.4011726254334972,
+      "OpenDown": 0.5988273745665028,
+      "Reduce": 0.0,
+      "Close": 0.0,
+      "Flip": 0.0
+    },
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        124428,
+        90855,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        36366,
+        149161,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "confusion_labels": [
+      "Hold",
+      "OpenUp",
+      "OpenDown",
+      "Reduce",
+      "Close",
+      "Flip"
+    ],
+    "hold_argmax_share": 0.0,
+    "openup_argmax_share": 0.4011726254334972,
+    "opendown_argmax_share": 0.5988273745665028,
+    "directional_argmax_share": 1.0,
+    "non_directional_argmax_share": 0.0,
+    "logit_std": 5.55420408664101
+  },
+  "dataset": {
+    "train": {
+      "n_samples": 2149479,
+      "count_hold": 0,
+      "ratio_hold": 0.0,
+      "count_openup": 1073064,
+      "ratio_openup": 0.49922050878375646,
+      "count_opendown": 1076415,
+      "ratio_opendown": 0.5007794912162435,
+      "count_reduce": 0,
+      "ratio_reduce": 0.0,
+      "count_close": 0,
+      "ratio_close": 0.0,
+      "count_flip": 0,
+      "ratio_flip": 0.0,
+      "majority_baseline": 0.5007794912162435
+    },
+    "val": {
+      "n_samples": 346088,
+      "count_hold": 0,
+      "ratio_hold": 0.0,
+      "count_openup": 174483,
+      "ratio_openup": 0.5041579020364763,
+      "count_opendown": 171605,
+      "ratio_opendown": 0.49584209796352374,
+      "count_reduce": 0,
+      "ratio_reduce": 0.0,
+      "count_close": 0,
+      "ratio_close": 0.0,
+      "count_flip": 0,
+      "ratio_flip": 0.0,
+      "majority_baseline": 0.5041579020364763
+    },
+    "test": {
+      "n_samples": 400810,
+      "count_hold": 0,
+      "ratio_hold": 0.0,
+      "count_openup": 215283,
+      "ratio_openup": 0.5371198323395124,
+      "count_opendown": 185527,
+      "ratio_opendown": 0.4628801676604875,
+      "count_reduce": 0,
+      "ratio_reduce": 0.0,
+      "count_close": 0,
+      "ratio_close": 0.0,
+      "count_flip": 0,
+      "ratio_flip": 0.0,
+      "majority_baseline": 0.5371198323395124
+    }
+  }
+}

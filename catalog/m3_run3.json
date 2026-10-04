@@ -1,0 +1,82 @@
+{
+  "model_id": "m3_run3",
+  "family": "m3",
+  "training_candidate": true,
+  "architecture": "Causal TCN market branches + Chainlink MLP + causal Transformer (128 hidden, 2 layers, 4 heads) + classification / EV heads",
+  "parameters": 419556,
+  "config": {
+    "parquet_paths": [
+      "[PRIVATE_ROOT]/data/data-v1/features_250ms_all.parquet",
+      "[PRIVATE_ROOT]/data/data-v2/features_250ms_all.parquet",
+      "[PRIVATE_ROOT]/data/data-v3/features_250ms_all.parquet"
+    ],
+    "seq_len": 240,
+    "batch_size": 2048,
+    "lr": 0.0004,
+    "epochs": 30,
+    "lambda_cls": 1.0,
+    "lambda_ev": 0.5,
+    "d_model": 128,
+    "n_transformer_layers": 2,
+    "dropout": 0.1,
+    "output_dir": "[PRIVATE_ROOT]/m3_run3",
+    "device": "cuda",
+    "num_workers": 8,
+    "amp": true,
+    "compile": true,
+    "patience": 0
+  },
+  "metrics": {
+    "best_epoch": 1,
+    "train_loss": 1.9410120229611452,
+    "val_auc": 0.7733549941118774,
+    "test": {
+      "auc": 0.7435512577566268,
+      "brier": 0.24634604748089936,
+      "ece": 0.1899592175005293,
+      "ev_up_mae": 1.7039820337696627,
+      "ev_up_rmse": 2.421108425007587,
+      "ev_rank_corr": 0.02551134507327181,
+      "ev_down_mae": 1.709585353537305,
+      "ev_down_rmse": 2.4214725727774313,
+      "ev_up_sign_acc": 0.5804952696725035,
+      "top_decile_mean_ev_up": 0.24514416849096704,
+      "ev_up_conditional_mean_by_threshold": {
+        "0.50": 0.24491821771532712,
+        "0.52": 0.24669631173621048,
+        "0.55": 0.24837781264595699,
+        "0.60": 0.24997801116250934,
+        "0.65": 0.2522521900972247
+      },
+      "ev_up_opportunity_rate_by_threshold": {
+        "0.50": 0.4015267814411582,
+        "0.52": 0.3955770935709373,
+        "0.55": 0.3861831248545269,
+        "0.60": 0.3699659756311246,
+        "0.65": 0.3519861496496876
+      },
+      "edge_by_decile": [
+        0.0037132119252683135,
+        -0.045906512741698165,
+        -0.043697881897361006,
+        -0.11883916773380916,
+        -0.06744631313024656,
+        0.08853558534901632,
+        0.24332888901282765,
+        0.2529513811142387,
+        0.2374729272006344,
+        0.24488749357190193
+      ],
+      "loss": 3.76262791930361
+    },
+    "paper": "N/A — no standalone corresponding report / 无单体对应报告",
+    "live": "N/A — no standalone corresponding run evidence / 未找到单体对应实盘证据"
+  },
+  "completeness": "Paper/live: N/A — no independent report found. / 未找到独立对应运行报告。",
+  "feature_order": "contracts/feature_cols.json",
+  "runtime_outputs": "B1/B2/M5 BC paper uses signal outputs with external execution and risk rules; not evidence that every execution head influenced actions. / B1、B2、M5 BC 模拟盘使用 signal 输出和外部执行风控规则，不证明全部执行头有效参与。",
+  "evidence": [
+    "models/m3_run3/test_metrics.json",
+    "models/m3_run3/train_history.json"
+  ]
+}

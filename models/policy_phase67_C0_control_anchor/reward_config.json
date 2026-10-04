@@ -1,0 +1,6 @@
+{
+  "reward_horizon_version": "maker_reward_v2_v1",
+  "reward_input": "reward_clipped",
+  "schema_version": "maker_policy_v2_reward_config_v1",
+  "training_objective": "behavior_clone_advantage"
+}

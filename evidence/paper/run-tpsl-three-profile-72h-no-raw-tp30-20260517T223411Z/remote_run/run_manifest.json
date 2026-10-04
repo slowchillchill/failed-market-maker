@@ -1,0 +1,155 @@
+{
+  "runtime_profile_id": "m5_baseline",
+  "agent_model": {
+    "path": "[PRIVATE_HOME]/m6-paper/artifacts/agent_model.onnx",
+    "sha256": "f89d4460085fbd50e59b86394994cf69f47d46f94e2ce123046343fe384f369a"
+  },
+  "feature_stats": {
+    "path": "[PRIVATE_HOME]/m6-paper/artifacts/feature_stats.npz",
+    "sha256": "f97fc0dbe0d2e98636af9ab157b68546c457cb8f2fded6d74436737f43e4f0b0"
+  },
+  "split_info": {
+    "path": "[PRIVATE_HOME]/m6-paper/artifacts/split_info.json",
+    "sha256": "7a770e8421e8eca5d0fd784bc396b1d7ecf8cade1d2d5c002d15f5dc9e3dd16b"
+  },
+  "latency_mode": "logical_equal_decision",
+  "profiles": [
+    {
+      "runtime_profile_id": "m5_baseline",
+      "agent_model": {
+        "path": "[PRIVATE_HOME]/m6-paper/artifacts/agent_model.onnx",
+        "sha256": "f89d4460085fbd50e59b86394994cf69f47d46f94e2ce123046343fe384f369a"
+      },
+      "feature_stats": {
+        "path": "[PRIVATE_HOME]/m6-paper/artifacts/feature_stats.npz",
+        "sha256": "f97fc0dbe0d2e98636af9ab157b68546c457cb8f2fded6d74436737f43e4f0b0"
+      },
+      "split_info": {
+        "path": "[PRIVATE_HOME]/m6-paper/artifacts/split_info.json",
+        "sha256": "7a770e8421e8eca5d0fd784bc396b1d7ecf8cade1d2d5c002d15f5dc9e3dd16b"
+      },
+      "seq_len": 240,
+      "starting_cash": 100.0,
+      "strategy": "signal",
+      "signal_threshold": 0.58,
+      "force_order_type": "gtc",
+      "fixed_size": null,
+      "override_risk_score": 1.0,
+      "limit_order_ttl_ms": 250,
+      "ort_intra_threads": 1,
+      "ort_inter_threads": 1,
+      "risk_control": {
+        "enabled": true,
+        "take_profit_retracement": 0.3,
+        "take_profit_min_peak_profit_ratio": 0.3,
+        "stop_loss_floor_ratio": 0.5,
+        "tp_cooldown_secs": 7200,
+        "sl_cooldown_secs": 28800
+      },
+      "inference_latency": {
+        "count": 370636,
+        "p50_ms": 6.5046740000000005,
+        "p95_ms": 7.636647,
+        "p99_ms": 19.906924,
+        "max_ms": 361.60132699999997,
+        "slow_tick_count": 5
+      },
+      "total_decisions": 371592,
+      "unsettled_at_shutdown": 0
+    },
+    {
+      "runtime_profile_id": "m3_b1",
+      "agent_model": {
+        "path": "[PRIVATE_HOME]/m6-paper/artifacts/m3_run_v7_M3-B1_collection.onnx",
+        "sha256": "0f6781e33f450f1e5709b81b7e7e94c736bbbd53c1e51106e39f35341b36a705"
+      },
+      "feature_stats": {
+        "path": "[PRIVATE_HOME]/m6-paper/artifacts/m3_run_v7_M3-B1_feature_stats.npz",
+        "sha256": "38853a1bafb2ee77598f40a2a871264a46de1a45c236840a6957b6f8734badcf"
+      },
+      "split_info": {
+        "path": "[PRIVATE_HOME]/m6-paper/artifacts/split_info.json",
+        "sha256": "7a770e8421e8eca5d0fd784bc396b1d7ecf8cade1d2d5c002d15f5dc9e3dd16b"
+      },
+      "seq_len": 100,
+      "starting_cash": 100.0,
+      "strategy": "signal",
+      "signal_threshold": 0.58,
+      "force_order_type": "gtc",
+      "fixed_size": null,
+      "override_risk_score": 1.0,
+      "limit_order_ttl_ms": 250,
+      "ort_intra_threads": 1,
+      "ort_inter_threads": 1,
+      "risk_control": {
+        "enabled": true,
+        "take_profit_retracement": 0.3,
+        "take_profit_min_peak_profit_ratio": 0.3,
+        "stop_loss_floor_ratio": 0.5,
+        "tp_cooldown_secs": 7200,
+        "sl_cooldown_secs": 28800
+      },
+      "inference_latency": {
+        "count": 271127,
+        "p50_ms": 2.7747610000000003,
+        "p95_ms": 3.451282,
+        "p99_ms": 7.808441,
+        "max_ms": 225.477605,
+        "slow_tick_count": 0
+      },
+      "total_decisions": 271622,
+      "unsettled_at_shutdown": 0
+    },
+    {
+      "runtime_profile_id": "m3_b2",
+      "agent_model": {
+        "path": "[PRIVATE_HOME]/m6-paper/artifacts/m3_run_v7_M3-B2_collection.onnx",
+        "sha256": "f4cd9aee74a4a9fcac1ca5cd8298f54b8b39571007750835ca84559d1fa0d637"
+      },
+      "feature_stats": {
+        "path": "[PRIVATE_HOME]/m6-paper/artifacts/m3_run_v7_M3-B2_feature_stats.npz",
+        "sha256": "38853a1bafb2ee77598f40a2a871264a46de1a45c236840a6957b6f8734badcf"
+      },
+      "split_info": {
+        "path": "[PRIVATE_HOME]/m6-paper/artifacts/split_info.json",
+        "sha256": "7a770e8421e8eca5d0fd784bc396b1d7ecf8cade1d2d5c002d15f5dc9e3dd16b"
+      },
+      "seq_len": 100,
+      "starting_cash": 100.0,
+      "strategy": "signal",
+      "signal_threshold": 0.58,
+      "force_order_type": "gtc",
+      "fixed_size": null,
+      "override_risk_score": 1.0,
+      "limit_order_ttl_ms": 250,
+      "ort_intra_threads": 1,
+      "ort_inter_threads": 1,
+      "risk_control": {
+        "enabled": true,
+        "take_profit_retracement": 0.3,
+        "take_profit_min_peak_profit_ratio": 0.3,
+        "stop_loss_floor_ratio": 0.5,
+        "tp_cooldown_secs": 7200,
+        "sl_cooldown_secs": 28800
+      },
+      "inference_latency": {
+        "count": 249667,
+        "p50_ms": 2.584497,
+        "p95_ms": 3.031729,
+        "p99_ms": 7.378201,
+        "max_ms": 171.118193,
+        "slow_tick_count": 0
+      },
+      "total_decisions": 250459,
+      "unsettled_at_shutdown": 0
+    }
+  ],
+  "generated_from_config": "[PRIVATE_HOME]/m6-paper/config/paper_runtime.json",
+  "config_sha256": "2579345db6f9729fd46aaac9a772dde100ff802e4eae710b5da000cd662756d7",
+  "runtime_sha256": "4afd5317a0e5dd35e0261dfce05dd7f9015ec2651e7cd7ce190d85d109afa1b3",
+  "git_commit": "ff657cb",
+  "start_ts_ms": 1779057251909,
+  "end_ts_ms": 1779198749278,
+  "unsettled_at_shutdown": 0,
+  "total_decisions": 893673
+}

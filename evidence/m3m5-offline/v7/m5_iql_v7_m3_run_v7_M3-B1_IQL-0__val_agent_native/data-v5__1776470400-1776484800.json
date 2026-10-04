@@ -1,0 +1,29 @@
+{
+  "dataset_version": "data-v5",
+  "window_id": "1776470400-1776484800",
+  "total_markets": 39,
+  "total_decision_ticks": 46800,
+  "initial_nav": 100.0,
+  "final_nav": 72.69,
+  "net_pnl": -27.310000000000002,
+  "total_return_pct": -27.310000000000002,
+  "max_drawdown_pct": 32.93546856047954,
+  "sharpe_ratio": -3.3569667684864024,
+  "n_trades": 49,
+  "n_buy_trades": 15,
+  "n_sell_trades": 34,
+  "n_settlements": 39,
+  "flat_ratio": 0.8635470085470085,
+  "per_market_trade_count": {
+    "0x3a2d7708ed1c1363e91f0fb086f9fa04c6e0a70b96e8e3bad77e074f1c53ff68": 2,
+    "0x68dd436cf7c28657f05d1f392449dec59c3e147a9949d987cec1014b1af53b8c": 6,
+    "0x79b6ab6737e56dd1001b943df774ada1659076d7d41aa6d55b7ccafe5060dbeb": 8,
+    "0x8eccaf1dee621691732da2d05ae6f7c2a20462f4653b4bf57dff9a4df18c85c5": 3,
+    "0x9b70ceeb5f5bc80bb489524c0bdd5dbe1b54aaba3bfeda80b9f6a79b7c58f414": 6,
+    "0xa1a626adce3877d8d10dec9e4bd7bcf40b7436432ebc9ec0f3436c68dd8236c0": 6,
+    "0xa56564480ab1c4793fd1bd7e8605a2ddd68445efd8d697450be583c22efc9501": 4,
+    "0xafb75f80ed73e135443fc23d3022752d5fa9909d55e43d139aca8d75e8e9fa52": 2,
+    "0xc6636e3c0540fb2bceac98a9f9c6be7a2117733e0e50f0d83fdaf95edfc8f9b7": 9,
+    "0xe902de5b46234e17dc131200c9416c83a0d45ed12f9fd563703b1c1e65ceefb0": 3
+  }
+}

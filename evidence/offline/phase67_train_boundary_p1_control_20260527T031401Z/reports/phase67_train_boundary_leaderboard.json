@@ -1,0 +1,199 @@
+{
+  "candidate_count": 2,
+  "candidates": [
+    {
+      "control_comparison": {
+        "control_run_id": "phase67_C0_control_anchor",
+        "is_control": true,
+        "mean_pnl_delta_usdc": 0.0,
+        "sharpe_delta": 0.0,
+        "total_pnl_delta_usdc": 0.0
+      },
+      "datasets": [
+        "20260425",
+        "20260426",
+        "20260427",
+        "20260428",
+        "20260429",
+        "20260430",
+        "20260501",
+        "20260502",
+        "20260503",
+        "20260504",
+        "20260505",
+        "20260506",
+        "20260507",
+        "20260508",
+        "20260509",
+        "20260510",
+        "data-v1",
+        "data-v2",
+        "data-v3",
+        "data-v4",
+        "data-v5"
+      ],
+      "execution_metrics": {
+        "cancel_to_submitted_ratio": 0.8357478528165959,
+        "fill_to_submitted_ratio": 0.23592195921099093,
+        "local_cancel_count": 9562308,
+        "rejected_intent_count": 0,
+        "submitted_order_count": 14881705,
+        "total_cancel_request_count": 12437353,
+        "trade_count": 3510921
+      },
+      "gate": {
+        "failed_count": 0,
+        "passed_count": 263
+      },
+      "inventory_and_quote_metrics": {
+        "active_quote_ratio": 0.8070313753145828,
+        "eligible_active_quote_ratio": 0.9554328873612616,
+        "inventory_cap_violations": 0,
+        "max_active_resting_count": 4,
+        "mean_active_resting_count": 2.0563274012002544
+      },
+      "replay_metrics": {
+        "final_nav_max": 3019.8768,
+        "final_nav_mean": 1174.3143783269961,
+        "final_nav_min": 836.8811,
+        "max_drawdown_usdc": 229.07790000000023,
+        "max_pnl_usdc": 2019.8768,
+        "mean_pnl_usdc": 174.3143783269962,
+        "min_pnl_usdc": -163.11890000000005,
+        "positive_window_count": 260,
+        "sharpe_per_window": 16.43566497311365,
+        "total_pnl_usdc": 45844.6815
+      },
+      "risk_and_contract": {
+        "cash_reservation_violations": 0,
+        "causality_violations": 0,
+        "inventory_cap_violations": 0,
+        "rejected_intent_count": 0,
+        "unexpected_event_count": 0
+      },
+      "run_id": "phase67_C0_control_anchor",
+      "window_count": 263
+    },
+    {
+      "control_comparison": {
+        "control_run_id": "phase67_C0_control_anchor",
+        "is_control": false,
+        "mean_pnl_delta_usdc": -148.20102471482892,
+        "sharpe_delta": -5.459877735846707,
+        "total_pnl_delta_usdc": -38976.8695
+      },
+      "datasets": [
+        "20260425",
+        "20260426",
+        "20260427",
+        "20260428",
+        "20260429",
+        "20260430",
+        "20260501",
+        "20260502",
+        "20260503",
+        "20260504",
+        "20260505",
+        "20260506",
+        "20260507",
+        "20260508",
+        "20260509",
+        "20260510",
+        "data-v1",
+        "data-v2",
+        "data-v3",
+        "data-v4",
+        "data-v5"
+      ],
+      "execution_metrics": {
+        "cancel_to_submitted_ratio": 0.7735816615084651,
+        "fill_to_submitted_ratio": 0.2971858588489031,
+        "local_cancel_count": 83856,
+        "rejected_intent_count": 0,
+        "submitted_order_count": 599046,
+        "total_cancel_request_count": 463411,
+        "trade_count": 178028
+      },
+      "gate": {
+        "failed_count": 0,
+        "passed_count": 263
+      },
+      "inventory_and_quote_metrics": {
+        "active_quote_ratio": 0.03093835559611715,
+        "eligible_active_quote_ratio": 0.03662747610758662,
+        "inventory_cap_violations": 0,
+        "max_active_resting_count": 4,
+        "mean_active_resting_count": 0.08276072347133494
+      },
+      "replay_metrics": {
+        "final_nav_max": 1192.9504,
+        "final_nav_mean": 1026.1133536121672,
+        "final_nav_min": 964.7102,
+        "max_drawdown_usdc": 86.04009999999926,
+        "max_pnl_usdc": 192.95039999999995,
+        "mean_pnl_usdc": 26.113353612167298,
+        "min_pnl_usdc": -35.289800000000014,
+        "positive_window_count": 199,
+        "sharpe_per_window": 10.975787237266942,
+        "total_pnl_usdc": 6867.811999999999
+      },
+      "risk_and_contract": {
+        "cash_reservation_violations": 0,
+        "causality_violations": 0,
+        "inventory_cap_violations": 0,
+        "rejected_intent_count": 0,
+        "unexpected_event_count": 0
+      },
+      "run_id": "phase67_P1_signed_reward_filter",
+      "window_count": 263
+    }
+  ],
+  "decision_surface_review": {
+    "action_surface_identical": false,
+    "alpha_pairwise_max_abs_diff_max": null,
+    "alpha_pairwise_mean_abs_diff_max": null,
+    "alpha_pairwise_mean_abs_diff_min": null,
+    "available": true,
+    "candidate_count": 0,
+    "common_policy_rows": 0,
+    "differing_decoded_rows": 0,
+    "disabled_reason_counts_identical": true,
+    "enabled_slot_counts_identical": true,
+    "identical_decoded_row_ratio": null,
+    "legal_quote_margin_mean_max": null,
+    "legal_quote_margin_mean_min": null,
+    "legal_quote_margin_min": null,
+    "per_slot_difference_counts": []
+  },
+  "ranking_basis": [
+    "total_pnl_usdc",
+    "mean_pnl_usdc",
+    "sharpe_per_window",
+    "max_drawdown_usdc",
+    "trade_count",
+    "submitted_order_count",
+    "rejected_intent_count",
+    "cancel_count",
+    "inventory_cap_violations",
+    "active_quote_ratio",
+    "control_comparison"
+  ],
+  "ranking_exclusions": [
+    "bc_loss",
+    "rl_loss",
+    "bundle_exists",
+    "smoke_pass"
+  ],
+  "replay_report_count": 526,
+  "review": {
+    "paper_trade_approval": false,
+    "phase66_independent_offline_test": {
+      "not_started_reason": "FAIL_CONTROL_AMPLIFICATION leaves no approved final candidate for Phase 6.6",
+      "required_window": "20260514..20260518",
+      "started": false
+    },
+    "reason": "control candidate ranks first by train-boundary replay PnL",
+    "verdict": "FAIL_CONTROL_AMPLIFICATION"
+  },
+  "schema_version": "phase65_train_boundary_leaderboard_v1"
+}

@@ -1,0 +1,6782 @@
+{
+  "action_gate": {
+    "paper_trade_approval": false,
+    "reason": "decision-surface threshold sweep found nonzero differing decoded rows",
+    "short_replay_allowed": true,
+    "verdict": "PASS_REVIEW"
+  },
+  "provenance": {
+    "candidate_ids": [
+      "phase67_C0_control_anchor",
+      "phase67_P1_signed_reward_filter"
+    ],
+    "max_rows": 50000,
+    "row_key_samples": [
+      {
+        "dataset_version": "20260425",
+        "decision_ts_ms": 1777030510250,
+        "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+        "window_id": "1777017600-1777032000"
+      },
+      {
+        "dataset_version": "20260425",
+        "decision_ts_ms": 1777030510500,
+        "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+        "window_id": "1777017600-1777032000"
+      },
+      {
+        "dataset_version": "20260425",
+        "decision_ts_ms": 1777030510750,
+        "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+        "window_id": "1777017600-1777032000"
+      },
+      {
+        "dataset_version": "20260425",
+        "decision_ts_ms": 1777030511000,
+        "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+        "window_id": "1777017600-1777032000"
+      },
+      {
+        "dataset_version": "20260425",
+        "decision_ts_ms": 1777030511250,
+        "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+        "window_id": "1777017600-1777032000"
+      }
+    ],
+    "source_run_root": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_train_boundary_p1_control_20260527T031401Z",
+    "source_summary": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_train_boundary_p1_control_20260527T031401Z/reports/phase65_summary.json",
+    "thresholds": [
+      0.55,
+      0.75,
+      0.9,
+      0.99
+    ]
+  },
+  "runtime_candidate_threshold": {
+    "candidate_count": 2,
+    "candidate_ids": [
+      "phase67_C0_control_anchor",
+      "phase67_P1_signed_reward_filter"
+    ],
+    "common_policy_rows": 50000,
+    "difference_samples": [
+      {
+        "candidate_signatures": {
+          "phase67_C0_control_anchor": [
+            [
+              true,
+              1,
+              0
+            ],
+            [
+              true,
+              1,
+              0
+            ],
+            [
+              false,
+              -1,
+              -1
+            ],
+            [
+              false,
+              -1,
+              -1
+            ]
+          ],
+          "phase67_P1_signed_reward_filter": [
+            [
+              false,
+              -1,
+              -1
+            ],
+            [
+              false,
+              -1,
+              -1
+            ],
+            [
+              false,
+              -1,
+              -1
+            ],
+            [
+              false,
+              -1,
+              -1
+            ]
+          ]
+        },
+        "differing_slots": [
+          {
+            "slot": "up_buy",
+            "slot_index": 0
+          },
+          {
+            "slot": "down_buy",
+            "slot_index": 1
+          }
+        ],
+        "key": {
+          "dataset_version": "20260425",
+          "decision_ts_ms": 1777030510250,
+          "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+          "window_id": "1777017600-1777032000"
+        }
+      },
+      {
+        "candidate_signatures": {
+          "phase67_C0_control_anchor": [
+            [
+              true,
+              1,
+              0
+            ],
+            [
+              true,
+              1,
+              0
+            ],
+            [
+              false,
+              -1,
+              -1
+            ],
+            [
+              false,
+              -1,
+              -1
+            ]
+          ],
+          "phase67_P1_signed_reward_filter": [
+            [
+              false,
+              -1,
+              -1
+            ],
+            [
+              false,
+              -1,
+              -1
+            ],
+            [
+              false,
+              -1,
+              -1
+            ],
+            [
+              false,
+              -1,
+              -1
+            ]
+          ]
+        },
+        "differing_slots": [
+          {
+            "slot": "up_buy",
+            "slot_index": 0
+          },
+          {
+            "slot": "down_buy",
+            "slot_index": 1
+          }
+        ],
+        "key": {
+          "dataset_version": "20260425",
+          "decision_ts_ms": 1777030510500,
+          "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+          "window_id": "1777017600-1777032000"
+        }
+      },
+      {
+        "candidate_signatures": {
+          "phase67_C0_control_anchor": [
+            [
+              true,
+              0,
+              0
+            ],
+            [
+              true,
+              0,
+              0
+            ],
+            [
+              false,
+              -1,
+              -1
+            ],
+            [
+              false,
+              -1,
+              -1
+            ]
+          ],
+          "phase67_P1_signed_reward_filter": [
+            [
+              false,
+              -1,
+              -1
+            ],
+            [
+              false,
+              -1,
+              -1
+            ],
+            [
+              false,
+              -1,
+              -1
+            ],
+            [
+              false,
+              -1,
+              -1
+            ]
+          ]
+        },
+        "differing_slots": [
+          {
+            "slot": "up_buy",
+            "slot_index": 0
+          },
+          {
+            "slot": "down_buy",
+            "slot_index": 1
+          }
+        ],
+        "key": {
+          "dataset_version": "20260425",
+          "decision_ts_ms": 1777030510750,
+          "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+          "window_id": "1777017600-1777032000"
+        }
+      },
+      {
+        "candidate_signatures": {
+          "phase67_C0_control_anchor": [
+            [
+              true,
+              0,
+              0
+            ],
+            [
+              true,
+              0,
+              0
+            ],
+            [
+              false,
+              -1,
+              -1
+            ],
+            [
+              false,
+              -1,
+              -1
+            ]
+          ],
+          "phase67_P1_signed_reward_filter": [
+            [
+              false,
+              -1,
+              -1
+            ],
+            [
+              false,
+              -1,
+              -1
+            ],
+            [
+              false,
+              -1,
+              -1
+            ],
+            [
+              false,
+              -1,
+              -1
+            ]
+          ]
+        },
+        "differing_slots": [
+          {
+            "slot": "up_buy",
+            "slot_index": 0
+          },
+          {
+            "slot": "down_buy",
+            "slot_index": 1
+          }
+        ],
+        "key": {
+          "dataset_version": "20260425",
+          "decision_ts_ms": 1777030511000,
+          "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+          "window_id": "1777017600-1777032000"
+        }
+      },
+      {
+        "candidate_signatures": {
+          "phase67_C0_control_anchor": [
+            [
+              true,
+              0,
+              0
+            ],
+            [
+              true,
+              0,
+              0
+            ],
+            [
+              false,
+              -1,
+              -1
+            ],
+            [
+              false,
+              -1,
+              -1
+            ]
+          ],
+          "phase67_P1_signed_reward_filter": [
+            [
+              false,
+              -1,
+              -1
+            ],
+            [
+              false,
+              -1,
+              -1
+            ],
+            [
+              false,
+              -1,
+              -1
+            ],
+            [
+              false,
+              -1,
+              -1
+            ]
+          ]
+        },
+        "differing_slots": [
+          {
+            "slot": "up_buy",
+            "slot_index": 0
+          },
+          {
+            "slot": "down_buy",
+            "slot_index": 1
+          }
+        ],
+        "key": {
+          "dataset_version": "20260425",
+          "decision_ts_ms": 1777030511250,
+          "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+          "window_id": "1777017600-1777032000"
+        }
+      },
+      {
+        "candidate_signatures": {
+          "phase67_C0_control_anchor": [
+            [
+              true,
+              0,
+              0
+            ],
+            [
+              true,
+              0,
+              0
+            ],
+            [
+              false,
+              -1,
+              -1
+            ],
+            [
+              false,
+              -1,
+              -1
+            ]
+          ],
+          "phase67_P1_signed_reward_filter": [
+            [
+              false,
+              -1,
+              -1
+            ],
+            [
+              false,
+              -1,
+              -1
+            ],
+            [
+              false,
+              -1,
+              -1
+            ],
+            [
+              false,
+              -1,
+              -1
+            ]
+          ]
+        },
+        "differing_slots": [
+          {
+            "slot": "up_buy",
+            "slot_index": 0
+          },
+          {
+            "slot": "down_buy",
+            "slot_index": 1
+          }
+        ],
+        "key": {
+          "dataset_version": "20260425",
+          "decision_ts_ms": 1777030511500,
+          "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+          "window_id": "1777017600-1777032000"
+        }
+      },
+      {
+        "candidate_signatures": {
+          "phase67_C0_control_anchor": [
+            [
+              true,
+              0,
+              0
+            ],
+            [
+              true,
+              0,
+              0
+            ],
+            [
+              false,
+              -1,
+              -1
+            ],
+            [
+              false,
+              -1,
+              -1
+            ]
+          ],
+          "phase67_P1_signed_reward_filter": [
+            [
+              false,
+              -1,
+              -1
+            ],
+            [
+              false,
+              -1,
+              -1
+            ],
+            [
+              false,
+              -1,
+              -1
+            ],
+            [
+              false,
+              -1,
+              -1
+            ]
+          ]
+        },
+        "differing_slots": [
+          {
+            "slot": "up_buy",
+            "slot_index": 0
+          },
+          {
+            "slot": "down_buy",
+            "slot_index": 1
+          }
+        ],
+        "key": {
+          "dataset_version": "20260425",
+          "decision_ts_ms": 1777030511750,
+          "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+          "window_id": "1777017600-1777032000"
+        }
+      },
+      {
+        "candidate_signatures": {
+          "phase67_C0_control_anchor": [
+            [
+              true,
+              0,
+              0
+            ],
+            [
+              true,
+              0,
+              0
+            ],
+            [
+              false,
+              -1,
+              -1
+            ],
+            [
+              false,
+              -1,
+              -1
+            ]
+          ],
+          "phase67_P1_signed_reward_filter": [
+            [
+              false,
+              -1,
+              -1
+            ],
+            [
+              false,
+              -1,
+              -1
+            ],
+            [
+              false,
+              -1,
+              -1
+            ],
+            [
+              false,
+              -1,
+              -1
+            ]
+          ]
+        },
+        "differing_slots": [
+          {
+            "slot": "up_buy",
+            "slot_index": 0
+          },
+          {
+            "slot": "down_buy",
+            "slot_index": 1
+          }
+        ],
+        "key": {
+          "dataset_version": "20260425",
+          "decision_ts_ms": 1777030512000,
+          "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+          "window_id": "1777017600-1777032000"
+        }
+      },
+      {
+        "candidate_signatures": {
+          "phase67_C0_control_anchor": [
+            [
+              true,
+              0,
+              0
+            ],
+            [
+              true,
+              0,
+              0
+            ],
+            [
+              false,
+              -1,
+              -1
+            ],
+            [
+              false,
+              -1,
+              -1
+            ]
+          ],
+          "phase67_P1_signed_reward_filter": [
+            [
+              false,
+              -1,
+              -1
+            ],
+            [
+              false,
+              -1,
+              -1
+            ],
+            [
+              false,
+              -1,
+              -1
+            ],
+            [
+              false,
+              -1,
+              -1
+            ]
+          ]
+        },
+        "differing_slots": [
+          {
+            "slot": "up_buy",
+            "slot_index": 0
+          },
+          {
+            "slot": "down_buy",
+            "slot_index": 1
+          }
+        ],
+        "key": {
+          "dataset_version": "20260425",
+          "decision_ts_ms": 1777030512250,
+          "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+          "window_id": "1777017600-1777032000"
+        }
+      },
+      {
+        "candidate_signatures": {
+          "phase67_C0_control_anchor": [
+            [
+              true,
+              0,
+              0
+            ],
+            [
+              true,
+              0,
+              0
+            ],
+            [
+              false,
+              -1,
+              -1
+            ],
+            [
+              false,
+              -1,
+              -1
+            ]
+          ],
+          "phase67_P1_signed_reward_filter": [
+            [
+              false,
+              -1,
+              -1
+            ],
+            [
+              false,
+              -1,
+              -1
+            ],
+            [
+              false,
+              -1,
+              -1
+            ],
+            [
+              false,
+              -1,
+              -1
+            ]
+          ]
+        },
+        "differing_slots": [
+          {
+            "slot": "up_buy",
+            "slot_index": 0
+          },
+          {
+            "slot": "down_buy",
+            "slot_index": 1
+          }
+        ],
+        "key": {
+          "dataset_version": "20260425",
+          "decision_ts_ms": 1777030512500,
+          "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+          "window_id": "1777017600-1777032000"
+        }
+      },
+      {
+        "candidate_signatures": {
+          "phase67_C0_control_anchor": [
+            [
+              true,
+              0,
+              0
+            ],
+            [
+              true,
+              0,
+              0
+            ],
+            [
+              false,
+              -1,
+              -1
+            ],
+            [
+              false,
+              -1,
+              -1
+            ]
+          ],
+          "phase67_P1_signed_reward_filter": [
+            [
+              false,
+              -1,
+              -1
+            ],
+            [
+              false,
+              -1,
+              -1
+            ],
+            [
+              false,
+              -1,
+              -1
+            ],
+            [
+              false,
+              -1,
+              -1
+            ]
+          ]
+        },
+        "differing_slots": [
+          {
+            "slot": "up_buy",
+            "slot_index": 0
+          },
+          {
+            "slot": "down_buy",
+            "slot_index": 1
+          }
+        ],
+        "key": {
+          "dataset_version": "20260425",
+          "decision_ts_ms": 1777030512750,
+          "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+          "window_id": "1777017600-1777032000"
+        }
+      },
+      {
+        "candidate_signatures": {
+          "phase67_C0_control_anchor": [
+            [
+              true,
+              0,
+              0
+            ],
+            [
+              true,
+              0,
+              0
+            ],
+            [
+              false,
+              -1,
+              -1
+            ],
+            [
+              false,
+              -1,
+              -1
+            ]
+          ],
+          "phase67_P1_signed_reward_filter": [
+            [
+              false,
+              -1,
+              -1
+            ],
+            [
+              false,
+              -1,
+              -1
+            ],
+            [
+              false,
+              -1,
+              -1
+            ],
+            [
+              false,
+              -1,
+              -1
+            ]
+          ]
+        },
+        "differing_slots": [
+          {
+            "slot": "up_buy",
+            "slot_index": 0
+          },
+          {
+            "slot": "down_buy",
+            "slot_index": 1
+          }
+        ],
+        "key": {
+          "dataset_version": "20260425",
+          "decision_ts_ms": 1777030513000,
+          "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+          "window_id": "1777017600-1777032000"
+        }
+      },
+      {
+        "candidate_signatures": {
+          "phase67_C0_control_anchor": [
+            [
+              true,
+              0,
+              0
+            ],
+            [
+              true,
+              0,
+              0
+            ],
+            [
+              false,
+              -1,
+              -1
+            ],
+            [
+              false,
+              -1,
+              -1
+            ]
+          ],
+          "phase67_P1_signed_reward_filter": [
+            [
+              false,
+              -1,
+              -1
+            ],
+            [
+              false,
+              -1,
+              -1
+            ],
+            [
+              false,
+              -1,
+              -1
+            ],
+            [
+              false,
+              -1,
+              -1
+            ]
+          ]
+        },
+        "differing_slots": [
+          {
+            "slot": "up_buy",
+            "slot_index": 0
+          },
+          {
+            "slot": "down_buy",
+            "slot_index": 1
+          }
+        ],
+        "key": {
+          "dataset_version": "20260425",
+          "decision_ts_ms": 1777030513250,
+          "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+          "window_id": "1777017600-1777032000"
+        }
+      },
+      {
+        "candidate_signatures": {
+          "phase67_C0_control_anchor": [
+            [
+              true,
+              0,
+              0
+            ],
+            [
+              true,
+              0,
+              0
+            ],
+            [
+              false,
+              -1,
+              -1
+            ],
+            [
+              false,
+              -1,
+              -1
+            ]
+          ],
+          "phase67_P1_signed_reward_filter": [
+            [
+              false,
+              -1,
+              -1
+            ],
+            [
+              false,
+              -1,
+              -1
+            ],
+            [
+              false,
+              -1,
+              -1
+            ],
+            [
+              false,
+              -1,
+              -1
+            ]
+          ]
+        },
+        "differing_slots": [
+          {
+            "slot": "up_buy",
+            "slot_index": 0
+          },
+          {
+            "slot": "down_buy",
+            "slot_index": 1
+          }
+        ],
+        "key": {
+          "dataset_version": "20260425",
+          "decision_ts_ms": 1777030513500,
+          "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+          "window_id": "1777017600-1777032000"
+        }
+      },
+      {
+        "candidate_signatures": {
+          "phase67_C0_control_anchor": [
+            [
+              true,
+              0,
+              0
+            ],
+            [
+              true,
+              0,
+              0
+            ],
+            [
+              true,
+              0,
+              0
+            ],
+            [
+              false,
+              -1,
+              -1
+            ]
+          ],
+          "phase67_P1_signed_reward_filter": [
+            [
+              false,
+              -1,
+              -1
+            ],
+            [
+              false,
+              -1,
+              -1
+            ],
+            [
+              false,
+              -1,
+              -1
+            ],
+            [
+              false,
+              -1,
+              -1
+            ]
+          ]
+        },
+        "differing_slots": [
+          {
+            "slot": "up_buy",
+            "slot_index": 0
+          },
+          {
+            "slot": "down_buy",
+            "slot_index": 1
+          },
+          {
+            "slot": "up_sell",
+            "slot_index": 2
+          }
+        ],
+        "key": {
+          "dataset_version": "20260425",
+          "decision_ts_ms": 1777030513750,
+          "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+          "window_id": "1777017600-1777032000"
+        }
+      },
+      {
+        "candidate_signatures": {
+          "phase67_C0_control_anchor": [
+            [
+              true,
+              0,
+              0
+            ],
+            [
+              true,
+              0,
+              0
+            ],
+            [
+              false,
+              -1,
+              -1
+            ],
+            [
+              false,
+              -1,
+              -1
+            ]
+          ],
+          "phase67_P1_signed_reward_filter": [
+            [
+              false,
+              -1,
+              -1
+            ],
+            [
+              false,
+              -1,
+              -1
+            ],
+            [
+              false,
+              -1,
+              -1
+            ],
+            [
+              false,
+              -1,
+              -1
+            ]
+          ]
+        },
+        "differing_slots": [
+          {
+            "slot": "up_buy",
+            "slot_index": 0
+          },
+          {
+            "slot": "down_buy",
+            "slot_index": 1
+          }
+        ],
+        "key": {
+          "dataset_version": "20260425",
+          "decision_ts_ms": 1777030514000,
+          "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+          "window_id": "1777017600-1777032000"
+        }
+      },
+      {
+        "candidate_signatures": {
+          "phase67_C0_control_anchor": [
+            [
+              true,
+              0,
+              0
+            ],
+            [
+              true,
+              0,
+              0
+            ],
+            [
+              false,
+              -1,
+              -1
+            ],
+            [
+              false,
+              -1,
+              -1
+            ]
+          ],
+          "phase67_P1_signed_reward_filter": [
+            [
+              false,
+              -1,
+              -1
+            ],
+            [
+              false,
+              -1,
+              -1
+            ],
+            [
+              false,
+              -1,
+              -1
+            ],
+            [
+              false,
+              -1,
+              -1
+            ]
+          ]
+        },
+        "differing_slots": [
+          {
+            "slot": "up_buy",
+            "slot_index": 0
+          },
+          {
+            "slot": "down_buy",
+            "slot_index": 1
+          }
+        ],
+        "key": {
+          "dataset_version": "20260425",
+          "decision_ts_ms": 1777030514250,
+          "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+          "window_id": "1777017600-1777032000"
+        }
+      },
+      {
+        "candidate_signatures": {
+          "phase67_C0_control_anchor": [
+            [
+              true,
+              0,
+              0
+            ],
+            [
+              true,
+              0,
+              0
+            ],
+            [
+              false,
+              -1,
+              -1
+            ],
+            [
+              false,
+              -1,
+              -1
+            ]
+          ],
+          "phase67_P1_signed_reward_filter": [
+            [
+              false,
+              -1,
+              -1
+            ],
+            [
+              false,
+              -1,
+              -1
+            ],
+            [
+              false,
+              -1,
+              -1
+            ],
+            [
+              false,
+              -1,
+              -1
+            ]
+          ]
+        },
+        "differing_slots": [
+          {
+            "slot": "up_buy",
+            "slot_index": 0
+          },
+          {
+            "slot": "down_buy",
+            "slot_index": 1
+          }
+        ],
+        "key": {
+          "dataset_version": "20260425",
+          "decision_ts_ms": 1777030514500,
+          "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+          "window_id": "1777017600-1777032000"
+        }
+      },
+      {
+        "candidate_signatures": {
+          "phase67_C0_control_anchor": [
+            [
+              true,
+              0,
+              0
+            ],
+            [
+              true,
+              0,
+              0
+            ],
+            [
+              false,
+              -1,
+              -1
+            ],
+            [
+              false,
+              -1,
+              -1
+            ]
+          ],
+          "phase67_P1_signed_reward_filter": [
+            [
+              false,
+              -1,
+              -1
+            ],
+            [
+              false,
+              -1,
+              -1
+            ],
+            [
+              false,
+              -1,
+              -1
+            ],
+            [
+              false,
+              -1,
+              -1
+            ]
+          ]
+        },
+        "differing_slots": [
+          {
+            "slot": "up_buy",
+            "slot_index": 0
+          },
+          {
+            "slot": "down_buy",
+            "slot_index": 1
+          }
+        ],
+        "key": {
+          "dataset_version": "20260425",
+          "decision_ts_ms": 1777030514750,
+          "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+          "window_id": "1777017600-1777032000"
+        }
+      },
+      {
+        "candidate_signatures": {
+          "phase67_C0_control_anchor": [
+            [
+              true,
+              0,
+              0
+            ],
+            [
+              true,
+              0,
+              0
+            ],
+            [
+              true,
+              0,
+              0
+            ],
+            [
+              false,
+              -1,
+              -1
+            ]
+          ],
+          "phase67_P1_signed_reward_filter": [
+            [
+              false,
+              -1,
+              -1
+            ],
+            [
+              false,
+              -1,
+              -1
+            ],
+            [
+              false,
+              -1,
+              -1
+            ],
+            [
+              false,
+              -1,
+              -1
+            ]
+          ]
+        },
+        "differing_slots": [
+          {
+            "slot": "up_buy",
+            "slot_index": 0
+          },
+          {
+            "slot": "down_buy",
+            "slot_index": 1
+          },
+          {
+            "slot": "up_sell",
+            "slot_index": 2
+          }
+        ],
+        "key": {
+          "dataset_version": "20260425",
+          "decision_ts_ms": 1777030515000,
+          "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+          "window_id": "1777017600-1777032000"
+        }
+      }
+    ],
+    "differing_decoded_rows": 47497,
+    "identical_decoded_row_ratio": 0.05006,
+    "identical_decoded_rows": 2503,
+    "per_slot_difference_counts": [
+      45757,
+      46060,
+      8735,
+      8737
+    ]
+  },
+  "schema_version": "phase67_decision_surface_audit_v1",
+  "support_diagnostics": {
+    "quote_only_support_disabled": {
+      "legal_slot_count": 227568,
+      "quote_enabled_slot_count": 118277,
+      "sampled_slot_count": 400000,
+      "support_eligible_slot_count": 227561
+    },
+    "runtime_supported": {
+      "legal_slot_count": 227568,
+      "quote_enabled_slot_count": 118273,
+      "sampled_slot_count": 400000,
+      "support_eligible_slot_count": 227561
+    }
+  },
+  "threshold_sweep": {
+    "by_threshold": {
+      "0.55": {
+        "candidate_reports": [
+          {
+            "candidate_id": "phase67_C0_control_anchor",
+            "disabled_reason_counts": {
+              "unsupported_offset": 3
+            },
+            "enabled_slot_count": 113781,
+            "enabled_slot_ratio": 0.9999736342543767,
+            "legal_quote_margin_summary": {
+              "count": 113784,
+              "max": 0.44999999999999996,
+              "mean": 0.4499954814075218,
+              "min": 0.44933975934982295,
+              "p99": 0.44999999999999996
+            },
+            "legal_slot_count": 113784,
+            "policy_tick_count": 50000,
+            "threshold": 0.55
+          },
+          {
+            "candidate_id": "phase67_P1_signed_reward_filter",
+            "disabled_reason_counts": {
+              "below_quote_threshold": 109291,
+              "unsupported_offset": 1
+            },
+            "enabled_slot_count": 4492,
+            "enabled_slot_ratio": 0.03947830977993391,
+            "legal_quote_margin_summary": {
+              "count": 113784,
+              "max": 0.26396776437759395,
+              "mean": -0.40022712680945954,
+              "min": -0.535562070272863,
+              "p99": 0.09466827630996696
+            },
+            "legal_slot_count": 113784,
+            "policy_tick_count": 50000,
+            "threshold": 0.55
+          }
+        ],
+        "cross_candidate_decoded_action": {
+          "candidate_count": 2,
+          "candidate_ids": [
+            "phase67_C0_control_anchor",
+            "phase67_P1_signed_reward_filter"
+          ],
+          "common_policy_rows": 50000,
+          "difference_samples": [
+            {
+              "candidate_signatures": {
+                "phase67_C0_control_anchor": [
+                  [
+                    true,
+                    1,
+                    0
+                  ],
+                  [
+                    true,
+                    1,
+                    0
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ],
+                "phase67_P1_signed_reward_filter": [
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ]
+              },
+              "differing_slots": [
+                {
+                  "slot": "up_buy",
+                  "slot_index": 0
+                },
+                {
+                  "slot": "down_buy",
+                  "slot_index": 1
+                }
+              ],
+              "key": {
+                "dataset_version": "20260425",
+                "decision_ts_ms": 1777030510250,
+                "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+                "window_id": "1777017600-1777032000"
+              }
+            },
+            {
+              "candidate_signatures": {
+                "phase67_C0_control_anchor": [
+                  [
+                    true,
+                    1,
+                    0
+                  ],
+                  [
+                    true,
+                    1,
+                    0
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ],
+                "phase67_P1_signed_reward_filter": [
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ]
+              },
+              "differing_slots": [
+                {
+                  "slot": "up_buy",
+                  "slot_index": 0
+                },
+                {
+                  "slot": "down_buy",
+                  "slot_index": 1
+                }
+              ],
+              "key": {
+                "dataset_version": "20260425",
+                "decision_ts_ms": 1777030510500,
+                "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+                "window_id": "1777017600-1777032000"
+              }
+            },
+            {
+              "candidate_signatures": {
+                "phase67_C0_control_anchor": [
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ],
+                "phase67_P1_signed_reward_filter": [
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ]
+              },
+              "differing_slots": [
+                {
+                  "slot": "up_buy",
+                  "slot_index": 0
+                },
+                {
+                  "slot": "down_buy",
+                  "slot_index": 1
+                }
+              ],
+              "key": {
+                "dataset_version": "20260425",
+                "decision_ts_ms": 1777030510750,
+                "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+                "window_id": "1777017600-1777032000"
+              }
+            },
+            {
+              "candidate_signatures": {
+                "phase67_C0_control_anchor": [
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ],
+                "phase67_P1_signed_reward_filter": [
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ]
+              },
+              "differing_slots": [
+                {
+                  "slot": "up_buy",
+                  "slot_index": 0
+                },
+                {
+                  "slot": "down_buy",
+                  "slot_index": 1
+                }
+              ],
+              "key": {
+                "dataset_version": "20260425",
+                "decision_ts_ms": 1777030511000,
+                "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+                "window_id": "1777017600-1777032000"
+              }
+            },
+            {
+              "candidate_signatures": {
+                "phase67_C0_control_anchor": [
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ],
+                "phase67_P1_signed_reward_filter": [
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ]
+              },
+              "differing_slots": [
+                {
+                  "slot": "up_buy",
+                  "slot_index": 0
+                },
+                {
+                  "slot": "down_buy",
+                  "slot_index": 1
+                }
+              ],
+              "key": {
+                "dataset_version": "20260425",
+                "decision_ts_ms": 1777030511250,
+                "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+                "window_id": "1777017600-1777032000"
+              }
+            },
+            {
+              "candidate_signatures": {
+                "phase67_C0_control_anchor": [
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ],
+                "phase67_P1_signed_reward_filter": [
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ]
+              },
+              "differing_slots": [
+                {
+                  "slot": "up_buy",
+                  "slot_index": 0
+                },
+                {
+                  "slot": "down_buy",
+                  "slot_index": 1
+                }
+              ],
+              "key": {
+                "dataset_version": "20260425",
+                "decision_ts_ms": 1777030511500,
+                "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+                "window_id": "1777017600-1777032000"
+              }
+            },
+            {
+              "candidate_signatures": {
+                "phase67_C0_control_anchor": [
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ],
+                "phase67_P1_signed_reward_filter": [
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ]
+              },
+              "differing_slots": [
+                {
+                  "slot": "up_buy",
+                  "slot_index": 0
+                },
+                {
+                  "slot": "down_buy",
+                  "slot_index": 1
+                }
+              ],
+              "key": {
+                "dataset_version": "20260425",
+                "decision_ts_ms": 1777030511750,
+                "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+                "window_id": "1777017600-1777032000"
+              }
+            },
+            {
+              "candidate_signatures": {
+                "phase67_C0_control_anchor": [
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ],
+                "phase67_P1_signed_reward_filter": [
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ]
+              },
+              "differing_slots": [
+                {
+                  "slot": "up_buy",
+                  "slot_index": 0
+                },
+                {
+                  "slot": "down_buy",
+                  "slot_index": 1
+                }
+              ],
+              "key": {
+                "dataset_version": "20260425",
+                "decision_ts_ms": 1777030512000,
+                "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+                "window_id": "1777017600-1777032000"
+              }
+            },
+            {
+              "candidate_signatures": {
+                "phase67_C0_control_anchor": [
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ],
+                "phase67_P1_signed_reward_filter": [
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ]
+              },
+              "differing_slots": [
+                {
+                  "slot": "up_buy",
+                  "slot_index": 0
+                },
+                {
+                  "slot": "down_buy",
+                  "slot_index": 1
+                }
+              ],
+              "key": {
+                "dataset_version": "20260425",
+                "decision_ts_ms": 1777030512250,
+                "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+                "window_id": "1777017600-1777032000"
+              }
+            },
+            {
+              "candidate_signatures": {
+                "phase67_C0_control_anchor": [
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ],
+                "phase67_P1_signed_reward_filter": [
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ]
+              },
+              "differing_slots": [
+                {
+                  "slot": "up_buy",
+                  "slot_index": 0
+                },
+                {
+                  "slot": "down_buy",
+                  "slot_index": 1
+                }
+              ],
+              "key": {
+                "dataset_version": "20260425",
+                "decision_ts_ms": 1777030512500,
+                "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+                "window_id": "1777017600-1777032000"
+              }
+            },
+            {
+              "candidate_signatures": {
+                "phase67_C0_control_anchor": [
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ],
+                "phase67_P1_signed_reward_filter": [
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ]
+              },
+              "differing_slots": [
+                {
+                  "slot": "up_buy",
+                  "slot_index": 0
+                },
+                {
+                  "slot": "down_buy",
+                  "slot_index": 1
+                }
+              ],
+              "key": {
+                "dataset_version": "20260425",
+                "decision_ts_ms": 1777030512750,
+                "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+                "window_id": "1777017600-1777032000"
+              }
+            },
+            {
+              "candidate_signatures": {
+                "phase67_C0_control_anchor": [
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ],
+                "phase67_P1_signed_reward_filter": [
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ]
+              },
+              "differing_slots": [
+                {
+                  "slot": "up_buy",
+                  "slot_index": 0
+                },
+                {
+                  "slot": "down_buy",
+                  "slot_index": 1
+                }
+              ],
+              "key": {
+                "dataset_version": "20260425",
+                "decision_ts_ms": 1777030513000,
+                "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+                "window_id": "1777017600-1777032000"
+              }
+            },
+            {
+              "candidate_signatures": {
+                "phase67_C0_control_anchor": [
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ],
+                "phase67_P1_signed_reward_filter": [
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ]
+              },
+              "differing_slots": [
+                {
+                  "slot": "up_buy",
+                  "slot_index": 0
+                },
+                {
+                  "slot": "down_buy",
+                  "slot_index": 1
+                }
+              ],
+              "key": {
+                "dataset_version": "20260425",
+                "decision_ts_ms": 1777030513250,
+                "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+                "window_id": "1777017600-1777032000"
+              }
+            },
+            {
+              "candidate_signatures": {
+                "phase67_C0_control_anchor": [
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ],
+                "phase67_P1_signed_reward_filter": [
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ]
+              },
+              "differing_slots": [
+                {
+                  "slot": "up_buy",
+                  "slot_index": 0
+                },
+                {
+                  "slot": "down_buy",
+                  "slot_index": 1
+                }
+              ],
+              "key": {
+                "dataset_version": "20260425",
+                "decision_ts_ms": 1777030513500,
+                "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+                "window_id": "1777017600-1777032000"
+              }
+            },
+            {
+              "candidate_signatures": {
+                "phase67_C0_control_anchor": [
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ],
+                "phase67_P1_signed_reward_filter": [
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ]
+              },
+              "differing_slots": [
+                {
+                  "slot": "up_buy",
+                  "slot_index": 0
+                },
+                {
+                  "slot": "down_buy",
+                  "slot_index": 1
+                },
+                {
+                  "slot": "up_sell",
+                  "slot_index": 2
+                }
+              ],
+              "key": {
+                "dataset_version": "20260425",
+                "decision_ts_ms": 1777030513750,
+                "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+                "window_id": "1777017600-1777032000"
+              }
+            },
+            {
+              "candidate_signatures": {
+                "phase67_C0_control_anchor": [
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ],
+                "phase67_P1_signed_reward_filter": [
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ]
+              },
+              "differing_slots": [
+                {
+                  "slot": "up_buy",
+                  "slot_index": 0
+                },
+                {
+                  "slot": "down_buy",
+                  "slot_index": 1
+                }
+              ],
+              "key": {
+                "dataset_version": "20260425",
+                "decision_ts_ms": 1777030514000,
+                "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+                "window_id": "1777017600-1777032000"
+              }
+            },
+            {
+              "candidate_signatures": {
+                "phase67_C0_control_anchor": [
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ],
+                "phase67_P1_signed_reward_filter": [
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ]
+              },
+              "differing_slots": [
+                {
+                  "slot": "up_buy",
+                  "slot_index": 0
+                },
+                {
+                  "slot": "down_buy",
+                  "slot_index": 1
+                }
+              ],
+              "key": {
+                "dataset_version": "20260425",
+                "decision_ts_ms": 1777030514250,
+                "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+                "window_id": "1777017600-1777032000"
+              }
+            },
+            {
+              "candidate_signatures": {
+                "phase67_C0_control_anchor": [
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ],
+                "phase67_P1_signed_reward_filter": [
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ]
+              },
+              "differing_slots": [
+                {
+                  "slot": "up_buy",
+                  "slot_index": 0
+                },
+                {
+                  "slot": "down_buy",
+                  "slot_index": 1
+                }
+              ],
+              "key": {
+                "dataset_version": "20260425",
+                "decision_ts_ms": 1777030514500,
+                "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+                "window_id": "1777017600-1777032000"
+              }
+            },
+            {
+              "candidate_signatures": {
+                "phase67_C0_control_anchor": [
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ],
+                "phase67_P1_signed_reward_filter": [
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ]
+              },
+              "differing_slots": [
+                {
+                  "slot": "up_buy",
+                  "slot_index": 0
+                },
+                {
+                  "slot": "down_buy",
+                  "slot_index": 1
+                }
+              ],
+              "key": {
+                "dataset_version": "20260425",
+                "decision_ts_ms": 1777030514750,
+                "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+                "window_id": "1777017600-1777032000"
+              }
+            },
+            {
+              "candidate_signatures": {
+                "phase67_C0_control_anchor": [
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ],
+                "phase67_P1_signed_reward_filter": [
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ]
+              },
+              "differing_slots": [
+                {
+                  "slot": "up_buy",
+                  "slot_index": 0
+                },
+                {
+                  "slot": "down_buy",
+                  "slot_index": 1
+                },
+                {
+                  "slot": "up_sell",
+                  "slot_index": 2
+                }
+              ],
+              "key": {
+                "dataset_version": "20260425",
+                "decision_ts_ms": 1777030515000,
+                "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+                "window_id": "1777017600-1777032000"
+              }
+            }
+          ],
+          "differing_decoded_rows": 47497,
+          "identical_decoded_row_ratio": 0.05006,
+          "identical_decoded_rows": 2503,
+          "per_slot_difference_counts": [
+            45757,
+            46060,
+            8735,
+            8737
+          ]
+        },
+        "threshold": 0.55
+      },
+      "0.75": {
+        "candidate_reports": [
+          {
+            "candidate_id": "phase67_C0_control_anchor",
+            "disabled_reason_counts": {
+              "unsupported_offset": 3
+            },
+            "enabled_slot_count": 113781,
+            "enabled_slot_ratio": 0.9999736342543767,
+            "legal_quote_margin_summary": {
+              "count": 113784,
+              "max": 0.25,
+              "mean": 0.24999548140752167,
+              "min": 0.249339759349823,
+              "p99": 0.25
+            },
+            "legal_slot_count": 113784,
+            "policy_tick_count": 50000,
+            "threshold": 0.75
+          },
+          {
+            "candidate_id": "phase67_P1_signed_reward_filter",
+            "disabled_reason_counts": {
+              "below_quote_threshold": 113481
+            },
+            "enabled_slot_count": 303,
+            "enabled_slot_ratio": 0.0026629403079519087,
+            "legal_quote_margin_summary": {
+              "count": 113784,
+              "max": 0.063967764377594,
+              "mean": -0.6002271268094597,
+              "min": -0.7355620702728629,
+              "p99": -0.10533172369003299
+            },
+            "legal_slot_count": 113784,
+            "policy_tick_count": 50000,
+            "threshold": 0.75
+          }
+        ],
+        "cross_candidate_decoded_action": {
+          "candidate_count": 2,
+          "candidate_ids": [
+            "phase67_C0_control_anchor",
+            "phase67_P1_signed_reward_filter"
+          ],
+          "common_policy_rows": 50000,
+          "difference_samples": [
+            {
+              "candidate_signatures": {
+                "phase67_C0_control_anchor": [
+                  [
+                    true,
+                    1,
+                    0
+                  ],
+                  [
+                    true,
+                    1,
+                    0
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ],
+                "phase67_P1_signed_reward_filter": [
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ]
+              },
+              "differing_slots": [
+                {
+                  "slot": "up_buy",
+                  "slot_index": 0
+                },
+                {
+                  "slot": "down_buy",
+                  "slot_index": 1
+                }
+              ],
+              "key": {
+                "dataset_version": "20260425",
+                "decision_ts_ms": 1777030510250,
+                "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+                "window_id": "1777017600-1777032000"
+              }
+            },
+            {
+              "candidate_signatures": {
+                "phase67_C0_control_anchor": [
+                  [
+                    true,
+                    1,
+                    0
+                  ],
+                  [
+                    true,
+                    1,
+                    0
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ],
+                "phase67_P1_signed_reward_filter": [
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ]
+              },
+              "differing_slots": [
+                {
+                  "slot": "up_buy",
+                  "slot_index": 0
+                },
+                {
+                  "slot": "down_buy",
+                  "slot_index": 1
+                }
+              ],
+              "key": {
+                "dataset_version": "20260425",
+                "decision_ts_ms": 1777030510500,
+                "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+                "window_id": "1777017600-1777032000"
+              }
+            },
+            {
+              "candidate_signatures": {
+                "phase67_C0_control_anchor": [
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ],
+                "phase67_P1_signed_reward_filter": [
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ]
+              },
+              "differing_slots": [
+                {
+                  "slot": "up_buy",
+                  "slot_index": 0
+                },
+                {
+                  "slot": "down_buy",
+                  "slot_index": 1
+                }
+              ],
+              "key": {
+                "dataset_version": "20260425",
+                "decision_ts_ms": 1777030510750,
+                "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+                "window_id": "1777017600-1777032000"
+              }
+            },
+            {
+              "candidate_signatures": {
+                "phase67_C0_control_anchor": [
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ],
+                "phase67_P1_signed_reward_filter": [
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ]
+              },
+              "differing_slots": [
+                {
+                  "slot": "up_buy",
+                  "slot_index": 0
+                },
+                {
+                  "slot": "down_buy",
+                  "slot_index": 1
+                }
+              ],
+              "key": {
+                "dataset_version": "20260425",
+                "decision_ts_ms": 1777030511000,
+                "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+                "window_id": "1777017600-1777032000"
+              }
+            },
+            {
+              "candidate_signatures": {
+                "phase67_C0_control_anchor": [
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ],
+                "phase67_P1_signed_reward_filter": [
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ]
+              },
+              "differing_slots": [
+                {
+                  "slot": "up_buy",
+                  "slot_index": 0
+                },
+                {
+                  "slot": "down_buy",
+                  "slot_index": 1
+                }
+              ],
+              "key": {
+                "dataset_version": "20260425",
+                "decision_ts_ms": 1777030511250,
+                "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+                "window_id": "1777017600-1777032000"
+              }
+            },
+            {
+              "candidate_signatures": {
+                "phase67_C0_control_anchor": [
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ],
+                "phase67_P1_signed_reward_filter": [
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ]
+              },
+              "differing_slots": [
+                {
+                  "slot": "up_buy",
+                  "slot_index": 0
+                },
+                {
+                  "slot": "down_buy",
+                  "slot_index": 1
+                }
+              ],
+              "key": {
+                "dataset_version": "20260425",
+                "decision_ts_ms": 1777030511500,
+                "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+                "window_id": "1777017600-1777032000"
+              }
+            },
+            {
+              "candidate_signatures": {
+                "phase67_C0_control_anchor": [
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ],
+                "phase67_P1_signed_reward_filter": [
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ]
+              },
+              "differing_slots": [
+                {
+                  "slot": "up_buy",
+                  "slot_index": 0
+                },
+                {
+                  "slot": "down_buy",
+                  "slot_index": 1
+                }
+              ],
+              "key": {
+                "dataset_version": "20260425",
+                "decision_ts_ms": 1777030511750,
+                "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+                "window_id": "1777017600-1777032000"
+              }
+            },
+            {
+              "candidate_signatures": {
+                "phase67_C0_control_anchor": [
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ],
+                "phase67_P1_signed_reward_filter": [
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ]
+              },
+              "differing_slots": [
+                {
+                  "slot": "up_buy",
+                  "slot_index": 0
+                },
+                {
+                  "slot": "down_buy",
+                  "slot_index": 1
+                }
+              ],
+              "key": {
+                "dataset_version": "20260425",
+                "decision_ts_ms": 1777030512000,
+                "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+                "window_id": "1777017600-1777032000"
+              }
+            },
+            {
+              "candidate_signatures": {
+                "phase67_C0_control_anchor": [
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ],
+                "phase67_P1_signed_reward_filter": [
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ]
+              },
+              "differing_slots": [
+                {
+                  "slot": "up_buy",
+                  "slot_index": 0
+                },
+                {
+                  "slot": "down_buy",
+                  "slot_index": 1
+                }
+              ],
+              "key": {
+                "dataset_version": "20260425",
+                "decision_ts_ms": 1777030512250,
+                "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+                "window_id": "1777017600-1777032000"
+              }
+            },
+            {
+              "candidate_signatures": {
+                "phase67_C0_control_anchor": [
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ],
+                "phase67_P1_signed_reward_filter": [
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ]
+              },
+              "differing_slots": [
+                {
+                  "slot": "up_buy",
+                  "slot_index": 0
+                },
+                {
+                  "slot": "down_buy",
+                  "slot_index": 1
+                }
+              ],
+              "key": {
+                "dataset_version": "20260425",
+                "decision_ts_ms": 1777030512500,
+                "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+                "window_id": "1777017600-1777032000"
+              }
+            },
+            {
+              "candidate_signatures": {
+                "phase67_C0_control_anchor": [
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ],
+                "phase67_P1_signed_reward_filter": [
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ]
+              },
+              "differing_slots": [
+                {
+                  "slot": "up_buy",
+                  "slot_index": 0
+                },
+                {
+                  "slot": "down_buy",
+                  "slot_index": 1
+                }
+              ],
+              "key": {
+                "dataset_version": "20260425",
+                "decision_ts_ms": 1777030512750,
+                "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+                "window_id": "1777017600-1777032000"
+              }
+            },
+            {
+              "candidate_signatures": {
+                "phase67_C0_control_anchor": [
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ],
+                "phase67_P1_signed_reward_filter": [
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ]
+              },
+              "differing_slots": [
+                {
+                  "slot": "up_buy",
+                  "slot_index": 0
+                },
+                {
+                  "slot": "down_buy",
+                  "slot_index": 1
+                }
+              ],
+              "key": {
+                "dataset_version": "20260425",
+                "decision_ts_ms": 1777030513000,
+                "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+                "window_id": "1777017600-1777032000"
+              }
+            },
+            {
+              "candidate_signatures": {
+                "phase67_C0_control_anchor": [
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ],
+                "phase67_P1_signed_reward_filter": [
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ]
+              },
+              "differing_slots": [
+                {
+                  "slot": "up_buy",
+                  "slot_index": 0
+                },
+                {
+                  "slot": "down_buy",
+                  "slot_index": 1
+                }
+              ],
+              "key": {
+                "dataset_version": "20260425",
+                "decision_ts_ms": 1777030513250,
+                "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+                "window_id": "1777017600-1777032000"
+              }
+            },
+            {
+              "candidate_signatures": {
+                "phase67_C0_control_anchor": [
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ],
+                "phase67_P1_signed_reward_filter": [
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ]
+              },
+              "differing_slots": [
+                {
+                  "slot": "up_buy",
+                  "slot_index": 0
+                },
+                {
+                  "slot": "down_buy",
+                  "slot_index": 1
+                }
+              ],
+              "key": {
+                "dataset_version": "20260425",
+                "decision_ts_ms": 1777030513500,
+                "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+                "window_id": "1777017600-1777032000"
+              }
+            },
+            {
+              "candidate_signatures": {
+                "phase67_C0_control_anchor": [
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ],
+                "phase67_P1_signed_reward_filter": [
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ]
+              },
+              "differing_slots": [
+                {
+                  "slot": "up_buy",
+                  "slot_index": 0
+                },
+                {
+                  "slot": "down_buy",
+                  "slot_index": 1
+                },
+                {
+                  "slot": "up_sell",
+                  "slot_index": 2
+                }
+              ],
+              "key": {
+                "dataset_version": "20260425",
+                "decision_ts_ms": 1777030513750,
+                "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+                "window_id": "1777017600-1777032000"
+              }
+            },
+            {
+              "candidate_signatures": {
+                "phase67_C0_control_anchor": [
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ],
+                "phase67_P1_signed_reward_filter": [
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ]
+              },
+              "differing_slots": [
+                {
+                  "slot": "up_buy",
+                  "slot_index": 0
+                },
+                {
+                  "slot": "down_buy",
+                  "slot_index": 1
+                }
+              ],
+              "key": {
+                "dataset_version": "20260425",
+                "decision_ts_ms": 1777030514000,
+                "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+                "window_id": "1777017600-1777032000"
+              }
+            },
+            {
+              "candidate_signatures": {
+                "phase67_C0_control_anchor": [
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ],
+                "phase67_P1_signed_reward_filter": [
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ]
+              },
+              "differing_slots": [
+                {
+                  "slot": "up_buy",
+                  "slot_index": 0
+                },
+                {
+                  "slot": "down_buy",
+                  "slot_index": 1
+                }
+              ],
+              "key": {
+                "dataset_version": "20260425",
+                "decision_ts_ms": 1777030514250,
+                "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+                "window_id": "1777017600-1777032000"
+              }
+            },
+            {
+              "candidate_signatures": {
+                "phase67_C0_control_anchor": [
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ],
+                "phase67_P1_signed_reward_filter": [
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ]
+              },
+              "differing_slots": [
+                {
+                  "slot": "up_buy",
+                  "slot_index": 0
+                },
+                {
+                  "slot": "down_buy",
+                  "slot_index": 1
+                }
+              ],
+              "key": {
+                "dataset_version": "20260425",
+                "decision_ts_ms": 1777030514500,
+                "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+                "window_id": "1777017600-1777032000"
+              }
+            },
+            {
+              "candidate_signatures": {
+                "phase67_C0_control_anchor": [
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ],
+                "phase67_P1_signed_reward_filter": [
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ]
+              },
+              "differing_slots": [
+                {
+                  "slot": "up_buy",
+                  "slot_index": 0
+                },
+                {
+                  "slot": "down_buy",
+                  "slot_index": 1
+                }
+              ],
+              "key": {
+                "dataset_version": "20260425",
+                "decision_ts_ms": 1777030514750,
+                "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+                "window_id": "1777017600-1777032000"
+              }
+            },
+            {
+              "candidate_signatures": {
+                "phase67_C0_control_anchor": [
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ],
+                "phase67_P1_signed_reward_filter": [
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ]
+              },
+              "differing_slots": [
+                {
+                  "slot": "up_buy",
+                  "slot_index": 0
+                },
+                {
+                  "slot": "down_buy",
+                  "slot_index": 1
+                },
+                {
+                  "slot": "up_sell",
+                  "slot_index": 2
+                }
+              ],
+              "key": {
+                "dataset_version": "20260425",
+                "decision_ts_ms": 1777030515000,
+                "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+                "window_id": "1777017600-1777032000"
+              }
+            }
+          ],
+          "differing_decoded_rows": 48793,
+          "identical_decoded_row_ratio": 0.02414,
+          "identical_decoded_rows": 1207,
+          "per_slot_difference_counts": [
+            47590,
+            47716,
+            9070,
+            9102
+          ]
+        },
+        "threshold": 0.75
+      },
+      "0.90": {
+        "candidate_reports": [
+          {
+            "candidate_id": "phase67_C0_control_anchor",
+            "disabled_reason_counts": {
+              "unsupported_offset": 3
+            },
+            "enabled_slot_count": 113781,
+            "enabled_slot_ratio": 0.9999736342543767,
+            "legal_quote_margin_summary": {
+              "count": 113784,
+              "max": 0.09999999999999998,
+              "mean": 0.09999548140752168,
+              "min": 0.09933975934982298,
+              "p99": 0.09999999999999998
+            },
+            "legal_slot_count": 113784,
+            "policy_tick_count": 50000,
+            "threshold": 0.9
+          },
+          {
+            "candidate_id": "phase67_P1_signed_reward_filter",
+            "disabled_reason_counts": {
+              "below_quote_threshold": 113784
+            },
+            "enabled_slot_count": 0,
+            "enabled_slot_ratio": 0.0,
+            "legal_quote_margin_summary": {
+              "count": 113784,
+              "max": -0.08603223562240603,
+              "mean": -0.7502271268094598,
+              "min": -0.8855620702728629,
+              "p99": -0.255331723690033
+            },
+            "legal_slot_count": 113784,
+            "policy_tick_count": 50000,
+            "threshold": 0.9
+          }
+        ],
+        "cross_candidate_decoded_action": {
+          "candidate_count": 2,
+          "candidate_ids": [
+            "phase67_C0_control_anchor",
+            "phase67_P1_signed_reward_filter"
+          ],
+          "common_policy_rows": 50000,
+          "difference_samples": [
+            {
+              "candidate_signatures": {
+                "phase67_C0_control_anchor": [
+                  [
+                    true,
+                    1,
+                    0
+                  ],
+                  [
+                    true,
+                    1,
+                    0
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ],
+                "phase67_P1_signed_reward_filter": [
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ]
+              },
+              "differing_slots": [
+                {
+                  "slot": "up_buy",
+                  "slot_index": 0
+                },
+                {
+                  "slot": "down_buy",
+                  "slot_index": 1
+                }
+              ],
+              "key": {
+                "dataset_version": "20260425",
+                "decision_ts_ms": 1777030510250,
+                "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+                "window_id": "1777017600-1777032000"
+              }
+            },
+            {
+              "candidate_signatures": {
+                "phase67_C0_control_anchor": [
+                  [
+                    true,
+                    1,
+                    0
+                  ],
+                  [
+                    true,
+                    1,
+                    0
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ],
+                "phase67_P1_signed_reward_filter": [
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ]
+              },
+              "differing_slots": [
+                {
+                  "slot": "up_buy",
+                  "slot_index": 0
+                },
+                {
+                  "slot": "down_buy",
+                  "slot_index": 1
+                }
+              ],
+              "key": {
+                "dataset_version": "20260425",
+                "decision_ts_ms": 1777030510500,
+                "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+                "window_id": "1777017600-1777032000"
+              }
+            },
+            {
+              "candidate_signatures": {
+                "phase67_C0_control_anchor": [
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ],
+                "phase67_P1_signed_reward_filter": [
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ]
+              },
+              "differing_slots": [
+                {
+                  "slot": "up_buy",
+                  "slot_index": 0
+                },
+                {
+                  "slot": "down_buy",
+                  "slot_index": 1
+                }
+              ],
+              "key": {
+                "dataset_version": "20260425",
+                "decision_ts_ms": 1777030510750,
+                "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+                "window_id": "1777017600-1777032000"
+              }
+            },
+            {
+              "candidate_signatures": {
+                "phase67_C0_control_anchor": [
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ],
+                "phase67_P1_signed_reward_filter": [
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ]
+              },
+              "differing_slots": [
+                {
+                  "slot": "up_buy",
+                  "slot_index": 0
+                },
+                {
+                  "slot": "down_buy",
+                  "slot_index": 1
+                }
+              ],
+              "key": {
+                "dataset_version": "20260425",
+                "decision_ts_ms": 1777030511000,
+                "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+                "window_id": "1777017600-1777032000"
+              }
+            },
+            {
+              "candidate_signatures": {
+                "phase67_C0_control_anchor": [
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ],
+                "phase67_P1_signed_reward_filter": [
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ]
+              },
+              "differing_slots": [
+                {
+                  "slot": "up_buy",
+                  "slot_index": 0
+                },
+                {
+                  "slot": "down_buy",
+                  "slot_index": 1
+                }
+              ],
+              "key": {
+                "dataset_version": "20260425",
+                "decision_ts_ms": 1777030511250,
+                "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+                "window_id": "1777017600-1777032000"
+              }
+            },
+            {
+              "candidate_signatures": {
+                "phase67_C0_control_anchor": [
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ],
+                "phase67_P1_signed_reward_filter": [
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ]
+              },
+              "differing_slots": [
+                {
+                  "slot": "up_buy",
+                  "slot_index": 0
+                },
+                {
+                  "slot": "down_buy",
+                  "slot_index": 1
+                }
+              ],
+              "key": {
+                "dataset_version": "20260425",
+                "decision_ts_ms": 1777030511500,
+                "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+                "window_id": "1777017600-1777032000"
+              }
+            },
+            {
+              "candidate_signatures": {
+                "phase67_C0_control_anchor": [
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ],
+                "phase67_P1_signed_reward_filter": [
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ]
+              },
+              "differing_slots": [
+                {
+                  "slot": "up_buy",
+                  "slot_index": 0
+                },
+                {
+                  "slot": "down_buy",
+                  "slot_index": 1
+                }
+              ],
+              "key": {
+                "dataset_version": "20260425",
+                "decision_ts_ms": 1777030511750,
+                "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+                "window_id": "1777017600-1777032000"
+              }
+            },
+            {
+              "candidate_signatures": {
+                "phase67_C0_control_anchor": [
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ],
+                "phase67_P1_signed_reward_filter": [
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ]
+              },
+              "differing_slots": [
+                {
+                  "slot": "up_buy",
+                  "slot_index": 0
+                },
+                {
+                  "slot": "down_buy",
+                  "slot_index": 1
+                }
+              ],
+              "key": {
+                "dataset_version": "20260425",
+                "decision_ts_ms": 1777030512000,
+                "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+                "window_id": "1777017600-1777032000"
+              }
+            },
+            {
+              "candidate_signatures": {
+                "phase67_C0_control_anchor": [
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ],
+                "phase67_P1_signed_reward_filter": [
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ]
+              },
+              "differing_slots": [
+                {
+                  "slot": "up_buy",
+                  "slot_index": 0
+                },
+                {
+                  "slot": "down_buy",
+                  "slot_index": 1
+                }
+              ],
+              "key": {
+                "dataset_version": "20260425",
+                "decision_ts_ms": 1777030512250,
+                "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+                "window_id": "1777017600-1777032000"
+              }
+            },
+            {
+              "candidate_signatures": {
+                "phase67_C0_control_anchor": [
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ],
+                "phase67_P1_signed_reward_filter": [
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ]
+              },
+              "differing_slots": [
+                {
+                  "slot": "up_buy",
+                  "slot_index": 0
+                },
+                {
+                  "slot": "down_buy",
+                  "slot_index": 1
+                }
+              ],
+              "key": {
+                "dataset_version": "20260425",
+                "decision_ts_ms": 1777030512500,
+                "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+                "window_id": "1777017600-1777032000"
+              }
+            },
+            {
+              "candidate_signatures": {
+                "phase67_C0_control_anchor": [
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ],
+                "phase67_P1_signed_reward_filter": [
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ]
+              },
+              "differing_slots": [
+                {
+                  "slot": "up_buy",
+                  "slot_index": 0
+                },
+                {
+                  "slot": "down_buy",
+                  "slot_index": 1
+                }
+              ],
+              "key": {
+                "dataset_version": "20260425",
+                "decision_ts_ms": 1777030512750,
+                "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+                "window_id": "1777017600-1777032000"
+              }
+            },
+            {
+              "candidate_signatures": {
+                "phase67_C0_control_anchor": [
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ],
+                "phase67_P1_signed_reward_filter": [
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ]
+              },
+              "differing_slots": [
+                {
+                  "slot": "up_buy",
+                  "slot_index": 0
+                },
+                {
+                  "slot": "down_buy",
+                  "slot_index": 1
+                }
+              ],
+              "key": {
+                "dataset_version": "20260425",
+                "decision_ts_ms": 1777030513000,
+                "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+                "window_id": "1777017600-1777032000"
+              }
+            },
+            {
+              "candidate_signatures": {
+                "phase67_C0_control_anchor": [
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ],
+                "phase67_P1_signed_reward_filter": [
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ]
+              },
+              "differing_slots": [
+                {
+                  "slot": "up_buy",
+                  "slot_index": 0
+                },
+                {
+                  "slot": "down_buy",
+                  "slot_index": 1
+                }
+              ],
+              "key": {
+                "dataset_version": "20260425",
+                "decision_ts_ms": 1777030513250,
+                "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+                "window_id": "1777017600-1777032000"
+              }
+            },
+            {
+              "candidate_signatures": {
+                "phase67_C0_control_anchor": [
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ],
+                "phase67_P1_signed_reward_filter": [
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ]
+              },
+              "differing_slots": [
+                {
+                  "slot": "up_buy",
+                  "slot_index": 0
+                },
+                {
+                  "slot": "down_buy",
+                  "slot_index": 1
+                }
+              ],
+              "key": {
+                "dataset_version": "20260425",
+                "decision_ts_ms": 1777030513500,
+                "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+                "window_id": "1777017600-1777032000"
+              }
+            },
+            {
+              "candidate_signatures": {
+                "phase67_C0_control_anchor": [
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ],
+                "phase67_P1_signed_reward_filter": [
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ]
+              },
+              "differing_slots": [
+                {
+                  "slot": "up_buy",
+                  "slot_index": 0
+                },
+                {
+                  "slot": "down_buy",
+                  "slot_index": 1
+                },
+                {
+                  "slot": "up_sell",
+                  "slot_index": 2
+                }
+              ],
+              "key": {
+                "dataset_version": "20260425",
+                "decision_ts_ms": 1777030513750,
+                "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+                "window_id": "1777017600-1777032000"
+              }
+            },
+            {
+              "candidate_signatures": {
+                "phase67_C0_control_anchor": [
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ],
+                "phase67_P1_signed_reward_filter": [
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ]
+              },
+              "differing_slots": [
+                {
+                  "slot": "up_buy",
+                  "slot_index": 0
+                },
+                {
+                  "slot": "down_buy",
+                  "slot_index": 1
+                }
+              ],
+              "key": {
+                "dataset_version": "20260425",
+                "decision_ts_ms": 1777030514000,
+                "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+                "window_id": "1777017600-1777032000"
+              }
+            },
+            {
+              "candidate_signatures": {
+                "phase67_C0_control_anchor": [
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ],
+                "phase67_P1_signed_reward_filter": [
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ]
+              },
+              "differing_slots": [
+                {
+                  "slot": "up_buy",
+                  "slot_index": 0
+                },
+                {
+                  "slot": "down_buy",
+                  "slot_index": 1
+                }
+              ],
+              "key": {
+                "dataset_version": "20260425",
+                "decision_ts_ms": 1777030514250,
+                "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+                "window_id": "1777017600-1777032000"
+              }
+            },
+            {
+              "candidate_signatures": {
+                "phase67_C0_control_anchor": [
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ],
+                "phase67_P1_signed_reward_filter": [
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ]
+              },
+              "differing_slots": [
+                {
+                  "slot": "up_buy",
+                  "slot_index": 0
+                },
+                {
+                  "slot": "down_buy",
+                  "slot_index": 1
+                }
+              ],
+              "key": {
+                "dataset_version": "20260425",
+                "decision_ts_ms": 1777030514500,
+                "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+                "window_id": "1777017600-1777032000"
+              }
+            },
+            {
+              "candidate_signatures": {
+                "phase67_C0_control_anchor": [
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ],
+                "phase67_P1_signed_reward_filter": [
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ]
+              },
+              "differing_slots": [
+                {
+                  "slot": "up_buy",
+                  "slot_index": 0
+                },
+                {
+                  "slot": "down_buy",
+                  "slot_index": 1
+                }
+              ],
+              "key": {
+                "dataset_version": "20260425",
+                "decision_ts_ms": 1777030514750,
+                "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+                "window_id": "1777017600-1777032000"
+              }
+            },
+            {
+              "candidate_signatures": {
+                "phase67_C0_control_anchor": [
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ],
+                "phase67_P1_signed_reward_filter": [
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ]
+              },
+              "differing_slots": [
+                {
+                  "slot": "up_buy",
+                  "slot_index": 0
+                },
+                {
+                  "slot": "down_buy",
+                  "slot_index": 1
+                },
+                {
+                  "slot": "up_sell",
+                  "slot_index": 2
+                }
+              ],
+              "key": {
+                "dataset_version": "20260425",
+                "decision_ts_ms": 1777030515000,
+                "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+                "window_id": "1777017600-1777032000"
+              }
+            }
+          ],
+          "differing_decoded_rows": 48804,
+          "identical_decoded_row_ratio": 0.02392,
+          "identical_decoded_rows": 1196,
+          "per_slot_difference_counts": [
+            47607,
+            47733,
+            9214,
+            9227
+          ]
+        },
+        "threshold": 0.9
+      },
+      "0.99": {
+        "candidate_reports": [
+          {
+            "candidate_id": "phase67_C0_control_anchor",
+            "disabled_reason_counts": {
+              "unsupported_offset": 3
+            },
+            "enabled_slot_count": 113781,
+            "enabled_slot_ratio": 0.9999736342543767,
+            "legal_quote_margin_summary": {
+              "count": 113784,
+              "max": 0.010000000000000009,
+              "mean": 0.009995481407521682,
+              "min": 0.009339759349823007,
+              "p99": 0.010000000000000009
+            },
+            "legal_slot_count": 113784,
+            "policy_tick_count": 50000,
+            "threshold": 0.99
+          },
+          {
+            "candidate_id": "phase67_P1_signed_reward_filter",
+            "disabled_reason_counts": {
+              "below_quote_threshold": 113784
+            },
+            "enabled_slot_count": 0,
+            "enabled_slot_ratio": 0.0,
+            "legal_quote_margin_summary": {
+              "count": 113784,
+              "max": -0.176032235622406,
+              "mean": -0.8402271268094598,
+              "min": -0.9755620702728629,
+              "p99": -0.34533172369003295
+            },
+            "legal_slot_count": 113784,
+            "policy_tick_count": 50000,
+            "threshold": 0.99
+          }
+        ],
+        "cross_candidate_decoded_action": {
+          "candidate_count": 2,
+          "candidate_ids": [
+            "phase67_C0_control_anchor",
+            "phase67_P1_signed_reward_filter"
+          ],
+          "common_policy_rows": 50000,
+          "difference_samples": [
+            {
+              "candidate_signatures": {
+                "phase67_C0_control_anchor": [
+                  [
+                    true,
+                    1,
+                    0
+                  ],
+                  [
+                    true,
+                    1,
+                    0
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ],
+                "phase67_P1_signed_reward_filter": [
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ]
+              },
+              "differing_slots": [
+                {
+                  "slot": "up_buy",
+                  "slot_index": 0
+                },
+                {
+                  "slot": "down_buy",
+                  "slot_index": 1
+                }
+              ],
+              "key": {
+                "dataset_version": "20260425",
+                "decision_ts_ms": 1777030510250,
+                "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+                "window_id": "1777017600-1777032000"
+              }
+            },
+            {
+              "candidate_signatures": {
+                "phase67_C0_control_anchor": [
+                  [
+                    true,
+                    1,
+                    0
+                  ],
+                  [
+                    true,
+                    1,
+                    0
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ],
+                "phase67_P1_signed_reward_filter": [
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ]
+              },
+              "differing_slots": [
+                {
+                  "slot": "up_buy",
+                  "slot_index": 0
+                },
+                {
+                  "slot": "down_buy",
+                  "slot_index": 1
+                }
+              ],
+              "key": {
+                "dataset_version": "20260425",
+                "decision_ts_ms": 1777030510500,
+                "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+                "window_id": "1777017600-1777032000"
+              }
+            },
+            {
+              "candidate_signatures": {
+                "phase67_C0_control_anchor": [
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ],
+                "phase67_P1_signed_reward_filter": [
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ]
+              },
+              "differing_slots": [
+                {
+                  "slot": "up_buy",
+                  "slot_index": 0
+                },
+                {
+                  "slot": "down_buy",
+                  "slot_index": 1
+                }
+              ],
+              "key": {
+                "dataset_version": "20260425",
+                "decision_ts_ms": 1777030510750,
+                "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+                "window_id": "1777017600-1777032000"
+              }
+            },
+            {
+              "candidate_signatures": {
+                "phase67_C0_control_anchor": [
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ],
+                "phase67_P1_signed_reward_filter": [
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ]
+              },
+              "differing_slots": [
+                {
+                  "slot": "up_buy",
+                  "slot_index": 0
+                },
+                {
+                  "slot": "down_buy",
+                  "slot_index": 1
+                }
+              ],
+              "key": {
+                "dataset_version": "20260425",
+                "decision_ts_ms": 1777030511000,
+                "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+                "window_id": "1777017600-1777032000"
+              }
+            },
+            {
+              "candidate_signatures": {
+                "phase67_C0_control_anchor": [
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ],
+                "phase67_P1_signed_reward_filter": [
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ]
+              },
+              "differing_slots": [
+                {
+                  "slot": "up_buy",
+                  "slot_index": 0
+                },
+                {
+                  "slot": "down_buy",
+                  "slot_index": 1
+                }
+              ],
+              "key": {
+                "dataset_version": "20260425",
+                "decision_ts_ms": 1777030511250,
+                "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+                "window_id": "1777017600-1777032000"
+              }
+            },
+            {
+              "candidate_signatures": {
+                "phase67_C0_control_anchor": [
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ],
+                "phase67_P1_signed_reward_filter": [
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ]
+              },
+              "differing_slots": [
+                {
+                  "slot": "up_buy",
+                  "slot_index": 0
+                },
+                {
+                  "slot": "down_buy",
+                  "slot_index": 1
+                }
+              ],
+              "key": {
+                "dataset_version": "20260425",
+                "decision_ts_ms": 1777030511500,
+                "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+                "window_id": "1777017600-1777032000"
+              }
+            },
+            {
+              "candidate_signatures": {
+                "phase67_C0_control_anchor": [
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ],
+                "phase67_P1_signed_reward_filter": [
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ]
+              },
+              "differing_slots": [
+                {
+                  "slot": "up_buy",
+                  "slot_index": 0
+                },
+                {
+                  "slot": "down_buy",
+                  "slot_index": 1
+                }
+              ],
+              "key": {
+                "dataset_version": "20260425",
+                "decision_ts_ms": 1777030511750,
+                "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+                "window_id": "1777017600-1777032000"
+              }
+            },
+            {
+              "candidate_signatures": {
+                "phase67_C0_control_anchor": [
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ],
+                "phase67_P1_signed_reward_filter": [
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ]
+              },
+              "differing_slots": [
+                {
+                  "slot": "up_buy",
+                  "slot_index": 0
+                },
+                {
+                  "slot": "down_buy",
+                  "slot_index": 1
+                }
+              ],
+              "key": {
+                "dataset_version": "20260425",
+                "decision_ts_ms": 1777030512000,
+                "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+                "window_id": "1777017600-1777032000"
+              }
+            },
+            {
+              "candidate_signatures": {
+                "phase67_C0_control_anchor": [
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ],
+                "phase67_P1_signed_reward_filter": [
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ]
+              },
+              "differing_slots": [
+                {
+                  "slot": "up_buy",
+                  "slot_index": 0
+                },
+                {
+                  "slot": "down_buy",
+                  "slot_index": 1
+                }
+              ],
+              "key": {
+                "dataset_version": "20260425",
+                "decision_ts_ms": 1777030512250,
+                "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+                "window_id": "1777017600-1777032000"
+              }
+            },
+            {
+              "candidate_signatures": {
+                "phase67_C0_control_anchor": [
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ],
+                "phase67_P1_signed_reward_filter": [
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ]
+              },
+              "differing_slots": [
+                {
+                  "slot": "up_buy",
+                  "slot_index": 0
+                },
+                {
+                  "slot": "down_buy",
+                  "slot_index": 1
+                }
+              ],
+              "key": {
+                "dataset_version": "20260425",
+                "decision_ts_ms": 1777030512500,
+                "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+                "window_id": "1777017600-1777032000"
+              }
+            },
+            {
+              "candidate_signatures": {
+                "phase67_C0_control_anchor": [
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ],
+                "phase67_P1_signed_reward_filter": [
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ]
+              },
+              "differing_slots": [
+                {
+                  "slot": "up_buy",
+                  "slot_index": 0
+                },
+                {
+                  "slot": "down_buy",
+                  "slot_index": 1
+                }
+              ],
+              "key": {
+                "dataset_version": "20260425",
+                "decision_ts_ms": 1777030512750,
+                "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+                "window_id": "1777017600-1777032000"
+              }
+            },
+            {
+              "candidate_signatures": {
+                "phase67_C0_control_anchor": [
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ],
+                "phase67_P1_signed_reward_filter": [
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ]
+              },
+              "differing_slots": [
+                {
+                  "slot": "up_buy",
+                  "slot_index": 0
+                },
+                {
+                  "slot": "down_buy",
+                  "slot_index": 1
+                }
+              ],
+              "key": {
+                "dataset_version": "20260425",
+                "decision_ts_ms": 1777030513000,
+                "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+                "window_id": "1777017600-1777032000"
+              }
+            },
+            {
+              "candidate_signatures": {
+                "phase67_C0_control_anchor": [
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ],
+                "phase67_P1_signed_reward_filter": [
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ]
+              },
+              "differing_slots": [
+                {
+                  "slot": "up_buy",
+                  "slot_index": 0
+                },
+                {
+                  "slot": "down_buy",
+                  "slot_index": 1
+                }
+              ],
+              "key": {
+                "dataset_version": "20260425",
+                "decision_ts_ms": 1777030513250,
+                "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+                "window_id": "1777017600-1777032000"
+              }
+            },
+            {
+              "candidate_signatures": {
+                "phase67_C0_control_anchor": [
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ],
+                "phase67_P1_signed_reward_filter": [
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ]
+              },
+              "differing_slots": [
+                {
+                  "slot": "up_buy",
+                  "slot_index": 0
+                },
+                {
+                  "slot": "down_buy",
+                  "slot_index": 1
+                }
+              ],
+              "key": {
+                "dataset_version": "20260425",
+                "decision_ts_ms": 1777030513500,
+                "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+                "window_id": "1777017600-1777032000"
+              }
+            },
+            {
+              "candidate_signatures": {
+                "phase67_C0_control_anchor": [
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ],
+                "phase67_P1_signed_reward_filter": [
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ]
+              },
+              "differing_slots": [
+                {
+                  "slot": "up_buy",
+                  "slot_index": 0
+                },
+                {
+                  "slot": "down_buy",
+                  "slot_index": 1
+                },
+                {
+                  "slot": "up_sell",
+                  "slot_index": 2
+                }
+              ],
+              "key": {
+                "dataset_version": "20260425",
+                "decision_ts_ms": 1777030513750,
+                "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+                "window_id": "1777017600-1777032000"
+              }
+            },
+            {
+              "candidate_signatures": {
+                "phase67_C0_control_anchor": [
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ],
+                "phase67_P1_signed_reward_filter": [
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ]
+              },
+              "differing_slots": [
+                {
+                  "slot": "up_buy",
+                  "slot_index": 0
+                },
+                {
+                  "slot": "down_buy",
+                  "slot_index": 1
+                }
+              ],
+              "key": {
+                "dataset_version": "20260425",
+                "decision_ts_ms": 1777030514000,
+                "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+                "window_id": "1777017600-1777032000"
+              }
+            },
+            {
+              "candidate_signatures": {
+                "phase67_C0_control_anchor": [
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ],
+                "phase67_P1_signed_reward_filter": [
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ]
+              },
+              "differing_slots": [
+                {
+                  "slot": "up_buy",
+                  "slot_index": 0
+                },
+                {
+                  "slot": "down_buy",
+                  "slot_index": 1
+                }
+              ],
+              "key": {
+                "dataset_version": "20260425",
+                "decision_ts_ms": 1777030514250,
+                "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+                "window_id": "1777017600-1777032000"
+              }
+            },
+            {
+              "candidate_signatures": {
+                "phase67_C0_control_anchor": [
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ],
+                "phase67_P1_signed_reward_filter": [
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ]
+              },
+              "differing_slots": [
+                {
+                  "slot": "up_buy",
+                  "slot_index": 0
+                },
+                {
+                  "slot": "down_buy",
+                  "slot_index": 1
+                }
+              ],
+              "key": {
+                "dataset_version": "20260425",
+                "decision_ts_ms": 1777030514500,
+                "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+                "window_id": "1777017600-1777032000"
+              }
+            },
+            {
+              "candidate_signatures": {
+                "phase67_C0_control_anchor": [
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ],
+                "phase67_P1_signed_reward_filter": [
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ]
+              },
+              "differing_slots": [
+                {
+                  "slot": "up_buy",
+                  "slot_index": 0
+                },
+                {
+                  "slot": "down_buy",
+                  "slot_index": 1
+                }
+              ],
+              "key": {
+                "dataset_version": "20260425",
+                "decision_ts_ms": 1777030514750,
+                "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+                "window_id": "1777017600-1777032000"
+              }
+            },
+            {
+              "candidate_signatures": {
+                "phase67_C0_control_anchor": [
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    true,
+                    0,
+                    0
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ],
+                "phase67_P1_signed_reward_filter": [
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ],
+                  [
+                    false,
+                    -1,
+                    -1
+                  ]
+                ]
+              },
+              "differing_slots": [
+                {
+                  "slot": "up_buy",
+                  "slot_index": 0
+                },
+                {
+                  "slot": "down_buy",
+                  "slot_index": 1
+                },
+                {
+                  "slot": "up_sell",
+                  "slot_index": 2
+                }
+              ],
+              "key": {
+                "dataset_version": "20260425",
+                "decision_ts_ms": 1777030515000,
+                "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+                "window_id": "1777017600-1777032000"
+              }
+            }
+          ],
+          "differing_decoded_rows": 48804,
+          "identical_decoded_row_ratio": 0.02392,
+          "identical_decoded_rows": 1196,
+          "per_slot_difference_counts": [
+            47607,
+            47733,
+            9214,
+            9227
+          ]
+        },
+        "threshold": 0.99
+      }
+    },
+    "row_key_count": 50000,
+    "sampled_row_count": 100000,
+    "thresholds": [
+      0.55,
+      0.75,
+      0.9,
+      0.99
+    ]
+  }
+}

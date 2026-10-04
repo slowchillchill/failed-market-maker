@@ -1,0 +1,43 @@
+{
+  "model_id": "m5_v7v72_bc",
+  "family": "m5_bc",
+  "training_candidate": true,
+  "architecture": "Causal TCN market branches + Chainlink MLP + causal Transformer (128 hidden, 2 layers, 4 heads) + 11-state late fusion and execution heads",
+  "parameters": 467957,
+  "config": {
+    "oracle_mode": "B",
+    "freeze_scope": "j1",
+    "init_source": "m3",
+    "seq_len": 240,
+    "epochs": 20,
+    "batch_size": 2048,
+    "lr_policy": 0.001,
+    "lr_open": 0.0001,
+    "weight_decay": 1e-05,
+    "oracle_c_threshold": null
+  },
+  "metrics": {
+    "best_epoch": 1,
+    "best_checkpoint_accuracy": {
+      "train": 0.8487224113378172,
+      "val": 0.7107007466309146,
+      "test": 0.6825902547341633
+    },
+    "last_epoch": 4,
+    "last_val_accuracy": 0.703286,
+    "last_test": "N/A — not independently evaluated / 未独立评测",
+    "paper": "See run-specific paper table / 见逐次模拟盘表",
+    "live": "N/A — no standalone corresponding run evidence / 未找到单体对应实盘证据"
+  },
+  "completeness": "ONNX requires agent_model_m5.onnx.data in the same directory. m5_baseline / m5_run_bc_diag are deployment aliases for these v7v72 weights; invalid .bak0428 is excluded. / ONNX 必须与外部权重同目录；部署别名不另计候选，失效备份不发布。",
+  "feature_order": "contracts/m5_feature_cols.json",
+  "runtime_outputs": "B1/B2/M5 BC paper uses signal outputs with external execution and risk rules; not evidence that every execution head influenced actions. / B1、B2、M5 BC 模拟盘使用 signal 输出和外部执行风控规则，不证明全部执行头有效参与。",
+  "evidence": [
+    "models/m5_v7v72_bc/eval_report.json",
+    "models/m5_v7v72_bc/split_info.json",
+    "models/m5_v7v72_bc/run_manifest.json",
+    "models/m5_v7v72_bc/run_config.json",
+    "models/m5_v7v72_bc/probe_policy.json",
+    "models/m5_v7v72_bc/train_history.json"
+  ]
+}

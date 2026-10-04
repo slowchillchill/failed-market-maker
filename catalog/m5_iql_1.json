@@ -1,0 +1,28 @@
+{
+  "model_id": "m5_iql_1",
+  "family": "m5_iql",
+  "training_candidate": true,
+  "architecture": "Causal TCN market branches + Chainlink MLP + causal Transformer (128 hidden, 2 layers, 4 heads) + 11-state late fusion and execution heads",
+  "parameters": 467957,
+  "config": {},
+  "metrics": {
+    "best_epoch": 35,
+    "best_policy_loss": 4.59088546456184,
+    "best_val_q_loss": 0.02848439128207514,
+    "best_hold_share": 0.8525,
+    "final_epoch": 50,
+    "final_hold_share": 0.892,
+    "test": "N/A — no corresponding report found / 未找到对应报告",
+    "paper": "N/A — no standalone corresponding report / 无单体对应报告",
+    "live": "N/A — no standalone corresponding run evidence / 未找到单体对应实盘证据"
+  },
+  "completeness": "ONNX exports the best checkpoint. final_model.pt and last_checkpoint.pt are epoch 50; they are not the best-checkpoint result. Independent test loss, paper and live: N/A — no corresponding independent reports. / ONNX 来自最佳轮；final和last为第50轮，不能互换成绩。",
+  "feature_order": "contracts/m5_feature_cols.json",
+  "runtime_outputs": "This IQL candidate has offline fixed/native execution reports. Paper and live: N/A — no corresponding run reports found. / 本IQL候选有固定与原生离线执行报告；paper和live为N/A：未找到对应运行报告。",
+  "evidence": [
+    "models/m5_iql_1/split_info.json",
+    "models/m5_iql_1/probe_policy.json",
+    "models/m5_iql_1/train_history.json",
+    "models/m5_iql_1/training_history.json"
+  ]
+}

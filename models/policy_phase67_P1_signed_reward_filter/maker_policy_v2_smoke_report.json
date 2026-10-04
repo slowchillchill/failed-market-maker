@@ -1,0 +1,61 @@
+{
+  "bc_epochs_completed": 1,
+  "bc_loss_trace": [
+    0.5763681099603051
+  ],
+  "bundle_dir": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/policies/phase67_P1_signed_reward_filter/bundle",
+  "max_paths_per_shard": 4,
+  "offline_rl_epochs_completed": 1,
+  "offline_rl_loss_trace": [
+    0.303230513307385
+  ],
+  "quote_sparsity_lambda": 0.0,
+  "quote_threshold": 0.55,
+  "rows": 541948,
+  "schema_version": "maker_policy_v2_smoke_report_v1",
+  "seq_len": 120,
+  "support_audit": {
+    "active_slots": [
+      "up_buy",
+      "down_buy",
+      "up_sell",
+      "down_sell"
+    ],
+    "alpha_run_role": "tiny_smoke",
+    "bad_support_rows": 0,
+    "behavior_slot_counts": {
+      "down_buy": 432206,
+      "down_sell": 83906,
+      "up_buy": 432092,
+      "up_sell": 84983
+    },
+    "legal_slot_counts": {
+      "down_buy": 432206,
+      "down_sell": 83906,
+      "up_buy": 432092,
+      "up_sell": 84983
+    },
+    "offset_class_counts": {
+      "improve_1_tick": 26249,
+      "join_best": 1006938,
+      "passive_1_tick": 0
+    },
+    "offset_size_support_source": "transition_explicit_support_metadata",
+    "passed": true,
+    "rows": 541948,
+    "schema_version": "maker_policy_v2_support_audit_v1",
+    "size_class_counts": {
+      "min_order_size": 1033187
+    },
+    "total_supported_actions": 1033187,
+    "unsupported_reason_counts": {
+      "market_end_no_quote": 17628,
+      "no_legal_quote_target": 5728,
+      "stale_features": 56602,
+      "warmup": 18080
+    }
+  },
+  "training_objective": "signed_reward_filter",
+  "transition_path_count": 10,
+  "transition_shard_count": 3
+}

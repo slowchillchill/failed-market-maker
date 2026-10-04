@@ -1,0 +1,45 @@
+{
+  "action_schema_version": "maker_policy_v2_action_schema_v1",
+  "alpha_source_bundle_sha256": "f0632600456be4af701439d56cf2fc0870dfb76f4402bba4d993c344b29e92e9",
+  "alpha_source_run_id": "primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed2",
+  "bundle_version": "maker_policy_v2_phase63_smoke",
+  "feature_order_version": "v2_maker_160",
+  "independent_test_data_boundary": [
+    "20260514",
+    "20260518"
+  ],
+  "model_kind": "maker_policy_v2",
+  "n_features": 160,
+  "renderer_config_sha256": "cc314f8e4a9c69ed45e087fa9cb63ef87ea88c3448c23a382cc96a9a07febcf5",
+  "required_files": {
+    "action_schema.json": {
+      "sha256": "cc314f8e4a9c69ed45e087fa9cb63ef87ea88c3448c23a382cc96a9a07febcf5"
+    },
+    "alpha_source_manifest.json": {
+      "sha256": "643c66024a544bbe82da773c520dc41e55622e972235d9c3cabca6ae45e84f39"
+    },
+    "feature_spec.json": {
+      "sha256": "75b066ecc09733248e5f4766561762f35d2cbac8e61c562b882590badb0767cf"
+    },
+    "model.onnx": {
+      "sha256": "6af822f4a3b9a2476da6d5d344e7423af75fb6944c09ed6271bbae3b74d32bae"
+    },
+    "normalization.npz": {
+      "sha256": "4ad4e866af0a52512cc84d8447f585fafda3af16344de3263984877187da0138"
+    },
+    "policy_config.json": {
+      "sha256": "da961d075857f9828398b71aae7a89c8fb3869489adb4ccaff183ff5b8bc05c6"
+    },
+    "reward_config.json": {
+      "sha256": "c568bd64380d240a836ce9c3fdaa4eabd109f994350150fa8bc4da175c58dff0"
+    }
+  },
+  "reward_horizon_version": "maker_reward_v2_v1",
+  "schema_version": 1,
+  "training_data_boundary": {
+    "train": [
+      "20260425",
+      "20260509"
+    ]
+  }
+}

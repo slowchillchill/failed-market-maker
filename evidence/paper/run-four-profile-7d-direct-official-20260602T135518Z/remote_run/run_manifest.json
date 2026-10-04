@@ -1,0 +1,343 @@
+{
+  "runtime_profile_id": "m3_b1",
+  "agent_model": {
+    "path": "[PRIVATE_HOME]/m6-paper/artifacts/m3_b1/model.onnx",
+    "sha256": "0f6781e33f450f1e5709b81b7e7e94c736bbbd53c1e51106e39f35341b36a705"
+  },
+  "feature_stats": {
+    "path": "[PRIVATE_HOME]/m6-paper/artifacts/m3_b1/feature_stats.npz",
+    "sha256": "38853a1bafb2ee77598f40a2a871264a46de1a45c236840a6957b6f8734badcf"
+  },
+  "split_info": {
+    "path": "[PRIVATE_HOME]/m6-paper/artifacts/split_info.json",
+    "sha256": "7a770e8421e8eca5d0fd784bc396b1d7ecf8cade1d2d5c002d15f5dc9e3dd16b"
+  },
+  "latency_mode": "logical_equal_decision",
+  "binance_market_data": {
+    "source_mode": "binance_direct_official",
+    "symbol": "BTCUSDT",
+    "agg_trade_stream": "btcusdt@aggTrade",
+    "orderbook_stream": "btcusdt@depth",
+    "rest_base_url": "https://api.binance.com",
+    "depth_snapshot_limit": 5000,
+    "visible_delay_ms": 105,
+    "cadence": "training_contract_1000ms_depth"
+  },
+  "profiles": [
+    {
+      "runtime_profile_id": "m3_b1",
+      "model_kind": "full_agent_v1",
+      "agent_model": {
+        "path": "[PRIVATE_HOME]/m6-paper/artifacts/m3_b1/model.onnx",
+        "sha256": "0f6781e33f450f1e5709b81b7e7e94c736bbbd53c1e51106e39f35341b36a705"
+      },
+      "feature_stats": {
+        "path": "[PRIVATE_HOME]/m6-paper/artifacts/m3_b1/feature_stats.npz",
+        "sha256": "38853a1bafb2ee77598f40a2a871264a46de1a45c236840a6957b6f8734badcf"
+      },
+      "split_info": {
+        "path": "[PRIVATE_HOME]/m6-paper/artifacts/split_info.json",
+        "sha256": "7a770e8421e8eca5d0fd784bc396b1d7ecf8cade1d2d5c002d15f5dc9e3dd16b"
+      },
+      "seq_len": 100,
+      "starting_cash": 100.0,
+      "strategy": "signal",
+      "signal_threshold": 0.58,
+      "force_order_type": "gtc",
+      "fixed_size": null,
+      "override_risk_score": 1.0,
+      "limit_order_ttl_ms": 250,
+      "ort_intra_threads": 1,
+      "ort_inter_threads": 1,
+      "risk_control": {
+        "enabled": true,
+        "take_profit_retracement": 0.3,
+        "take_profit_min_peak_profit_ratio": 0.3,
+        "stop_loss_floor_ratio": 0.5,
+        "tp_cooldown_secs": 7200,
+        "sl_cooldown_secs": 28800
+      },
+      "inference_latency": {
+        "count": 251548,
+        "p50_ms": 2.972885,
+        "p95_ms": 4.851958,
+        "p99_ms": 19.649306,
+        "max_ms": 296.448043,
+        "slow_tick_count": 1
+      },
+      "total_decisions": 252439,
+      "unsettled_at_shutdown": 0
+    },
+    {
+      "runtime_profile_id": "m3_b2",
+      "model_kind": "full_agent_v1",
+      "agent_model": {
+        "path": "[PRIVATE_HOME]/m6-paper/artifacts/m3_b2/model.onnx",
+        "sha256": "f4cd9aee74a4a9fcac1ca5cd8298f54b8b39571007750835ca84559d1fa0d637"
+      },
+      "feature_stats": {
+        "path": "[PRIVATE_HOME]/m6-paper/artifacts/m3_b2/feature_stats.npz",
+        "sha256": "38853a1bafb2ee77598f40a2a871264a46de1a45c236840a6957b6f8734badcf"
+      },
+      "split_info": {
+        "path": "[PRIVATE_HOME]/m6-paper/artifacts/split_info.json",
+        "sha256": "7a770e8421e8eca5d0fd784bc396b1d7ecf8cade1d2d5c002d15f5dc9e3dd16b"
+      },
+      "seq_len": 100,
+      "starting_cash": 100.0,
+      "strategy": "signal",
+      "signal_threshold": 0.58,
+      "force_order_type": "gtc",
+      "fixed_size": null,
+      "override_risk_score": 1.0,
+      "limit_order_ttl_ms": 250,
+      "ort_intra_threads": 1,
+      "ort_inter_threads": 1,
+      "risk_control": {
+        "enabled": true,
+        "take_profit_retracement": 0.3,
+        "take_profit_min_peak_profit_ratio": 0.3,
+        "stop_loss_floor_ratio": 0.5,
+        "tp_cooldown_secs": 7200,
+        "sl_cooldown_secs": 28800
+      },
+      "inference_latency": {
+        "count": 195724,
+        "p50_ms": 2.9194780000000002,
+        "p95_ms": 5.01204,
+        "p99_ms": 21.611897000000003,
+        "max_ms": 215.922536,
+        "slow_tick_count": 0
+      },
+      "total_decisions": 196813,
+      "unsettled_at_shutdown": 0
+    },
+    {
+      "runtime_profile_id": "m5_baseline",
+      "model_kind": "full_agent_v1",
+      "agent_model": {
+        "path": "[PRIVATE_HOME]/m6-paper/artifacts/m5_baseline/model.onnx",
+        "sha256": "f89d4460085fbd50e59b86394994cf69f47d46f94e2ce123046343fe384f369a"
+      },
+      "feature_stats": {
+        "path": "[PRIVATE_HOME]/m6-paper/artifacts/m5_baseline/feature_stats.npz",
+        "sha256": "f97fc0dbe0d2e98636af9ab157b68546c457cb8f2fded6d74436737f43e4f0b0"
+      },
+      "split_info": {
+        "path": "[PRIVATE_HOME]/m6-paper/artifacts/split_info.json",
+        "sha256": "7a770e8421e8eca5d0fd784bc396b1d7ecf8cade1d2d5c002d15f5dc9e3dd16b"
+      },
+      "seq_len": 240,
+      "starting_cash": 100.0,
+      "strategy": "signal",
+      "signal_threshold": 0.58,
+      "force_order_type": "gtc",
+      "fixed_size": null,
+      "override_risk_score": 1.0,
+      "limit_order_ttl_ms": 250,
+      "ort_intra_threads": 1,
+      "ort_inter_threads": 1,
+      "risk_control": {
+        "enabled": true,
+        "take_profit_retracement": 0.3,
+        "take_profit_min_peak_profit_ratio": 0.3,
+        "stop_loss_floor_ratio": 0.5,
+        "tp_cooldown_secs": 7200,
+        "sl_cooldown_secs": 28800
+      },
+      "inference_latency": {
+        "count": 688099,
+        "p50_ms": 6.675676,
+        "p95_ms": 11.237535999999999,
+        "p99_ms": 45.629229,
+        "max_ms": 395.473668,
+        "slow_tick_count": 34
+      },
+      "total_decisions": 690250,
+      "unsettled_at_shutdown": 1
+    },
+    {
+      "runtime_profile_id": "mpv2_r1_a3_seq120_seed2",
+      "model_kind": "maker_policy_v2",
+      "policy_bundle": {
+        "path": "[PRIVATE_HOME]/m6-paper/artifacts/mpv2_r1_a3_seq120_seed2/policy_bundle",
+        "required_files": {
+          "action_schema.json": {
+            "sha256": "cc314f8e4a9c69ed45e087fa9cb63ef87ea88c3448c23a382cc96a9a07febcf5"
+          },
+          "alpha_source_manifest.json": {
+            "sha256": "643c66024a544bbe82da773c520dc41e55622e972235d9c3cabca6ae45e84f39"
+          },
+          "feature_spec.json": {
+            "sha256": "75b066ecc09733248e5f4766561762f35d2cbac8e61c562b882590badb0767cf"
+          },
+          "model.onnx": {
+            "sha256": "6af822f4a3b9a2476da6d5d344e7423af75fb6944c09ed6271bbae3b74d32bae"
+          },
+          "normalization.npz": {
+            "sha256": "4ad4e866af0a52512cc84d8447f585fafda3af16344de3263984877187da0138"
+          },
+          "policy_config.json": {
+            "sha256": "da961d075857f9828398b71aae7a89c8fb3869489adb4ccaff183ff5b8bc05c6"
+          },
+          "reward_config.json": {
+            "sha256": "c568bd64380d240a836ce9c3fdaa4eabd109f994350150fa8bc4da175c58dff0"
+          }
+        }
+      },
+      "alpha_bundle": {
+        "path": "[PRIVATE_HOME]/m6-paper/artifacts/mpv2_r1_a3_seq120_seed2/alpha_bundle",
+        "required_files": {
+          "feature_spec.json": {
+            "sha256": "75b066ecc09733248e5f4766561762f35d2cbac8e61c562b882590badb0767cf"
+          },
+          "model.onnx": {
+            "sha256": "6ede2dddb91a80ff0b46d2eabec6fda466a91d4438b60fda2a37646843ad813f"
+          },
+          "normalization.npz": {
+            "sha256": "aa6b11c14d894789e8ccfef5ca3913972ec5ff14ba7978c5c5813577cfa2ffa7"
+          }
+        }
+      },
+      "maker_policy_contract": {
+        "account_state_order": [
+          "cash",
+          "nav_before",
+          "shares_up",
+          "shares_down",
+          "active_resting_count"
+        ],
+        "action_schema": {
+          "offset_classes": [
+            "join_best",
+            "improve_1_tick",
+            "passive_1_tick"
+          ],
+          "quote_threshold": 0.55,
+          "schema_version": "maker_policy_v2_action_schema_v1",
+          "size_classes": [
+            "min_order_size"
+          ],
+          "slots": [
+            "up_buy",
+            "down_buy",
+            "up_sell",
+            "down_sell"
+          ]
+        },
+        "alpha_inputs": {
+          "obs": [
+            1,
+            120,
+            160
+          ]
+        },
+        "alpha_order": [
+          "alpha_signal_logit_down",
+          "alpha_signal_logit_up",
+          "alpha_signal_ev_up",
+          "alpha_signal_ev_down"
+        ],
+        "alpha_outputs": {
+          "signal_ev": [
+            1,
+            2
+          ],
+          "signal_logits": [
+            1,
+            2
+          ]
+        },
+        "alpha_source": {
+          "alpha_source_bundle_sha256": "f0632600456be4af701439d56cf2fc0870dfb76f4402bba4d993c344b29e92e9",
+          "alpha_source_run_id": "primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed2",
+          "schema_version": "maker_policy_v2_alpha_source_manifest_v1"
+        },
+        "feature_order_version": "v2_maker_160",
+        "n_features": 160,
+        "policy_config": {
+          "n_features": 160,
+          "schema_version": "maker_policy_v2_policy_config_v1",
+          "seq_len": 120
+        },
+        "policy_inputs": {
+          "account_state": [
+            1,
+            5
+          ],
+          "alpha": [
+            1,
+            4
+          ],
+          "features": [
+            1,
+            120,
+            160
+          ]
+        },
+        "policy_outputs": {
+          "offset_logits": [
+            1,
+            4,
+            3
+          ],
+          "quote_logits": [
+            1,
+            4
+          ],
+          "risk_score": [
+            1,
+            1
+          ],
+          "size_logits": [
+            1,
+            4,
+            1
+          ]
+        },
+        "reward_config": {
+          "reward_horizon_version": "maker_reward_v2_v1",
+          "reward_input": "reward_clipped",
+          "schema_version": "maker_policy_v2_reward_config_v1"
+        },
+        "seq_len": 120
+      },
+      "seq_len": 120,
+      "starting_cash": 100.0,
+      "strategy": "signal",
+      "signal_threshold": 0.58,
+      "force_order_type": "gtc",
+      "fixed_size": null,
+      "override_risk_score": 1.0,
+      "limit_order_ttl_ms": 250,
+      "ort_intra_threads": 1,
+      "ort_inter_threads": 1,
+      "risk_control": {
+        "enabled": true,
+        "take_profit_retracement": 0.3,
+        "take_profit_min_peak_profit_ratio": 0.3,
+        "stop_loss_floor_ratio": 0.5,
+        "tp_cooldown_secs": 7200,
+        "sl_cooldown_secs": 28800
+      },
+      "inference_latency": {
+        "count": 631611,
+        "p50_ms": 3.782039,
+        "p95_ms": 6.396601,
+        "p99_ms": 24.750263,
+        "max_ms": 270.38280199999997,
+        "slow_tick_count": 2
+      },
+      "total_decisions": 1086034,
+      "unsettled_at_shutdown": 1
+    }
+  ],
+  "generated_from_config": "[PRIVATE_HOME]/m6-paper/config/paper_runtime.json",
+  "config_sha256": "d0d0f0df2916c35e9c2b610d1575ba8018a3f43767094f6a35d4c7be7c7d77fe",
+  "runtime_sha256": "2eca1cf0e21d88c8b37c35bc53bdd7e884a19131c737a94c5f1b43837f4aaaf3",
+  "git_commit": "bc80f6c",
+  "start_ts_ms": 1780408756272,
+  "end_ts_ms": 1780834864393,
+  "unsettled_at_shutdown": 2,
+  "total_decisions": 2225536
+}

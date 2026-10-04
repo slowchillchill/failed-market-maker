@@ -1,0 +1,66 @@
+{
+  "run_id": "platform-sellable-maturity-1782480772434",
+  "artifact_smoke": false,
+  "configured_probe_size": "5",
+  "required_valid_samples": 30,
+  "sample_count": 32,
+  "valid_sample_count": 30,
+  "excluded_sample_count": 2,
+  "timeout_count": 0,
+  "non_maturity_error_count": 0,
+  "metrics": {
+    "balance_ge_size_ms": {
+      "count": 0,
+      "timeout_count": 0,
+      "censored_count": 30,
+      "censored_due_to_clean_accept_count": 30,
+      "mean": null,
+      "median": null,
+      "p75": null,
+      "p90": null,
+      "p95": null,
+      "min": null,
+      "max": null
+    },
+    "clean_accept_ms": {
+      "count": 30,
+      "timeout_count": 0,
+      "censored_count": 0,
+      "censored_due_to_clean_accept_count": 0,
+      "mean": 1989.1666666666667,
+      "median": 1939.0,
+      "p75": 2510.0,
+      "p90": 2676.0,
+      "p95": 3357.0,
+      "min": 851.0,
+      "max": 3426.0
+    },
+    "first_reject_ms": {
+      "count": 30,
+      "timeout_count": 0,
+      "censored_count": 0,
+      "censored_due_to_clean_accept_count": 0,
+      "mean": 85.4,
+      "median": 80.0,
+      "p75": 96.0,
+      "p90": 107.0,
+      "p95": 108.0,
+      "min": 71.0,
+      "max": 122.0
+    },
+    "free_ge_size_ms": {
+      "count": 0,
+      "timeout_count": 0,
+      "censored_count": 30,
+      "censored_due_to_clean_accept_count": 30,
+      "mean": null,
+      "median": null,
+      "p75": null,
+      "p90": null,
+      "p95": null,
+      "min": null,
+      "max": null
+    }
+  },
+  "generated_at_ms": 1782480772434
+}

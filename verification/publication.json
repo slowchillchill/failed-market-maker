@@ -1,0 +1,31 @@
+{
+  "model_file_checks": 74,
+  "retained_pt_files": 22,
+  "retained_onnx_files": 20,
+  "retained_npz_files": 32,
+  "training_candidates": 24,
+  "deployment_combinations": 1,
+  "alpha_primary_experiments": 16,
+  "paper_profile_rows": 17,
+  "attributable_live_runs": 13,
+  "startup_failure_reports": 1,
+  "synthetic_forward_scope": "Executability only; not profitability",
+  "iql_fixed_native_mean_returns_verified": [
+    [
+      4.9118625,
+      0.022062500000000245
+    ],
+    [
+      2.9931583333333336,
+      -2.1676541666666687
+    ],
+    [
+      5.294870833333335,
+      -2.152225000000001
+    ]
+  ],
+  "public_text_privacy_findings": [],
+  "standalone_sha_operations": 0,
+  "source_worktrees_modified": false,
+  "validation_command": "PYTHONDONTWRITEBYTECODE=1 python3 scripts/verify.py"
+}

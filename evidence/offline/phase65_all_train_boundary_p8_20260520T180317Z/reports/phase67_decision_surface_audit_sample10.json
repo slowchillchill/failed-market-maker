@@ -1,0 +1,670 @@
+{
+  "action_gate": {
+    "paper_trade_approval": false,
+    "reason": "decision-surface runtime candidate thresholds found 0 differing decoded rows",
+    "short_replay_allowed": false,
+    "verdict": "FAIL_NO_MAKER_EDGE"
+  },
+  "provenance": {
+    "candidate_ids": [
+      "primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed2",
+      "primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed3",
+      "primary_R2_A1_seq120_bs2048_ep30_lev0p5_sr0p0_sm0p1_seed2",
+      "primary_R3_A6_seq120_bs2048_ep30_lev0p5_sr0p05_sm0p1_seed2",
+      "primary_R4_LB2_512_seq120_bs512_ep30_lev0p5_sr0p05_sm0p1_seed1",
+      "primary_R4_LB2_512_seq120_bs512_ep30_lev0p5_sr0p05_sm0p1_seed2",
+      "primary_R6_C2_control_seq180_bs4096_ep30_lev0p25_sr0p1_sm0p0_seed2"
+    ],
+    "max_rows": 10,
+    "row_key_samples": [
+      {
+        "dataset_version": "20260425",
+        "decision_ts_ms": 1777030510250,
+        "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+        "window_id": "1777017600-1777032000"
+      },
+      {
+        "dataset_version": "20260425",
+        "decision_ts_ms": 1777030510500,
+        "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+        "window_id": "1777017600-1777032000"
+      },
+      {
+        "dataset_version": "20260425",
+        "decision_ts_ms": 1777030510750,
+        "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+        "window_id": "1777017600-1777032000"
+      },
+      {
+        "dataset_version": "20260425",
+        "decision_ts_ms": 1777030511000,
+        "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+        "window_id": "1777017600-1777032000"
+      },
+      {
+        "dataset_version": "20260425",
+        "decision_ts_ms": 1777030511250,
+        "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+        "window_id": "1777017600-1777032000"
+      }
+    ],
+    "source_run_root": "poly-arb-ai/training/maker_policy_v2_phase6_runs/phase65_all_train_boundary_p8_20260520T180317Z",
+    "source_summary": "poly-arb-ai/training/maker_policy_v2_phase6_runs/phase65_all_train_boundary_p8_20260520T180317Z/reports/phase65_summary.json",
+    "thresholds": [
+      0.55,
+      0.75,
+      0.9,
+      0.99
+    ]
+  },
+  "runtime_candidate_threshold": {
+    "candidate_count": 7,
+    "candidate_ids": [
+      "primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed2",
+      "primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed3",
+      "primary_R2_A1_seq120_bs2048_ep30_lev0p5_sr0p0_sm0p1_seed2",
+      "primary_R3_A6_seq120_bs2048_ep30_lev0p5_sr0p05_sm0p1_seed2",
+      "primary_R4_LB2_512_seq120_bs512_ep30_lev0p5_sr0p05_sm0p1_seed1",
+      "primary_R4_LB2_512_seq120_bs512_ep30_lev0p5_sr0p05_sm0p1_seed2",
+      "primary_R6_C2_control_seq180_bs4096_ep30_lev0p25_sr0p1_sm0p0_seed2"
+    ],
+    "common_policy_rows": 10,
+    "difference_samples": [],
+    "differing_decoded_rows": 0,
+    "identical_decoded_row_ratio": 1.0,
+    "identical_decoded_rows": 10,
+    "per_slot_difference_counts": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "schema_version": "phase67_decision_surface_audit_v1",
+  "support_diagnostics": {
+    "quote_only_support_disabled": {
+      "legal_slot_count": 140,
+      "quote_enabled_slot_count": 140,
+      "sampled_slot_count": 280,
+      "support_eligible_slot_count": 140
+    },
+    "runtime_supported": {
+      "legal_slot_count": 140,
+      "quote_enabled_slot_count": 140,
+      "sampled_slot_count": 280,
+      "support_eligible_slot_count": 140
+    }
+  },
+  "threshold_sweep": {
+    "by_threshold": {
+      "0.55": {
+        "candidate_reports": [
+          {
+            "candidate_id": "primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed2",
+            "disabled_reason_counts": {},
+            "enabled_slot_count": 20,
+            "enabled_slot_ratio": 1.0,
+            "legal_quote_margin_summary": {
+              "count": 20,
+              "max": 0.44999999999999996,
+              "mean": 0.4499999999999999,
+              "min": 0.44999999999999996,
+              "p99": 0.44999999999999996
+            },
+            "legal_slot_count": 20,
+            "policy_tick_count": 10,
+            "threshold": 0.55
+          },
+          {
+            "candidate_id": "primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed3",
+            "disabled_reason_counts": {},
+            "enabled_slot_count": 20,
+            "enabled_slot_ratio": 1.0,
+            "legal_quote_margin_summary": {
+              "count": 20,
+              "max": 0.44999999999999996,
+              "mean": 0.4499999999999999,
+              "min": 0.44999999999999996,
+              "p99": 0.44999999999999996
+            },
+            "legal_slot_count": 20,
+            "policy_tick_count": 10,
+            "threshold": 0.55
+          },
+          {
+            "candidate_id": "primary_R2_A1_seq120_bs2048_ep30_lev0p5_sr0p0_sm0p1_seed2",
+            "disabled_reason_counts": {},
+            "enabled_slot_count": 20,
+            "enabled_slot_ratio": 1.0,
+            "legal_quote_margin_summary": {
+              "count": 20,
+              "max": 0.44999999999999996,
+              "mean": 0.4499999999999999,
+              "min": 0.44999999999999996,
+              "p99": 0.44999999999999996
+            },
+            "legal_slot_count": 20,
+            "policy_tick_count": 10,
+            "threshold": 0.55
+          },
+          {
+            "candidate_id": "primary_R3_A6_seq120_bs2048_ep30_lev0p5_sr0p05_sm0p1_seed2",
+            "disabled_reason_counts": {},
+            "enabled_slot_count": 20,
+            "enabled_slot_ratio": 1.0,
+            "legal_quote_margin_summary": {
+              "count": 20,
+              "max": 0.44999999999999996,
+              "mean": 0.4499981701374053,
+              "min": 0.4499810457229614,
+              "p99": 0.44999999999999996
+            },
+            "legal_slot_count": 20,
+            "policy_tick_count": 10,
+            "threshold": 0.55
+          },
+          {
+            "candidate_id": "primary_R4_LB2_512_seq120_bs512_ep30_lev0p5_sr0p05_sm0p1_seed1",
+            "disabled_reason_counts": {},
+            "enabled_slot_count": 20,
+            "enabled_slot_ratio": 1.0,
+            "legal_quote_margin_summary": {
+              "count": 20,
+              "max": 0.44999999999999996,
+              "mean": 0.4499999999999999,
+              "min": 0.44999999999999996,
+              "p99": 0.44999999999999996
+            },
+            "legal_slot_count": 20,
+            "policy_tick_count": 10,
+            "threshold": 0.55
+          },
+          {
+            "candidate_id": "primary_R4_LB2_512_seq120_bs512_ep30_lev0p5_sr0p05_sm0p1_seed2",
+            "disabled_reason_counts": {},
+            "enabled_slot_count": 20,
+            "enabled_slot_ratio": 1.0,
+            "legal_quote_margin_summary": {
+              "count": 20,
+              "max": 0.44999999999999996,
+              "mean": 0.4499999999999999,
+              "min": 0.44999999999999996,
+              "p99": 0.44999999999999996
+            },
+            "legal_slot_count": 20,
+            "policy_tick_count": 10,
+            "threshold": 0.55
+          },
+          {
+            "candidate_id": "primary_R6_C2_control_seq180_bs4096_ep30_lev0p25_sr0p1_sm0p0_seed2",
+            "disabled_reason_counts": {},
+            "enabled_slot_count": 20,
+            "enabled_slot_ratio": 1.0,
+            "legal_quote_margin_summary": {
+              "count": 20,
+              "max": 0.44999999999999996,
+              "mean": 0.4499999999999999,
+              "min": 0.44999999999999996,
+              "p99": 0.44999999999999996
+            },
+            "legal_slot_count": 20,
+            "policy_tick_count": 10,
+            "threshold": 0.55
+          }
+        ],
+        "cross_candidate_decoded_action": {
+          "candidate_count": 7,
+          "candidate_ids": [
+            "primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed2",
+            "primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed3",
+            "primary_R2_A1_seq120_bs2048_ep30_lev0p5_sr0p0_sm0p1_seed2",
+            "primary_R3_A6_seq120_bs2048_ep30_lev0p5_sr0p05_sm0p1_seed2",
+            "primary_R4_LB2_512_seq120_bs512_ep30_lev0p5_sr0p05_sm0p1_seed1",
+            "primary_R4_LB2_512_seq120_bs512_ep30_lev0p5_sr0p05_sm0p1_seed2",
+            "primary_R6_C2_control_seq180_bs4096_ep30_lev0p25_sr0p1_sm0p0_seed2"
+          ],
+          "common_policy_rows": 10,
+          "difference_samples": [],
+          "differing_decoded_rows": 0,
+          "identical_decoded_row_ratio": 1.0,
+          "identical_decoded_rows": 10,
+          "per_slot_difference_counts": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "threshold": 0.55
+      },
+      "0.75": {
+        "candidate_reports": [
+          {
+            "candidate_id": "primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed2",
+            "disabled_reason_counts": {},
+            "enabled_slot_count": 20,
+            "enabled_slot_ratio": 1.0,
+            "legal_quote_margin_summary": {
+              "count": 20,
+              "max": 0.25,
+              "mean": 0.25,
+              "min": 0.25,
+              "p99": 0.25
+            },
+            "legal_slot_count": 20,
+            "policy_tick_count": 10,
+            "threshold": 0.75
+          },
+          {
+            "candidate_id": "primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed3",
+            "disabled_reason_counts": {},
+            "enabled_slot_count": 20,
+            "enabled_slot_ratio": 1.0,
+            "legal_quote_margin_summary": {
+              "count": 20,
+              "max": 0.25,
+              "mean": 0.25,
+              "min": 0.25,
+              "p99": 0.25
+            },
+            "legal_slot_count": 20,
+            "policy_tick_count": 10,
+            "threshold": 0.75
+          },
+          {
+            "candidate_id": "primary_R2_A1_seq120_bs2048_ep30_lev0p5_sr0p0_sm0p1_seed2",
+            "disabled_reason_counts": {},
+            "enabled_slot_count": 20,
+            "enabled_slot_ratio": 1.0,
+            "legal_quote_margin_summary": {
+              "count": 20,
+              "max": 0.25,
+              "mean": 0.25,
+              "min": 0.25,
+              "p99": 0.25
+            },
+            "legal_slot_count": 20,
+            "policy_tick_count": 10,
+            "threshold": 0.75
+          },
+          {
+            "candidate_id": "primary_R3_A6_seq120_bs2048_ep30_lev0p5_sr0p05_sm0p1_seed2",
+            "disabled_reason_counts": {},
+            "enabled_slot_count": 20,
+            "enabled_slot_ratio": 1.0,
+            "legal_quote_margin_summary": {
+              "count": 20,
+              "max": 0.25,
+              "mean": 0.24999817013740538,
+              "min": 0.24998104572296143,
+              "p99": 0.25
+            },
+            "legal_slot_count": 20,
+            "policy_tick_count": 10,
+            "threshold": 0.75
+          },
+          {
+            "candidate_id": "primary_R4_LB2_512_seq120_bs512_ep30_lev0p5_sr0p05_sm0p1_seed1",
+            "disabled_reason_counts": {},
+            "enabled_slot_count": 20,
+            "enabled_slot_ratio": 1.0,
+            "legal_quote_margin_summary": {
+              "count": 20,
+              "max": 0.25,
+              "mean": 0.25,
+              "min": 0.25,
+              "p99": 0.25
+            },
+            "legal_slot_count": 20,
+            "policy_tick_count": 10,
+            "threshold": 0.75
+          },
+          {
+            "candidate_id": "primary_R4_LB2_512_seq120_bs512_ep30_lev0p5_sr0p05_sm0p1_seed2",
+            "disabled_reason_counts": {},
+            "enabled_slot_count": 20,
+            "enabled_slot_ratio": 1.0,
+            "legal_quote_margin_summary": {
+              "count": 20,
+              "max": 0.25,
+              "mean": 0.25,
+              "min": 0.25,
+              "p99": 0.25
+            },
+            "legal_slot_count": 20,
+            "policy_tick_count": 10,
+            "threshold": 0.75
+          },
+          {
+            "candidate_id": "primary_R6_C2_control_seq180_bs4096_ep30_lev0p25_sr0p1_sm0p0_seed2",
+            "disabled_reason_counts": {},
+            "enabled_slot_count": 20,
+            "enabled_slot_ratio": 1.0,
+            "legal_quote_margin_summary": {
+              "count": 20,
+              "max": 0.25,
+              "mean": 0.25,
+              "min": 0.25,
+              "p99": 0.25
+            },
+            "legal_slot_count": 20,
+            "policy_tick_count": 10,
+            "threshold": 0.75
+          }
+        ],
+        "cross_candidate_decoded_action": {
+          "candidate_count": 7,
+          "candidate_ids": [
+            "primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed2",
+            "primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed3",
+            "primary_R2_A1_seq120_bs2048_ep30_lev0p5_sr0p0_sm0p1_seed2",
+            "primary_R3_A6_seq120_bs2048_ep30_lev0p5_sr0p05_sm0p1_seed2",
+            "primary_R4_LB2_512_seq120_bs512_ep30_lev0p5_sr0p05_sm0p1_seed1",
+            "primary_R4_LB2_512_seq120_bs512_ep30_lev0p5_sr0p05_sm0p1_seed2",
+            "primary_R6_C2_control_seq180_bs4096_ep30_lev0p25_sr0p1_sm0p0_seed2"
+          ],
+          "common_policy_rows": 10,
+          "difference_samples": [],
+          "differing_decoded_rows": 0,
+          "identical_decoded_row_ratio": 1.0,
+          "identical_decoded_rows": 10,
+          "per_slot_difference_counts": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "threshold": 0.75
+      },
+      "0.90": {
+        "candidate_reports": [
+          {
+            "candidate_id": "primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed2",
+            "disabled_reason_counts": {},
+            "enabled_slot_count": 20,
+            "enabled_slot_ratio": 1.0,
+            "legal_quote_margin_summary": {
+              "count": 20,
+              "max": 0.09999999999999998,
+              "mean": 0.1,
+              "min": 0.09999999999999998,
+              "p99": 0.09999999999999998
+            },
+            "legal_slot_count": 20,
+            "policy_tick_count": 10,
+            "threshold": 0.9
+          },
+          {
+            "candidate_id": "primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed3",
+            "disabled_reason_counts": {},
+            "enabled_slot_count": 20,
+            "enabled_slot_ratio": 1.0,
+            "legal_quote_margin_summary": {
+              "count": 20,
+              "max": 0.09999999999999998,
+              "mean": 0.1,
+              "min": 0.09999999999999998,
+              "p99": 0.09999999999999998
+            },
+            "legal_slot_count": 20,
+            "policy_tick_count": 10,
+            "threshold": 0.9
+          },
+          {
+            "candidate_id": "primary_R2_A1_seq120_bs2048_ep30_lev0p5_sr0p0_sm0p1_seed2",
+            "disabled_reason_counts": {},
+            "enabled_slot_count": 20,
+            "enabled_slot_ratio": 1.0,
+            "legal_quote_margin_summary": {
+              "count": 20,
+              "max": 0.09999999999999998,
+              "mean": 0.1,
+              "min": 0.09999999999999998,
+              "p99": 0.09999999999999998
+            },
+            "legal_slot_count": 20,
+            "policy_tick_count": 10,
+            "threshold": 0.9
+          },
+          {
+            "candidate_id": "primary_R3_A6_seq120_bs2048_ep30_lev0p5_sr0p05_sm0p1_seed2",
+            "disabled_reason_counts": {},
+            "enabled_slot_count": 20,
+            "enabled_slot_ratio": 1.0,
+            "legal_quote_margin_summary": {
+              "count": 20,
+              "max": 0.09999999999999998,
+              "mean": 0.09999817013740539,
+              "min": 0.0999810457229614,
+              "p99": 0.09999999999999998
+            },
+            "legal_slot_count": 20,
+            "policy_tick_count": 10,
+            "threshold": 0.9
+          },
+          {
+            "candidate_id": "primary_R4_LB2_512_seq120_bs512_ep30_lev0p5_sr0p05_sm0p1_seed1",
+            "disabled_reason_counts": {},
+            "enabled_slot_count": 20,
+            "enabled_slot_ratio": 1.0,
+            "legal_quote_margin_summary": {
+              "count": 20,
+              "max": 0.09999999999999998,
+              "mean": 0.1,
+              "min": 0.09999999999999998,
+              "p99": 0.09999999999999998
+            },
+            "legal_slot_count": 20,
+            "policy_tick_count": 10,
+            "threshold": 0.9
+          },
+          {
+            "candidate_id": "primary_R4_LB2_512_seq120_bs512_ep30_lev0p5_sr0p05_sm0p1_seed2",
+            "disabled_reason_counts": {},
+            "enabled_slot_count": 20,
+            "enabled_slot_ratio": 1.0,
+            "legal_quote_margin_summary": {
+              "count": 20,
+              "max": 0.09999999999999998,
+              "mean": 0.1,
+              "min": 0.09999999999999998,
+              "p99": 0.09999999999999998
+            },
+            "legal_slot_count": 20,
+            "policy_tick_count": 10,
+            "threshold": 0.9
+          },
+          {
+            "candidate_id": "primary_R6_C2_control_seq180_bs4096_ep30_lev0p25_sr0p1_sm0p0_seed2",
+            "disabled_reason_counts": {},
+            "enabled_slot_count": 20,
+            "enabled_slot_ratio": 1.0,
+            "legal_quote_margin_summary": {
+              "count": 20,
+              "max": 0.09999999999999998,
+              "mean": 0.1,
+              "min": 0.09999999999999998,
+              "p99": 0.09999999999999998
+            },
+            "legal_slot_count": 20,
+            "policy_tick_count": 10,
+            "threshold": 0.9
+          }
+        ],
+        "cross_candidate_decoded_action": {
+          "candidate_count": 7,
+          "candidate_ids": [
+            "primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed2",
+            "primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed3",
+            "primary_R2_A1_seq120_bs2048_ep30_lev0p5_sr0p0_sm0p1_seed2",
+            "primary_R3_A6_seq120_bs2048_ep30_lev0p5_sr0p05_sm0p1_seed2",
+            "primary_R4_LB2_512_seq120_bs512_ep30_lev0p5_sr0p05_sm0p1_seed1",
+            "primary_R4_LB2_512_seq120_bs512_ep30_lev0p5_sr0p05_sm0p1_seed2",
+            "primary_R6_C2_control_seq180_bs4096_ep30_lev0p25_sr0p1_sm0p0_seed2"
+          ],
+          "common_policy_rows": 10,
+          "difference_samples": [],
+          "differing_decoded_rows": 0,
+          "identical_decoded_row_ratio": 1.0,
+          "identical_decoded_rows": 10,
+          "per_slot_difference_counts": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "threshold": 0.9
+      },
+      "0.99": {
+        "candidate_reports": [
+          {
+            "candidate_id": "primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed2",
+            "disabled_reason_counts": {},
+            "enabled_slot_count": 20,
+            "enabled_slot_ratio": 1.0,
+            "legal_quote_margin_summary": {
+              "count": 20,
+              "max": 0.010000000000000009,
+              "mean": 0.010000000000000009,
+              "min": 0.010000000000000009,
+              "p99": 0.010000000000000009
+            },
+            "legal_slot_count": 20,
+            "policy_tick_count": 10,
+            "threshold": 0.99
+          },
+          {
+            "candidate_id": "primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed3",
+            "disabled_reason_counts": {},
+            "enabled_slot_count": 20,
+            "enabled_slot_ratio": 1.0,
+            "legal_quote_margin_summary": {
+              "count": 20,
+              "max": 0.010000000000000009,
+              "mean": 0.010000000000000009,
+              "min": 0.010000000000000009,
+              "p99": 0.010000000000000009
+            },
+            "legal_slot_count": 20,
+            "policy_tick_count": 10,
+            "threshold": 0.99
+          },
+          {
+            "candidate_id": "primary_R2_A1_seq120_bs2048_ep30_lev0p5_sr0p0_sm0p1_seed2",
+            "disabled_reason_counts": {},
+            "enabled_slot_count": 20,
+            "enabled_slot_ratio": 1.0,
+            "legal_quote_margin_summary": {
+              "count": 20,
+              "max": 0.010000000000000009,
+              "mean": 0.010000000000000009,
+              "min": 0.010000000000000009,
+              "p99": 0.010000000000000009
+            },
+            "legal_slot_count": 20,
+            "policy_tick_count": 10,
+            "threshold": 0.99
+          },
+          {
+            "candidate_id": "primary_R3_A6_seq120_bs2048_ep30_lev0p5_sr0p05_sm0p1_seed2",
+            "disabled_reason_counts": {},
+            "enabled_slot_count": 20,
+            "enabled_slot_ratio": 1.0,
+            "legal_quote_margin_summary": {
+              "count": 20,
+              "max": 0.010000000000000009,
+              "mean": 0.009998170137405404,
+              "min": 0.009981045722961435,
+              "p99": 0.010000000000000009
+            },
+            "legal_slot_count": 20,
+            "policy_tick_count": 10,
+            "threshold": 0.99
+          },
+          {
+            "candidate_id": "primary_R4_LB2_512_seq120_bs512_ep30_lev0p5_sr0p05_sm0p1_seed1",
+            "disabled_reason_counts": {},
+            "enabled_slot_count": 20,
+            "enabled_slot_ratio": 1.0,
+            "legal_quote_margin_summary": {
+              "count": 20,
+              "max": 0.010000000000000009,
+              "mean": 0.010000000000000009,
+              "min": 0.010000000000000009,
+              "p99": 0.010000000000000009
+            },
+            "legal_slot_count": 20,
+            "policy_tick_count": 10,
+            "threshold": 0.99
+          },
+          {
+            "candidate_id": "primary_R4_LB2_512_seq120_bs512_ep30_lev0p5_sr0p05_sm0p1_seed2",
+            "disabled_reason_counts": {},
+            "enabled_slot_count": 20,
+            "enabled_slot_ratio": 1.0,
+            "legal_quote_margin_summary": {
+              "count": 20,
+              "max": 0.010000000000000009,
+              "mean": 0.010000000000000009,
+              "min": 0.010000000000000009,
+              "p99": 0.010000000000000009
+            },
+            "legal_slot_count": 20,
+            "policy_tick_count": 10,
+            "threshold": 0.99
+          },
+          {
+            "candidate_id": "primary_R6_C2_control_seq180_bs4096_ep30_lev0p25_sr0p1_sm0p0_seed2",
+            "disabled_reason_counts": {},
+            "enabled_slot_count": 20,
+            "enabled_slot_ratio": 1.0,
+            "legal_quote_margin_summary": {
+              "count": 20,
+              "max": 0.010000000000000009,
+              "mean": 0.010000000000000009,
+              "min": 0.010000000000000009,
+              "p99": 0.010000000000000009
+            },
+            "legal_slot_count": 20,
+            "policy_tick_count": 10,
+            "threshold": 0.99
+          }
+        ],
+        "cross_candidate_decoded_action": {
+          "candidate_count": 7,
+          "candidate_ids": [
+            "primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed2",
+            "primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed3",
+            "primary_R2_A1_seq120_bs2048_ep30_lev0p5_sr0p0_sm0p1_seed2",
+            "primary_R3_A6_seq120_bs2048_ep30_lev0p5_sr0p05_sm0p1_seed2",
+            "primary_R4_LB2_512_seq120_bs512_ep30_lev0p5_sr0p05_sm0p1_seed1",
+            "primary_R4_LB2_512_seq120_bs512_ep30_lev0p5_sr0p05_sm0p1_seed2",
+            "primary_R6_C2_control_seq180_bs4096_ep30_lev0p25_sr0p1_sm0p0_seed2"
+          ],
+          "common_policy_rows": 10,
+          "difference_samples": [],
+          "differing_decoded_rows": 0,
+          "identical_decoded_row_ratio": 1.0,
+          "identical_decoded_rows": 10,
+          "per_slot_difference_counts": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "threshold": 0.99
+      }
+    },
+    "row_key_count": 10,
+    "sampled_row_count": 70,
+    "thresholds": [
+      0.55,
+      0.75,
+      0.9,
+      0.99
+    ]
+  }
+}

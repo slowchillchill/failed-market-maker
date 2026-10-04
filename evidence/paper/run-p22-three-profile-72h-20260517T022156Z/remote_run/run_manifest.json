@@ -1,0 +1,131 @@
+{
+  "runtime_profile_id": "m5_baseline",
+  "agent_model": {
+    "path": "[PRIVATE_HOME]/m6-paper/artifacts/agent_model.onnx",
+    "sha256": "f89d4460085fbd50e59b86394994cf69f47d46f94e2ce123046343fe384f369a"
+  },
+  "feature_stats": {
+    "path": "[PRIVATE_HOME]/m6-paper/artifacts/feature_stats.npz",
+    "sha256": "f97fc0dbe0d2e98636af9ab157b68546c457cb8f2fded6d74436737f43e4f0b0"
+  },
+  "split_info": {
+    "path": "[PRIVATE_HOME]/m6-paper/artifacts/split_info.json",
+    "sha256": "7a770e8421e8eca5d0fd784bc396b1d7ecf8cade1d2d5c002d15f5dc9e3dd16b"
+  },
+  "latency_mode": "logical_equal_decision",
+  "profiles": [
+    {
+      "runtime_profile_id": "m5_baseline",
+      "agent_model": {
+        "path": "[PRIVATE_HOME]/m6-paper/artifacts/agent_model.onnx",
+        "sha256": "f89d4460085fbd50e59b86394994cf69f47d46f94e2ce123046343fe384f369a"
+      },
+      "feature_stats": {
+        "path": "[PRIVATE_HOME]/m6-paper/artifacts/feature_stats.npz",
+        "sha256": "f97fc0dbe0d2e98636af9ab157b68546c457cb8f2fded6d74436737f43e4f0b0"
+      },
+      "split_info": {
+        "path": "[PRIVATE_HOME]/m6-paper/artifacts/split_info.json",
+        "sha256": "7a770e8421e8eca5d0fd784bc396b1d7ecf8cade1d2d5c002d15f5dc9e3dd16b"
+      },
+      "seq_len": 240,
+      "starting_cash": 100.0,
+      "strategy": "signal",
+      "signal_threshold": 0.58,
+      "force_order_type": "gtc",
+      "fixed_size": null,
+      "override_risk_score": 1.0,
+      "limit_order_ttl_ms": 250,
+      "ort_intra_threads": 1,
+      "ort_inter_threads": 1,
+      "inference_latency": {
+        "count": 88175,
+        "p50_ms": 6.435321,
+        "p95_ms": 7.045598999999999,
+        "p99_ms": 18.613494000000003,
+        "max_ms": 228.568795,
+        "slow_tick_count": 0
+      },
+      "total_decisions": 88414,
+      "unsettled_at_shutdown": 1
+    },
+    {
+      "runtime_profile_id": "m3_b1",
+      "agent_model": {
+        "path": "[PRIVATE_HOME]/m6-paper/artifacts/m3_run_v7_M3-B1_collection.onnx",
+        "sha256": "0f6781e33f450f1e5709b81b7e7e94c736bbbd53c1e51106e39f35341b36a705"
+      },
+      "feature_stats": {
+        "path": "[PRIVATE_HOME]/m6-paper/artifacts/m3_run_v7_M3-B1_feature_stats.npz",
+        "sha256": "38853a1bafb2ee77598f40a2a871264a46de1a45c236840a6957b6f8734badcf"
+      },
+      "split_info": {
+        "path": "[PRIVATE_HOME]/m6-paper/artifacts/split_info.json",
+        "sha256": "7a770e8421e8eca5d0fd784bc396b1d7ecf8cade1d2d5c002d15f5dc9e3dd16b"
+      },
+      "seq_len": 100,
+      "starting_cash": 100.0,
+      "strategy": "signal",
+      "signal_threshold": 0.58,
+      "force_order_type": "gtc",
+      "fixed_size": null,
+      "override_risk_score": 1.0,
+      "limit_order_ttl_ms": 250,
+      "ort_intra_threads": 1,
+      "ort_inter_threads": 1,
+      "inference_latency": {
+        "count": 88315,
+        "p50_ms": 2.559529,
+        "p95_ms": 2.85275,
+        "p99_ms": 6.650493,
+        "max_ms": 97.018934,
+        "slow_tick_count": 0
+      },
+      "total_decisions": 88414,
+      "unsettled_at_shutdown": 1
+    },
+    {
+      "runtime_profile_id": "m3_b2",
+      "agent_model": {
+        "path": "[PRIVATE_HOME]/m6-paper/artifacts/m3_run_v7_M3-B2_collection.onnx",
+        "sha256": "f4cd9aee74a4a9fcac1ca5cd8298f54b8b39571007750835ca84559d1fa0d637"
+      },
+      "feature_stats": {
+        "path": "[PRIVATE_HOME]/m6-paper/artifacts/m3_run_v7_M3-B2_feature_stats.npz",
+        "sha256": "38853a1bafb2ee77598f40a2a871264a46de1a45c236840a6957b6f8734badcf"
+      },
+      "split_info": {
+        "path": "[PRIVATE_HOME]/m6-paper/artifacts/split_info.json",
+        "sha256": "7a770e8421e8eca5d0fd784bc396b1d7ecf8cade1d2d5c002d15f5dc9e3dd16b"
+      },
+      "seq_len": 100,
+      "starting_cash": 100.0,
+      "strategy": "signal",
+      "signal_threshold": 0.58,
+      "force_order_type": "gtc",
+      "fixed_size": null,
+      "override_risk_score": 1.0,
+      "limit_order_ttl_ms": 250,
+      "ort_intra_threads": 1,
+      "ort_inter_threads": 1,
+      "inference_latency": {
+        "count": 88315,
+        "p50_ms": 2.489551,
+        "p95_ms": 2.773351,
+        "p99_ms": 6.089775,
+        "max_ms": 75.79194100000001,
+        "slow_tick_count": 0
+      },
+      "total_decisions": 88414,
+      "unsettled_at_shutdown": 1
+    }
+  ],
+  "generated_from_config": "[PRIVATE_HOME]/m6-paper/config/paper_runtime.json",
+  "config_sha256": "74b96dde7ad726c83012b55674240d6b6d0457fbdcca211dedb87705d3d3185b",
+  "runtime_sha256": "68a31d0bfa97a6adbe666d09da28e84414ce831c3e31860c2d5c28792c007110",
+  "git_commit": "d4faf82-three-profile-72h",
+  "start_ts_ms": 1778984516612,
+  "end_ts_ms": 1779006917248,
+  "unsettled_at_shutdown": 3,
+  "total_decisions": 265242
+}

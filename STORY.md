@@ -1,0 +1,25 @@
+# How the market maker failed
+
+[完整中文](STORY.zh-CN.md) · [Results and source reports](RESULTS.md)
+
+The useful result of this project is an inspectable sequence of attempts. The archive cannot support a claim of a profitable autonomous market maker, but it can show how that claim was tested and why the surviving evidence is weaker than some of the headline numbers.
+
+The first work was infrastructure. M1 replayed events; M2 built features. Neither was a trained model. Causal timing mattered: data visible at decision time had to stay separate from later exchange arrival, acknowledgements and labels. The original pipeline produced 65 market features, later extended to 76 with agent state. [Early development records](evidence/history/early-development)
+
+M3 learned classification and expected-value signals. The early run3 test AUC reached 0.743551. B1 and B2 later produced similar test AUCs around 0.714, while their highest-ranked decile had negative EV. A positive fixed-execution backtest and a useful classification metric could coexist with that result because they measured different behavior. The collection exports added execution heads and state fusion; the archive does not assign supervised-model scores to those added heads. [M3/M5 experiment records](evidence/history/m3m5)
+
+M5 explored behavior cloning and IQL. BC attained 0.682590 test accuracy. The IQL policies strongly favored Hold; on the same 24 validation windows, fixed execution produced positive mean returns while native execution was near zero or negative. Reporting only the fixed path would have hidden the gap between a learned signal and a usable policy. Best-checkpoint exports are therefore kept separate from the final epoch-50 checkpoints. [Raw offline reports](evidence/m3m5-offline)
+
+AlphaModelV2 moved to 160 features and a causal GRU. Phase 5.8 recorded sixteen primary experiments; eight checkpoints survive. The release keeps all sixteen experiments so the surviving files do not rewrite the search history. Its `val.auc` and `true_best_side_auc` answer different questions and remain separate. None has an independently reported standalone Alpha trading strategy PnL. [Experiment ledger](catalog/alpha-experiments.json)
+
+MakerPolicyV2 conditioned quote targets on Alpha and account state. Phase 6.5 losses became small and replay sums looked strong. An audit on common inputs found identical decoded actions across candidates. The subsequent three-candidate, 30-window independent replay still returned `FAIL_NO_MAKER_EDGE`. Phase 6.7 tried a signed-reward repair; the control earned a much larger train-boundary replay sum, yielding `FAIL_CONTROL_AMPLIFICATION`. Those failures remain the conclusions even though all replay PnL totals were positive. [All candidate/window reports](evidence/offline)
+
+Paper trading made the difference between model and system behavior more visible. B1, B2 and BC used a signal strategy with external execution and risk rules. The R1 Alpha + Policy combination later posted much larger simulated returns, subject to fill assumptions and rebate accounting. The June run stopped making decisions before seven days were complete. Adjusted PnL included closed risk segments; replenished principal was not profit. These details stay beside the attractive number, rather than being discarded after ranking models. [Five paper runs](catalog/paper-results.json)
+
+Live execution added another boundary. Earlier SDK tests exposed raw USDC token units in model account inputs. Later reports preserved both positive and negative local-ledger results, but did not obtain complete final platform account reconciliation. Unobservable NAV, residual positions, delayed cancellation and audit-writer failures prevented a single defensible account-level performance summary. The sellability probe measured infrastructure latency and retained its CSV-writer gate failure; it was not a model profitability test. [Live records](catalog/live-results.json) · [SDK failures and repairs](evidence/history/sdk)
+
+The newer architecture separates data preparation, simulation, execution normalization, ledger state and shared run behavior into explicit components. Those interfaces and component checks are engineering progress. This archive does not turn initialized weights, shape tests or capacity checks into trained models or PnL. [Architecture snapshots](evidence/new-architecture)
+
+The remaining lesson is concrete: a prediction score, a training loss, an offline replay, simulated fills, a local ledger and a reconciled platform account are different measurements. This release makes those boundaries inspectable, including where the files or measurements are missing.
+
+Architecture snapshot date: 2026-10-04. Its checked-in model interface is `native_inputs_v7` with `native_actions_v2`; older v5 six-side descriptions remain historical context in the source README. See [feature schema](evidence/new-architecture/feature_schema.json). This interface snapshot does not publish initialized weights as trained candidates.

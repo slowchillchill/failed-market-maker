@@ -1,0 +1,235 @@
+{
+  "paths": [
+    {
+      "bytes": 81006,
+      "path": "source://v2/poly-arb-ai/training/alpha_v2_phase5_1/combined_data_index_20260511_12/20260425/manifest.parquet",
+      "sha256": "b161029fce4cd7a691621d9d54bac1e665ffd8ef4800dc37524bff169eb705e7"
+    },
+    {
+      "bytes": 51054,
+      "path": "source://v2/poly-arb-ai/training/alpha_v2_phase5_1/combined_data_index_20260511_12/20260426/manifest.parquet",
+      "sha256": "79802b5f9d72ff97ba82c63d31d34d5805102eb1a864e64e3fa285c1084fa7a5"
+    },
+    {
+      "bytes": 51646,
+      "path": "source://v2/poly-arb-ai/training/alpha_v2_phase5_1/combined_data_index_20260511_12/20260427/manifest.parquet",
+      "sha256": "ab741e9344564bc8325e4a88a80cf9600e88bab238aec7cf83b7430c7bb5d759"
+    },
+    {
+      "bytes": 51665,
+      "path": "source://v2/poly-arb-ai/training/alpha_v2_phase5_1/combined_data_index_20260511_12/20260428/manifest.parquet",
+      "sha256": "cafc1d804c6089de5339d7b88f013d446007eb8e1583435d9ec96c81e4374027"
+    },
+    {
+      "bytes": 51714,
+      "path": "source://v2/poly-arb-ai/training/alpha_v2_phase5_1/combined_data_index_20260511_12/20260429/manifest.parquet",
+      "sha256": "7538bfab62d782c1ca58a7904c90bda20b4620abe65c6dae9bb73aff247fabdd"
+    },
+    {
+      "bytes": 51707,
+      "path": "source://v2/poly-arb-ai/training/alpha_v2_phase5_1/combined_data_index_20260511_12/20260430/manifest.parquet",
+      "sha256": "5b24767b9d563d6d9a772a0f4f34da2d9fc49ce1b8cfa14759dd523996ece25b"
+    },
+    {
+      "bytes": 51634,
+      "path": "source://v2/poly-arb-ai/training/alpha_v2_phase5_1/combined_data_index_20260511_12/20260501/manifest.parquet",
+      "sha256": "9645451129c8e843bd8ea8cd67152256389481098bc7dc517a6993fbd3c0a5a4"
+    },
+    {
+      "bytes": 51692,
+      "path": "source://v2/poly-arb-ai/training/alpha_v2_phase5_1/combined_data_index_20260511_12/20260502/manifest.parquet",
+      "sha256": "4c078740d73ab30645134b2bab52731a86f6ab2ab520552aaf0ce011b57dfd5e"
+    },
+    {
+      "bytes": 51671,
+      "path": "source://v2/poly-arb-ai/training/alpha_v2_phase5_1/combined_data_index_20260511_12/20260503/manifest.parquet",
+      "sha256": "a92572ce7bfeeb005e1feeccc8283b6bd02ea7ffd74dc9e75cfea81bf71e29c0"
+    },
+    {
+      "bytes": 51677,
+      "path": "source://v2/poly-arb-ai/training/alpha_v2_phase5_1/combined_data_index_20260511_12/20260504/manifest.parquet",
+      "sha256": "39f8613a64741d45b0cd12d77e3907ecec0ec111921b13b6bc6490cafb8fee12"
+    },
+    {
+      "bytes": 51716,
+      "path": "source://v2/poly-arb-ai/training/alpha_v2_phase5_1/combined_data_index_20260511_12/20260505/manifest.parquet",
+      "sha256": "815d4174b0949de638702b35713802997c55a17dd6b18934055da6fc7a8a152b"
+    },
+    {
+      "bytes": 51771,
+      "path": "source://v2/poly-arb-ai/training/alpha_v2_phase5_1/combined_data_index_20260511_12/20260506/manifest.parquet",
+      "sha256": "e9f8eff1658f5f8a823e25197e762f566f3e0bdc72ea907dae42b23ec2051884"
+    },
+    {
+      "bytes": 51724,
+      "path": "source://v2/poly-arb-ai/training/alpha_v2_phase5_1/combined_data_index_20260511_12/20260507/manifest.parquet",
+      "sha256": "3030e76ef85d22685841d360472b5f22fcb24e8e8cc96054f10d19418591780e"
+    },
+    {
+      "bytes": 51736,
+      "path": "source://v2/poly-arb-ai/training/alpha_v2_phase5_1/combined_data_index_20260511_12/20260508/manifest.parquet",
+      "sha256": "225742910217b32d0e9fdd1409aa5c7fee141a7b3f47cebec2e75e5681364226"
+    },
+    {
+      "bytes": 51672,
+      "path": "source://v2/poly-arb-ai/training/alpha_v2_phase5_1/combined_data_index_20260511_12/20260509/manifest.parquet",
+      "sha256": "0e163697697fffa3f8cde4c9ed4b63113fe8cb48bb53d57752811e160c0e67b6"
+    },
+    {
+      "bytes": 51720,
+      "path": "source://v2/poly-arb-ai/training/alpha_v2_phase5_1/combined_data_index_20260511_12/20260510/manifest.parquet",
+      "sha256": "f215411d84feed82c6694bc34739fb69b1ebbfca2dccf60f4cc09fac758dc3a1"
+    },
+    {
+      "bytes": 51775,
+      "path": "source://v2/poly-arb-ai/training/alpha_v2_phase5_1/combined_data_index_20260511_12/20260511/manifest.parquet",
+      "sha256": "0bdf36e42166bf69c86a5c3ec16ad24d783a49002d6664648c0aa80ba5f7f1e5"
+    },
+    {
+      "bytes": 51698,
+      "path": "source://v2/poly-arb-ai/training/alpha_v2_phase5_1/combined_data_index_20260511_12/20260512/manifest.parquet",
+      "sha256": "66e0253258d9a8635da9c74c002154a9a0dca986c7579a6ef835b04efd0d530f"
+    },
+    {
+      "bytes": 94899,
+      "path": "source://v2/poly-arb-ai/training/alpha_v2_phase5_1/combined_data_index_20260511_12/data-v1/manifest.parquet",
+      "sha256": "350fcd4c368f56ba14897bc9babe4e4658410e06748634693300f00930399d2b"
+    },
+    {
+      "bytes": 149022,
+      "path": "source://v2/poly-arb-ai/training/alpha_v2_phase5_1/combined_data_index_20260511_12/data-v2/manifest.parquet",
+      "sha256": "f2d2e90b0354e4f82d6e7ddf9c2e2e322f3ecd4edc7e345d2cddb87d5e348e8f"
+    },
+    {
+      "bytes": 257854,
+      "path": "source://v2/poly-arb-ai/training/alpha_v2_phase5_1/combined_data_index_20260511_12/data-v3/manifest.parquet",
+      "sha256": "2a3805bf36f9e88ea5f0d5796ab94192c8ce57b2f6ea3ceb501129947a176e2f"
+    },
+    {
+      "bytes": 437216,
+      "path": "source://v2/poly-arb-ai/training/alpha_v2_phase5_1/combined_data_index_20260511_12/data-v4/manifest.parquet",
+      "sha256": "6a0fb2021f2bec60d18d246612dc505bd853591883e32b6e1b6ca9d43e92eb49"
+    },
+    {
+      "bytes": 362421,
+      "path": "source://v2/poly-arb-ai/training/alpha_v2_phase5_1/combined_data_index_20260511_12/data-v5/manifest.parquet",
+      "sha256": "8004849e1e35f16cbc83225cadfa2ab8bc9ade88a6b004a864d0e3ad43760f80"
+    },
+    {
+      "bytes": 95905,
+      "path": "source://v2/poly-arb-ai/training/alpha_v2_phase5_1/combined_data_index_20260511_12/20260425/labels.parquet",
+      "sha256": "04b2152d409cd751aea4e550602e3b08accb98bcb8318366d0d12b24102120c1"
+    },
+    {
+      "bytes": 59954,
+      "path": "source://v2/poly-arb-ai/training/alpha_v2_phase5_1/combined_data_index_20260511_12/20260426/labels.parquet",
+      "sha256": "a3db9d5cf2f8616adaf061889240c0562dbdc75132c976cc680394a80eb57448"
+    },
+    {
+      "bytes": 59893,
+      "path": "source://v2/poly-arb-ai/training/alpha_v2_phase5_1/combined_data_index_20260511_12/20260427/labels.parquet",
+      "sha256": "9f6bb4305ecc3e772f11b9ad855f1c0fe63e976628c8bba16318e996647299e6"
+    },
+    {
+      "bytes": 60072,
+      "path": "source://v2/poly-arb-ai/training/alpha_v2_phase5_1/combined_data_index_20260511_12/20260428/labels.parquet",
+      "sha256": "1f915546124d7ca49a5ffb939864032701f562c9416630f062ced6cde98d94bc"
+    },
+    {
+      "bytes": 59992,
+      "path": "source://v2/poly-arb-ai/training/alpha_v2_phase5_1/combined_data_index_20260511_12/20260429/labels.parquet",
+      "sha256": "614fdfa452fe7143ee6e85f72af45c233719384f197cf71231f22015ca7df06b"
+    },
+    {
+      "bytes": 60136,
+      "path": "source://v2/poly-arb-ai/training/alpha_v2_phase5_1/combined_data_index_20260511_12/20260430/labels.parquet",
+      "sha256": "b3662f028bf40bc3cf4b1ad38748ef56869c76f927b4865f67340603effadded"
+    },
+    {
+      "bytes": 59860,
+      "path": "source://v2/poly-arb-ai/training/alpha_v2_phase5_1/combined_data_index_20260511_12/20260501/labels.parquet",
+      "sha256": "95cb6d79f7dbae6e7e4dee8050b7aaef2303c0d703dc303bb347f04d60fdd36a"
+    },
+    {
+      "bytes": 60033,
+      "path": "source://v2/poly-arb-ai/training/alpha_v2_phase5_1/combined_data_index_20260511_12/20260502/labels.parquet",
+      "sha256": "0bbfdf02a701a0943771abe3b809d6513a7fdb99f9f00fb67f46654998c57564"
+    },
+    {
+      "bytes": 60037,
+      "path": "source://v2/poly-arb-ai/training/alpha_v2_phase5_1/combined_data_index_20260511_12/20260503/labels.parquet",
+      "sha256": "cd70ccb557e5791a2a5e35a535b66c2720152154960b14ff96a77b82d27d9a41"
+    },
+    {
+      "bytes": 60109,
+      "path": "source://v2/poly-arb-ai/training/alpha_v2_phase5_1/combined_data_index_20260511_12/20260504/labels.parquet",
+      "sha256": "b993515422a25732ae45f46c034e7dbc9a6806af7519162f8803b59dd0855442"
+    },
+    {
+      "bytes": 60097,
+      "path": "source://v2/poly-arb-ai/training/alpha_v2_phase5_1/combined_data_index_20260511_12/20260505/labels.parquet",
+      "sha256": "28134abb56899438773ea814aead14b33b29895e45dbb023d281524a3c79340b"
+    },
+    {
+      "bytes": 59854,
+      "path": "source://v2/poly-arb-ai/training/alpha_v2_phase5_1/combined_data_index_20260511_12/20260506/labels.parquet",
+      "sha256": "1bb1c8f5307d07a02aa4364910dea214575433ac9cb768b2fbf74a92137729d8"
+    },
+    {
+      "bytes": 59919,
+      "path": "source://v2/poly-arb-ai/training/alpha_v2_phase5_1/combined_data_index_20260511_12/20260507/labels.parquet",
+      "sha256": "9bc69a6e9c31942d0c8252aea7b8848bc4196dde7c7ca41d209d1b2a8b9e0979"
+    },
+    {
+      "bytes": 60076,
+      "path": "source://v2/poly-arb-ai/training/alpha_v2_phase5_1/combined_data_index_20260511_12/20260508/labels.parquet",
+      "sha256": "326b75365c06d637adc42c6f2d3f30a3532d28b8db580c6f0a10eb0591811a3e"
+    },
+    {
+      "bytes": 60033,
+      "path": "source://v2/poly-arb-ai/training/alpha_v2_phase5_1/combined_data_index_20260511_12/20260509/labels.parquet",
+      "sha256": "174f3fd9571443823c4c28e2c868a88c0abd0a479bb8c62bee2e92e668c69b14"
+    },
+    {
+      "bytes": 59923,
+      "path": "source://v2/poly-arb-ai/training/alpha_v2_phase5_1/combined_data_index_20260511_12/20260510/labels.parquet",
+      "sha256": "4c7e8a84db6755825f3979d5c6f9fe593d66c0a2fdd99f25478d9dba77650c1d"
+    },
+    {
+      "bytes": 59793,
+      "path": "source://v2/poly-arb-ai/training/alpha_v2_phase5_1/combined_data_index_20260511_12/20260511/labels.parquet",
+      "sha256": "05ae99ac4fc4e28338e1bbd200d7a2dd1c9f62fd2a00bf2b122e057678e9038a"
+    },
+    {
+      "bytes": 59958,
+      "path": "source://v2/poly-arb-ai/training/alpha_v2_phase5_1/combined_data_index_20260511_12/20260512/labels.parquet",
+      "sha256": "b2a02a7355b67c1e460a4e042a545cbe35e81126a17165439255a037999c52b2"
+    },
+    {
+      "bytes": 114802,
+      "path": "source://v2/poly-arb-ai/training/alpha_v2_phase5_1/combined_data_index_20260511_12/data-v1/labels.parquet",
+      "sha256": "d20126684cf54880ea61401cc23626b7dd49ade21cbf940317fd59f2e3c4dd75"
+    },
+    {
+      "bytes": 180051,
+      "path": "source://v2/poly-arb-ai/training/alpha_v2_phase5_1/combined_data_index_20260511_12/data-v2/labels.parquet",
+      "sha256": "0737de0d3aa8a92f2192902986c31bd053581bb04738c316fd20ac266621c58c"
+    },
+    {
+      "bytes": 308939,
+      "path": "source://v2/poly-arb-ai/training/alpha_v2_phase5_1/combined_data_index_20260511_12/data-v3/labels.parquet",
+      "sha256": "e62ce50a5628b56fed67d73a2427b5a47e972e07079dcc7260016509b439b61f"
+    },
+    {
+      "bytes": 533261,
+      "path": "source://v2/poly-arb-ai/training/alpha_v2_phase5_1/combined_data_index_20260511_12/data-v4/labels.parquet",
+      "sha256": "1cf72bbfa7b92b5ca7605b583e85dd4ca536ce5c7b34767329e27433e236a892"
+    },
+    {
+      "bytes": 442429,
+      "path": "source://v2/poly-arb-ai/training/alpha_v2_phase5_1/combined_data_index_20260511_12/data-v5/labels.parquet",
+      "sha256": "483f7cbc3febd897a6a74f278e9c64dc9089d4dae21ebb059be979eeb285b999"
+    }
+  ],
+  "schema_version": "maker_transition_v2_input_hashes_v1"
+}

@@ -1,0 +1,124 @@
+{
+  "archive_hash_check": "passed",
+  "completed_full_72h": false,
+  "duration_hours": 39.30482472222222,
+  "end_utc": "2026-05-19T13:52:29Z",
+  "generated_utc": "2026-05-19T14:00:49Z",
+  "git_commit": "ff657cb",
+  "health_total": {
+    "booting_observe_only": 1,
+    "chainlink_settlement_pending": 84,
+    "clob_rate_limits_resolved": 1,
+    "gap": 2,
+    "gap_recovered": 2,
+    "market_p2b_set": 1419,
+    "market_resolved": 1407,
+    "market_resolved_meta": 1407,
+    "model_profiles_loaded": 1,
+    "order_lifecycle": 4707,
+    "order_rejected": 1,
+    "risk_control_await_segment_reset": 17,
+    "risk_control_late_liability_writeoff": 6,
+    "risk_control_order_blocked": 7,
+    "risk_control_rejoin_active": 14,
+    "risk_control_segment_reset": 14,
+    "risk_control_triggered": 17,
+    "shutdown_signal": 1,
+    "unexpected_unsettled_dropped": 6,
+    "worker_spawned": 473
+  },
+  "local_archive": "paper-trade-history/run-tpsl-three-profile-72h-no-raw-tp30-20260517T223411Z/remote_run",
+  "profiles": [
+    {
+      "adjusted_total_pnl_usdc": -47.7168,
+      "cash_last": 47.28400000000003,
+      "closed_segment_pnl_usdc": -47.7168,
+      "filled_orders": 471,
+      "last_trigger": "stop_loss",
+      "late_liability_writeoff_count": 2,
+      "nav_delta_total": -49.566,
+      "nav_last": 50.434,
+      "pending_rebate_usdc": 5.00255,
+      "profile_id": "m5_baseline",
+      "risk_status": "await_segment_safe_to_reset",
+      "segment_id": "m5_baseline:4",
+      "segment_reset_count": 3,
+      "submitted_orders": 521
+    },
+    {
+      "adjusted_total_pnl_usdc": -55.7933,
+      "cash_last": 45.771199999999936,
+      "closed_segment_pnl_usdc": -55.7933,
+      "filled_orders": 196,
+      "last_trigger": "stop_loss",
+      "late_liability_writeoff_count": 2,
+      "nav_delta_total": -49.9688,
+      "nav_last": 50.0312,
+      "pending_rebate_usdc": 1.21516,
+      "profile_id": "m3_b1",
+      "risk_status": "await_segment_safe_to_reset",
+      "segment_id": "m3_b1:5",
+      "segment_reset_count": 4,
+      "submitted_orders": 221
+    },
+    {
+      "adjusted_total_pnl_usdc": 78.4222,
+      "cash_last": 47.23809999999999,
+      "closed_segment_pnl_usdc": 78.4222,
+      "filled_orders": 289,
+      "last_trigger": "stop_loss",
+      "late_liability_writeoff_count": 2,
+      "nav_delta_total": -49.7604,
+      "nav_last": 50.2396,
+      "pending_rebate_usdc": 2.99571,
+      "profile_id": "m3_b2",
+      "risk_status": "await_segment_safe_to_reset",
+      "segment_id": "m3_b2:8",
+      "segment_reset_count": 7,
+      "submitted_orders": 348
+    }
+  ],
+  "remote_run_dir": "[PRIVATE_HOME]/m6-paper/logs/run-tpsl-three-profile-72h-no-raw-tp30-20260517T223411Z",
+  "report_json": "paper-trade-history/run-tpsl-three-profile-72h-no-raw-tp30-20260517T223411Z/final-reports/report-20260519T135915Z.json",
+  "report_md": "paper-trade-history/run-tpsl-three-profile-72h-no-raw-tp30-20260517T223411Z/final-reports/report-20260519T135915Z.md",
+  "risk_total": {
+    "risk_control_await_segment_reset": 17,
+    "risk_control_late_liability_writeoff": 6,
+    "risk_control_order_blocked": 7,
+    "risk_control_rejoin_active": 14,
+    "risk_control_segment_close": 17,
+    "risk_control_segment_reset": 14,
+    "risk_control_triggered": 17
+  },
+  "risk_triggers_by_profile": {
+    "m3_b1": {
+      "stop_loss": 3,
+      "take_profit": 2
+    },
+    "m3_b2": {
+      "stop_loss": 2,
+      "take_profit": 6
+    },
+    "m5_baseline": {
+      "stop_loss": 2,
+      "take_profit": 2
+    }
+  },
+  "risk_triggers_total": {
+    "stop_loss": 7,
+    "take_profit": 10
+  },
+  "run_id": "run-tpsl-three-profile-72h-no-raw-tp30-20260517T223411Z",
+  "runtime_unsettled_at_shutdown": 0,
+  "service_status_after_stop": "inactive",
+  "sha256sum_check_path": "paper-trade-history/run-tpsl-three-profile-72h-no-raw-tp30-20260517T223411Z/sha256sum.check.txt",
+  "start_utc": "2026-05-17T22:34:11Z",
+  "stop_reason": "user_requested_before_merge_and_restart",
+  "summary": [
+    "Run was stopped intentionally before the 72h target to make way for the V2 merge and restart.",
+    "Artifact archive was pulled from a stopped run snapshot and passed sha256 verification.",
+    "All three profiles were in await_segment_safe_to_reset after a stop_loss trigger at shutdown time.",
+    "Adjusted total PnL includes closed TP/SL segments plus current segment PnL; current segment PnL is zero because each profile was closed/cooling down at stop time.",
+    "m3_b2 led this stopped sample by adjusted total PnL, but this is not a completed 72h performance result."
+  ]
+}

@@ -1,0 +1,287 @@
+{
+  "candidates": [
+    {
+      "behavior_deltas": {
+        "active_quote_ratio": {
+          "abs_delta": 0.7714288348082595,
+          "candidate": 0.033926991150442475,
+          "control": 0.805355825958702,
+          "relative_delta": 0.9578732902191953
+        },
+        "cancel_count": {
+          "abs_delta": 457103.0,
+          "candidate": 19424.0,
+          "control": 476527.0,
+          "relative_delta": 0.9592384062183255
+        },
+        "cancel_to_submitted_ratio": {
+          "abs_delta": 0.07091452958387623,
+          "candidate": 0.8017832081235037,
+          "control": 0.8726977377073799,
+          "relative_delta": 0.08125898179840847
+        },
+        "fill_to_submitted_ratio": {
+          "abs_delta": 0.07661520210663056,
+          "candidate": 0.26141335754973993,
+          "control": 0.18479815544310937,
+          "relative_delta": 0.41458856514515785
+        },
+        "inventory_exposure_max_abs": {
+          "abs_delta": 0.0,
+          "candidate": 4.0,
+          "control": 4.0,
+          "relative_delta": 0.0
+        },
+        "inventory_exposure_mean_abs": {
+          "abs_delta": 1.9223672566371681,
+          "candidate": 0.08924778761061947,
+          "control": 2.0116150442477876,
+          "relative_delta": 0.955633764091284
+        },
+        "reject_or_unsupported_mix": {
+          "candidate": {
+            "rejected_intent_count": 0,
+            "unsupported_reason_counts": {}
+          },
+          "changed": false,
+          "control": {
+            "rejected_intent_count": 0,
+            "unsupported_reason_counts": {}
+          }
+        },
+        "rejected_intent_count": {
+          "abs_delta": 0.0,
+          "candidate": 0.0,
+          "control": 0.0,
+          "relative_delta": 0.0
+        },
+        "risk_score_mean": {
+          "abs_delta": 0.0,
+          "candidate": 0.0,
+          "control": 0.0,
+          "relative_delta": 0.0
+        },
+        "risk_score_p99": {
+          "abs_delta": 0.0,
+          "candidate": 0.0,
+          "control": 0.0,
+          "relative_delta": 0.0
+        },
+        "submitted_order_count": {
+          "abs_delta": 521813.0,
+          "candidate": 24226.0,
+          "control": 546039.0,
+          "relative_delta": 0.9556332056867732
+        },
+        "trade_count": {
+          "abs_delta": 94574.0,
+          "candidate": 6333.0,
+          "control": 100907.0,
+          "relative_delta": 0.9372392400923623
+        }
+      },
+      "control_run_id": "phase67_C0_control_anchor",
+      "gate3_passed": true,
+      "material_delta_dimensions": [
+        "active_quote_ratio",
+        "submitted_order_count",
+        "trade_count",
+        "cancel_count",
+        "inventory_exposure_mean_abs"
+      ],
+      "run_id": "phase67_P1_signed_reward_filter"
+    },
+    {
+      "behavior_deltas": {
+        "active_quote_ratio": {
+          "abs_delta": 0.805355825958702,
+          "candidate": 0.0,
+          "control": 0.805355825958702,
+          "relative_delta": 1.0
+        },
+        "cancel_count": {
+          "abs_delta": 476527.0,
+          "candidate": 0.0,
+          "control": 476527.0,
+          "relative_delta": 1.0
+        },
+        "cancel_to_submitted_ratio": {
+          "abs_delta": 0.8726977377073799,
+          "candidate": 0.0,
+          "control": 0.8726977377073799,
+          "relative_delta": 1.0
+        },
+        "fill_to_submitted_ratio": {
+          "abs_delta": 0.18479815544310937,
+          "candidate": 0.0,
+          "control": 0.18479815544310937,
+          "relative_delta": 1.0
+        },
+        "inventory_exposure_max_abs": {
+          "abs_delta": 4.0,
+          "candidate": 0.0,
+          "control": 4.0,
+          "relative_delta": 1.0
+        },
+        "inventory_exposure_mean_abs": {
+          "abs_delta": 2.0116150442477876,
+          "candidate": 0.0,
+          "control": 2.0116150442477876,
+          "relative_delta": 1.0
+        },
+        "reject_or_unsupported_mix": {
+          "candidate": {
+            "rejected_intent_count": 0,
+            "unsupported_reason_counts": {}
+          },
+          "changed": false,
+          "control": {
+            "rejected_intent_count": 0,
+            "unsupported_reason_counts": {}
+          }
+        },
+        "rejected_intent_count": {
+          "abs_delta": 0.0,
+          "candidate": 0.0,
+          "control": 0.0,
+          "relative_delta": 0.0
+        },
+        "risk_score_mean": {
+          "abs_delta": 0.0,
+          "candidate": 0.0,
+          "control": 0.0,
+          "relative_delta": 0.0
+        },
+        "risk_score_p99": {
+          "abs_delta": 0.0,
+          "candidate": 0.0,
+          "control": 0.0,
+          "relative_delta": 0.0
+        },
+        "submitted_order_count": {
+          "abs_delta": 546039.0,
+          "candidate": 0.0,
+          "control": 546039.0,
+          "relative_delta": 1.0
+        },
+        "trade_count": {
+          "abs_delta": 100907.0,
+          "candidate": 0.0,
+          "control": 100907.0,
+          "relative_delta": 1.0
+        }
+      },
+      "control_run_id": "phase67_C0_control_anchor",
+      "gate3_passed": true,
+      "material_delta_dimensions": [
+        "active_quote_ratio",
+        "submitted_order_count",
+        "trade_count",
+        "cancel_count",
+        "inventory_exposure_mean_abs",
+        "inventory_exposure_max_abs"
+      ],
+      "run_id": "phase67_P2_quote_sparsity_calibrated"
+    },
+    {
+      "behavior_deltas": {
+        "active_quote_ratio": {
+          "abs_delta": 0.805355825958702,
+          "candidate": 0.0,
+          "control": 0.805355825958702,
+          "relative_delta": 1.0
+        },
+        "cancel_count": {
+          "abs_delta": 476527.0,
+          "candidate": 0.0,
+          "control": 476527.0,
+          "relative_delta": 1.0
+        },
+        "cancel_to_submitted_ratio": {
+          "abs_delta": 0.8726977377073799,
+          "candidate": 0.0,
+          "control": 0.8726977377073799,
+          "relative_delta": 1.0
+        },
+        "fill_to_submitted_ratio": {
+          "abs_delta": 0.18479815544310937,
+          "candidate": 0.0,
+          "control": 0.18479815544310937,
+          "relative_delta": 1.0
+        },
+        "inventory_exposure_max_abs": {
+          "abs_delta": 4.0,
+          "candidate": 0.0,
+          "control": 4.0,
+          "relative_delta": 1.0
+        },
+        "inventory_exposure_mean_abs": {
+          "abs_delta": 2.0116150442477876,
+          "candidate": 0.0,
+          "control": 2.0116150442477876,
+          "relative_delta": 1.0
+        },
+        "reject_or_unsupported_mix": {
+          "candidate": {
+            "rejected_intent_count": 0,
+            "unsupported_reason_counts": {}
+          },
+          "changed": false,
+          "control": {
+            "rejected_intent_count": 0,
+            "unsupported_reason_counts": {}
+          }
+        },
+        "rejected_intent_count": {
+          "abs_delta": 0.0,
+          "candidate": 0.0,
+          "control": 0.0,
+          "relative_delta": 0.0
+        },
+        "risk_score_mean": {
+          "abs_delta": 0.0,
+          "candidate": 0.0,
+          "control": 0.0,
+          "relative_delta": 0.0
+        },
+        "risk_score_p99": {
+          "abs_delta": 0.0,
+          "candidate": 0.0,
+          "control": 0.0,
+          "relative_delta": 0.0
+        },
+        "submitted_order_count": {
+          "abs_delta": 546039.0,
+          "candidate": 0.0,
+          "control": 546039.0,
+          "relative_delta": 1.0
+        },
+        "trade_count": {
+          "abs_delta": 100907.0,
+          "candidate": 0.0,
+          "control": 100907.0,
+          "relative_delta": 1.0
+        }
+      },
+      "control_run_id": "phase67_C0_control_anchor",
+      "gate3_passed": true,
+      "material_delta_dimensions": [
+        "active_quote_ratio",
+        "submitted_order_count",
+        "trade_count",
+        "cancel_count",
+        "inventory_exposure_mean_abs",
+        "inventory_exposure_max_abs"
+      ],
+      "run_id": "phase67_P3_binary_slot_policy"
+    }
+  ],
+  "control_run_id": "phase67_C0_control_anchor",
+  "review": {
+    "leaderboard_interpretation_allowed": true,
+    "paper_trade_approval": false,
+    "reason": "one or more primaries separated from control",
+    "verdict": "PASS_REVIEW"
+  },
+  "schema_version": "phase67_control_separation_audit_v1"
+}

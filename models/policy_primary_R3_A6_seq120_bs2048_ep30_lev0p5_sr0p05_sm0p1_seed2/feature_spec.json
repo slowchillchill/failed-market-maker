@@ -1,0 +1,1128 @@
+{
+  "feature_order_version": "v2_maker_160",
+  "features": [
+    {
+      "category": "m5_compat",
+      "dtype": "float32",
+      "index": 0,
+      "missing_strategy": "none",
+      "name": "poly_up_best_bid"
+    },
+    {
+      "category": "m5_compat",
+      "dtype": "float32",
+      "index": 1,
+      "missing_strategy": "none",
+      "name": "poly_up_best_ask"
+    },
+    {
+      "category": "m5_compat",
+      "dtype": "float32",
+      "index": 2,
+      "missing_strategy": "none",
+      "name": "poly_up_spread"
+    },
+    {
+      "category": "m5_compat",
+      "dtype": "float32",
+      "index": 3,
+      "missing_strategy": "none",
+      "name": "poly_up_mid"
+    },
+    {
+      "category": "m5_compat",
+      "dtype": "float32",
+      "index": 4,
+      "missing_strategy": "none",
+      "name": "poly_up_book_imbalance"
+    },
+    {
+      "category": "m5_compat",
+      "dtype": "float32",
+      "index": 5,
+      "missing_strategy": "none",
+      "name": "poly_up_last_trade_price"
+    },
+    {
+      "category": "m5_compat",
+      "dtype": "float32",
+      "index": 6,
+      "missing_strategy": "none",
+      "name": "poly_up_last_trade_size"
+    },
+    {
+      "category": "m5_compat",
+      "dtype": "float32",
+      "index": 7,
+      "missing_strategy": "none",
+      "name": "poly_up_last_trade_is_buy"
+    },
+    {
+      "category": "m5_compat",
+      "dtype": "float32",
+      "index": 8,
+      "missing_strategy": "none",
+      "name": "poly_up_bid_qty_1"
+    },
+    {
+      "category": "m5_compat",
+      "dtype": "float32",
+      "index": 9,
+      "missing_strategy": "none",
+      "name": "poly_up_bid_qty_2"
+    },
+    {
+      "category": "m5_compat",
+      "dtype": "float32",
+      "index": 10,
+      "missing_strategy": "none",
+      "name": "poly_up_bid_qty_3"
+    },
+    {
+      "category": "m5_compat",
+      "dtype": "float32",
+      "index": 11,
+      "missing_strategy": "none",
+      "name": "poly_up_bid_qty_4"
+    },
+    {
+      "category": "m5_compat",
+      "dtype": "float32",
+      "index": 12,
+      "missing_strategy": "none",
+      "name": "poly_up_bid_qty_5"
+    },
+    {
+      "category": "m5_compat",
+      "dtype": "float32",
+      "index": 13,
+      "missing_strategy": "none",
+      "name": "poly_up_ask_qty_1"
+    },
+    {
+      "category": "m5_compat",
+      "dtype": "float32",
+      "index": 14,
+      "missing_strategy": "none",
+      "name": "poly_up_ask_qty_2"
+    },
+    {
+      "category": "m5_compat",
+      "dtype": "float32",
+      "index": 15,
+      "missing_strategy": "none",
+      "name": "poly_up_ask_qty_3"
+    },
+    {
+      "category": "m5_compat",
+      "dtype": "float32",
+      "index": 16,
+      "missing_strategy": "none",
+      "name": "poly_up_ask_qty_4"
+    },
+    {
+      "category": "m5_compat",
+      "dtype": "float32",
+      "index": 17,
+      "missing_strategy": "none",
+      "name": "poly_up_ask_qty_5"
+    },
+    {
+      "category": "m5_compat",
+      "dtype": "float32",
+      "index": 18,
+      "missing_strategy": "none",
+      "name": "poly_down_best_bid"
+    },
+    {
+      "category": "m5_compat",
+      "dtype": "float32",
+      "index": 19,
+      "missing_strategy": "none",
+      "name": "poly_down_best_ask"
+    },
+    {
+      "category": "m5_compat",
+      "dtype": "float32",
+      "index": 20,
+      "missing_strategy": "none",
+      "name": "poly_down_spread"
+    },
+    {
+      "category": "m5_compat",
+      "dtype": "float32",
+      "index": 21,
+      "missing_strategy": "none",
+      "name": "poly_down_mid"
+    },
+    {
+      "category": "m5_compat",
+      "dtype": "float32",
+      "index": 22,
+      "missing_strategy": "none",
+      "name": "poly_down_book_imbalance"
+    },
+    {
+      "category": "m5_compat",
+      "dtype": "float32",
+      "index": 23,
+      "missing_strategy": "none",
+      "name": "poly_down_last_trade_price"
+    },
+    {
+      "category": "m5_compat",
+      "dtype": "float32",
+      "index": 24,
+      "missing_strategy": "none",
+      "name": "poly_down_last_trade_size"
+    },
+    {
+      "category": "m5_compat",
+      "dtype": "float32",
+      "index": 25,
+      "missing_strategy": "none",
+      "name": "poly_down_last_trade_is_buy"
+    },
+    {
+      "category": "m5_compat",
+      "dtype": "float32",
+      "index": 26,
+      "missing_strategy": "none",
+      "name": "poly_down_bid_qty_1"
+    },
+    {
+      "category": "m5_compat",
+      "dtype": "float32",
+      "index": 27,
+      "missing_strategy": "none",
+      "name": "poly_down_bid_qty_2"
+    },
+    {
+      "category": "m5_compat",
+      "dtype": "float32",
+      "index": 28,
+      "missing_strategy": "none",
+      "name": "poly_down_bid_qty_3"
+    },
+    {
+      "category": "m5_compat",
+      "dtype": "float32",
+      "index": 29,
+      "missing_strategy": "none",
+      "name": "poly_down_bid_qty_4"
+    },
+    {
+      "category": "m5_compat",
+      "dtype": "float32",
+      "index": 30,
+      "missing_strategy": "none",
+      "name": "poly_down_bid_qty_5"
+    },
+    {
+      "category": "m5_compat",
+      "dtype": "float32",
+      "index": 31,
+      "missing_strategy": "none",
+      "name": "poly_down_ask_qty_1"
+    },
+    {
+      "category": "m5_compat",
+      "dtype": "float32",
+      "index": 32,
+      "missing_strategy": "none",
+      "name": "poly_down_ask_qty_2"
+    },
+    {
+      "category": "m5_compat",
+      "dtype": "float32",
+      "index": 33,
+      "missing_strategy": "none",
+      "name": "poly_down_ask_qty_3"
+    },
+    {
+      "category": "m5_compat",
+      "dtype": "float32",
+      "index": 34,
+      "missing_strategy": "none",
+      "name": "poly_down_ask_qty_4"
+    },
+    {
+      "category": "m5_compat",
+      "dtype": "float32",
+      "index": 35,
+      "missing_strategy": "none",
+      "name": "poly_down_ask_qty_5"
+    },
+    {
+      "category": "m5_compat",
+      "dtype": "float32",
+      "index": 36,
+      "missing_strategy": "none",
+      "name": "binance_best_bid"
+    },
+    {
+      "category": "m5_compat",
+      "dtype": "float32",
+      "index": 37,
+      "missing_strategy": "none",
+      "name": "binance_best_ask"
+    },
+    {
+      "category": "m5_compat",
+      "dtype": "float32",
+      "index": 38,
+      "missing_strategy": "none",
+      "name": "binance_spread"
+    },
+    {
+      "category": "m5_compat",
+      "dtype": "float32",
+      "index": 39,
+      "missing_strategy": "none",
+      "name": "binance_mid"
+    },
+    {
+      "category": "m5_compat",
+      "dtype": "float32",
+      "index": 40,
+      "missing_strategy": "none",
+      "name": "binance_last_price"
+    },
+    {
+      "category": "m5_compat",
+      "dtype": "float32",
+      "index": 41,
+      "missing_strategy": "none",
+      "name": "binance_last_is_buyer_maker"
+    },
+    {
+      "category": "m5_compat",
+      "dtype": "float32",
+      "index": 42,
+      "missing_strategy": "none",
+      "name": "binance_last_size"
+    },
+    {
+      "category": "m5_compat",
+      "dtype": "float32",
+      "index": 43,
+      "missing_strategy": "none",
+      "name": "binance_market_drift"
+    },
+    {
+      "category": "m5_compat",
+      "dtype": "float32",
+      "index": 44,
+      "missing_strategy": "none",
+      "name": "binance_trade_imbalance"
+    },
+    {
+      "category": "m5_compat",
+      "dtype": "float32",
+      "index": 45,
+      "missing_strategy": "none",
+      "name": "binance_volatility"
+    },
+    {
+      "category": "m5_compat",
+      "dtype": "float32",
+      "index": 46,
+      "missing_strategy": "none",
+      "name": "binance_bid_qty_1"
+    },
+    {
+      "category": "m5_compat",
+      "dtype": "float32",
+      "index": 47,
+      "missing_strategy": "none",
+      "name": "binance_bid_qty_2"
+    },
+    {
+      "category": "m5_compat",
+      "dtype": "float32",
+      "index": 48,
+      "missing_strategy": "none",
+      "name": "binance_bid_qty_3"
+    },
+    {
+      "category": "m5_compat",
+      "dtype": "float32",
+      "index": 49,
+      "missing_strategy": "none",
+      "name": "binance_bid_qty_4"
+    },
+    {
+      "category": "m5_compat",
+      "dtype": "float32",
+      "index": 50,
+      "missing_strategy": "none",
+      "name": "binance_bid_qty_5"
+    },
+    {
+      "category": "m5_compat",
+      "dtype": "float32",
+      "index": 51,
+      "missing_strategy": "none",
+      "name": "binance_ask_qty_1"
+    },
+    {
+      "category": "m5_compat",
+      "dtype": "float32",
+      "index": 52,
+      "missing_strategy": "none",
+      "name": "binance_ask_qty_2"
+    },
+    {
+      "category": "m5_compat",
+      "dtype": "float32",
+      "index": 53,
+      "missing_strategy": "none",
+      "name": "binance_ask_qty_3"
+    },
+    {
+      "category": "m5_compat",
+      "dtype": "float32",
+      "index": 54,
+      "missing_strategy": "none",
+      "name": "binance_ask_qty_4"
+    },
+    {
+      "category": "m5_compat",
+      "dtype": "float32",
+      "index": 55,
+      "missing_strategy": "none",
+      "name": "binance_ask_qty_5"
+    },
+    {
+      "category": "m5_compat",
+      "dtype": "float32",
+      "index": 56,
+      "missing_strategy": "none",
+      "name": "blb_bps"
+    },
+    {
+      "category": "m5_compat",
+      "dtype": "float32",
+      "index": 57,
+      "missing_strategy": "none",
+      "name": "blb_level_count"
+    },
+    {
+      "category": "m5_compat",
+      "dtype": "float32",
+      "index": 58,
+      "missing_strategy": "none",
+      "name": "blb_barrier_usdt"
+    },
+    {
+      "category": "m5_compat",
+      "dtype": "float32",
+      "index": 59,
+      "missing_strategy": "none",
+      "name": "chainlink_value"
+    },
+    {
+      "category": "m5_compat",
+      "dtype": "float32",
+      "index": 60,
+      "missing_strategy": "none",
+      "name": "chainlink_p2b_deviation"
+    },
+    {
+      "category": "m5_compat",
+      "dtype": "float32",
+      "index": 61,
+      "missing_strategy": "none",
+      "name": "chainlink_staleness_ms"
+    },
+    {
+      "category": "m5_compat",
+      "dtype": "float32",
+      "index": 62,
+      "missing_strategy": "none",
+      "name": "chainlink_short_term_change"
+    },
+    {
+      "category": "m5_compat",
+      "dtype": "float32",
+      "index": 63,
+      "missing_strategy": "none",
+      "name": "time_to_expiry_ms"
+    },
+    {
+      "category": "m5_compat",
+      "dtype": "float32",
+      "index": 64,
+      "missing_strategy": "none",
+      "name": "step_index"
+    },
+    {
+      "category": "m5_compat",
+      "dtype": "float32",
+      "index": 65,
+      "missing_strategy": "none",
+      "name": "agent_up_shares"
+    },
+    {
+      "category": "m5_compat",
+      "dtype": "float32",
+      "index": 66,
+      "missing_strategy": "none",
+      "name": "agent_down_shares"
+    },
+    {
+      "category": "m5_compat",
+      "dtype": "float32",
+      "index": 67,
+      "missing_strategy": "none",
+      "name": "agent_up_value"
+    },
+    {
+      "category": "m5_compat",
+      "dtype": "float32",
+      "index": 68,
+      "missing_strategy": "none",
+      "name": "agent_down_value"
+    },
+    {
+      "category": "m5_compat",
+      "dtype": "float32",
+      "index": 69,
+      "missing_strategy": "none",
+      "name": "agent_position_value"
+    },
+    {
+      "category": "m5_compat",
+      "dtype": "float32",
+      "index": 70,
+      "missing_strategy": "none",
+      "name": "agent_floating_pnl"
+    },
+    {
+      "category": "m5_compat",
+      "dtype": "float32",
+      "index": 71,
+      "missing_strategy": "none",
+      "name": "settled_pnl_last_1"
+    },
+    {
+      "category": "m5_compat",
+      "dtype": "float32",
+      "index": 72,
+      "missing_strategy": "none",
+      "name": "settled_pnl_last_3"
+    },
+    {
+      "category": "m5_compat",
+      "dtype": "float32",
+      "index": 73,
+      "missing_strategy": "none",
+      "name": "settled_pnl_last_6"
+    },
+    {
+      "category": "m5_compat",
+      "dtype": "float32",
+      "index": 74,
+      "missing_strategy": "none",
+      "name": "session_return"
+    },
+    {
+      "category": "m5_compat",
+      "dtype": "float32",
+      "index": 75,
+      "missing_strategy": "none",
+      "name": "rolling_drawdown"
+    },
+    {
+      "category": "mask_age",
+      "dtype": "float32",
+      "index": 76,
+      "missing_strategy": "zero_fill_with_mask",
+      "name": "poly_up_book_visible_mask"
+    },
+    {
+      "category": "mask_age",
+      "dtype": "float32",
+      "index": 77,
+      "missing_strategy": "zero_fill_with_mask",
+      "name": "poly_down_book_visible_mask"
+    },
+    {
+      "category": "mask_age",
+      "dtype": "float32",
+      "index": 78,
+      "missing_strategy": "zero_fill_with_mask",
+      "name": "binance_book_visible_mask"
+    },
+    {
+      "category": "mask_age",
+      "dtype": "float32",
+      "index": 79,
+      "missing_strategy": "zero_fill_with_mask",
+      "name": "chainlink_visible_mask"
+    },
+    {
+      "category": "mask_age",
+      "dtype": "float32",
+      "index": 80,
+      "missing_strategy": "zero_fill_with_mask",
+      "name": "poly_up_trade_visible_mask"
+    },
+    {
+      "category": "mask_age",
+      "dtype": "float32",
+      "index": 81,
+      "missing_strategy": "zero_fill_with_mask",
+      "name": "poly_down_trade_visible_mask"
+    },
+    {
+      "category": "mask_age",
+      "dtype": "float32",
+      "index": 82,
+      "missing_strategy": "zero_fill_with_mask",
+      "name": "binance_trade_visible_mask"
+    },
+    {
+      "category": "mask_age",
+      "dtype": "float32",
+      "index": 83,
+      "missing_strategy": "zero_fill_with_mask",
+      "name": "blb_visible_mask"
+    },
+    {
+      "category": "mask_age",
+      "dtype": "float32",
+      "index": 84,
+      "missing_strategy": "zero_fill_with_mask",
+      "name": "poly_up_book_age_ms"
+    },
+    {
+      "category": "mask_age",
+      "dtype": "float32",
+      "index": 85,
+      "missing_strategy": "zero_fill_with_mask",
+      "name": "poly_down_book_age_ms"
+    },
+    {
+      "category": "mask_age",
+      "dtype": "float32",
+      "index": 86,
+      "missing_strategy": "zero_fill_with_mask",
+      "name": "binance_book_age_ms"
+    },
+    {
+      "category": "mask_age",
+      "dtype": "float32",
+      "index": 87,
+      "missing_strategy": "zero_fill_with_mask",
+      "name": "chainlink_age_ms"
+    },
+    {
+      "category": "mask_age",
+      "dtype": "float32",
+      "index": 88,
+      "missing_strategy": "zero_fill_with_mask",
+      "name": "poly_up_trade_age_ms"
+    },
+    {
+      "category": "mask_age",
+      "dtype": "float32",
+      "index": 89,
+      "missing_strategy": "zero_fill_with_mask",
+      "name": "poly_down_trade_age_ms"
+    },
+    {
+      "category": "mask_age",
+      "dtype": "float32",
+      "index": 90,
+      "missing_strategy": "zero_fill_with_mask",
+      "name": "binance_trade_age_ms"
+    },
+    {
+      "category": "mask_age",
+      "dtype": "float32",
+      "index": 91,
+      "missing_strategy": "zero_fill_with_mask",
+      "name": "blb_age_ms"
+    },
+    {
+      "category": "time_context",
+      "dtype": "float32",
+      "index": 92,
+      "missing_strategy": "zero_fill",
+      "name": "market_elapsed_ms"
+    },
+    {
+      "category": "time_context",
+      "dtype": "float32",
+      "index": 93,
+      "missing_strategy": "zero_fill",
+      "name": "market_progress_ratio"
+    },
+    {
+      "category": "time_context",
+      "dtype": "float32",
+      "index": 94,
+      "missing_strategy": "zero_fill",
+      "name": "ms_to_next_chainlink_publish"
+    },
+    {
+      "category": "time_context",
+      "dtype": "float32",
+      "index": 95,
+      "missing_strategy": "zero_fill",
+      "name": "ms_since_prev_chainlink_publish"
+    },
+    {
+      "category": "time_context",
+      "dtype": "float32",
+      "index": 96,
+      "missing_strategy": "zero_fill",
+      "name": "decision_second_sin"
+    },
+    {
+      "category": "time_context",
+      "dtype": "float32",
+      "index": 97,
+      "missing_strategy": "zero_fill",
+      "name": "decision_second_cos"
+    },
+    {
+      "category": "time_context",
+      "dtype": "float32",
+      "index": 98,
+      "missing_strategy": "zero_fill",
+      "name": "decision_minute_sin"
+    },
+    {
+      "category": "time_context",
+      "dtype": "float32",
+      "index": 99,
+      "missing_strategy": "zero_fill",
+      "name": "decision_minute_cos"
+    },
+    {
+      "category": "top5_price_offset",
+      "dtype": "float32",
+      "index": 100,
+      "missing_strategy": "zero_fill_with_mask",
+      "name": "poly_up_bid_price_offset_l1"
+    },
+    {
+      "category": "top5_price_offset",
+      "dtype": "float32",
+      "index": 101,
+      "missing_strategy": "zero_fill_with_mask",
+      "name": "poly_up_bid_price_offset_l2"
+    },
+    {
+      "category": "top5_price_offset",
+      "dtype": "float32",
+      "index": 102,
+      "missing_strategy": "zero_fill_with_mask",
+      "name": "poly_up_bid_price_offset_l3"
+    },
+    {
+      "category": "top5_price_offset",
+      "dtype": "float32",
+      "index": 103,
+      "missing_strategy": "zero_fill_with_mask",
+      "name": "poly_up_bid_price_offset_l4"
+    },
+    {
+      "category": "top5_price_offset",
+      "dtype": "float32",
+      "index": 104,
+      "missing_strategy": "zero_fill_with_mask",
+      "name": "poly_up_bid_price_offset_l5"
+    },
+    {
+      "category": "top5_price_offset",
+      "dtype": "float32",
+      "index": 105,
+      "missing_strategy": "zero_fill_with_mask",
+      "name": "poly_up_ask_price_offset_l1"
+    },
+    {
+      "category": "top5_price_offset",
+      "dtype": "float32",
+      "index": 106,
+      "missing_strategy": "zero_fill_with_mask",
+      "name": "poly_up_ask_price_offset_l2"
+    },
+    {
+      "category": "top5_price_offset",
+      "dtype": "float32",
+      "index": 107,
+      "missing_strategy": "zero_fill_with_mask",
+      "name": "poly_up_ask_price_offset_l3"
+    },
+    {
+      "category": "top5_price_offset",
+      "dtype": "float32",
+      "index": 108,
+      "missing_strategy": "zero_fill_with_mask",
+      "name": "poly_up_ask_price_offset_l4"
+    },
+    {
+      "category": "top5_price_offset",
+      "dtype": "float32",
+      "index": 109,
+      "missing_strategy": "zero_fill_with_mask",
+      "name": "poly_up_ask_price_offset_l5"
+    },
+    {
+      "category": "top5_price_offset",
+      "dtype": "float32",
+      "index": 110,
+      "missing_strategy": "zero_fill_with_mask",
+      "name": "poly_down_bid_price_offset_l1"
+    },
+    {
+      "category": "top5_price_offset",
+      "dtype": "float32",
+      "index": 111,
+      "missing_strategy": "zero_fill_with_mask",
+      "name": "poly_down_bid_price_offset_l2"
+    },
+    {
+      "category": "top5_price_offset",
+      "dtype": "float32",
+      "index": 112,
+      "missing_strategy": "zero_fill_with_mask",
+      "name": "poly_down_bid_price_offset_l3"
+    },
+    {
+      "category": "top5_price_offset",
+      "dtype": "float32",
+      "index": 113,
+      "missing_strategy": "zero_fill_with_mask",
+      "name": "poly_down_bid_price_offset_l4"
+    },
+    {
+      "category": "top5_price_offset",
+      "dtype": "float32",
+      "index": 114,
+      "missing_strategy": "zero_fill_with_mask",
+      "name": "poly_down_bid_price_offset_l5"
+    },
+    {
+      "category": "top5_price_offset",
+      "dtype": "float32",
+      "index": 115,
+      "missing_strategy": "zero_fill_with_mask",
+      "name": "poly_down_ask_price_offset_l1"
+    },
+    {
+      "category": "top5_price_offset",
+      "dtype": "float32",
+      "index": 116,
+      "missing_strategy": "zero_fill_with_mask",
+      "name": "poly_down_ask_price_offset_l2"
+    },
+    {
+      "category": "top5_price_offset",
+      "dtype": "float32",
+      "index": 117,
+      "missing_strategy": "zero_fill_with_mask",
+      "name": "poly_down_ask_price_offset_l3"
+    },
+    {
+      "category": "top5_price_offset",
+      "dtype": "float32",
+      "index": 118,
+      "missing_strategy": "zero_fill_with_mask",
+      "name": "poly_down_ask_price_offset_l4"
+    },
+    {
+      "category": "top5_price_offset",
+      "dtype": "float32",
+      "index": 119,
+      "missing_strategy": "zero_fill_with_mask",
+      "name": "poly_down_ask_price_offset_l5"
+    },
+    {
+      "category": "top5_price_offset",
+      "dtype": "float32",
+      "index": 120,
+      "missing_strategy": "zero_fill_with_mask",
+      "name": "binance_bid_price_offset_l1"
+    },
+    {
+      "category": "top5_price_offset",
+      "dtype": "float32",
+      "index": 121,
+      "missing_strategy": "zero_fill_with_mask",
+      "name": "binance_bid_price_offset_l2"
+    },
+    {
+      "category": "top5_price_offset",
+      "dtype": "float32",
+      "index": 122,
+      "missing_strategy": "zero_fill_with_mask",
+      "name": "binance_bid_price_offset_l3"
+    },
+    {
+      "category": "top5_price_offset",
+      "dtype": "float32",
+      "index": 123,
+      "missing_strategy": "zero_fill_with_mask",
+      "name": "binance_bid_price_offset_l4"
+    },
+    {
+      "category": "top5_price_offset",
+      "dtype": "float32",
+      "index": 124,
+      "missing_strategy": "zero_fill_with_mask",
+      "name": "binance_bid_price_offset_l5"
+    },
+    {
+      "category": "top5_price_offset",
+      "dtype": "float32",
+      "index": 125,
+      "missing_strategy": "zero_fill_with_mask",
+      "name": "binance_ask_price_offset_l1"
+    },
+    {
+      "category": "top5_price_offset",
+      "dtype": "float32",
+      "index": 126,
+      "missing_strategy": "zero_fill_with_mask",
+      "name": "binance_ask_price_offset_l2"
+    },
+    {
+      "category": "top5_price_offset",
+      "dtype": "float32",
+      "index": 127,
+      "missing_strategy": "zero_fill_with_mask",
+      "name": "binance_ask_price_offset_l3"
+    },
+    {
+      "category": "top5_price_offset",
+      "dtype": "float32",
+      "index": 128,
+      "missing_strategy": "zero_fill_with_mask",
+      "name": "binance_ask_price_offset_l4"
+    },
+    {
+      "category": "top5_price_offset",
+      "dtype": "float32",
+      "index": 129,
+      "missing_strategy": "zero_fill_with_mask",
+      "name": "binance_ask_price_offset_l5"
+    },
+    {
+      "category": "depth_shape",
+      "dtype": "float32",
+      "index": 130,
+      "missing_strategy": "zero_fill_with_mask",
+      "name": "poly_up_bid_depth_slope"
+    },
+    {
+      "category": "depth_shape",
+      "dtype": "float32",
+      "index": 131,
+      "missing_strategy": "zero_fill_with_mask",
+      "name": "poly_up_ask_depth_slope"
+    },
+    {
+      "category": "depth_shape",
+      "dtype": "float32",
+      "index": 132,
+      "missing_strategy": "zero_fill_with_mask",
+      "name": "poly_up_depth_convexity"
+    },
+    {
+      "category": "depth_shape",
+      "dtype": "float32",
+      "index": 133,
+      "missing_strategy": "zero_fill_with_mask",
+      "name": "poly_up_depth_imbalance_top5"
+    },
+    {
+      "category": "depth_shape",
+      "dtype": "float32",
+      "index": 134,
+      "missing_strategy": "zero_fill_with_mask",
+      "name": "poly_down_bid_depth_slope"
+    },
+    {
+      "category": "depth_shape",
+      "dtype": "float32",
+      "index": 135,
+      "missing_strategy": "zero_fill_with_mask",
+      "name": "poly_down_ask_depth_slope"
+    },
+    {
+      "category": "depth_shape",
+      "dtype": "float32",
+      "index": 136,
+      "missing_strategy": "zero_fill_with_mask",
+      "name": "poly_down_depth_convexity"
+    },
+    {
+      "category": "depth_shape",
+      "dtype": "float32",
+      "index": 137,
+      "missing_strategy": "zero_fill_with_mask",
+      "name": "poly_down_depth_imbalance_top5"
+    },
+    {
+      "category": "depth_shape",
+      "dtype": "float32",
+      "index": 138,
+      "missing_strategy": "zero_fill_with_mask",
+      "name": "binance_bid_depth_slope"
+    },
+    {
+      "category": "depth_shape",
+      "dtype": "float32",
+      "index": 139,
+      "missing_strategy": "zero_fill_with_mask",
+      "name": "binance_ask_depth_slope"
+    },
+    {
+      "category": "depth_shape",
+      "dtype": "float32",
+      "index": 140,
+      "missing_strategy": "zero_fill_with_mask",
+      "name": "binance_depth_convexity"
+    },
+    {
+      "category": "depth_shape",
+      "dtype": "float32",
+      "index": 141,
+      "missing_strategy": "zero_fill_with_mask",
+      "name": "binance_depth_imbalance_top5"
+    },
+    {
+      "category": "multi_scale_movement",
+      "dtype": "float32",
+      "index": 142,
+      "missing_strategy": "zero_fill",
+      "name": "polymarket_up_mid_return_1s"
+    },
+    {
+      "category": "multi_scale_movement",
+      "dtype": "float32",
+      "index": 143,
+      "missing_strategy": "zero_fill",
+      "name": "polymarket_up_mid_return_5s"
+    },
+    {
+      "category": "multi_scale_movement",
+      "dtype": "float32",
+      "index": 144,
+      "missing_strategy": "zero_fill",
+      "name": "polymarket_up_mid_return_30s"
+    },
+    {
+      "category": "multi_scale_movement",
+      "dtype": "float32",
+      "index": 145,
+      "missing_strategy": "zero_fill",
+      "name": "polymarket_down_mid_return_1s"
+    },
+    {
+      "category": "multi_scale_movement",
+      "dtype": "float32",
+      "index": 146,
+      "missing_strategy": "zero_fill",
+      "name": "polymarket_down_mid_return_5s"
+    },
+    {
+      "category": "multi_scale_movement",
+      "dtype": "float32",
+      "index": 147,
+      "missing_strategy": "zero_fill",
+      "name": "polymarket_down_mid_return_30s"
+    },
+    {
+      "category": "multi_scale_movement",
+      "dtype": "float32",
+      "index": 148,
+      "missing_strategy": "zero_fill",
+      "name": "binance_mid_return_1s"
+    },
+    {
+      "category": "multi_scale_movement",
+      "dtype": "float32",
+      "index": 149,
+      "missing_strategy": "zero_fill",
+      "name": "binance_mid_return_5s"
+    },
+    {
+      "category": "multi_scale_movement",
+      "dtype": "float32",
+      "index": 150,
+      "missing_strategy": "zero_fill",
+      "name": "binance_mid_return_30s"
+    },
+    {
+      "category": "multi_scale_movement",
+      "dtype": "float32",
+      "index": 151,
+      "missing_strategy": "zero_fill",
+      "name": "chainlink_value_return_1s"
+    },
+    {
+      "category": "multi_scale_movement",
+      "dtype": "float32",
+      "index": 152,
+      "missing_strategy": "zero_fill",
+      "name": "chainlink_value_return_5s"
+    },
+    {
+      "category": "multi_scale_movement",
+      "dtype": "float32",
+      "index": 153,
+      "missing_strategy": "zero_fill",
+      "name": "chainlink_value_return_30s"
+    },
+    {
+      "category": "event_flow",
+      "dtype": "float32",
+      "index": 154,
+      "missing_strategy": "zero_fill_with_mask",
+      "name": "poly_up_event_flow_1s"
+    },
+    {
+      "category": "event_flow",
+      "dtype": "float32",
+      "index": 155,
+      "missing_strategy": "zero_fill_with_mask",
+      "name": "poly_down_event_flow_1s"
+    },
+    {
+      "category": "event_flow",
+      "dtype": "float32",
+      "index": 156,
+      "missing_strategy": "zero_fill_with_mask",
+      "name": "binance_trade_flow_1s"
+    },
+    {
+      "category": "event_flow",
+      "dtype": "float32",
+      "index": 157,
+      "missing_strategy": "zero_fill_with_mask",
+      "name": "poly_up_cancel_replace_rate_5s"
+    },
+    {
+      "category": "event_flow",
+      "dtype": "float32",
+      "index": 158,
+      "missing_strategy": "zero_fill_with_mask",
+      "name": "poly_down_cancel_replace_rate_5s"
+    },
+    {
+      "category": "event_flow",
+      "dtype": "float32",
+      "index": 159,
+      "missing_strategy": "zero_fill_with_mask",
+      "name": "cross_leg_event_flow_imbalance_5s"
+    }
+  ],
+  "first_m5_feature_count": 76,
+  "n_features": 160,
+  "schema_version": 1
+}

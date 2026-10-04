@@ -1,0 +1,190 @@
+{
+  "alpha_model_sha256": "6ede2dddb91a80ff0b46d2eabec6fda466a91d4438b60fda2a37646843ad813f",
+  "alpha_normalization_sha256": "aa6b11c14d894789e8ccfef5ca3913972ec5ff14ba7978c5c5813577cfa2ffa7",
+  "binary_sha256": "ce185313ba89a5ad38b35236baeda9c5d9ce3c94bc3d35df6eb19ef35dda3153",
+  "clob_order_query_attempted": false,
+  "clob_trade_history_query_attempted": false,
+  "condition_id": "0x656d4e2a539e5ba5160eba4869178089bee90ba0432373ab31f9490671a8104c",
+  "condition_ids": [
+    "0x656d4e2a539e5ba5160eba4869178089bee90ba0432373ab31f9490671a8104c"
+  ],
+  "config_sha256": "e5b7ed7e1f1f70b775cc0e10622447957d81974f225df04289aeb63f7f604608",
+  "data_positions_query_attempted": false,
+  "data_value_query_attempted": false,
+  "execution_control": "no_approval_no_marker",
+  "fail_closed": true,
+  "fail_closed_reasons": [
+    "sell_balance_allowance_reject_multi_outcome_hard_boundary:wallet1:0x656d4e2a539e5ba5160eba4869178089bee90ba0432373ab31f9490671a8104c:outcomes=down,up",
+    "r5_runtime_audit_bundle_failed:normalized_order_event_duplicate_id:norm:r5-three-market-wallet1-1782054484269:trading:UserChannelTrade:0x98c6a07e18bcd525dfdae21d2337ccf08222ac951b8b7aca7bc54ab22a825402:user_channel_trade_fill:0fd8ad3e-93ce-4bbe-9942-6720c2d65ace"
+  ],
+  "hard_failure_reasons": [
+    "sell_balance_allowance_reject_multi_outcome_hard_boundary:wallet1:0x656d4e2a539e5ba5160eba4869178089bee90ba0432373ab31f9490671a8104c:outcomes=down,up",
+    "r5_runtime_audit_bundle_failed:normalized_order_event_duplicate_id:norm:r5-three-market-wallet1-1782054484269:trading:UserChannelTrade:0x98c6a07e18bcd525dfdae21d2337ccf08222ac951b8b7aca7bc54ab22a825402:user_channel_trade_fill:0fd8ad3e-93ce-4bbe-9942-6720c2d65ace"
+  ],
+  "market_scope": "Polymarket BTC UP/DOWN 5MIN",
+  "mode": "live_validation_r5_execution_orchestrator",
+  "model_id": "mpv2_r1_a3_seq120_seed2",
+  "model_sha256": {
+    "alpha_model": "6ede2dddb91a80ff0b46d2eabec6fda466a91d4438b60fda2a37646843ad813f",
+    "policy_model": "6af822f4a3b9a2476da6d5d344e7423af75fb6944c09ed6271bbae3b74d32bae"
+  },
+  "model_tree_manifest_sha256": "a18d41cb90b012280ab32031542d8f5ba47fdf18619cd5d4c7eb599152df094a",
+  "normalization_contract_verdict": "passed",
+  "normalization_fail_reasons": [
+    "r5_runtime_audit_bundle_failed:normalized_order_event_duplicate_id:norm:r5-three-market-wallet1-1782054484269:trading:UserChannelTrade:0x98c6a07e18bcd525dfdae21d2337ccf08222ac951b8b7aca7bc54ab22a825402:user_channel_trade_fill:0fd8ad3e-93ce-4bbe-9942-6720c2d65ace"
+  ],
+  "normalization_review_required": false,
+  "output_dir": "[PRIVATE_HOME]/sdk-live-trade/artifacts/live-validation/R5-three-market/r5-three-market-live-funds-20260621T150800Z/trading-runtime",
+  "platform_account_query_attempted": false,
+  "policy_model_sha256": "6af822f4a3b9a2476da6d5d344e7423af75fb6944c09ed6271bbae3b74d32bae",
+  "policy_normalization_sha256": "4ad4e866af0a52512cc84d8447f585fafda3af16344de3263984877187da0138",
+  "policy_normalization_source": "not_used_by_policy_onnx",
+  "raw_runtime_fail_closed": true,
+  "redaction_status": {
+    "secret_fields_redacted": true,
+    "status": "redacted"
+  },
+  "round_id": "R5",
+  "run_id": "r5-three-market-wallet1-1782054484269",
+  "runtime_report": {
+    "cancel_count": 9,
+    "clob_order_query_attempted": false,
+    "clob_trade_history_query_attempted": false,
+    "data_positions_query_attempted": false,
+    "data_value_query_attempted": false,
+    "execution_control": "no_approval_no_marker",
+    "fail_closed": true,
+    "fail_closed_reasons": [
+      "sell_balance_allowance_reject_multi_outcome_hard_boundary:wallet1:0x656d4e2a539e5ba5160eba4869178089bee90ba0432373ab31f9490671a8104c:outcomes=down,up",
+      "r5_runtime_audit_bundle_failed:normalized_order_event_duplicate_id:norm:r5-three-market-wallet1-1782054484269:trading:UserChannelTrade:0x98c6a07e18bcd525dfdae21d2337ccf08222ac951b8b7aca7bc54ab22a825402:user_channel_trade_fill:0fd8ad3e-93ce-4bbe-9942-6720c2d65ace"
+    ],
+    "hard_failure_reasons": [
+      "sell_balance_allowance_reject_multi_outcome_hard_boundary:wallet1:0x656d4e2a539e5ba5160eba4869178089bee90ba0432373ab31f9490671a8104c:outcomes=down,up",
+      "r5_runtime_audit_bundle_failed:normalized_order_event_duplicate_id:norm:r5-three-market-wallet1-1782054484269:trading:UserChannelTrade:0x98c6a07e18bcd525dfdae21d2337ccf08222ac951b8b7aca7bc54ab22a825402:user_channel_trade_fill:0fd8ad3e-93ce-4bbe-9942-6720c2d65ace"
+    ],
+    "normalization_fail_reasons": [
+      "r5_runtime_audit_bundle_failed:normalized_order_event_duplicate_id:norm:r5-three-market-wallet1-1782054484269:trading:UserChannelTrade:0x98c6a07e18bcd525dfdae21d2337ccf08222ac951b8b7aca7bc54ab22a825402:user_channel_trade_fill:0fd8ad3e-93ce-4bbe-9942-6720c2d65ace"
+    ],
+    "normalization_review_required": false,
+    "normalized_order_events_streaming": "bounded_writer_created_before_first_tick",
+    "platform_account_query_attempted": false,
+    "post_run_pnl_report": {
+      "data_positions_query_attempted": false,
+      "data_value_query_attempted": false,
+      "final_platform_pnl_status": "final_platform_pnl_unavailable",
+      "local_pnl_evidence_hash": "fb0cd716e9b141945ececd95d1c4423f8e2ce9a4f93e000208b16f4b04fa47f8",
+      "model_local_conservative_nav_delta": null,
+      "model_local_ledger_pnl": "0",
+      "model_local_ledger_pnl_status": "realized_and_settled_only_nav_unobservable",
+      "model_local_realized_pnl": "0.0",
+      "model_local_settled_pnl": "0",
+      "model_local_unrealized_pnl": null,
+      "model_local_unrealized_pnl_status": "unrealized_pnl_unavailable_nav_unobservable",
+      "nav_observable": false,
+      "platform_account_query_attempted": false,
+      "platform_pnl_evidence_complete": false,
+      "platform_pnl_unavailable_reason": "platform_pnl_not_attempted_r5_local_ledger_mode",
+      "platform_position_value_delta": null,
+      "platform_wallet_total_pnl": null
+    },
+    "post_run_verification_summary": [
+      "r5_runtime_artifact_bundle_written"
+    ],
+    "raw_runtime_fail_closed": true,
+    "sdk_order_actor_clob_trade_query_requests": 0,
+    "sdk_order_actor_safety_gate_status": "not_applicable:r5_local_ledger",
+    "sdk_outcomes_summary": {
+      "actor_output_count": 17,
+      "arbitration_input_count": 37,
+      "clob_order_evidence_count": 0,
+      "clob_order_query_request_count": 0,
+      "clob_trade_evidence_count": 0,
+      "clob_trade_query_request_count": 0,
+      "fail_closed_reason_count": 0,
+      "heartbeat_output_count": 0,
+      "ledger_fill_count": 3,
+      "ledger_reservation_material_count": 19,
+      "matched_post_overlay_count": 0,
+      "materialization": "bounded_summary_no_full_sdk_outcomes",
+      "outcome_count": 17,
+      "sdk_cancel_attempt_count": 9,
+      "sdk_post_attempt_count": 23,
+      "stop_new_orders_reason_count": 0,
+      "terminal_fill_evidence_count": 0
+    },
+    "submit_count": 23,
+    "tick_coverage": 138,
+    "tick_reports_summary": {
+      "fail_closed_tick_count": 2,
+      "feature_market_end_no_open_count": 0,
+      "feature_stale_by_source": {
+        "binance_trade": 1,
+        "blb": 1
+      },
+      "feature_stale_count": 1,
+      "feature_warmup_count": 119,
+      "materialization": "bounded_summary_no_per_tick_rows",
+      "model_status_counts": {
+        "approved_sdk_enqueued": 2,
+        "approved_sdk_outcome": 6,
+        "fail_closed": 2,
+        "inference_no_order": 120,
+        "ttl_cancel_timer_enqueued": 8,
+        "ttl_cancel_waiting_for_due": 8
+      },
+      "no_order_reason_counts": {
+        "FeatureStale": 1,
+        "FeatureWarmup": 119,
+        "ttl_cancel_waiting_for_due": 8
+      },
+      "sdk_cancel_attempt_count": 8,
+      "sdk_command_queue_event_count": 17,
+      "sdk_post_attempt_count": 23,
+      "tick_count": 146,
+      "ttl_cancel_event_count": 60
+    },
+    "top_level_fail_closed": true,
+    "ttl_summary": {
+      "ttl_backpressure_count": 0,
+      "ttl_cancel_ack_late_count": 0,
+      "ttl_cancel_late_count": 0,
+      "ttl_cancel_required_count": 20,
+      "ttl_cancel_sent_count": 20,
+      "ttl_invariant_status": "passed",
+      "ttl_orders_seen": 19,
+      "ttl_terminal_before_due_count": 1
+    },
+    "warning_reasons": []
+  },
+  "runtime_status": "submit_cancel_runtime_pending",
+  "sdk_cancel_attempt_count": 9,
+  "sdk_cancel_attempted": true,
+  "sdk_order_actor_clob_trade_query_requests": 0,
+  "sdk_order_actor_safety_gate_status": "not_applicable:r5_local_ledger",
+  "sdk_outcomes_summary": {
+    "actor_output_count": 17,
+    "arbitration_input_count": 37,
+    "clob_order_evidence_count": 0,
+    "clob_order_query_request_count": 0,
+    "clob_trade_evidence_count": 0,
+    "clob_trade_query_request_count": 0,
+    "fail_closed_reason_count": 0,
+    "heartbeat_output_count": 0,
+    "ledger_fill_count": 3,
+    "ledger_reservation_material_count": 19,
+    "matched_post_overlay_count": 0,
+    "materialization": "bounded_summary_no_full_sdk_outcomes",
+    "outcome_count": 17,
+    "sdk_cancel_attempt_count": 9,
+    "sdk_post_attempt_count": 23,
+    "stop_new_orders_reason_count": 0,
+    "terminal_fill_evidence_count": 0
+  },
+  "sdk_post_attempt_count": 23,
+  "sdk_post_attempted": true,
+  "shared_normalization_sha256": "aa6b11c14d894789e8ccfef5ca3913972ec5ff14ba7978c5c5813577cfa2ffa7",
+  "top_level_fail_closed": true,
+  "wallet_env_path": "[PRIVATE_HOME]/sdk-live-trade/wallets/.env.wallet1",
+  "wallet_id": "wallet1",
+  "warning_reasons": []
+}

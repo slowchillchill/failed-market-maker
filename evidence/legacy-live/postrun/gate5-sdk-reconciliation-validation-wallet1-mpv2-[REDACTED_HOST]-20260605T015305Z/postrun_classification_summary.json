@@ -1,0 +1,44 @@
+{
+  "run_id": "gate5-sdk-reconciliation-validation-wallet1-mpv2-[REDACTED_HOST]-20260605T015305Z",
+  "wrapper_exit_code": 1,
+  "wrapper_started_utc": "2026-06-05T02:22:28Z",
+  "wrapper_finished_utc": "2026-06-05T02:27:03Z",
+  "status": "fail_closed",
+  "fail_closed_reasons": [
+    "strategy_tick_failed: gate5_tiny_live_smoke_submit_already_attempted"
+  ],
+  "submit_enabled": true,
+  "signed_payload_count": 2,
+  "submitted_order_count": 2,
+  "accepted_order_count": 2,
+  "cancel_attempt_count": 2,
+  "redeem_attempt_count": 0,
+  "active_redeem_started": false,
+  "runtime_local_open_order_estimate": 0,
+  "final_clob_open_order_count": 0,
+  "final_reconciliation_fail_closed": false,
+  "final_reconciliation_reasons": [],
+  "final_clob_trade_count": 0,
+  "final_data_position_count": 0,
+  "final_data_total_value_usdc": "0",
+  "final_balance": "100402500",
+  "post_account_summary": {
+    "fail_closed": false,
+    "balance": "100402500",
+    "max_allowance_present": true,
+    "sdk_balance_allowance_queried": true,
+    "sdk_open_orders_queried": true,
+    "open_order_count": 0,
+    "clob_host": "https://clob.polymarket.com"
+  },
+  "row_counts": {
+    "orders": 1,
+    "cancel_attempts": 1,
+    "decisions": 120,
+    "health": 1110,
+    "user_channel": 3,
+    "order_state_arbitration": 4
+  },
+  "process_redeem_clean_text": "live-runtime_process_absent;cargo_process_absent;rustc_process_absent;",
+  "stderr": "[ort] using ONNX Runtime dylib: [PRIVATE_HOME]/live-runtime/lib/libonnxruntime.so.1\n[ort] initializing ORT without CUDA provider due to POLY_ARB_DISABLE_ORT_CUDA\n[polymarket-worker[0x7adbe130…]] connected + subscribed asset_ids=2\n[polymarket-live] skip frame: parse live frame json: EOF while parsing a value at line 1 column 0\n[polymarket-worker[0x0b39aea4…]] connected + subscribed asset_ids=2\n[polymarket-worker[0x7adbe130…]] market_resolved received, closing worker\ngate5-tiny-live-smoke-run fail-closed: strategy_tick_failed: gate5_tiny_live_smoke_submit_already_attempted\n"
+}

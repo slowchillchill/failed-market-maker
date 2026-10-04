@@ -1,0 +1,17 @@
+{
+  "boundary_mode": "train_transition",
+  "independent_test_dates": [
+    20260514,
+    20260515,
+    20260516,
+    20260517,
+    20260518
+  ],
+  "schema_version": "maker_transition_v2_split_audit_v1",
+  "selected_dataset_version": "20260425",
+  "selected_valid_join_rows": 46,
+  "selected_window_id": "1777017600-1777032000",
+  "source": "manifest_labels_join_audit",
+  "train_boundary_max_date": 20260510,
+  "train_boundary_min_date": 20260425
+}

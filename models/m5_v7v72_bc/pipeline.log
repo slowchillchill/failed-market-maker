@@ -1,0 +1,478 @@
+[2026-05-03 23:44:10] starting phase_11_8_j run_dir=[PRIVATE_ROOT]/autodl-tmp/code/poly-arb-2/poly-arb-ai/training/checkpoints/poly-arb-ai/training/checkpoints/m5_run_v7v72_bc/j1_b_from_m3 init=m3 freeze=j1 oracle=B
+[2026-05-03 23:44:10] train: python3 -u poly-arb-ai/training/train_oracle_bc.py --tick-stream-paths tick_stream/v1.parquet tick_stream/v2.parquet tick_stream/v3.parquet --label-paths poly-arb-ai/data-pipeline/out/data-v1/labels.parquet poly-arb-ai/data-pipeline/out/data-v2/labels.parquet poly-arb-ai/data-pipeline/out/data-v3/labels.parquet --split-info poly-arb-ai/training/checkpoints/m5_run_bc_diag/split_info.frozen.json --oracle-mode B --oracle-c-quantile 0.7 --init-source m3 --freeze-scope j1 --m3-checkpoint poly-arb-ai/training/checkpoints/m3_run3/best_model.pt --m3-stats poly-arb-ai/training/checkpoints/m3_run3/feature_stats.npz --seq-len 240 --epochs 20 --batch-size 2048 --lr-policy 0.001 --lr-open 0.0001 --weight-decay 1e-05 --early-stop-patience 3 --probe-max-samples 2000 --num-workers 4 --device cuda --log-every-batches 10 --output-dir [PRIVATE_ROOT]/autodl-tmp/code/poly-arb-2/poly-arb-ai/training/checkpoints/poly-arb-ai/training/checkpoints/m5_run_v7v72_bc/j1_b_from_m3
+[2026-05-03 23:47:42] starting phase_11_8_j run_dir=[PRIVATE_ROOT]/autodl-tmp/code/poly-arb-2/poly-arb-ai/training/checkpoints/poly-arb-ai/training/checkpoints/m5_run_v7v72_bc/j1_b_from_m3 init=m3 freeze=j1 oracle=B
+[2026-05-03 23:47:42] train: python3 -u poly-arb-ai/training/train_oracle_bc.py --tick-stream-paths tick_stream/v1.parquet tick_stream/v2.parquet tick_stream/v3.parquet --label-paths poly-arb-ai/data-pipeline/out/data-v1/labels.parquet poly-arb-ai/data-pipeline/out/data-v2/labels.parquet poly-arb-ai/data-pipeline/out/data-v3/labels.parquet --split-info poly-arb-ai/training/checkpoints/m5_run_bc_diag/split_info.frozen.json --oracle-mode B --oracle-c-quantile 0.7 --init-source m3 --freeze-scope j1 --m3-checkpoint poly-arb-ai/training/checkpoints/m3_run3/best_model.pt --m3-stats poly-arb-ai/training/checkpoints/m3_run3/feature_stats.npz --seq-len 240 --epochs 20 --batch-size 2048 --lr-policy 0.001 --lr-open 0.0001 --weight-decay 1e-05 --early-stop-patience 3 --probe-max-samples 2000 --num-workers 4 --device cuda --log-every-batches 10 --output-dir [PRIVATE_ROOT]/autodl-tmp/code/poly-arb-2/poly-arb-ai/training/checkpoints/poly-arb-ai/training/checkpoints/m5_run_v7v72_bc/j1_b_from_m3
+[oracle_bc] frozen split sha256=7a770e8421e8 train/val/test=39/8/10
+[oracle_bc] loading datasets mode=B split=poly-arb-ai/training/checkpoints/m5_run_bc_diag/split_info.frozen.json
+[oracle_bc] datasets ready in 51.7s: train=2149479 val=346088 test=400810
+[PRIVATE_ROOT]/autodl-tmp/code/poly-arb-2/poly-arb-ai/training/model.py:197: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.transformer = nn.TransformerEncoder(encoder_layer, num_layers=n_layers)
+[oracle_bc] params trainable=4326 frozen=463631 freeze_scope=j1
+  epoch 1/20 | batch 1/1050 | loss=1.8934 acc=0.0718 grad=1.0000 0.74 batch/s eta=23m34s
+  epoch 1/20 | batch 10/1050 | loss=1.3453 acc=0.5952 grad=1.0000 3.70 batch/s eta=4m41s
+  epoch 1/20 | batch 20/1050 | loss=1.0393 acc=0.7018 grad=0.8280 4.73 batch/s eta=3m38s
+  epoch 1/20 | batch 30/1050 | loss=0.8752 acc=0.7390 grad=0.6137 5.18 batch/s eta=3m17s
+  epoch 1/20 | batch 40/1050 | loss=0.7721 acc=0.7577 grad=0.3513 5.41 batch/s eta=3m07s
+  epoch 1/20 | batch 50/1050 | loss=0.7024 acc=0.7698 grad=0.5123 5.55 batch/s eta=3m00s
+  epoch 1/20 | batch 60/1050 | loss=0.6529 acc=0.7785 grad=0.1181 5.64 batch/s eta=2m55s
+  epoch 1/20 | batch 70/1050 | loss=0.6170 acc=0.7844 grad=0.1485 5.71 batch/s eta=2m52s
+  epoch 1/20 | batch 80/1050 | loss=0.5901 acc=0.7887 grad=0.3266 5.74 batch/s eta=2m49s
+  epoch 1/20 | batch 90/1050 | loss=0.5691 acc=0.7921 grad=0.1275 5.76 batch/s eta=2m47s
+  epoch 1/20 | batch 100/1050 | loss=0.5512 acc=0.7954 grad=0.1731 5.79 batch/s eta=2m44s
+  epoch 1/20 | batch 110/1050 | loss=0.5363 acc=0.7983 grad=0.2759 5.81 batch/s eta=2m42s
+  epoch 1/20 | batch 120/1050 | loss=0.5241 acc=0.8005 grad=0.1396 5.82 batch/s eta=2m40s
+  epoch 1/20 | batch 130/1050 | loss=0.5139 acc=0.8022 grad=0.2508 5.84 batch/s eta=2m38s
+  epoch 1/20 | batch 140/1050 | loss=0.5051 acc=0.8037 grad=0.1820 5.84 batch/s eta=2m36s
+  epoch 1/20 | batch 150/1050 | loss=0.4979 acc=0.8048 grad=0.1852 5.86 batch/s eta=2m34s
+  epoch 1/20 | batch 160/1050 | loss=0.4908 acc=0.8061 grad=0.1042 5.86 batch/s eta=2m32s
+  epoch 1/20 | batch 170/1050 | loss=0.4849 acc=0.8071 grad=0.2056 5.87 batch/s eta=2m30s
+  epoch 1/20 | batch 180/1050 | loss=0.4797 acc=0.8080 grad=0.4525 5.88 batch/s eta=2m28s
+  epoch 1/20 | batch 190/1050 | loss=0.4748 acc=0.8089 grad=0.5160 5.88 batch/s eta=2m26s
+  epoch 1/20 | batch 200/1050 | loss=0.4704 acc=0.8096 grad=0.3894 5.89 batch/s eta=2m24s
+  epoch 1/20 | batch 210/1050 | loss=0.4665 acc=0.8104 grad=0.1975 5.89 batch/s eta=2m23s
+  epoch 1/20 | batch 220/1050 | loss=0.4629 acc=0.8111 grad=0.5149 5.89 batch/s eta=2m21s
+  epoch 1/20 | batch 230/1050 | loss=0.4598 acc=0.8115 grad=0.2513 5.90 batch/s eta=2m19s
+  epoch 1/20 | batch 240/1050 | loss=0.4565 acc=0.8122 grad=0.2952 5.90 batch/s eta=2m17s
+  epoch 1/20 | batch 250/1050 | loss=0.4534 acc=0.8130 grad=0.4384 5.90 batch/s eta=2m16s
+  epoch 1/20 | batch 260/1050 | loss=0.4507 acc=0.8135 grad=0.3531 5.90 batch/s eta=2m14s
+  epoch 1/20 | batch 270/1050 | loss=0.4480 acc=0.8141 grad=0.1065 5.91 batch/s eta=2m12s
+  epoch 1/20 | batch 280/1050 | loss=0.4456 acc=0.8147 grad=0.1008 5.92 batch/s eta=2m10s
+  epoch 1/20 | batch 290/1050 | loss=0.4437 acc=0.8150 grad=0.2448 5.93 batch/s eta=2m08s
+  epoch 1/20 | batch 300/1050 | loss=0.4415 acc=0.8154 grad=0.3646 5.94 batch/s eta=2m06s
+  epoch 1/20 | batch 310/1050 | loss=0.4397 acc=0.8158 grad=0.3625 5.95 batch/s eta=2m04s
+  epoch 1/20 | batch 320/1050 | loss=0.4380 acc=0.8162 grad=0.2150 5.95 batch/s eta=2m03s
+  epoch 1/20 | batch 330/1050 | loss=0.4362 acc=0.8165 grad=0.2071 5.96 batch/s eta=2m01s
+  epoch 1/20 | batch 340/1050 | loss=0.4346 acc=0.8168 grad=0.1292 5.97 batch/s eta=1m59s
+  epoch 1/20 | batch 350/1050 | loss=0.4332 acc=0.8171 grad=0.5136 5.97 batch/s eta=1m57s
+  epoch 1/20 | batch 360/1050 | loss=0.4315 acc=0.8174 grad=0.2950 5.98 batch/s eta=1m55s
+  epoch 1/20 | batch 370/1050 | loss=0.4302 acc=0.8177 grad=0.1258 5.99 batch/s eta=1m54s
+  epoch 1/20 | batch 380/1050 | loss=0.4288 acc=0.8181 grad=0.2374 5.99 batch/s eta=1m52s
+  epoch 1/20 | batch 390/1050 | loss=0.4275 acc=0.8183 grad=0.2614 5.99 batch/s eta=1m50s
+  epoch 1/20 | batch 400/1050 | loss=0.4263 acc=0.8186 grad=0.0966 5.99 batch/s eta=1m49s
+  epoch 1/20 | batch 410/1050 | loss=0.4252 acc=0.8188 grad=0.4606 5.99 batch/s eta=1m47s
+  epoch 1/20 | batch 420/1050 | loss=0.4241 acc=0.8190 grad=0.1029 5.99 batch/s eta=1m45s
+  epoch 1/20 | batch 430/1050 | loss=0.4229 acc=0.8193 grad=0.1187 5.99 batch/s eta=1m43s
+  epoch 1/20 | batch 440/1050 | loss=0.4218 acc=0.8196 grad=0.1159 5.99 batch/s eta=1m42s
+  epoch 1/20 | batch 450/1050 | loss=0.4208 acc=0.8198 grad=0.6076 5.99 batch/s eta=1m40s
+  epoch 1/20 | batch 460/1050 | loss=0.4200 acc=0.8199 grad=0.4129 5.99 batch/s eta=1m38s
+  epoch 1/20 | batch 470/1050 | loss=0.4193 acc=0.8200 grad=0.1644 5.99 batch/s eta=1m37s
+  epoch 1/20 | batch 480/1050 | loss=0.4184 acc=0.8202 grad=0.1540 5.99 batch/s eta=1m35s
+  epoch 1/20 | batch 490/1050 | loss=0.4176 acc=0.8203 grad=0.0939 5.99 batch/s eta=1m33s
+  epoch 1/20 | batch 500/1050 | loss=0.4168 acc=0.8205 grad=0.2050 5.99 batch/s eta=1m32s
+  epoch 1/20 | batch 510/1050 | loss=0.4160 acc=0.8206 grad=0.1564 5.99 batch/s eta=1m30s
+  epoch 1/20 | batch 520/1050 | loss=0.4151 acc=0.8209 grad=0.1518 5.99 batch/s eta=1m28s
+  epoch 1/20 | batch 530/1050 | loss=0.4144 acc=0.8210 grad=0.4237 5.99 batch/s eta=1m27s
+  epoch 1/20 | batch 540/1050 | loss=0.4136 acc=0.8212 grad=0.3263 5.99 batch/s eta=1m25s
+  epoch 1/20 | batch 550/1050 | loss=0.4129 acc=0.8214 grad=0.3365 6.00 batch/s eta=1m23s
+  epoch 1/20 | batch 560/1050 | loss=0.4124 acc=0.8215 grad=0.6358 6.00 batch/s eta=1m22s
+  epoch 1/20 | batch 570/1050 | loss=0.4118 acc=0.8216 grad=0.3039 6.00 batch/s eta=1m20s
+  epoch 1/20 | batch 580/1050 | loss=0.4112 acc=0.8218 grad=0.2178 6.00 batch/s eta=1m18s
+  epoch 1/20 | batch 590/1050 | loss=0.4107 acc=0.8219 grad=0.8543 6.00 batch/s eta=1m17s
+  epoch 1/20 | batch 600/1050 | loss=0.4100 acc=0.8220 grad=0.1766 6.00 batch/s eta=1m15s
+  epoch 1/20 | batch 610/1050 | loss=0.4096 acc=0.8221 grad=0.1787 6.00 batch/s eta=1m13s
+  epoch 1/20 | batch 620/1050 | loss=0.4091 acc=0.8222 grad=0.1584 6.01 batch/s eta=1m12s
+  epoch 1/20 | batch 630/1050 | loss=0.4086 acc=0.8223 grad=0.2652 6.01 batch/s eta=1m10s
+  epoch 1/20 | batch 640/1050 | loss=0.4081 acc=0.8224 grad=0.4835 6.01 batch/s eta=1m08s
+  epoch 1/20 | batch 650/1050 | loss=0.4076 acc=0.8225 grad=0.2575 6.01 batch/s eta=1m07s
+  epoch 1/20 | batch 660/1050 | loss=0.4071 acc=0.8226 grad=0.3050 6.01 batch/s eta=1m05s
+  epoch 1/20 | batch 670/1050 | loss=0.4065 acc=0.8228 grad=0.2016 6.01 batch/s eta=1m03s
+  epoch 1/20 | batch 680/1050 | loss=0.4061 acc=0.8229 grad=0.1028 6.01 batch/s eta=1m02s
+  epoch 1/20 | batch 690/1050 | loss=0.4056 acc=0.8230 grad=0.1595 6.02 batch/s eta=59.8s
+  epoch 1/20 | batch 700/1050 | loss=0.4051 acc=0.8231 grad=0.4975 6.02 batch/s eta=58.2s
+  epoch 1/20 | batch 710/1050 | loss=0.4048 acc=0.8232 grad=0.2103 6.02 batch/s eta=56.5s
+  epoch 1/20 | batch 720/1050 | loss=0.4043 acc=0.8233 grad=0.1779 6.02 batch/s eta=54.8s
+  epoch 1/20 | batch 730/1050 | loss=0.4040 acc=0.8234 grad=0.5621 6.02 batch/s eta=53.2s
+  epoch 1/20 | batch 740/1050 | loss=0.4036 acc=0.8235 grad=0.2929 6.02 batch/s eta=51.5s
+  epoch 1/20 | batch 750/1050 | loss=0.4031 acc=0.8236 grad=0.2757 6.02 batch/s eta=49.9s
+  epoch 1/20 | batch 760/1050 | loss=0.4027 acc=0.8237 grad=0.4967 6.01 batch/s eta=48.2s
+  epoch 1/20 | batch 770/1050 | loss=0.4024 acc=0.8237 grad=0.4517 6.01 batch/s eta=46.6s
+  epoch 1/20 | batch 780/1050 | loss=0.4021 acc=0.8238 grad=0.2460 6.01 batch/s eta=44.9s
+  epoch 1/20 | batch 790/1050 | loss=0.4017 acc=0.8239 grad=0.2541 6.01 batch/s eta=43.3s
+  epoch 1/20 | batch 800/1050 | loss=0.4013 acc=0.8240 grad=0.3098 6.01 batch/s eta=41.6s
+  epoch 1/20 | batch 810/1050 | loss=0.4010 acc=0.8241 grad=0.2356 6.01 batch/s eta=39.9s
+  epoch 1/20 | batch 820/1050 | loss=0.4007 acc=0.8242 grad=0.1952 6.01 batch/s eta=38.3s
+  epoch 1/20 | batch 830/1050 | loss=0.4004 acc=0.8242 grad=0.3619 6.01 batch/s eta=36.6s
+  epoch 1/20 | batch 840/1050 | loss=0.4000 acc=0.8243 grad=0.3396 6.01 batch/s eta=35.0s
+  epoch 1/20 | batch 850/1050 | loss=0.3998 acc=0.8244 grad=0.3568 6.01 batch/s eta=33.3s
+  epoch 1/20 | batch 860/1050 | loss=0.3995 acc=0.8244 grad=0.5838 6.01 batch/s eta=31.6s
+  epoch 1/20 | batch 870/1050 | loss=0.3991 acc=0.8245 grad=0.2882 6.00 batch/s eta=30.0s
+  epoch 1/20 | batch 880/1050 | loss=0.3988 acc=0.8245 grad=0.5908 6.00 batch/s eta=28.3s
+  epoch 1/20 | batch 890/1050 | loss=0.3985 acc=0.8246 grad=0.1687 6.00 batch/s eta=26.7s
+  epoch 1/20 | batch 900/1050 | loss=0.3982 acc=0.8246 grad=0.1953 6.00 batch/s eta=25.0s
+  epoch 1/20 | batch 910/1050 | loss=0.3979 acc=0.8247 grad=0.1662 6.00 batch/s eta=23.3s
+  epoch 1/20 | batch 920/1050 | loss=0.3976 acc=0.8248 grad=0.2677 6.00 batch/s eta=21.7s
+  epoch 1/20 | batch 930/1050 | loss=0.3974 acc=0.8249 grad=0.3151 6.00 batch/s eta=20.0s
+  epoch 1/20 | batch 940/1050 | loss=0.3972 acc=0.8249 grad=0.4661 6.00 batch/s eta=18.3s
+  epoch 1/20 | batch 950/1050 | loss=0.3970 acc=0.8249 grad=0.6021 6.00 batch/s eta=16.7s
+  epoch 1/20 | batch 960/1050 | loss=0.3967 acc=0.8250 grad=0.5078 6.00 batch/s eta=15.0s
+  epoch 1/20 | batch 970/1050 | loss=0.3965 acc=0.8250 grad=0.2405 6.00 batch/s eta=13.3s
+  epoch 1/20 | batch 980/1050 | loss=0.3963 acc=0.8251 grad=0.1685 6.01 batch/s eta=11.7s
+  epoch 1/20 | batch 990/1050 | loss=0.3961 acc=0.8251 grad=0.2931 6.01 batch/s eta=10.0s
+  epoch 1/20 | batch 1000/1050 | loss=0.3958 acc=0.8253 grad=0.3087 6.01 batch/s eta=8.3s
+  epoch 1/20 | batch 1010/1050 | loss=0.3955 acc=0.8253 grad=0.1248 6.01 batch/s eta=6.7s
+  epoch 1/20 | batch 1020/1050 | loss=0.3953 acc=0.8254 grad=0.2098 6.02 batch/s eta=5.0s
+  epoch 1/20 | batch 1030/1050 | loss=0.3951 acc=0.8254 grad=0.5745 6.02 batch/s eta=3.3s
+  epoch 1/20 | batch 1040/1050 | loss=0.3948 acc=0.8255 grad=0.4014 6.02 batch/s eta=1.7s
+  epoch 1/20 | batch 1050/1050 | loss=0.3946 acc=0.8256 grad=0.7726 6.02 batch/s eta=0.0s
+[oracle_bc] epoch 1/20 train_loss=0.3946 train_acc=0.8256 val_loss=0.6357 val_acc=0.7107 hold=0.000 nondir=0.000
+  epoch 2/20 | batch 1/1050 | loss=0.3610 acc=0.8413 grad=0.3009 1.27 batch/s eta=13m49s
+  epoch 2/20 | batch 10/1050 | loss=0.3720 acc=0.8311 grad=0.1863 4.46 batch/s eta=3m53s
+  epoch 2/20 | batch 20/1050 | loss=0.3698 acc=0.8322 grad=0.2069 5.18 batch/s eta=3m19s
+  epoch 2/20 | batch 30/1050 | loss=0.3692 acc=0.8329 grad=0.2751 5.47 batch/s eta=3m06s
+  epoch 2/20 | batch 40/1050 | loss=0.3706 acc=0.8325 grad=0.1525 5.63 batch/s eta=2m59s
+  epoch 2/20 | batch 50/1050 | loss=0.3713 acc=0.8325 grad=0.3106 5.73 batch/s eta=2m54s
+  epoch 2/20 | batch 60/1050 | loss=0.3705 acc=0.8325 grad=0.2807 5.80 batch/s eta=2m51s
+  epoch 2/20 | batch 70/1050 | loss=0.3700 acc=0.8328 grad=0.1608 5.85 batch/s eta=2m47s
+  epoch 2/20 | batch 80/1050 | loss=0.3703 acc=0.8327 grad=0.5588 5.89 batch/s eta=2m45s
+  epoch 2/20 | batch 90/1050 | loss=0.3706 acc=0.8326 grad=0.1685 5.92 batch/s eta=2m42s
+  epoch 2/20 | batch 100/1050 | loss=0.3711 acc=0.8322 grad=0.5123 5.94 batch/s eta=2m40s
+  epoch 2/20 | batch 110/1050 | loss=0.3712 acc=0.8323 grad=0.1550 5.96 batch/s eta=2m38s
+  epoch 2/20 | batch 120/1050 | loss=0.3712 acc=0.8323 grad=0.3585 5.96 batch/s eta=2m36s
+  epoch 2/20 | batch 130/1050 | loss=0.3714 acc=0.8320 grad=0.2169 5.96 batch/s eta=2m34s
+  epoch 2/20 | batch 140/1050 | loss=0.3711 acc=0.8320 grad=0.3755 5.97 batch/s eta=2m32s
+  epoch 2/20 | batch 150/1050 | loss=0.3716 acc=0.8317 grad=0.1069 5.97 batch/s eta=2m31s
+  epoch 2/20 | batch 160/1050 | loss=0.3718 acc=0.8316 grad=0.1950 5.98 batch/s eta=2m29s
+  epoch 2/20 | batch 170/1050 | loss=0.3717 acc=0.8317 grad=0.4035 5.98 batch/s eta=2m27s
+  epoch 2/20 | batch 180/1050 | loss=0.3715 acc=0.8317 grad=0.6046 5.99 batch/s eta=2m25s
+  epoch 2/20 | batch 190/1050 | loss=0.3718 acc=0.8315 grad=0.4663 5.99 batch/s eta=2m23s
+  epoch 2/20 | batch 200/1050 | loss=0.3723 acc=0.8312 grad=0.1346 6.00 batch/s eta=2m22s
+  epoch 2/20 | batch 210/1050 | loss=0.3726 acc=0.8310 grad=0.2090 6.00 batch/s eta=2m20s
+  epoch 2/20 | batch 220/1050 | loss=0.3726 acc=0.8310 grad=0.1751 6.01 batch/s eta=2m18s
+  epoch 2/20 | batch 230/1050 | loss=0.3725 acc=0.8311 grad=0.5993 6.01 batch/s eta=2m16s
+  epoch 2/20 | batch 240/1050 | loss=0.3727 acc=0.8310 grad=0.2952 6.02 batch/s eta=2m15s
+  epoch 2/20 | batch 250/1050 | loss=0.3727 acc=0.8310 grad=0.1250 6.03 batch/s eta=2m13s
+  epoch 2/20 | batch 260/1050 | loss=0.3725 acc=0.8311 grad=0.6159 6.04 batch/s eta=2m11s
+  epoch 2/20 | batch 270/1050 | loss=0.3726 acc=0.8311 grad=0.2181 6.04 batch/s eta=2m09s
+  epoch 2/20 | batch 280/1050 | loss=0.3725 acc=0.8311 grad=0.4861 6.05 batch/s eta=2m07s
+  epoch 2/20 | batch 290/1050 | loss=0.3725 acc=0.8311 grad=0.2260 6.06 batch/s eta=2m05s
+  epoch 2/20 | batch 300/1050 | loss=0.3727 acc=0.8311 grad=0.4111 6.06 batch/s eta=2m04s
+  epoch 2/20 | batch 310/1050 | loss=0.3726 acc=0.8310 grad=0.1099 6.07 batch/s eta=2m02s
+  epoch 2/20 | batch 320/1050 | loss=0.3726 acc=0.8310 grad=0.5115 6.08 batch/s eta=2m00s
+  epoch 2/20 | batch 330/1050 | loss=0.3725 acc=0.8310 grad=0.2472 6.09 batch/s eta=1m58s
+  epoch 2/20 | batch 340/1050 | loss=0.3724 acc=0.8312 grad=0.2385 6.10 batch/s eta=1m56s
+  epoch 2/20 | batch 350/1050 | loss=0.3723 acc=0.8313 grad=0.1630 6.10 batch/s eta=1m55s
+  epoch 2/20 | batch 360/1050 | loss=0.3722 acc=0.8313 grad=0.2054 6.11 batch/s eta=1m53s
+  epoch 2/20 | batch 370/1050 | loss=0.3722 acc=0.8313 grad=0.3416 6.12 batch/s eta=1m51s
+  epoch 2/20 | batch 380/1050 | loss=0.3719 acc=0.8314 grad=0.3184 6.12 batch/s eta=1m49s
+  epoch 2/20 | batch 390/1050 | loss=0.3719 acc=0.8314 grad=0.1548 6.12 batch/s eta=1m48s
+  epoch 2/20 | batch 400/1050 | loss=0.3719 acc=0.8314 grad=0.2418 6.13 batch/s eta=1m46s
+  epoch 2/20 | batch 410/1050 | loss=0.3718 acc=0.8315 grad=0.3145 6.13 batch/s eta=1m44s
+  epoch 2/20 | batch 420/1050 | loss=0.3719 acc=0.8314 grad=0.2050 6.13 batch/s eta=1m43s
+  epoch 2/20 | batch 430/1050 | loss=0.3720 acc=0.8313 grad=0.1364 6.14 batch/s eta=1m41s
+  epoch 2/20 | batch 440/1050 | loss=0.3721 acc=0.8312 grad=0.2679 6.14 batch/s eta=1m39s
+  epoch 2/20 | batch 450/1050 | loss=0.3720 acc=0.8313 grad=0.5131 6.14 batch/s eta=1m38s
+  epoch 2/20 | batch 460/1050 | loss=0.3720 acc=0.8313 grad=0.2398 6.14 batch/s eta=1m36s
+  epoch 2/20 | batch 470/1050 | loss=0.3719 acc=0.8313 grad=0.3018 6.14 batch/s eta=1m34s
+  epoch 2/20 | batch 480/1050 | loss=0.3719 acc=0.8313 grad=0.3588 6.15 batch/s eta=1m33s
+  epoch 2/20 | batch 490/1050 | loss=0.3719 acc=0.8313 grad=0.1153 6.15 batch/s eta=1m31s
+  epoch 2/20 | batch 500/1050 | loss=0.3718 acc=0.8314 grad=0.3188 6.15 batch/s eta=1m29s
+  epoch 2/20 | batch 510/1050 | loss=0.3717 acc=0.8314 grad=0.2005 6.15 batch/s eta=1m28s
+  epoch 2/20 | batch 520/1050 | loss=0.3717 acc=0.8314 grad=0.1374 6.15 batch/s eta=1m26s
+  epoch 2/20 | batch 530/1050 | loss=0.3716 acc=0.8314 grad=0.4019 6.15 batch/s eta=1m25s
+  epoch 2/20 | batch 540/1050 | loss=0.3716 acc=0.8315 grad=0.1495 6.15 batch/s eta=1m23s
+  epoch 2/20 | batch 550/1050 | loss=0.3715 acc=0.8315 grad=0.3900 6.15 batch/s eta=1m21s
+  epoch 2/20 | batch 560/1050 | loss=0.3714 acc=0.8315 grad=0.6707 6.15 batch/s eta=1m20s
+  epoch 2/20 | batch 570/1050 | loss=0.3714 acc=0.8316 grad=0.2175 6.15 batch/s eta=1m18s
+  epoch 2/20 | batch 580/1050 | loss=0.3713 acc=0.8316 grad=0.3777 6.15 batch/s eta=1m16s
+  epoch 2/20 | batch 590/1050 | loss=0.3713 acc=0.8316 grad=0.2007 6.15 batch/s eta=1m15s
+  epoch 2/20 | batch 600/1050 | loss=0.3712 acc=0.8316 grad=0.1433 6.15 batch/s eta=1m13s
+  epoch 2/20 | batch 610/1050 | loss=0.3713 acc=0.8316 grad=0.6581 6.15 batch/s eta=1m11s
+  epoch 2/20 | batch 620/1050 | loss=0.3712 acc=0.8316 grad=0.2092 6.15 batch/s eta=1m10s
+  epoch 2/20 | batch 630/1050 | loss=0.3713 acc=0.8316 grad=0.3103 6.15 batch/s eta=1m08s
+  epoch 2/20 | batch 640/1050 | loss=0.3712 acc=0.8316 grad=0.3471 6.15 batch/s eta=1m07s
+  epoch 2/20 | batch 650/1050 | loss=0.3712 acc=0.8316 grad=0.2182 6.15 batch/s eta=1m05s
+  epoch 2/20 | batch 660/1050 | loss=0.3713 acc=0.8315 grad=0.4571 6.15 batch/s eta=1m03s
+  epoch 2/20 | batch 670/1050 | loss=0.3713 acc=0.8315 grad=0.2498 6.15 batch/s eta=1m02s
+  epoch 2/20 | batch 680/1050 | loss=0.3711 acc=0.8316 grad=0.2858 6.15 batch/s eta=1m00s
+  epoch 2/20 | batch 690/1050 | loss=0.3712 acc=0.8316 grad=0.3163 6.15 batch/s eta=58.5s
+  epoch 2/20 | batch 700/1050 | loss=0.3712 acc=0.8317 grad=0.2363 6.15 batch/s eta=56.9s
+  epoch 2/20 | batch 710/1050 | loss=0.3711 acc=0.8317 grad=0.4333 6.16 batch/s eta=55.2s
+  epoch 2/20 | batch 720/1050 | loss=0.3711 acc=0.8317 grad=0.2303 6.16 batch/s eta=53.6s
+  epoch 2/20 | batch 730/1050 | loss=0.3710 acc=0.8317 grad=0.2089 6.16 batch/s eta=52.0s
+  epoch 2/20 | batch 740/1050 | loss=0.3710 acc=0.8317 grad=0.5719 6.16 batch/s eta=50.3s
+  epoch 2/20 | batch 750/1050 | loss=0.3710 acc=0.8318 grad=0.1057 6.16 batch/s eta=48.7s
+  epoch 2/20 | batch 760/1050 | loss=0.3709 acc=0.8318 grad=0.7899 6.16 batch/s eta=47.1s
+  epoch 2/20 | batch 770/1050 | loss=0.3709 acc=0.8318 grad=0.4085 6.16 batch/s eta=45.4s
+  epoch 2/20 | batch 780/1050 | loss=0.3709 acc=0.8318 grad=0.9810 6.17 batch/s eta=43.8s
+  epoch 2/20 | batch 790/1050 | loss=0.3709 acc=0.8318 grad=0.2177 6.17 batch/s eta=42.2s
+  epoch 2/20 | batch 800/1050 | loss=0.3709 acc=0.8318 grad=0.2676 6.17 batch/s eta=40.5s
+  epoch 2/20 | batch 810/1050 | loss=0.3709 acc=0.8318 grad=0.2894 6.17 batch/s eta=38.9s
+  epoch 2/20 | batch 820/1050 | loss=0.3708 acc=0.8318 grad=0.3720 6.17 batch/s eta=37.3s
+  epoch 2/20 | batch 830/1050 | loss=0.3708 acc=0.8319 grad=0.1645 6.17 batch/s eta=35.7s
+  epoch 2/20 | batch 840/1050 | loss=0.3707 acc=0.8319 grad=0.1176 6.17 batch/s eta=34.0s
+  epoch 2/20 | batch 850/1050 | loss=0.3706 acc=0.8319 grad=0.1537 6.17 batch/s eta=32.4s
+  epoch 2/20 | batch 860/1050 | loss=0.3706 acc=0.8320 grad=0.2687 6.17 batch/s eta=30.8s
+  epoch 2/20 | batch 870/1050 | loss=0.3706 acc=0.8320 grad=0.2401 6.17 batch/s eta=29.2s
+  epoch 2/20 | batch 880/1050 | loss=0.3707 acc=0.8319 grad=0.2454 6.17 batch/s eta=27.5s
+  epoch 2/20 | batch 890/1050 | loss=0.3707 acc=0.8319 grad=0.2302 6.17 batch/s eta=25.9s
+  epoch 2/20 | batch 900/1050 | loss=0.3706 acc=0.8320 grad=0.1393 6.17 batch/s eta=24.3s
+  epoch 2/20 | batch 910/1050 | loss=0.3707 acc=0.8319 grad=0.1953 6.18 batch/s eta=22.7s
+  epoch 2/20 | batch 920/1050 | loss=0.3707 acc=0.8319 grad=0.3363 6.18 batch/s eta=21.1s
+  epoch 2/20 | batch 930/1050 | loss=0.3706 acc=0.8320 grad=0.4594 6.18 batch/s eta=19.4s
+  epoch 2/20 | batch 940/1050 | loss=0.3706 acc=0.8320 grad=0.2860 6.18 batch/s eta=17.8s
+  epoch 2/20 | batch 950/1050 | loss=0.3706 acc=0.8319 grad=0.2623 6.18 batch/s eta=16.2s
+  epoch 2/20 | batch 960/1050 | loss=0.3706 acc=0.8319 grad=0.3793 6.17 batch/s eta=14.6s
+  epoch 2/20 | batch 970/1050 | loss=0.3706 acc=0.8319 grad=0.3853 6.17 batch/s eta=13.0s
+  epoch 2/20 | batch 980/1050 | loss=0.3705 acc=0.8319 grad=0.2544 6.17 batch/s eta=11.3s
+  epoch 2/20 | batch 990/1050 | loss=0.3705 acc=0.8319 grad=0.4203 6.17 batch/s eta=9.7s
+  epoch 2/20 | batch 1000/1050 | loss=0.3705 acc=0.8319 grad=0.3396 6.17 batch/s eta=8.1s
+  epoch 2/20 | batch 1010/1050 | loss=0.3705 acc=0.8320 grad=0.2197 6.17 batch/s eta=6.5s
+  epoch 2/20 | batch 1020/1050 | loss=0.3704 acc=0.8319 grad=0.2184 6.17 batch/s eta=4.9s
+  epoch 2/20 | batch 1030/1050 | loss=0.3705 acc=0.8319 grad=0.3270 6.17 batch/s eta=3.2s
+  epoch 2/20 | batch 1040/1050 | loss=0.3705 acc=0.8319 grad=0.3062 6.17 batch/s eta=1.6s
+  epoch 2/20 | batch 1050/1050 | loss=0.3705 acc=0.8319 grad=0.4078 6.17 batch/s eta=0.0s
+[oracle_bc] epoch 2/20 train_loss=0.3705 train_acc=0.8319 val_loss=0.6635 val_acc=0.7071 hold=0.000 nondir=0.000
+  epoch 3/20 | batch 1/1050 | loss=0.3588 acc=0.8340 grad=0.1088 1.27 batch/s eta=13m46s
+  epoch 3/20 | batch 10/1050 | loss=0.3668 acc=0.8332 grad=0.2312 4.52 batch/s eta=3m50s
+  epoch 3/20 | batch 20/1050 | loss=0.3668 acc=0.8332 grad=0.4135 5.27 batch/s eta=3m15s
+  epoch 3/20 | batch 30/1050 | loss=0.3691 acc=0.8323 grad=0.3039 5.58 batch/s eta=3m03s
+  epoch 3/20 | batch 40/1050 | loss=0.3679 acc=0.8329 grad=0.2166 5.74 batch/s eta=2m56s
+  epoch 3/20 | batch 50/1050 | loss=0.3682 acc=0.8323 grad=0.3077 5.84 batch/s eta=2m51s
+  epoch 3/20 | batch 60/1050 | loss=0.3679 acc=0.8324 grad=0.3574 5.91 batch/s eta=2m48s
+  epoch 3/20 | batch 70/1050 | loss=0.3677 acc=0.8323 grad=0.3598 5.95 batch/s eta=2m45s
+  epoch 3/20 | batch 80/1050 | loss=0.3681 acc=0.8318 grad=0.6582 5.99 batch/s eta=2m42s
+  epoch 3/20 | batch 90/1050 | loss=0.3677 acc=0.8319 grad=0.2942 6.02 batch/s eta=2m40s
+  epoch 3/20 | batch 100/1050 | loss=0.3677 acc=0.8321 grad=0.1752 6.04 batch/s eta=2m37s
+  epoch 3/20 | batch 110/1050 | loss=0.3679 acc=0.8320 grad=0.3833 6.05 batch/s eta=2m35s
+  epoch 3/20 | batch 120/1050 | loss=0.3681 acc=0.8319 grad=0.1941 6.07 batch/s eta=2m33s
+  epoch 3/20 | batch 130/1050 | loss=0.3676 acc=0.8324 grad=0.4843 6.08 batch/s eta=2m31s
+  epoch 3/20 | batch 140/1050 | loss=0.3681 acc=0.8322 grad=0.1956 6.09 batch/s eta=2m29s
+  epoch 3/20 | batch 150/1050 | loss=0.3681 acc=0.8323 grad=0.1857 6.10 batch/s eta=2m28s
+  epoch 3/20 | batch 160/1050 | loss=0.3683 acc=0.8322 grad=0.3572 6.10 batch/s eta=2m26s
+  epoch 3/20 | batch 170/1050 | loss=0.3679 acc=0.8324 grad=0.3633 6.11 batch/s eta=2m24s
+  epoch 3/20 | batch 180/1050 | loss=0.3676 acc=0.8326 grad=0.2013 6.12 batch/s eta=2m22s
+  epoch 3/20 | batch 190/1050 | loss=0.3676 acc=0.8324 grad=0.1690 6.12 batch/s eta=2m20s
+  epoch 3/20 | batch 200/1050 | loss=0.3677 acc=0.8324 grad=0.4643 6.13 batch/s eta=2m19s
+  epoch 3/20 | batch 210/1050 | loss=0.3676 acc=0.8326 grad=0.5486 6.13 batch/s eta=2m17s
+  epoch 3/20 | batch 220/1050 | loss=0.3674 acc=0.8327 grad=0.5126 6.13 batch/s eta=2m15s
+  epoch 3/20 | batch 230/1050 | loss=0.3676 acc=0.8324 grad=0.1692 6.14 batch/s eta=2m14s
+  epoch 3/20 | batch 240/1050 | loss=0.3674 acc=0.8325 grad=0.5670 6.14 batch/s eta=2m12s
+  epoch 3/20 | batch 250/1050 | loss=0.3673 acc=0.8326 grad=0.4813 6.14 batch/s eta=2m10s
+  epoch 3/20 | batch 260/1050 | loss=0.3673 acc=0.8325 grad=0.4184 6.15 batch/s eta=2m09s
+  epoch 3/20 | batch 270/1050 | loss=0.3674 acc=0.8325 grad=0.2967 6.15 batch/s eta=2m07s
+  epoch 3/20 | batch 280/1050 | loss=0.3675 acc=0.8325 grad=0.3425 6.15 batch/s eta=2m05s
+  epoch 3/20 | batch 290/1050 | loss=0.3676 acc=0.8324 grad=0.2779 6.16 batch/s eta=2m03s
+  epoch 3/20 | batch 300/1050 | loss=0.3675 acc=0.8326 grad=0.2723 6.16 batch/s eta=2m02s
+  epoch 3/20 | batch 310/1050 | loss=0.3676 acc=0.8326 grad=0.1411 6.16 batch/s eta=2m00s
+  epoch 3/20 | batch 320/1050 | loss=0.3676 acc=0.8326 grad=0.4148 6.16 batch/s eta=1m58s
+  epoch 3/20 | batch 330/1050 | loss=0.3675 acc=0.8327 grad=0.2636 6.16 batch/s eta=1m57s
+  epoch 3/20 | batch 340/1050 | loss=0.3675 acc=0.8327 grad=0.5875 6.17 batch/s eta=1m55s
+  epoch 3/20 | batch 350/1050 | loss=0.3674 acc=0.8328 grad=0.1886 6.17 batch/s eta=1m54s
+  epoch 3/20 | batch 360/1050 | loss=0.3673 acc=0.8328 grad=0.5562 6.17 batch/s eta=1m52s
+  epoch 3/20 | batch 370/1050 | loss=0.3675 acc=0.8327 grad=0.8798 6.17 batch/s eta=1m50s
+  epoch 3/20 | batch 380/1050 | loss=0.3675 acc=0.8327 grad=0.3248 6.17 batch/s eta=1m49s
+  epoch 3/20 | batch 390/1050 | loss=0.3678 acc=0.8327 grad=0.4157 6.17 batch/s eta=1m47s
+  epoch 3/20 | batch 400/1050 | loss=0.3678 acc=0.8327 grad=0.2636 6.17 batch/s eta=1m45s
+  epoch 3/20 | batch 410/1050 | loss=0.3678 acc=0.8327 grad=0.2624 6.17 batch/s eta=1m44s
+  epoch 3/20 | batch 420/1050 | loss=0.3678 acc=0.8328 grad=0.2133 6.17 batch/s eta=1m42s
+  epoch 3/20 | batch 430/1050 | loss=0.3677 acc=0.8329 grad=0.1473 6.17 batch/s eta=1m40s
+  epoch 3/20 | batch 440/1050 | loss=0.3677 acc=0.8329 grad=0.1625 6.17 batch/s eta=1m39s
+  epoch 3/20 | batch 450/1050 | loss=0.3676 acc=0.8329 grad=0.2140 6.18 batch/s eta=1m37s
+  epoch 3/20 | batch 460/1050 | loss=0.3676 acc=0.8329 grad=0.5617 6.18 batch/s eta=1m36s
+  epoch 3/20 | batch 470/1050 | loss=0.3677 acc=0.8329 grad=0.1014 6.18 batch/s eta=1m34s
+  epoch 3/20 | batch 480/1050 | loss=0.3676 acc=0.8330 grad=0.4137 6.18 batch/s eta=1m32s
+  epoch 3/20 | batch 490/1050 | loss=0.3676 acc=0.8330 grad=0.3200 6.18 batch/s eta=1m31s
+  epoch 3/20 | batch 500/1050 | loss=0.3676 acc=0.8330 grad=0.1495 6.18 batch/s eta=1m29s
+  epoch 3/20 | batch 510/1050 | loss=0.3677 acc=0.8330 grad=0.1471 6.18 batch/s eta=1m27s
+  epoch 3/20 | batch 520/1050 | loss=0.3677 acc=0.8330 grad=0.2144 6.18 batch/s eta=1m26s
+  epoch 3/20 | batch 530/1050 | loss=0.3677 acc=0.8329 grad=0.1912 6.18 batch/s eta=1m24s
+  epoch 3/20 | batch 540/1050 | loss=0.3678 acc=0.8329 grad=0.5734 6.18 batch/s eta=1m23s
+  epoch 3/20 | batch 550/1050 | loss=0.3677 acc=0.8329 grad=0.1818 6.18 batch/s eta=1m21s
+  epoch 3/20 | batch 560/1050 | loss=0.3676 acc=0.8329 grad=0.3143 6.18 batch/s eta=1m19s
+  epoch 3/20 | batch 570/1050 | loss=0.3676 acc=0.8329 grad=0.1827 6.18 batch/s eta=1m18s
+  epoch 3/20 | batch 580/1050 | loss=0.3677 acc=0.8329 grad=0.4251 6.18 batch/s eta=1m16s
+  epoch 3/20 | batch 590/1050 | loss=0.3677 acc=0.8328 grad=0.9208 6.18 batch/s eta=1m14s
+  epoch 3/20 | batch 600/1050 | loss=0.3678 acc=0.8328 grad=0.2383 6.18 batch/s eta=1m13s
+  epoch 3/20 | batch 610/1050 | loss=0.3679 acc=0.8327 grad=0.2220 6.18 batch/s eta=1m11s
+  epoch 3/20 | batch 620/1050 | loss=0.3678 acc=0.8328 grad=0.1429 6.18 batch/s eta=1m10s
+  epoch 3/20 | batch 630/1050 | loss=0.3678 acc=0.8327 grad=0.1330 6.18 batch/s eta=1m08s
+  epoch 3/20 | batch 640/1050 | loss=0.3678 acc=0.8328 grad=0.4966 6.18 batch/s eta=1m06s
+  epoch 3/20 | batch 650/1050 | loss=0.3678 acc=0.8328 grad=0.3245 6.18 batch/s eta=1m05s
+  epoch 3/20 | batch 660/1050 | loss=0.3678 acc=0.8327 grad=0.4134 6.18 batch/s eta=1m03s
+  epoch 3/20 | batch 670/1050 | loss=0.3679 acc=0.8327 grad=0.3341 6.18 batch/s eta=1m01s
+  epoch 3/20 | batch 680/1050 | loss=0.3679 acc=0.8327 grad=0.2711 6.18 batch/s eta=59.8s
+  epoch 3/20 | batch 690/1050 | loss=0.3680 acc=0.8327 grad=0.3414 6.18 batch/s eta=58.2s
+  epoch 3/20 | batch 700/1050 | loss=0.3680 acc=0.8326 grad=0.2950 6.18 batch/s eta=56.6s
+  epoch 3/20 | batch 710/1050 | loss=0.3680 acc=0.8326 grad=0.2599 6.18 batch/s eta=55.0s
+  epoch 3/20 | batch 720/1050 | loss=0.3680 acc=0.8326 grad=0.2085 6.18 batch/s eta=53.4s
+  epoch 3/20 | batch 730/1050 | loss=0.3679 acc=0.8327 grad=0.1536 6.18 batch/s eta=51.8s
+  epoch 3/20 | batch 740/1050 | loss=0.3679 acc=0.8327 grad=0.2467 6.18 batch/s eta=50.2s
+  epoch 3/20 | batch 750/1050 | loss=0.3678 acc=0.8327 grad=0.1598 6.18 batch/s eta=48.6s
+  epoch 3/20 | batch 760/1050 | loss=0.3677 acc=0.8327 grad=0.1644 6.18 batch/s eta=46.9s
+  epoch 3/20 | batch 770/1050 | loss=0.3676 acc=0.8328 grad=0.3031 6.18 batch/s eta=45.3s
+  epoch 3/20 | batch 780/1050 | loss=0.3676 acc=0.8328 grad=0.4586 6.18 batch/s eta=43.7s
+  epoch 3/20 | batch 790/1050 | loss=0.3675 acc=0.8329 grad=0.2019 6.18 batch/s eta=42.1s
+  epoch 3/20 | batch 800/1050 | loss=0.3675 acc=0.8328 grad=0.4028 6.18 batch/s eta=40.5s
+  epoch 3/20 | batch 810/1050 | loss=0.3675 acc=0.8328 grad=0.3513 6.18 batch/s eta=38.8s
+  epoch 3/20 | batch 820/1050 | loss=0.3676 acc=0.8328 grad=0.2112 6.18 batch/s eta=37.2s
+  epoch 3/20 | batch 830/1050 | loss=0.3676 acc=0.8328 grad=0.1793 6.18 batch/s eta=35.6s
+  epoch 3/20 | batch 840/1050 | loss=0.3676 acc=0.8328 grad=0.2416 6.18 batch/s eta=34.0s
+  epoch 3/20 | batch 850/1050 | loss=0.3675 acc=0.8329 grad=0.3487 6.18 batch/s eta=32.4s
+  epoch 3/20 | batch 860/1050 | loss=0.3675 acc=0.8329 grad=0.3730 6.18 batch/s eta=30.8s
+  epoch 3/20 | batch 870/1050 | loss=0.3676 acc=0.8329 grad=0.2399 6.18 batch/s eta=29.1s
+  epoch 3/20 | batch 880/1050 | loss=0.3675 acc=0.8329 grad=0.1690 6.17 batch/s eta=27.5s
+  epoch 3/20 | batch 890/1050 | loss=0.3676 acc=0.8329 grad=0.3989 6.17 batch/s eta=25.9s
+  epoch 3/20 | batch 900/1050 | loss=0.3676 acc=0.8329 grad=0.4460 6.17 batch/s eta=24.3s
+  epoch 3/20 | batch 910/1050 | loss=0.3676 acc=0.8329 grad=0.3596 6.17 batch/s eta=22.7s
+  epoch 3/20 | batch 920/1050 | loss=0.3676 acc=0.8328 grad=0.5818 6.17 batch/s eta=21.1s
+  epoch 3/20 | batch 930/1050 | loss=0.3675 acc=0.8329 grad=0.2843 6.17 batch/s eta=19.4s
+  epoch 3/20 | batch 940/1050 | loss=0.3676 acc=0.8329 grad=0.3035 6.17 batch/s eta=17.8s
+  epoch 3/20 | batch 950/1050 | loss=0.3675 acc=0.8328 grad=0.1863 6.17 batch/s eta=16.2s
+  epoch 3/20 | batch 960/1050 | loss=0.3675 acc=0.8329 grad=0.1478 6.17 batch/s eta=14.6s
+  epoch 3/20 | batch 970/1050 | loss=0.3676 acc=0.8328 grad=0.4684 6.17 batch/s eta=13.0s
+  epoch 3/20 | batch 980/1050 | loss=0.3676 acc=0.8328 grad=0.1704 6.17 batch/s eta=11.3s
+  epoch 3/20 | batch 990/1050 | loss=0.3676 acc=0.8328 grad=0.2960 6.17 batch/s eta=9.7s
+  epoch 3/20 | batch 1000/1050 | loss=0.3676 acc=0.8328 grad=0.4354 6.17 batch/s eta=8.1s
+  epoch 3/20 | batch 1010/1050 | loss=0.3676 acc=0.8328 grad=0.2991 6.17 batch/s eta=6.5s
+  epoch 3/20 | batch 1020/1050 | loss=0.3676 acc=0.8328 grad=0.1888 6.17 batch/s eta=4.9s
+  epoch 3/20 | batch 1030/1050 | loss=0.3675 acc=0.8329 grad=0.1636 6.17 batch/s eta=3.2s
+  epoch 3/20 | batch 1040/1050 | loss=0.3675 acc=0.8329 grad=0.4384 6.17 batch/s eta=1.6s
+  epoch 3/20 | batch 1050/1050 | loss=0.3675 acc=0.8329 grad=0.3426 6.17 batch/s eta=0.0s
+[oracle_bc] epoch 3/20 train_loss=0.3675 train_acc=0.8329 val_loss=0.6535 val_acc=0.7089 hold=0.000 nondir=0.000
+  epoch 4/20 | batch 1/1050 | loss=0.3769 acc=0.8315 grad=0.5570 1.27 batch/s eta=13m47s
+  epoch 4/20 | batch 10/1050 | loss=0.3708 acc=0.8313 grad=0.3685 4.49 batch/s eta=3m52s
+  epoch 4/20 | batch 20/1050 | loss=0.3692 acc=0.8317 grad=0.3461 5.22 batch/s eta=3m17s
+  epoch 4/20 | batch 30/1050 | loss=0.3676 acc=0.8313 grad=0.3917 5.52 batch/s eta=3m05s
+  epoch 4/20 | batch 40/1050 | loss=0.3672 acc=0.8316 grad=0.1773 5.68 batch/s eta=2m58s
+  epoch 4/20 | batch 50/1050 | loss=0.3677 acc=0.8309 grad=0.4820 5.79 batch/s eta=2m53s
+  epoch 4/20 | batch 60/1050 | loss=0.3673 acc=0.8311 grad=0.3239 5.86 batch/s eta=2m49s
+  epoch 4/20 | batch 70/1050 | loss=0.3679 acc=0.8309 grad=0.6989 5.90 batch/s eta=2m46s
+  epoch 4/20 | batch 80/1050 | loss=0.3676 acc=0.8315 grad=0.2244 5.93 batch/s eta=2m44s
+  epoch 4/20 | batch 90/1050 | loss=0.3678 acc=0.8316 grad=0.3607 5.96 batch/s eta=2m41s
+  epoch 4/20 | batch 100/1050 | loss=0.3675 acc=0.8321 grad=0.3027 5.99 batch/s eta=2m39s
+  epoch 4/20 | batch 110/1050 | loss=0.3676 acc=0.8320 grad=0.1957 6.01 batch/s eta=2m37s
+  epoch 4/20 | batch 120/1050 | loss=0.3673 acc=0.8322 grad=0.1182 6.02 batch/s eta=2m34s
+  epoch 4/20 | batch 130/1050 | loss=0.3676 acc=0.8320 grad=0.4272 6.04 batch/s eta=2m32s
+  epoch 4/20 | batch 140/1050 | loss=0.3677 acc=0.8321 grad=0.2489 6.05 batch/s eta=2m30s
+  epoch 4/20 | batch 150/1050 | loss=0.3675 acc=0.8323 grad=0.6816 6.06 batch/s eta=2m29s
+  epoch 4/20 | batch 160/1050 | loss=0.3676 acc=0.8323 grad=0.2870 6.06 batch/s eta=2m27s
+  epoch 4/20 | batch 170/1050 | loss=0.3671 acc=0.8326 grad=0.3423 6.06 batch/s eta=2m25s
+  epoch 4/20 | batch 180/1050 | loss=0.3670 acc=0.8326 grad=0.1890 6.06 batch/s eta=2m23s
+  epoch 4/20 | batch 190/1050 | loss=0.3672 acc=0.8325 grad=0.2881 6.07 batch/s eta=2m22s
+  epoch 4/20 | batch 200/1050 | loss=0.3667 acc=0.8328 grad=0.3259 6.07 batch/s eta=2m20s
+  epoch 4/20 | batch 210/1050 | loss=0.3666 acc=0.8330 grad=0.3432 6.07 batch/s eta=2m18s
+  epoch 4/20 | batch 220/1050 | loss=0.3665 acc=0.8330 grad=0.3351 6.08 batch/s eta=2m17s
+  epoch 4/20 | batch 230/1050 | loss=0.3666 acc=0.8329 grad=0.3459 6.08 batch/s eta=2m15s
+  epoch 4/20 | batch 240/1050 | loss=0.3666 acc=0.8328 grad=0.2881 6.09 batch/s eta=2m13s
+  epoch 4/20 | batch 250/1050 | loss=0.3664 acc=0.8329 grad=0.3811 6.09 batch/s eta=2m11s
+  epoch 4/20 | batch 260/1050 | loss=0.3665 acc=0.8328 grad=0.3938 6.09 batch/s eta=2m10s
+  epoch 4/20 | batch 270/1050 | loss=0.3669 acc=0.8327 grad=0.2531 6.10 batch/s eta=2m08s
+  epoch 4/20 | batch 280/1050 | loss=0.3668 acc=0.8327 grad=0.6223 6.11 batch/s eta=2m06s
+  epoch 4/20 | batch 290/1050 | loss=0.3670 acc=0.8326 grad=0.4404 6.11 batch/s eta=2m04s
+  epoch 4/20 | batch 300/1050 | loss=0.3669 acc=0.8327 grad=0.3368 6.12 batch/s eta=2m03s
+  epoch 4/20 | batch 310/1050 | loss=0.3669 acc=0.8326 grad=0.1296 6.12 batch/s eta=2m01s
+  epoch 4/20 | batch 320/1050 | loss=0.3668 acc=0.8326 grad=0.4871 6.13 batch/s eta=1m59s
+  epoch 4/20 | batch 330/1050 | loss=0.3666 acc=0.8328 grad=0.2719 6.13 batch/s eta=1m57s
+  epoch 4/20 | batch 340/1050 | loss=0.3665 acc=0.8329 grad=0.3406 6.13 batch/s eta=1m56s
+  epoch 4/20 | batch 350/1050 | loss=0.3664 acc=0.8329 grad=0.2651 6.14 batch/s eta=1m54s
+  epoch 4/20 | batch 360/1050 | loss=0.3665 acc=0.8329 grad=0.2857 6.14 batch/s eta=1m52s
+  epoch 4/20 | batch 370/1050 | loss=0.3665 acc=0.8329 grad=0.3907 6.15 batch/s eta=1m51s
+  epoch 4/20 | batch 380/1050 | loss=0.3666 acc=0.8329 grad=0.2756 6.15 batch/s eta=1m49s
+  epoch 4/20 | batch 390/1050 | loss=0.3663 acc=0.8330 grad=0.5353 6.15 batch/s eta=1m47s
+  epoch 4/20 | batch 400/1050 | loss=0.3663 acc=0.8330 grad=0.3943 6.16 batch/s eta=1m46s
+  epoch 4/20 | batch 410/1050 | loss=0.3662 acc=0.8331 grad=0.1661 6.16 batch/s eta=1m44s
+  epoch 4/20 | batch 420/1050 | loss=0.3662 acc=0.8331 grad=0.4728 6.16 batch/s eta=1m42s
+  epoch 4/20 | batch 430/1050 | loss=0.3661 acc=0.8332 grad=0.3445 6.16 batch/s eta=1m41s
+  epoch 4/20 | batch 440/1050 | loss=0.3661 acc=0.8332 grad=0.2631 6.17 batch/s eta=1m39s
+  epoch 4/20 | batch 450/1050 | loss=0.3660 acc=0.8333 grad=0.4104 6.17 batch/s eta=1m37s
+  epoch 4/20 | batch 460/1050 | loss=0.3659 acc=0.8333 grad=0.1874 6.17 batch/s eta=1m36s
+  epoch 4/20 | batch 470/1050 | loss=0.3660 acc=0.8333 grad=0.3756 6.17 batch/s eta=1m34s
+  epoch 4/20 | batch 480/1050 | loss=0.3659 acc=0.8333 grad=0.2579 6.18 batch/s eta=1m32s
+  epoch 4/20 | batch 490/1050 | loss=0.3659 acc=0.8333 grad=0.1956 6.18 batch/s eta=1m31s
+  epoch 4/20 | batch 500/1050 | loss=0.3659 acc=0.8334 grad=0.4494 6.18 batch/s eta=1m29s
+  epoch 4/20 | batch 510/1050 | loss=0.3658 acc=0.8333 grad=0.4894 6.18 batch/s eta=1m27s
+  epoch 4/20 | batch 520/1050 | loss=0.3657 acc=0.8334 grad=0.1926 6.18 batch/s eta=1m26s
+  epoch 4/20 | batch 530/1050 | loss=0.3658 acc=0.8335 grad=0.3599 6.19 batch/s eta=1m24s
+  epoch 4/20 | batch 540/1050 | loss=0.3657 acc=0.8334 grad=0.2376 6.19 batch/s eta=1m22s
+  epoch 4/20 | batch 550/1050 | loss=0.3657 acc=0.8335 grad=0.3786 6.19 batch/s eta=1m21s
+  epoch 4/20 | batch 560/1050 | loss=0.3657 acc=0.8334 grad=0.1331 6.19 batch/s eta=1m19s
+  epoch 4/20 | batch 570/1050 | loss=0.3657 acc=0.8335 grad=0.3978 6.19 batch/s eta=1m18s
+  epoch 4/20 | batch 580/1050 | loss=0.3658 acc=0.8334 grad=0.1382 6.19 batch/s eta=1m16s
+  epoch 4/20 | batch 590/1050 | loss=0.3658 acc=0.8334 grad=0.2875 6.19 batch/s eta=1m14s
+  epoch 4/20 | batch 600/1050 | loss=0.3659 acc=0.8334 grad=0.1993 6.19 batch/s eta=1m13s
+  epoch 4/20 | batch 610/1050 | loss=0.3657 acc=0.8335 grad=0.2565 6.19 batch/s eta=1m11s
+  epoch 4/20 | batch 620/1050 | loss=0.3659 acc=0.8335 grad=0.5054 6.19 batch/s eta=1m09s
+  epoch 4/20 | batch 630/1050 | loss=0.3660 acc=0.8334 grad=0.4526 6.19 batch/s eta=1m08s
+  epoch 4/20 | batch 640/1050 | loss=0.3661 acc=0.8333 grad=0.1329 6.20 batch/s eta=1m06s
+  epoch 4/20 | batch 650/1050 | loss=0.3661 acc=0.8334 grad=0.3568 6.20 batch/s eta=1m05s
+  epoch 4/20 | batch 660/1050 | loss=0.3660 acc=0.8335 grad=0.1585 6.20 batch/s eta=1m03s
+  epoch 4/20 | batch 670/1050 | loss=0.3660 acc=0.8335 grad=0.2530 6.20 batch/s eta=1m01s
+  epoch 4/20 | batch 680/1050 | loss=0.3659 acc=0.8335 grad=0.2472 6.20 batch/s eta=59.7s
+  epoch 4/20 | batch 690/1050 | loss=0.3659 acc=0.8336 grad=0.2812 6.20 batch/s eta=58.1s
+  epoch 4/20 | batch 700/1050 | loss=0.3659 acc=0.8336 grad=0.1514 6.20 batch/s eta=56.5s
+  epoch 4/20 | batch 710/1050 | loss=0.3658 acc=0.8336 grad=0.2895 6.20 batch/s eta=54.8s
+  epoch 4/20 | batch 720/1050 | loss=0.3659 acc=0.8336 grad=0.2513 6.20 batch/s eta=53.2s
+  epoch 4/20 | batch 730/1050 | loss=0.3658 acc=0.8336 grad=0.5659 6.20 batch/s eta=51.6s
+  epoch 4/20 | batch 740/1050 | loss=0.3658 acc=0.8336 grad=0.3470 6.20 batch/s eta=50.0s
+  epoch 4/20 | batch 750/1050 | loss=0.3658 acc=0.8337 grad=0.5985 6.20 batch/s eta=48.4s
+  epoch 4/20 | batch 760/1050 | loss=0.3658 acc=0.8336 grad=0.7301 6.20 batch/s eta=46.8s
+  epoch 4/20 | batch 770/1050 | loss=0.3659 acc=0.8336 grad=0.7268 6.20 batch/s eta=45.1s
+  epoch 4/20 | batch 780/1050 | loss=0.3659 acc=0.8335 grad=0.6256 6.20 batch/s eta=43.5s
+  epoch 4/20 | batch 790/1050 | loss=0.3661 acc=0.8335 grad=0.5256 6.20 batch/s eta=41.9s
+  epoch 4/20 | batch 800/1050 | loss=0.3659 acc=0.8336 grad=0.2658 6.20 batch/s eta=40.3s
+  epoch 4/20 | batch 810/1050 | loss=0.3659 acc=0.8335 grad=0.4242 6.20 batch/s eta=38.7s
+  epoch 4/20 | batch 820/1050 | loss=0.3660 acc=0.8335 grad=0.3179 6.20 batch/s eta=37.1s
+  epoch 4/20 | batch 830/1050 | loss=0.3660 acc=0.8335 grad=0.3153 6.21 batch/s eta=35.5s
+  epoch 4/20 | batch 840/1050 | loss=0.3660 acc=0.8335 grad=0.2593 6.21 batch/s eta=33.8s
+  epoch 4/20 | batch 850/1050 | loss=0.3661 acc=0.8334 grad=0.1906 6.21 batch/s eta=32.2s
+  epoch 4/20 | batch 860/1050 | loss=0.3661 acc=0.8334 grad=0.4086 6.21 batch/s eta=30.6s
+  epoch 4/20 | batch 870/1050 | loss=0.3662 acc=0.8334 grad=0.2143 6.21 batch/s eta=29.0s
+  epoch 4/20 | batch 880/1050 | loss=0.3661 acc=0.8334 grad=0.1897 6.20 batch/s eta=27.4s
+  epoch 4/20 | batch 890/1050 | loss=0.3660 acc=0.8334 grad=0.2833 6.20 batch/s eta=25.8s
+  epoch 4/20 | batch 900/1050 | loss=0.3660 acc=0.8335 grad=0.4420 6.20 batch/s eta=24.2s
+  epoch 4/20 | batch 910/1050 | loss=0.3658 acc=0.8336 grad=0.4770 6.20 batch/s eta=22.6s
+  epoch 4/20 | batch 920/1050 | loss=0.3659 acc=0.8336 grad=0.2483 6.20 batch/s eta=21.0s
+  epoch 4/20 | batch 930/1050 | loss=0.3659 acc=0.8336 grad=0.3632 6.20 batch/s eta=19.3s
+  epoch 4/20 | batch 940/1050 | loss=0.3659 acc=0.8336 grad=0.1771 6.20 batch/s eta=17.7s
+  epoch 4/20 | batch 950/1050 | loss=0.3659 acc=0.8336 grad=0.3724 6.20 batch/s eta=16.1s
+  epoch 4/20 | batch 960/1050 | loss=0.3659 acc=0.8336 grad=0.4558 6.20 batch/s eta=14.5s
+  epoch 4/20 | batch 970/1050 | loss=0.3659 acc=0.8336 grad=0.4489 6.20 batch/s eta=12.9s
+  epoch 4/20 | batch 980/1050 | loss=0.3658 acc=0.8336 grad=0.2725 6.20 batch/s eta=11.3s
+  epoch 4/20 | batch 990/1050 | loss=0.3658 acc=0.8336 grad=0.7438 6.21 batch/s eta=9.7s
+  epoch 4/20 | batch 1000/1050 | loss=0.3658 acc=0.8336 grad=0.2608 6.21 batch/s eta=8.1s
+  epoch 4/20 | batch 1010/1050 | loss=0.3658 acc=0.8336 grad=0.3807 6.21 batch/s eta=6.4s
+  epoch 4/20 | batch 1020/1050 | loss=0.3658 acc=0.8336 grad=0.1506 6.21 batch/s eta=4.8s
+  epoch 4/20 | batch 1030/1050 | loss=0.3658 acc=0.8336 grad=0.1564 6.21 batch/s eta=3.2s
+  epoch 4/20 | batch 1040/1050 | loss=0.3658 acc=0.8336 grad=0.6898 6.21 batch/s eta=1.6s
+  epoch 4/20 | batch 1050/1050 | loss=0.3658 acc=0.8336 grad=0.2950 6.21 batch/s eta=0.0s
+[oracle_bc] epoch 4/20 train_loss=0.3658 train_acc=0.8336 val_loss=0.6489 val_acc=0.7033 hold=0.000 nondir=0.000
+[oracle_bc] early stop at epoch 4
+[oracle_bc] done -> [PRIVATE_ROOT]/autodl-tmp/code/poly-arb-2/poly-arb-ai/training/checkpoints/poly-arb-ai/training/checkpoints/m5_run_v7v72_bc/j1_b_from_m3
+[2026-05-04 00:05:51] train: completed in 1089.5s
+[2026-05-04 00:05:51] export: python3 -u poly-arb-ai/training/export_onnx.py --mode trained --checkpoint [PRIVATE_ROOT]/autodl-tmp/code/poly-arb-2/poly-arb-ai/training/checkpoints/poly-arb-ai/training/checkpoints/m5_run_v7v72_bc/j1_b_from_m3/best_model.pt --feature-stats [PRIVATE_ROOT]/autodl-tmp/code/poly-arb-2/poly-arb-ai/training/checkpoints/poly-arb-ai/training/checkpoints/m5_run_v7v72_bc/j1_b_from_m3/feature_stats_76.npz --seq-len 240 --output [PRIVATE_ROOT]/autodl-tmp/code/poly-arb-2/poly-arb-ai/training/checkpoints/poly-arb-ai/training/checkpoints/m5_run_v7v72_bc/j1_b_from_m3/agent_model_m5.onnx
+[export_onnx] Mode: trained
+[export_onnx] Loading M5 checkpoint: [PRIVATE_ROOT]/autodl-tmp/code/poly-arb-2/poly-arb-ai/training/checkpoints/poly-arb-ai/training/checkpoints/m5_run_v7v72_bc/j1_b_from_m3/best_model.pt
+[PRIVATE_ROOT]/autodl-tmp/code/poly-arb-2/poly-arb-ai/training/model.py:197: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.norm_first was True
+  self.transformer = nn.TransformerEncoder(encoder_layer, num_layers=n_layers)
+[export_onnx] Running verification forward pass...
+  signal_logits: [1, 2]
+  signal_ev: [1, 2]
+  policy_logits: [1, 6]
+  size_logits: [1, 3]
+  order_type_logits: [1, 2]
+  limit_price_level_logits: [1, 5]
+  risk_score: [1, 1]
+[export_onnx] Exporting to ONNX (opset=17, n_features=76)...
+Traceback (most recent call last):
+  File "[PRIVATE_ROOT]/autodl-tmp/code/poly-arb-2/poly-arb-ai/training/export_onnx.py", line 237, in <module>
+    main()
+    ~~~~^^
+  File "[PRIVATE_ROOT]/autodl-tmp/code/poly-arb-2/poly-arb-ai/training/export_onnx.py", line 118, in main
+    torch.onnx.export(
+    ~~~~~~~~~~~~~~~~~^
+        wrapper,
+        ^^^^^^^^
+    ...<5 lines>...
+        do_constant_folding=True,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "[PRIVATE_ROOT]/miniconda3/lib/python3.13/site-packages/torch/onnx/__init__.py", line 286, in export
+    from torch.onnx._internal.exporter import _compat
+  File "[PRIVATE_ROOT]/miniconda3/lib/python3.13/site-packages/torch/onnx/_internal/exporter/_compat.py", line 16, in <module>
+    from torch.onnx._internal.exporter import (
+    ...<6 lines>...
+    )
+  File "[PRIVATE_ROOT]/miniconda3/lib/python3.13/site-packages/torch/onnx/_internal/exporter/_core.py", line 19, in <module>
+    import onnxscript
+ModuleNotFoundError: No module named 'onnxscript'

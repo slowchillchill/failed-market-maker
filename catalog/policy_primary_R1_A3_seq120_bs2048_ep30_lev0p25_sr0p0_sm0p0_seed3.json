@@ -1,0 +1,39 @@
+{
+  "model_id": "policy_primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed3",
+  "family": "maker_policy_v2",
+  "training_candidate": true,
+  "architecture": "160-feature linear projection → 2-layer GRU (128 hidden); 4 Alpha + 5 account values → context MLP; fusion → quote / offset / size / risk heads",
+  "parameters": 272149,
+  "config": {
+    "amp": false,
+    "batch_size": 2048,
+    "bc_epochs": 3,
+    "d_model": 128,
+    "max_paths_per_shard": 4,
+    "n_features": 160,
+    "n_layers": 2,
+    "offline_rl_epochs": 10,
+    "schema_version": "maker_policy_v2_policy_config_v1",
+    "seq_len": 120,
+    "transition_shard_count": 66
+  },
+  "metrics": {
+    "last_bc_loss": 0.0001172707120937488,
+    "last_offline_rl_loss": 7.944371883979966e-05,
+    "independent_val_test_loss": "N/A — no independent loss report / 无独立损失报告",
+    "paper": "N/A — no standalone corresponding report / 无单体对应报告",
+    "live": "N/A — no standalone corresponding run evidence / 未找到单体对应实盘证据"
+  },
+  "completeness": "PyTorch checkpoint: N/A — not retained. Historical paired Alpha ONNX: N/A — not retained for this candidate; policy weights alone are available. / 无本地PyTorch权重；仅R1 seed2保留完整历史Alpha＋Policy ONNX组合。",
+  "feature_order": "models/policy_primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed3/feature_spec.json",
+  "runtime_outputs": "Four quote slots (UP buy, DOWN buy, UP sell, DOWN sell), offset/size logits and risk score, interpreted by the external action schema. / 四个买卖槽位的报价、偏移、大小与风险输出，由外部动作合同解释。",
+  "evidence": [
+    "models/policy_primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed3/policy_config.json",
+    "models/policy_primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed3/action_schema.json",
+    "models/policy_primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed3/feature_spec.json",
+    "models/policy_primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed3/reward_config.json",
+    "models/policy_primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed3/maker_policy_v2_smoke_report.json",
+    "models/policy_primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed3/model_bundle.json",
+    "models/policy_primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed3/alpha_source_manifest.json"
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "candidates": [
+    {
+      "behavior_deltas": {
+        "active_quote_ratio": {
+          "abs_delta": 0.7760930197184657,
+          "candidate": 0.03093835559611715,
+          "control": 0.8070313753145828,
+          "relative_delta": 0.9616639990185545
+        },
+        "cancel_count": {
+          "abs_delta": 11973942.0,
+          "candidate": 463411.0,
+          "control": 12437353.0,
+          "relative_delta": 0.9627403837456411
+        },
+        "cancel_to_submitted_ratio": {
+          "abs_delta": 0.062166191308130836,
+          "candidate": 0.7735816615084651,
+          "control": 0.8357478528165959,
+          "relative_delta": 0.07438390789592988
+        },
+        "fill_to_submitted_ratio": {
+          "abs_delta": 0.06126389963791215,
+          "candidate": 0.2971858588489031,
+          "control": 0.23592195921099093,
+          "relative_delta": 0.25967866595717065
+        },
+        "inventory_exposure_max_abs": {
+          "abs_delta": 0.0,
+          "candidate": 4.0,
+          "control": 4.0,
+          "relative_delta": 0.0
+        },
+        "inventory_exposure_mean_abs": {
+          "abs_delta": 1.9735666777289194,
+          "candidate": 0.08276072347133494,
+          "control": 2.0563274012002544,
+          "relative_delta": 0.9597531388129008
+        },
+        "reject_or_unsupported_mix": {
+          "candidate": {
+            "rejected_intent_count": 0,
+            "unsupported_reason_counts": {}
+          },
+          "changed": false,
+          "control": {
+            "rejected_intent_count": 0,
+            "unsupported_reason_counts": {}
+          }
+        },
+        "rejected_intent_count": {
+          "abs_delta": 0.0,
+          "candidate": 0.0,
+          "control": 0.0,
+          "relative_delta": 0.0
+        },
+        "risk_score_mean": {
+          "abs_delta": 0.0,
+          "candidate": 0.0,
+          "control": 0.0,
+          "relative_delta": 0.0
+        },
+        "risk_score_p99": {
+          "abs_delta": 0.0,
+          "candidate": 0.0,
+          "control": 0.0,
+          "relative_delta": 0.0
+        },
+        "submitted_order_count": {
+          "abs_delta": 14282659.0,
+          "candidate": 599046.0,
+          "control": 14881705.0,
+          "relative_delta": 0.9597461446789867
+        },
+        "trade_count": {
+          "abs_delta": 3332893.0,
+          "candidate": 178028.0,
+          "control": 3510921.0,
+          "relative_delta": 0.949293077229593
+        }
+      },
+      "control_run_id": "phase67_C0_control_anchor",
+      "gate3_passed": true,
+      "material_delta_dimensions": [
+        "active_quote_ratio",
+        "submitted_order_count",
+        "trade_count",
+        "cancel_count",
+        "inventory_exposure_mean_abs"
+      ],
+      "run_id": "phase67_P1_signed_reward_filter"
+    }
+  ],
+  "control_run_id": "phase67_C0_control_anchor",
+  "review": {
+    "leaderboard_interpretation_allowed": true,
+    "paper_trade_approval": false,
+    "reason": "one or more primaries separated from control",
+    "verdict": "PASS_REVIEW"
+  },
+  "schema_version": "phase67_control_separation_audit_v1"
+}

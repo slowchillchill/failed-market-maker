@@ -1,0 +1,68 @@
+{
+  "feature_order_version": "v2_maker_160",
+  "generated_at_epoch_s": 1779210959,
+  "model_config": {
+    "d_model": 128,
+    "dropout": 0.1,
+    "n_features": 160,
+    "n_layers": 2,
+    "seq_len": 120
+  },
+  "normalization_source_split": "train",
+  "output_bundle": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase61_preprocess_20260519T150552Z/alpha_v2_bundles/primary_R3_A6_seq120_bs2048_ep30_lev0p5_sr0p05_sm0p1_seed2",
+  "output_files": {
+    "feature_spec.json": {
+      "path": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase61_preprocess_20260519T150552Z/alpha_v2_bundles/primary_R3_A6_seq120_bs2048_ep30_lev0p5_sr0p05_sm0p1_seed2/feature_spec.json",
+      "sha256": "75b066ecc09733248e5f4766561762f35d2cbac8e61c562b882590badb0767cf"
+    },
+    "model.onnx": {
+      "path": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase61_preprocess_20260519T150552Z/alpha_v2_bundles/primary_R3_A6_seq120_bs2048_ep30_lev0p5_sr0p05_sm0p1_seed2/model.onnx",
+      "sha256": "d886d40d778263d5e3846e92dc5fcea61dfabee5e8e1c9afd62aaba8c2ffd4c6"
+    },
+    "model_bundle.json": {
+      "path": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase61_preprocess_20260519T150552Z/alpha_v2_bundles/primary_R3_A6_seq120_bs2048_ep30_lev0p5_sr0p05_sm0p1_seed2/model_bundle.json",
+      "sha256": "33799546e0dcfcf796f12da19df4ce9f74683e3efb32f3185c93685474304669"
+    },
+    "normalization.npz": {
+      "path": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase61_preprocess_20260519T150552Z/alpha_v2_bundles/primary_R3_A6_seq120_bs2048_ep30_lev0p5_sr0p05_sm0p1_seed2/normalization.npz",
+      "sha256": "aa6b11c14d894789e8ccfef5ca3913972ec5ff14ba7978c5c5813577cfa2ffa7"
+    },
+    "train_config.json": {
+      "path": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase61_preprocess_20260519T150552Z/alpha_v2_bundles/primary_R3_A6_seq120_bs2048_ep30_lev0p5_sr0p05_sm0p1_seed2/train_config.json",
+      "sha256": "f3c0348f1416cb1161ed56f83bfae0447745529611041ef8940d10fbf367f262"
+    }
+  },
+  "repo_head": "b9f7280c61c3f52e667ad7cb3af3f7c53762545e",
+  "run_id": "primary_R3_A6_seq120_bs2048_ep30_lev0p5_sr0p05_sm0p1_seed2",
+  "schema_version": "phase61_alpha_v2_source_manifest_v1",
+  "source_dir": "source://v2/poly-arb-ai/training/alpha_v2_phase5_8_signal_gate_runs/runs/primary/primary_R3_A6_seq120_bs2048_ep30_lev0p5_sr0p05_sm0p1_seed2",
+  "source_files": {
+    "best_model.pt": {
+      "path": "source://v2/poly-arb-ai/training/alpha_v2_phase5_8_signal_gate_runs/runs/primary/primary_R3_A6_seq120_bs2048_ep30_lev0p5_sr0p05_sm0p1_seed2/best_model.pt",
+      "sha256": "186630081642972fa9e36b8b43b1f28ec5a709e00802c77c6e75c87b89adc30c"
+    },
+    "normalization.npz": {
+      "path": "source://v2/poly-arb-ai/training/alpha_v2_phase5_8_signal_gate_runs/runs/primary/primary_R3_A6_seq120_bs2048_ep30_lev0p5_sr0p05_sm0p1_seed2/normalization.npz",
+      "sha256": "aa6b11c14d894789e8ccfef5ca3913972ec5ff14ba7978c5c5813577cfa2ffa7"
+    },
+    "train_config.json": {
+      "path": "source://v2/poly-arb-ai/training/alpha_v2_phase5_8_signal_gate_runs/runs/primary/primary_R3_A6_seq120_bs2048_ep30_lev0p5_sr0p05_sm0p1_seed2/train_config.json",
+      "sha256": "f3c0348f1416cb1161ed56f83bfae0447745529611041ef8940d10fbf367f262"
+    }
+  },
+  "split_info_path": "source://v2/poly-arb-ai/training/alpha_v2_phase5_8_signal_gate_runs/splits/phase58_trainfull_val20260511_12_no_test_split.json",
+  "split_sha256": "54a9eb27a2912d9020a109fda77bafe33792a06f1ac3d67960ffca48662c9e5f",
+  "target_contract_version": "tick_stream_v2_targets_v1",
+  "training_config": {
+    "batch_size": 2048,
+    "epochs": 30,
+    "ev_loss_fn": "huber",
+    "lambda_ev": 0.5,
+    "log_every_batches": 50,
+    "lr": 0.0001,
+    "side_margin_lambda": 0.1,
+    "side_rank_lambda": 0.05,
+    "side_rank_margin": 0.02,
+    "side_rank_min_abs_true_margin": 0.02
+  }
+}

@@ -1,0 +1,279 @@
+{
+  "run_id": "gate5-task10-26-first-decision-live-validation-wallet1-mpv2-[REDACTED_HOST]-20260605T055654Z",
+  "wrapper_exit_code": 1,
+  "wrapper_started_utc": "2026-06-05T06:36:48Z",
+  "wrapper_finished_utc": "2026-06-05T06:42:31Z",
+  "pre_wrapper_balance_raw": "100402500",
+  "post_wrapper_balance_raw": "96952500",
+  "post_wrapper_open_order_count": 0,
+  "postrun_sha256s_sha256": "a6a2d24df40156647c8df36a1744375b3db3ac374679051b8d244d233178ecf0",
+  "manifest": {
+    "status": "fail_closed",
+    "fail_closed_reasons": [
+      "strategy_tick_failed: gate5_tiny_live_smoke_cancel_fail_closed: sdk_cancel_response_not_all_canceled",
+      "gate5_final_reconciliation:sdk_clob_trades_query_failed",
+      "gate5_final_reconciliation:sdk_clob_trades_error_kind:internal"
+    ],
+    "no_submit": false,
+    "submit_enabled": true,
+    "signing_started": true,
+    "submitted_order_count": 2,
+    "signed_payload_count": 2,
+    "accepted_order_count": 1,
+    "cancel_attempt_count": 0,
+    "user_channel_event_count": 1,
+    "order_state_arbitration_row_count": 2,
+    "active_redeem_started": false,
+    "decision_row_count": 124,
+    "source_ready_observed": true,
+    "model_bundle_loaded": true,
+    "model_inference_started": true,
+    "gate5_final_reconciliation": {
+      "wallet_address": "[REDACTED]",
+      "condition_id": "0xded0b7683eaef2a0c72871d33a895a052d836192d7bb9f4d3d05e398527193ae",
+      "sdk_clob_orders_queried": true,
+      "sdk_clob_order_details_queried": true,
+      "sdk_clob_trades_queried": true,
+      "balance_allowance_update_queried": true,
+      "balance_allowance_queried": true,
+      "sdk_data_positions_queried": true,
+      "sdk_data_value_queried": true,
+      "clob_open_order_count": 0,
+      "clob_order_detail_count": 1,
+      "clob_trade_count": 0,
+      "balance": "96952500",
+      "allowance_contract_count": 3,
+      "max_allowance_present": true,
+      "data_position_count": 1,
+      "data_value_count": 1,
+      "data_total_value_usdc": "2.675",
+      "fail_closed": true,
+      "fail_closed_reasons": [
+        "sdk_clob_trades_query_failed",
+        "sdk_clob_trades_error_kind:internal"
+      ]
+    }
+  },
+  "reconciliation_open_order_count_semantics": "runtime_local_estimate_compatibility_field",
+  "runtime_local_open_order_estimate": 1,
+  "final_clob_open_order_count": 0,
+  "order_report": [
+    {
+      "accepted_order_ids": [
+        "0xbb11866fdc6a9970717d3985fc2d3722b365cbe4148e635836cd6148210c2c14"
+      ],
+      "cancel_endpoint": null,
+      "event": "gate5_tiny_live_smoke_order_submit_report",
+      "fail_closed": true,
+      "fail_closed_reasons": [
+        "sdk_post_order_empty_order_id",
+        "sdk_post_order_response_not_all_accepted"
+      ],
+      "final_approval_reference": "task10_26_user_approval_2026-06-05T053715Z_exactly_one_wallet1_mpv2_real_funds_validation",
+      "final_live_submit_armed": true,
+      "initial_open_order_count": 0,
+      "market_id": "0xded0b7683eaef2a0c72871d33a895a052d836192d7bb9f4d3d05e398527193ae",
+      "model_id": "mpv2_r1_a3_seq120_seed2",
+      "model_order_source": "model_natural_order",
+      "no_submit": false,
+      "order_envelopes": [
+        {
+          "buy_notional_usdc": "3.45",
+          "decision_ts_ms": 1780641727144,
+          "limit_price_ticks": 6900,
+          "market_id": "0xded0b7683eaef2a0c72871d33a895a052d836192d7bb9f4d3d05e398527193ae",
+          "official_min_order_size": "5",
+          "official_tick_size": "0.01",
+          "order_type": "gtc",
+          "outcome": "up",
+          "rendered_price": "0.69",
+          "rendered_size": "5",
+          "rounded_price": "0.69",
+          "rounded_size": "5",
+          "side": "buy",
+          "source_order_id": "maker-policy-v2:0xded0b7683eaef2a0c72871d33a895a052d836192d7bb9f4d3d05e398527193ae:1780641727144:1:up_buy:join_best:6900:1.000",
+          "token_id": "74801975615140110417652885522061369217137037177991458507870433859041503221619"
+        },
+        {
+          "buy_notional_usdc": "1.5",
+          "decision_ts_ms": 1780641727144,
+          "limit_price_ticks": 3000,
+          "market_id": "0xded0b7683eaef2a0c72871d33a895a052d836192d7bb9f4d3d05e398527193ae",
+          "official_min_order_size": "5",
+          "official_tick_size": "0.01",
+          "order_type": "gtc",
+          "outcome": "down",
+          "rendered_price": "0.3",
+          "rendered_size": "5",
+          "rounded_price": "0.3",
+          "rounded_size": "5",
+          "side": "buy",
+          "source_order_id": "maker-policy-v2:0xded0b7683eaef2a0c72871d33a895a052d836192d7bb9f4d3d05e398527193ae:1780641727144:2:down_buy:join_best:3000:1.000",
+          "token_id": "71398997323361219606534372175449517405353608369178933577578325994839841168270"
+        }
+      ],
+      "phase": "no_submit_live_data_run",
+      "raw_signed_payload_logged": false,
+      "redacted_signing_metadata": true,
+      "run_id": "gate5-task10-26-first-decision-live-validation-wallet1-mpv2-[REDACTED_HOST]-20260605T055654Z",
+      "signed_order_count": 2,
+      "signing_started": true,
+      "status": "fail_closed",
+      "submit_enabled": true,
+      "submit_endpoint": "POST /orders",
+      "submitted_order_count": 2,
+      "submitted_source_order_ids": [
+        "maker-policy-v2:0xded0b7683eaef2a0c72871d33a895a052d836192d7bb9f4d3d05e398527193ae:1780641727144:1:up_buy:join_best:6900:1.000",
+        "maker-policy-v2:0xded0b7683eaef2a0c72871d33a895a052d836192d7bb9f4d3d05e398527193ae:1780641727144:2:down_buy:join_best:3000:1.000"
+      ],
+      "ts_ms": 1780641740566,
+      "ttl_cancel_after_ms": 250,
+      "ttl_cancel_order_ids": [
+        "0xbb11866fdc6a9970717d3985fc2d3722b365cbe4148e635836cd6148210c2c14"
+      ],
+      "wallet_id": "wallet1"
+    }
+  ],
+  "cancel_report": [
+    {
+      "accepted_order_ids": [
+        "0xbb11866fdc6a9970717d3985fc2d3722b365cbe4148e635836cd6148210c2c14"
+      ],
+      "active_redeem_started": false,
+      "canceled_order_ids": [],
+      "endpoint": "DELETE /order",
+      "event": "gate5_tiny_live_smoke_ttl_cancel_attempt",
+      "fail_closed": true,
+      "fail_closed_reasons": [
+        "sdk_cancel_response_not_all_canceled"
+      ],
+      "model_id": "mpv2_r1_a3_seq120_seed2",
+      "no_submit": false,
+      "not_canceled": {
+        "0xbb11866fdc6a9970717d3985fc2d3722b365cbe4148e635836cd6148210c2c14": "order can't be found - already canceled or matched"
+      },
+      "phase": "no_submit_live_data_run",
+      "remaining_open_order_ids": [
+        "0xbb11866fdc6a9970717d3985fc2d3722b365cbe4148e635836cd6148210c2c14"
+      ],
+      "requested_order_ids": [
+        "0xbb11866fdc6a9970717d3985fc2d3722b365cbe4148e635836cd6148210c2c14"
+      ],
+      "route": "SingleOrder",
+      "run_id": "gate5-task10-26-first-decision-live-validation-wallet1-mpv2-[REDACTED_HOST]-20260605T055654Z",
+      "signing_started": false,
+      "skipped_ttl_order_ids_without_remaining_open": [],
+      "submit_enabled": false,
+      "submitted_source_order_ids": [
+        "maker-policy-v2:0xded0b7683eaef2a0c72871d33a895a052d836192d7bb9f4d3d05e398527193ae:1780641727144:1:up_buy:join_best:6900:1.000",
+        "maker-policy-v2:0xded0b7683eaef2a0c72871d33a895a052d836192d7bb9f4d3d05e398527193ae:1780641727144:2:down_buy:join_best:3000:1.000"
+      ],
+      "ts_ms": 1780641750978,
+      "ttl_cancel_after_ms": 250,
+      "wallet_id": "wallet1"
+    }
+  ],
+  "user_channel_events": [
+    {
+      "endpoint": "sdk subscribe_user_events",
+      "event": "gate5_sdk_user_channel_subscribed",
+      "fail_closed": false,
+      "fail_closed_reasons": [],
+      "market": "0xded0b7683eaef2a0c72871d33a895a052d836192d7bb9f4d3d05e398527193ae",
+      "model_id": "mpv2_r1_a3_seq120_seed2",
+      "no_submit": false,
+      "phase": "no_submit_live_data_run",
+      "run_id": "gate5-task10-26-first-decision-live-validation-wallet1-mpv2-[REDACTED_HOST]-20260605T055654Z",
+      "ts_ms": 1780641727204,
+      "wallet_id": "wallet1"
+    },
+    {
+      "asset_id": "74801975615140110417652885522061369217137037177991458507870433859041503221619",
+      "event": "gate5_sdk_user_channel_observation",
+      "event_kind": "Order",
+      "fail_closed": false,
+      "fail_closed_reasons": [],
+      "local_state": "accepted_open",
+      "market": "0xded0b7683eaef2a0c72871d33a895a052d836192d7bb9f4d3d05e398527193ae",
+      "model_id": "mpv2_r1_a3_seq120_seed2",
+      "no_submit": false,
+      "order_id": "0xbb11866fdc6a9970717d3985fc2d3722b365cbe4148e635836cd6148210c2c14",
+      "phase": "no_submit_live_data_run",
+      "run_id": "gate5-task10-26-first-decision-live-validation-wallet1-mpv2-[REDACTED_HOST]-20260605T055654Z",
+      "source": "user_channel_order",
+      "ts_ms": 1780641740789,
+      "wallet_id": "wallet1"
+    }
+  ],
+  "order_state_arbitration": [
+    {
+      "authoritative_source": "rest_create_order",
+      "conflict": false,
+      "event": "gate5_order_state_arbitration_observation",
+      "fail_closed": false,
+      "is_first_authoritative": true,
+      "late_observation_count": 0,
+      "local_state": "accepted_open",
+      "model_id": "mpv2_r1_a3_seq120_seed2",
+      "no_submit": false,
+      "no_submit_required": false,
+      "observation_source": "rest_create_order",
+      "order_id": "0xbb11866fdc6a9970717d3985fc2d3722b365cbe4148e635836cd6148210c2c14",
+      "phase": "no_submit_live_data_run",
+      "run_id": "gate5-task10-26-first-decision-live-validation-wallet1-mpv2-[REDACTED_HOST]-20260605T055654Z",
+      "ts_ms": 1780641740566,
+      "wallet_id": "wallet1"
+    },
+    {
+      "authoritative_source": "rest_create_order",
+      "conflict": false,
+      "event": "gate5_order_state_arbitration_observation",
+      "fail_closed": false,
+      "fail_closed_reasons": [],
+      "is_first_authoritative": false,
+      "late_observation_count": 1,
+      "local_state": "accepted_open",
+      "model_id": "mpv2_r1_a3_seq120_seed2",
+      "no_submit": false,
+      "no_submit_required": false,
+      "observation_source": "user_channel_order",
+      "order_id": "0xbb11866fdc6a9970717d3985fc2d3722b365cbe4148e635836cd6148210c2c14",
+      "phase": "no_submit_live_data_run",
+      "run_id": "gate5-task10-26-first-decision-live-validation-wallet1-mpv2-[REDACTED_HOST]-20260605T055654Z",
+      "ts_ms": 1780641740789,
+      "wallet_id": "wallet1"
+    }
+  ],
+  "post_wrapper_account": {
+    "run_id": "gate5-task10-26-first-decision-live-validation-wallet1-mpv2-[REDACTED_HOST]-20260605T055654Z",
+    "enabled_model_id": "mpv2_r1_a3_seq120_seed2",
+    "enabled_wallet_id": "wallet1",
+    "clob_host": "https://clob.polymarket.com",
+    "chain_id": 137,
+    "wallet_env_path": "[PRIVATE_HOME]/live-runtime/wallets/.env.wallet1",
+    "wallet_env_file_mode": "600",
+    "wallet_env_parent_dir_mode": "700",
+    "wallet_env_permissions_ok": true,
+    "wallet_env_gitignored": true,
+    "wallet_env_tracked": false,
+    "secret_fields_present": {
+      "wallet_private_key": true,
+      "clob_api_key": true,
+      "clob_api_secret": true,
+      "clob_api_passphrase": true
+    },
+    "sdk_credentials_constructed": true,
+    "sdk_authenticated_client_constructed": true,
+    "account_snapshot": {
+      "balance": "96952500",
+      "max_allowance_present": true,
+      "open_order_count": 0,
+      "sdk_balance_allowance_queried": true,
+      "sdk_open_orders_queried": true,
+      "fail_closed": false,
+      "fail_closed_reasons": []
+    },
+    "fail_closed": false,
+    "fail_closed_reasons": []
+  }
+}

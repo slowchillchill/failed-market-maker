@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+*.tar.gz
+# Binary model assets are distributed through Release and Hugging Face.
+models/**/*.pt
+models/**/*.onnx
+models/**/*.onnx.data
+models/**/*.npz

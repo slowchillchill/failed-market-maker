@@ -1,0 +1,96 @@
+{
+  "model_id": "m3_run_v7_M3-B2",
+  "family": "m3",
+  "training_candidate": true,
+  "architecture": "Causal TCN market branches + Chainlink MLP + causal Transformer (128 hidden, 2 layers, 4 heads) + classification / EV heads",
+  "parameters": 419556,
+  "config": {
+    "parquet_paths": [
+      "model/feature-engine/out/features_250ms_data-v1.parquet",
+      "model/feature-engine/out/features_250ms_data-v2.parquet",
+      "model/feature-engine/out/features_250ms_data-v3.parquet",
+      "model/feature-engine/out/features_250ms_data-v4.parquet",
+      "model/feature-engine/out/features_250ms_data-v5.parquet"
+    ],
+    "seq_len": 100,
+    "batch_size": 4096,
+    "lr": 0.00056,
+    "epochs": 30,
+    "lambda_cls": 1.0,
+    "lambda_ev": 0.5,
+    "d_model": 128,
+    "n_transformer_layers": 2,
+    "dropout": 0.1,
+    "output_dir": "poly-arb-ai/training/checkpoints/m3_run_v7_M3-B2",
+    "device": "cuda",
+    "num_workers": 8,
+    "amp": true,
+    "compile": true,
+    "patience": 5,
+    "weight_decay": 0.0001,
+    "label_smoothing": 0.05,
+    "warmup_epochs": 2,
+    "ev_loss_fn": "huber",
+    "nhead": 4,
+    "split_info": "poly-arb-ai/training/split/split_info.v6expanded.json",
+    "seed": 42,
+    "ema_decay": 0.99,
+    "feature_noise": 0.0,
+    "focal_gamma": 0.0,
+    "snapshot_epochs": ""
+  },
+  "metrics": {
+    "best_epoch": 12,
+    "train_loss": 0.2999222529466905,
+    "val_auc": 0.7351134852246457,
+    "test": {
+      "auc": 0.7138815588138743,
+      "brier": 0.27409004629649314,
+      "ece": 0.2452327631933416,
+      "ev_up_mae": 1.6587376760534323,
+      "ev_up_rmse": 2.755799891158789,
+      "ev_rank_corr": 0.0035322517724225315,
+      "ev_down_mae": 1.654643851520991,
+      "ev_down_rmse": 2.7519640914936017,
+      "ev_up_sign_acc": 0.6480479949479002,
+      "top_decile_mean_ev_up": -0.08662242966845597,
+      "ev_up_conditional_mean_by_threshold": {
+        "0.50": -0.021090989169416475,
+        "0.52": -0.021324504641008483,
+        "0.55": -0.020719908331812583,
+        "0.60": -0.020873620767270215,
+        "0.65": -0.02009865174274774
+      },
+      "ev_up_opportunity_rate_by_threshold": {
+        "0.50": 0.3478855356968454,
+        "0.52": 0.34567418934381855,
+        "0.55": 0.342263121277999,
+        "0.60": 0.3363308289896173,
+        "0.65": 0.32952075036262946
+      },
+      "edge_by_decile": [
+        0.10240084838936454,
+        -0.05530123368410529,
+        -0.07264870216185908,
+        -0.03287912117262209,
+        -0.058962474591456863,
+        -0.04229088739360767,
+        -0.005879217836146618,
+        0.006309815623740446,
+        0.01904438840259867,
+        -0.08645479142688046
+      ],
+      "loss": 1.7292454365421743
+    },
+    "paper": "See run-specific paper table / 见逐次模拟盘表",
+    "live": "N/A — no standalone corresponding run evidence / 未找到单体对应实盘证据"
+  },
+  "completeness": "Original checkpoint: 65 features. Collection exports: 76 features, with added state/fusion and execution heads. Added-head training scores are N/A (no corresponding training evidence). Train-tree and paper-tree exports are distinct. / 原始权重为65维；collection为76维，新增头无对应训练成绩，训练侧与paper侧分别保留。",
+  "feature_order": "contracts/feature_cols.json",
+  "runtime_outputs": "B1/B2/M5 BC paper uses signal outputs with external execution and risk rules; not evidence that every execution head influenced actions. / B1、B2、M5 BC 模拟盘使用 signal 输出和外部执行风控规则，不证明全部执行头有效参与。",
+  "evidence": [
+    "models/m3_run_v7_M3-B2/test_metrics.json",
+    "models/m3_run_v7_M3-B2/train_history.json",
+    "models/m3_run_v7_M3-B2/run_metadata.json"
+  ]
+}

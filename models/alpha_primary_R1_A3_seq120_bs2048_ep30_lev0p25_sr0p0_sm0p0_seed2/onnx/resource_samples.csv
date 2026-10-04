@@ -1,0 +1,4 @@
+timestamp,gpu_util_pct,gpu_mem_used_mib,mem_used_mib,mem_total_mib,load1,load5,load15,phase
+2026-05-20T01:15:43+08:00,0,0,50849,772623,3.34,5.49,7.33,export
+2026-05-20T01:15:44+08:00,0,0,51098,772623,3.34,5.49,7.33,export
+2026-05-20T01:15:45+08:00,0,0,51031,772623,3.34,5.49,7.33,manifest

@@ -1,0 +1,2778 @@
+{
+  "first_place_trade_detail": {
+    "best_closed_markets": [
+      {
+        "buy_cost": 347.5968,
+        "fills": 324,
+        "first_utc": "2026-06-02T18:30:00.503000Z",
+        "last_utc": "2026-06-02T18:37:12.572000Z",
+        "market_id": "0xd76b0bf96ce088e22829b1fc4ba41dcef93f10df438026d0e4c6d675a26e0803",
+        "orders": 1341,
+        "pnl": 22.2079,
+        "sell_realized": 4.02555719,
+        "settlement_realized": 18.18234281
+      },
+      {
+        "buy_cost": 370.4215,
+        "fills": 354,
+        "first_utc": "2026-06-04T22:05:00.551000Z",
+        "last_utc": "2026-06-04T22:11:28.591000Z",
+        "market_id": "0x7929b5075780e8db4c57d83ac6ba49420eb3bcce0c089e001ddea0e66c417469",
+        "orders": 1259,
+        "pnl": 17.9916,
+        "sell_realized": 11.31569652,
+        "settlement_realized": 6.67590348
+      },
+      {
+        "buy_cost": 145.8538,
+        "fills": 161,
+        "first_utc": "2026-06-05T06:00:00.502000Z",
+        "last_utc": "2026-06-05T06:06:30.081000Z",
+        "market_id": "0xd0bc4eeea68d839bd0115977a2b587c2db2e0b5f7f9a788ec677dea1de28c668",
+        "orders": 761,
+        "pnl": 16.8864,
+        "sell_realized": 16.84287374,
+        "settlement_realized": 0.04352626
+      },
+      {
+        "buy_cost": 373.7435,
+        "fills": 393,
+        "first_utc": "2026-06-03T16:10:00.819000Z",
+        "last_utc": "2026-06-03T16:16:26.960000Z",
+        "market_id": "0xad8319b99fe3c8d24b89960026b1507aad67fe373724bd50627484bb53f3aec6",
+        "orders": 1421,
+        "pnl": 16.3158,
+        "sell_realized": 20.30207611,
+        "settlement_realized": -3.98627611
+      },
+      {
+        "buy_cost": 264.1581,
+        "fills": 236,
+        "first_utc": "2026-06-02T23:25:00.502000Z",
+        "last_utc": "2026-06-02T23:31:39.807000Z",
+        "market_id": "0xa82d452f7e73aeef8be94b5710ec87f535910c13a14540f91e8a3770c8c5a69e",
+        "orders": 1271,
+        "pnl": 15.9343,
+        "sell_realized": 7.66838789,
+        "settlement_realized": 8.26591211
+      },
+      {
+        "buy_cost": 463.6244,
+        "fills": 425,
+        "first_utc": "2026-06-02T15:20:00.506000Z",
+        "last_utc": "2026-06-02T15:26:38.671000Z",
+        "market_id": "0xd610f25e2eae838718786c361fb522140193fe9f7afc8e1093188faf11d52ef0",
+        "orders": 1433,
+        "pnl": 15.8999,
+        "sell_realized": 15.64664025,
+        "settlement_realized": 0.25325975
+      },
+      {
+        "buy_cost": 435.5763,
+        "fills": 420,
+        "first_utc": "2026-06-03T14:05:00.333000Z",
+        "last_utc": "2026-06-03T14:11:36.979000Z",
+        "market_id": "0xd7551b26a68c37ed2073bd138ccdfbba091d1911e8c14f73e8fa31077754979d",
+        "orders": 1423,
+        "pnl": 13.5936,
+        "sell_realized": 14.32163356,
+        "settlement_realized": -0.72803356
+      },
+      {
+        "buy_cost": 261.2915,
+        "fills": 246,
+        "first_utc": "2026-06-05T09:15:00.936000Z",
+        "last_utc": "2026-06-05T09:21:30.429000Z",
+        "market_id": "0xc70df863ea879228e2b505e6be118e9da6e4178eba8f30334543444b05273c82",
+        "orders": 1058,
+        "pnl": 13.2105,
+        "sell_realized": 13.57539568,
+        "settlement_realized": -0.36489568
+      },
+      {
+        "buy_cost": 423.6552,
+        "fills": 399,
+        "first_utc": "2026-06-02T15:35:00.618000Z",
+        "last_utc": "2026-06-02T15:41:37.816000Z",
+        "market_id": "0x1979eefe4d7b1db6c7346177b7d736e2c2709051833278c0008b5a9a66b05ea6",
+        "orders": 1404,
+        "pnl": 11.5794,
+        "sell_realized": 12.19943019,
+        "settlement_realized": -0.62003019
+      },
+      {
+        "buy_cost": 378.0305,
+        "fills": 372,
+        "first_utc": "2026-06-04T09:30:01.164000Z",
+        "last_utc": "2026-06-04T09:36:25.757000Z",
+        "market_id": "0xe88f430212057c3bf3657b141ae70d1bda37a4521ef12e7c4ed342e8a4b65889",
+        "orders": 1231,
+        "pnl": 11.2775,
+        "sell_realized": 11.41561772,
+        "settlement_realized": -0.13811772
+      }
+    ],
+    "buy_cost_usdc": 182689.68969999,
+    "buy_fee_usdc": 306.4055,
+    "buy_price_stats": {
+      "count": 94625,
+      "p10": 0.12,
+      "p50": 0.51,
+      "p90": 0.92
+    },
+    "buy_shares": 357570.22929703,
+    "cancel_lifetime_ms": {
+      "count": 797482,
+      "max": 737502,
+      "p50": 448.0,
+      "p90": 240798.0,
+      "p99": 294458.0
+    },
+    "cancel_order_rate": 0.86337757,
+    "cancelled_orders": 797482,
+    "closed_realized_plus_rebate_usdc": 4650.02692237,
+    "closed_realized_pnl_usdc": 1790.71090237,
+    "conservative_total_after_zero_mark_usdc": 4637.54152,
+    "event_count": 2936992,
+    "fee_sum_usdc": 373.1013,
+    "fill_order_rate": 0.17737369,
+    "fill_shares_stats": {
+      "count": 177234,
+      "max": 5.0,
+      "p50": 5.0,
+      "p90": 5.0,
+      "p99": 5.0
+    },
+    "filled_orders": 163836,
+    "filled_outcome_events": {
+      "down": 90055,
+      "up": 87179
+    },
+    "filled_side_events": {
+      "buy": 94625,
+      "sell": 82609
+    },
+    "first_event_utc": "2026-06-02T14:00:33.622000Z",
+    "full_fill_lifetime_ms": {
+      "count": 126240,
+      "max": 289,
+      "p50": 124.0,
+      "p90": 233.0,
+      "p99": 279.0
+    },
+    "full_fill_orders": 126240,
+    "kind_counts": {
+      "CancelRequested": 119824,
+      "Cancelled": 797482,
+      "FilledFull": 126240,
+      "FilledPartial": 50994,
+      "Rejected": 1,
+      "RestingPlaced": 917869,
+      "Submitted": 923677,
+      "settlement": 905
+    },
+    "last_event_utc": "2026-06-05T18:09:19.239000Z",
+    "market_count": 911,
+    "negative_closed_markets": 186,
+    "negative_closed_sum_usdc": -271.7122,
+    "open_cost_basis_usdc": 12.48540237,
+    "open_order_count": 0,
+    "open_position_count": 2,
+    "open_positions": [
+      {
+        "cost_basis_usdc": 2.33339367,
+        "market_id": "0xa1bff5ffc0de13e6c6b9544cb0a75e50ce03cefd0d14a15c10cee8ef4400446e",
+        "outcome": "down",
+        "shares": 11.623854
+      },
+      {
+        "cost_basis_usdc": 10.1520087,
+        "market_id": "0xa1bff5ffc0de13e6c6b9544cb0a75e50ce03cefd0d14a15c10cee8ef4400446e",
+        "outcome": "up",
+        "shares": 13.400097
+      }
+    ],
+    "open_shares": 25.023951,
+    "order_lifetime_ms": {
+      "count": 923722,
+      "max": 737502,
+      "p50": 279.0,
+      "p90": 231458.9,
+      "p99": 293466.0
+    },
+    "partial_fill_orders": 47539,
+    "positive_closed_markets": 707,
+    "positive_closed_sum_usdc": 2062.42310237,
+    "profile": "mpv2_r1_a3_seq120_seed2",
+    "rebate": {
+      "by_day": {
+        "2026-06-02": 453.13308,
+        "2026-06-03": 963.37738,
+        "2026-06-04": 1112.51582,
+        "2026-06-05": 330.28974
+      },
+      "counts": {
+        "maker_rebate_accrual": 171033,
+        "maker_rebate_payout": 3
+      },
+      "events": 171036,
+      "first_ts": "2026-06-02T14:00:34.741000Z",
+      "last_pending_usdc": 330.28974,
+      "last_ts": "2026-06-05T18:09:02.027000Z",
+      "total_accrual_usdc": 2859.31602
+    },
+    "resting_orders": 917869,
+    "sell_fee_usdc": 66.6958,
+    "sell_price_stats": {
+      "count": 82609,
+      "p10": 0.14,
+      "p50": 0.55,
+      "p90": 0.94
+    },
+    "sell_proceeds_usdc": 181532.26770001,
+    "sell_realized_usdc": 1894.21069325,
+    "sell_shares": 349405.87502301,
+    "settlement_realized_usdc": -84.97026875,
+    "submitted_offset": {
+      "improve_1_tick": 75834,
+      "join_best": 847843
+    },
+    "submitted_orders": 923677,
+    "submitted_outcome": {
+      "down": 461080,
+      "up": 462597
+    },
+    "submitted_side": {
+      "buy": 753671,
+      "sell": 170006
+    },
+    "submitted_slot": {
+      "down_buy": 376959,
+      "down_sell": 84121,
+      "up_buy": 376712,
+      "up_sell": 85885
+    },
+    "terminal_orders": 923677,
+    "top_filled_hours": [
+      [
+        "2026-06-03T16:00Z",
+        3470
+      ],
+      [
+        "2026-06-02T15:00Z",
+        3387
+      ],
+      [
+        "2026-06-05T14:00Z",
+        3364
+      ],
+      [
+        "2026-06-03T22:00Z",
+        3127
+      ],
+      [
+        "2026-06-04T22:00Z",
+        3065
+      ],
+      [
+        "2026-06-05T13:00Z",
+        3052
+      ],
+      [
+        "2026-06-03T14:00Z",
+        3028
+      ],
+      [
+        "2026-06-04T12:00Z",
+        3028
+      ],
+      [
+        "2026-06-05T16:00Z",
+        2983
+      ],
+      [
+        "2026-06-05T15:00Z",
+        2950
+      ],
+      [
+        "2026-06-04T10:00Z",
+        2917
+      ],
+      [
+        "2026-06-04T13:00Z",
+        2872
+      ]
+    ],
+    "top_markets_by_submitted_orders": [
+      [
+        "0xa1ef8ff35edda5ae6a363e6e36dbf03ad1189493046df3daea6344c819ae7e97",
+        1444
+      ],
+      [
+        "0xe1078e03e0b748624a674df0533e218160ca877e9b303a50561e687be09cb0fd",
+        1441
+      ],
+      [
+        "0x94de16ed0096861e8c2b1dbc064c31c1382b02582c1cf3ec7f13237b67801f82",
+        1437
+      ],
+      [
+        "0xd610f25e2eae838718786c361fb522140193fe9f7afc8e1093188faf11d52ef0",
+        1433
+      ],
+      [
+        "0xd7551b26a68c37ed2073bd138ccdfbba091d1911e8c14f73e8fa31077754979d",
+        1423
+      ],
+      [
+        "0xad8319b99fe3c8d24b89960026b1507aad67fe373724bd50627484bb53f3aec6",
+        1421
+      ],
+      [
+        "0xacb10bf7c01e494a6526a504c728877738f901450a8c87fec7771a8fbbfe837b",
+        1421
+      ],
+      [
+        "0x2dc647ffb743095d4abbbb44f11065406874aa1b887712b4772d4c6db8c3ef14",
+        1420
+      ],
+      [
+        "0xbc654fb9d6a1791b388e247ac3c2075117be090eb433d5ec50f9d00dda5b052a",
+        1412
+      ],
+      [
+        "0xb81a8ebf220e0d4079d48ce7a19295d230f854a372946519dc29f77f71cea5fd",
+        1412
+      ]
+    ],
+    "top_submitted_hours": [
+      [
+        "2026-06-04T22:00Z",
+        14545
+      ],
+      [
+        "2026-06-03T16:00Z",
+        14068
+      ],
+      [
+        "2026-06-02T23:00Z",
+        13974
+      ],
+      [
+        "2026-06-03T22:00Z",
+        13903
+      ],
+      [
+        "2026-06-04T01:00Z",
+        13803
+      ],
+      [
+        "2026-06-03T14:00Z",
+        13792
+      ],
+      [
+        "2026-06-03T03:00Z",
+        13760
+      ],
+      [
+        "2026-06-02T15:00Z",
+        13756
+      ],
+      [
+        "2026-06-03T00:00Z",
+        13670
+      ],
+      [
+        "2026-06-04T08:00Z",
+        13624
+      ],
+      [
+        "2026-06-03T23:00Z",
+        13444
+      ],
+      [
+        "2026-06-04T09:00Z",
+        13383
+      ]
+    ],
+    "turnover_buy_cost_vs_100_start": 1826.896897,
+    "worst_closed_markets": [
+      {
+        "buy_cost": 283.2294,
+        "fills": 259,
+        "first_utc": "2026-06-02T18:10:00.744000Z",
+        "last_utc": "2026-06-02T18:16:38.605000Z",
+        "market_id": "0xd2f20213bb6c6e3a97b8f638dee3a80668c9458063b539211f68e2fb5124df10",
+        "orders": 1252,
+        "pnl": -8.2078,
+        "sell_realized": -3.81912283,
+        "settlement_realized": -4.38867717
+      },
+      {
+        "buy_cost": 300.8255,
+        "fills": 276,
+        "first_utc": "2026-06-04T07:05:00.575000Z",
+        "last_utc": "2026-06-04T07:11:31.876000Z",
+        "market_id": "0xb4ffd6e8905d37ac1040e951cf9d32106e7c8be347da00301bf0bf34912073c9",
+        "orders": 1322,
+        "pnl": -7.8543,
+        "sell_realized": -7.28952594,
+        "settlement_realized": -0.56477406
+      },
+      {
+        "buy_cost": 257.9002,
+        "fills": 252,
+        "first_utc": "2026-06-04T05:15:00.752000Z",
+        "last_utc": "2026-06-04T05:21:24.564000Z",
+        "market_id": "0xa034b1e48475192cdf4fc16bfefde919105aa387117becfbb9f15690a5f966c4",
+        "orders": 1247,
+        "pnl": -7.7662,
+        "sell_realized": -7.85883439,
+        "settlement_realized": 0.09263439
+      },
+      {
+        "buy_cost": 213.3862,
+        "fills": 200,
+        "first_utc": "2026-06-04T03:45:00.753000Z",
+        "last_utc": "2026-06-04T03:51:35.600000Z",
+        "market_id": "0x82de0e5434db2555276eda3abd5b83a6cbdeb37bde820ffb8872c5a9ba64b349",
+        "orders": 1241,
+        "pnl": -7.046,
+        "sell_realized": -5.00757998,
+        "settlement_realized": -2.03842002
+      },
+      {
+        "buy_cost": 232.4775,
+        "fills": 272,
+        "first_utc": "2026-06-04T13:10:01.072000Z",
+        "last_utc": "2026-06-04T13:16:23.290000Z",
+        "market_id": "0x6d23cdfd58c78d54f618cadcb36fb4d9cbcf573a7efefb3d327720166c918258",
+        "orders": 1233,
+        "pnl": -6.7109,
+        "sell_realized": -4.27252534,
+        "settlement_realized": -2.43837466
+      },
+      {
+        "buy_cost": 79.7585,
+        "fills": 64,
+        "first_utc": "2026-06-05T04:30:01.002000Z",
+        "last_utc": "2026-06-05T04:33:28.316000Z",
+        "market_id": "0xb9ead515c7fe23a5cb66b4003de2ffcae073ec2043c69d23a0efb89a0e619bc8",
+        "orders": 656,
+        "pnl": -6.5085,
+        "sell_realized": 0.41411957,
+        "settlement_realized": -6.92261957
+      },
+      {
+        "buy_cost": 325.9233,
+        "fills": 316,
+        "first_utc": "2026-06-05T15:00:00.648000Z",
+        "last_utc": "2026-06-05T15:06:32.562000Z",
+        "market_id": "0x906fb0b000f99e326161707e7a87cb3781d796a10a63f8798b6b3ae95af97e62",
+        "orders": 1159,
+        "pnl": -5.5986,
+        "sell_realized": -3.23728365,
+        "settlement_realized": -2.36131635
+      },
+      {
+        "buy_cost": 217.8145,
+        "fills": 230,
+        "first_utc": "2026-06-05T12:55:00.501000Z",
+        "last_utc": "2026-06-05T13:01:42.449000Z",
+        "market_id": "0x59dce16a7db16a4196ad73a5ca78008def3815394879f01620c789e6e2976512",
+        "orders": 1256,
+        "pnl": -5.3922,
+        "sell_realized": -4.9945278,
+        "settlement_realized": -0.3976722
+      },
+      {
+        "buy_cost": 200.9304,
+        "fills": 192,
+        "first_utc": "2026-06-03T05:35:01.010000Z",
+        "last_utc": "2026-06-03T05:41:40.804000Z",
+        "market_id": "0xa8797223de22200f5f189f89e403e7b2bd4282b9b82f26dbaa480db34816046d",
+        "orders": 1168,
+        "pnl": -5.1887,
+        "sell_realized": -0.7267316,
+        "settlement_realized": -4.4619684
+      },
+      {
+        "buy_cost": 292.8421,
+        "fills": 285,
+        "first_utc": "2026-06-04T19:20:00.837000Z",
+        "last_utc": "2026-06-04T19:26:32.874000Z",
+        "market_id": "0xfe603bcc5a2b0a9f5d6b0f0f98c6ededa0d69cd60eea75b3354ee51faee5eac7",
+        "orders": 1350,
+        "pnl": -5.0887,
+        "sell_realized": -5.56714778,
+        "settlement_realized": 0.47844778
+      }
+    ],
+    "writeoff_realized_usdc": -18.52952213
+  },
+  "mpv2_policy_debug_summary": {
+    "account_state_stats": {
+      "active_resting_count": {
+        "avg": 1.1284398150127215,
+        "count": 631611,
+        "max": 4.0,
+        "min": 0.0,
+        "p50": 1.0,
+        "p90": 3.0,
+        "p99": 3.0
+      },
+      "cash": {
+        "avg": 1018.0167855524999,
+        "count": 631611,
+        "max": 1900.4805,
+        "min": 89.2416,
+        "p50": 1070.4905,
+        "p90": 1733.2903,
+        "p99": 1889.2133400000002
+      },
+      "nav_before": {
+        "avg": 1021.3760757930119,
+        "count": 631611,
+        "max": 1901.436,
+        "min": 98.693,
+        "p50": 1074.405,
+        "p90": 1735.5815,
+        "p99": 1892.54161
+      },
+      "shares_down": {
+        "avg": 3.601117932086363,
+        "count": 631611,
+        "max": 19.995214,
+        "min": 0.0,
+        "p50": 3.157,
+        "p90": 7.86,
+        "p99": 14.22021
+      },
+      "shares_up": {
+        "avg": 3.6229286960850904,
+        "count": 631611,
+        "max": 20.0,
+        "min": 0.0,
+        "p50": 3.1,
+        "p90": 8.00526,
+        "p99": 14.574682
+      }
+    },
+    "active_resting_count_after": {
+      "0": 476355,
+      "1": 3581,
+      "2": 442047,
+      "3": 151467,
+      "4": 12584
+    },
+    "active_resting_count_before": {
+      "0": 658282,
+      "1": 109261,
+      "2": 261718,
+      "3": 54146,
+      "4": 2627
+    },
+    "alpha_stats": {
+      "alpha_0": {
+        "avg": -2.783799394660256,
+        "count": 631611,
+        "max": 3.0967102,
+        "min": -4.403587,
+        "p50": -2.9348822,
+        "p90": -1.6137469,
+        "p99": 0.6185984800000015
+      },
+      "alpha_1": {
+        "avg": 2.485180363806353,
+        "count": 631611,
+        "max": 3.902335,
+        "min": -2.108132,
+        "p50": 2.6471703,
+        "p90": 3.3756173,
+        "p99": 3.61725192
+      },
+      "alpha_2": {
+        "avg": 1.7399674273558978,
+        "count": 631611,
+        "max": 3.165151,
+        "min": -1.7626287,
+        "p50": 1.8757234,
+        "p90": 2.5915902,
+        "p99": 2.85299734
+      },
+      "alpha_3": {
+        "avg": -1.8377273678153128,
+        "count": 631611,
+        "max": 1.6508771,
+        "min": -3.6487505,
+        "p50": -1.9647824,
+        "p90": -0.6247958,
+        "p99": -0.3328098579999999
+      }
+    },
+    "block_reasons_top": [
+      [
+        "down_sell:insufficient_inventory",
+        505680
+      ],
+      [
+        "up_sell:insufficient_inventory",
+        501108
+      ],
+      [
+        "stale_features",
+        418044
+      ],
+      [
+        "market_end_no_quote",
+        36260
+      ],
+      [
+        "down_buy:crossing_price",
+        21621
+      ],
+      [
+        "up_buy:crossing_price",
+        21242
+      ],
+      [
+        "up_buy:inventory_or_cash_cap",
+        13077
+      ],
+      [
+        "down_buy:inventory_or_cash_cap",
+        11689
+      ],
+      [
+        "up_sell:crossing_price",
+        6572
+      ],
+      [
+        "down_sell:crossing_price",
+        5284
+      ],
+      [
+        "warmup",
+        119
+      ]
+    ],
+    "cancel_count_per_tick": {
+      "0": 891016,
+      "1": 74031,
+      "2": 100838,
+      "3": 19371,
+      "4": 778
+    },
+    "first_decision_utc": "2026-06-02T14:00:00.250000Z",
+    "last_decision_utc": "2026-06-05T18:09:59.947000Z",
+    "offset_class_counts": {
+      "improve_1_tick": 210780,
+      "join_best": 2315664
+    },
+    "policy_action_counts": {
+      "cancel": 7216,
+      "cancel_replace": 90755,
+      "hold": 178019,
+      "market_end_no_quote": 36260,
+      "quote": 355621,
+      "stale_features": 418044,
+      "warmup": 119
+    },
+    "quote_all_ones_ratio": 0.9999271703627708,
+    "quote_all_ones_rows": 631565,
+    "quote_prob_by_slot": {
+      "down_buy": {
+        "avg": 0.9999999159868653,
+        "count": 631611,
+        "max": 1.0,
+        "min": 0.9984269,
+        "p50": 1.0,
+        "p90": 1.0,
+        "p99": 1.0
+      },
+      "down_sell": {
+        "avg": 0.9999994747650848,
+        "count": 631611,
+        "max": 1.0,
+        "min": 0.9943547,
+        "p50": 1.0,
+        "p90": 1.0,
+        "p99": 1.0
+      },
+      "up_buy": {
+        "avg": 0.9999999120389923,
+        "count": 631611,
+        "max": 1.0,
+        "min": 0.99840933,
+        "p50": 1.0,
+        "p90": 1.0,
+        "p99": 1.0
+      },
+      "up_sell": {
+        "avg": 0.9999994908682085,
+        "count": 631611,
+        "max": 1.0,
+        "min": 0.9940515,
+        "p50": 1.0,
+        "p90": 1.0,
+        "p99": 1.0
+      }
+    },
+    "quote_rows": 631611,
+    "risk_score": {
+      "avg": 0.1979160398497857,
+      "count": 631611,
+      "max": 0.6505687,
+      "min": 0.040576965,
+      "p50": 0.15904796,
+      "p90": 0.26587123,
+      "p99": 0.58459002
+    },
+    "rows": 1086034,
+    "size_class_counts": {
+      "min_order_size": 2526444
+    },
+    "submitted_count_per_tick": {
+      "0": 639658,
+      "1": 73893,
+      "2": 275165,
+      "3": 89794,
+      "4": 7524
+    },
+    "zero_submit_quote_rows": 185235
+  },
+  "note": "Runtime adjusted_total_pnl_usdc is the primary ranking metric. Maker rebate ledger is reported separately as side-ledger accrual and is not added to adjusted PnL in the primary ranking.",
+  "primary_ranking": [
+    {
+      "adjusted_total_pnl_usdc": 1791.3144,
+      "nav_last": 1891.3144,
+      "profile_id": "mpv2_r1_a3_seq120_seed2",
+      "rank": 1,
+      "total_unique_filled_orders": 163836,
+      "total_unique_submitted_orders": 923677
+    },
+    {
+      "adjusted_total_pnl_usdc": 84.7787,
+      "nav_last": 97.045,
+      "profile_id": "m5_baseline",
+      "rank": 2,
+      "total_unique_filled_orders": 786,
+      "total_unique_submitted_orders": 14382
+    },
+    {
+      "adjusted_total_pnl_usdc": -224.9895,
+      "nav_last": 50.0888,
+      "profile_id": "m3_b2",
+      "rank": 3,
+      "total_unique_filled_orders": 266,
+      "total_unique_submitted_orders": 5006
+    },
+    {
+      "adjusted_total_pnl_usdc": -298.0387,
+      "nav_last": 50.5466,
+      "profile_id": "m3_b1",
+      "rank": 4,
+      "total_unique_filled_orders": 256,
+      "total_unique_submitted_orders": 3759
+    }
+  ],
+  "primary_ranking_metric": "final adjusted_total_pnl_usdc",
+  "run_dir": "paper-trade-history/run-four-profile-7d-direct-official-20260602T135518Z/remote_run",
+  "trade_reconstruction_all_profiles": [
+    {
+      "best_closed_markets": [
+        {
+          "buy_cost": 4.5,
+          "fills": 2,
+          "first_utc": "2026-06-03T13:08:14.253000Z",
+          "last_utc": "2026-06-03T13:11:32.465000Z",
+          "market_id": "0x7c95a74097971515246764e3015915e199e17cac9050ef58f6d848ce23fb2f39",
+          "orders": 2,
+          "pnl": 20.7157,
+          "sell_realized": 20.7157,
+          "settlement_realized": 0.0
+        },
+        {
+          "buy_cost": 12.9,
+          "fills": 3,
+          "first_utc": "2026-06-03T22:31:21.252000Z",
+          "last_utc": "2026-06-03T22:36:21.142000Z",
+          "market_id": "0x3f0d876e187998e12b6ababf9cc156099568eafc6ef0a156158226b8e0e7fc7f",
+          "orders": 21,
+          "pnl": 16.7792,
+          "sell_realized": 16.7792,
+          "settlement_realized": 0.0
+        },
+        {
+          "buy_cost": 12.6,
+          "fills": 3,
+          "first_utc": "2026-06-03T11:40:03.773000Z",
+          "last_utc": "2026-06-03T11:46:42.410000Z",
+          "market_id": "0xb1ad71301d8eb0fbdf6d0bfeddf2137625ae7a37cd8bdd2ada2f8edcd9e79943",
+          "orders": 10,
+          "pnl": 15.8942,
+          "sell_realized": 15.8942,
+          "settlement_realized": 0.0
+        },
+        {
+          "buy_cost": 14.1,
+          "fills": 2,
+          "first_utc": "2026-06-04T22:35:01.234000Z",
+          "last_utc": "2026-06-04T22:41:34.672000Z",
+          "market_id": "0xb7c7dedb8415c2cdafb819d03edb287768300bf98083c300d23b090eab764a70",
+          "orders": 2,
+          "pnl": 14.4781,
+          "sell_realized": 14.4781,
+          "settlement_realized": 0.0
+        },
+        {
+          "buy_cost": 15.3,
+          "fills": 1,
+          "first_utc": "2026-06-03T12:30:24.495000Z",
+          "last_utc": "2026-06-03T12:36:31.377000Z",
+          "market_id": "0x2d4edcd137595d4eb24aec4fd5af7cc8f8e45d4f7c6519c046002f03688677a1",
+          "orders": 21,
+          "pnl": 13.671,
+          "sell_realized": 0.0,
+          "settlement_realized": 13.671
+        },
+        {
+          "buy_cost": 15.0,
+          "fills": 5,
+          "first_utc": "2026-06-04T08:45:01.020000Z",
+          "last_utc": "2026-06-04T08:51:26.067000Z",
+          "market_id": "0xd0e77c78652aa747ae3efec105a8bae947931b7949ff80ca5dda44fa93c95f94",
+          "orders": 2,
+          "pnl": 13.6605,
+          "sell_realized": 13.6605,
+          "settlement_realized": 0.0
+        },
+        {
+          "buy_cost": 15.0,
+          "fills": 2,
+          "first_utc": "2026-06-04T08:15:01.004000Z",
+          "last_utc": "2026-06-04T08:19:50.158000Z",
+          "market_id": "0x346f3e1de6328ebb40d150c7e043cd7c8181e4e0a5f244ff5d3e81d632f67e83",
+          "orders": 2,
+          "pnl": 13.6404,
+          "sell_realized": 13.6404,
+          "settlement_realized": 0.0
+        },
+        {
+          "buy_cost": 15.0,
+          "fills": 2,
+          "first_utc": "2026-06-02T22:45:01.830000Z",
+          "last_utc": "2026-06-02T22:51:39.370000Z",
+          "market_id": "0x4157e3f1cd885a67607605dfdf98122bc14a5bd1154394485e7643eee8691d33",
+          "orders": 2,
+          "pnl": 13.6404,
+          "sell_realized": 13.6404,
+          "settlement_realized": 0.0
+        },
+        {
+          "buy_cost": 15.099,
+          "fills": 2,
+          "first_utc": "2026-06-04T21:05:01.115000Z",
+          "last_utc": "2026-06-04T21:11:27.768000Z",
+          "market_id": "0x9090fbde585b24f033789ac3d26d09cc908be7f4d392c73760ec2c6d6508b4d7",
+          "orders": 2,
+          "pnl": 13.5483,
+          "sell_realized": 13.5483,
+          "settlement_realized": 0.0
+        },
+        {
+          "buy_cost": 15.6,
+          "fills": 1,
+          "first_utc": "2026-06-04T23:45:01.658000Z",
+          "last_utc": "2026-06-04T23:51:29.361000Z",
+          "market_id": "0x8740c8b50debccc4a203742599c6828bfe0b4bb1f25be2b4a105dc2c147b15ac",
+          "orders": 1,
+          "pnl": 13.392,
+          "sell_realized": 0.0,
+          "settlement_realized": 13.392
+        }
+      ],
+      "buy_cost_usdc": 2364.3499,
+      "buy_fee_usdc": 52.4537,
+      "buy_price_stats": {
+        "count": 158,
+        "p10": 0.417,
+        "p50": 0.51,
+        "p90": 0.949
+      },
+      "buy_shares": 3920.140866,
+      "cancel_lifetime_ms": {
+        "count": 3539,
+        "max": 299011,
+        "p50": 187417,
+        "p90": 291498.0,
+        "p99": 298473.68
+      },
+      "cancel_order_rate": 0.9414738,
+      "cancelled_orders": 3539,
+      "closed_realized_plus_rebate_usdc": -312.09329,
+      "closed_realized_pnl_usdc": -313.2675,
+      "conservative_total_after_zero_mark_usdc": -312.09329,
+      "event_count": 12056,
+      "fee_sum_usdc": 55.4136,
+      "fill_order_rate": 0.06810322,
+      "fill_shares_stats": {
+        "count": 286,
+        "max": 30.0,
+        "p50": 28.971,
+        "p90": 29.937,
+        "p99": 30.0
+      },
+      "filled_orders": 256,
+      "filled_outcome_events": {
+        "down": 17,
+        "up": 269
+      },
+      "filled_side_events": {
+        "buy": 158,
+        "sell": 128
+      },
+      "first_event_utc": "2026-06-02T14:01:55.072000Z",
+      "full_fill_lifetime_ms": {
+        "count": 220,
+        "max": 274,
+        "p50": 40.0,
+        "p90": 96.5,
+        "p99": 237.48
+      },
+      "full_fill_orders": 220,
+      "kind_counts": {
+        "CancelRequested": 3,
+        "Cancelled": 3539,
+        "FilledFull": 220,
+        "FilledPartial": 66,
+        "RestingPlaced": 3566,
+        "Submitted": 3759,
+        "settlement": 903
+      },
+      "last_event_utc": "2026-06-05T18:06:18.976000Z",
+      "market_count": 905,
+      "negative_closed_markets": 77,
+      "negative_closed_sum_usdc": -888.14,
+      "open_cost_basis_usdc": 0,
+      "open_order_count": 0,
+      "open_position_count": 0,
+      "open_positions": [],
+      "open_shares": 0,
+      "order_lifetime_ms": {
+        "count": 3759,
+        "max": 299011,
+        "p50": 172853,
+        "p90": 290943.0,
+        "p99": 298398.8
+      },
+      "partial_fill_orders": 48,
+      "positive_closed_markets": 74,
+      "positive_closed_sum_usdc": 574.8725,
+      "profile": "m3_b1",
+      "rebate": {
+        "by_day": {
+          "2026-06-02": 0.11577,
+          "2026-06-03": 0.27317,
+          "2026-06-04": 0.55156,
+          "2026-06-05": 0.23371
+        },
+        "counts": {
+          "maker_rebate_accrual": 83,
+          "maker_rebate_carry": 3
+        },
+        "events": 86,
+        "first_ts": "2026-06-02T14:07:13.292000Z",
+        "last_pending_usdc": 1.17421,
+        "last_ts": "2026-06-05T11:24:50.292000Z",
+        "total_accrual_usdc": 1.17421
+      },
+      "resting_orders": 3566,
+      "sell_fee_usdc": 2.9599,
+      "sell_price_stats": {
+        "count": 128,
+        "p10": 0.01,
+        "p50": 0.99,
+        "p90": 0.99
+      },
+      "sell_proceeds_usdc": 1919.3543,
+      "sell_realized_usdc": 238.14932616,
+      "sell_shares": 2586.925441,
+      "settlement_realized_usdc": -551.41682616,
+      "submitted_offset": {},
+      "submitted_orders": 3759,
+      "submitted_outcome": {
+        "down": 139,
+        "up": 3620
+      },
+      "submitted_side": {
+        "buy": 2734,
+        "sell": 1025
+      },
+      "submitted_slot": {},
+      "terminal_orders": 3759,
+      "top_filled_hours": [
+        [
+          "2026-06-04T08:00Z",
+          24
+        ],
+        [
+          "2026-06-03T11:00Z",
+          22
+        ],
+        [
+          "2026-06-04T22:00Z",
+          21
+        ],
+        [
+          "2026-06-03T13:00Z",
+          18
+        ],
+        [
+          "2026-06-03T10:00Z",
+          15
+        ],
+        [
+          "2026-06-05T02:00Z",
+          15
+        ],
+        [
+          "2026-06-03T22:00Z",
+          14
+        ],
+        [
+          "2026-06-03T01:00Z",
+          13
+        ],
+        [
+          "2026-06-03T12:00Z",
+          13
+        ],
+        [
+          "2026-06-04T21:00Z",
+          13
+        ],
+        [
+          "2026-06-04T23:00Z",
+          13
+        ],
+        [
+          "2026-06-02T14:00Z",
+          12
+        ]
+      ],
+      "top_markets_by_submitted_orders": [
+        [
+          "0x2b324c83b3518466754ad4e13dff777ce1319ed2850a0e85906ee0b8d68f9584",
+          132
+        ],
+        [
+          "0xdcb7b82b7887ecea388c8e61fee20e6f2c5a4b030b31118b4f9e1b32814756f8",
+          118
+        ],
+        [
+          "0x7d479c38c831fc2dcf6f5a289f05250115d70628ddcbc9a34bf2188142765f6b",
+          118
+        ],
+        [
+          "0x3e58336da2c1551f24d346f748f77cbd0e8098f4d65afc05a51ce860f0350f0b",
+          104
+        ],
+        [
+          "0xd28a4e5bad7235d53335a560a9408a50909cd3ed8d77c93888471cc96a52b61c",
+          90
+        ],
+        [
+          "0x58fbbd286589b12da05cfd904b7d8d9e3a68df1ee46abcd6506c3ef939ef853b",
+          89
+        ],
+        [
+          "0x4847e42c3bb07d60ccaa120d0d0244816a538dbe2a8d0abdac0a47d98cc5a4ee",
+          74
+        ],
+        [
+          "0x73bcb7fd4b49320c2013e5980248dca1d8efb6156aa6a6fe76b09095ad903156",
+          66
+        ],
+        [
+          "0x9508951c096eb896b659dac3d5e2f86f26b3cd17a7c0d1a0df574aa5b5f94cd9",
+          62
+        ],
+        [
+          "0xab37fa7306a39b2bbca651e0be49dee49a5304b31d290037fdb03020623b56c5",
+          60
+        ]
+      ],
+      "top_submitted_hours": [
+        [
+          "2026-06-05T02:00Z",
+          554
+        ],
+        [
+          "2026-06-04T20:00Z",
+          375
+        ],
+        [
+          "2026-06-04T21:00Z",
+          325
+        ],
+        [
+          "2026-06-03T12:00Z",
+          303
+        ],
+        [
+          "2026-06-04T22:00Z",
+          239
+        ],
+        [
+          "2026-06-04T11:00Z",
+          218
+        ],
+        [
+          "2026-06-04T10:00Z",
+          201
+        ],
+        [
+          "2026-06-03T11:00Z",
+          173
+        ],
+        [
+          "2026-06-04T09:00Z",
+          169
+        ],
+        [
+          "2026-06-04T08:00Z",
+          153
+        ],
+        [
+          "2026-06-03T01:00Z",
+          148
+        ],
+        [
+          "2026-06-05T11:00Z",
+          113
+        ]
+      ],
+      "turnover_buy_cost_vs_100_start": 23.643499,
+      "worst_closed_markets": [
+        {
+          "buy_cost": 24.6,
+          "fills": 1,
+          "first_utc": "2026-06-05T02:55:02.526000Z",
+          "last_utc": "2026-06-05T03:01:34.921000Z",
+          "market_id": "0x9508951c096eb896b659dac3d5e2f86f26b3cd17a7c0d1a0df574aa5b5f94cd9",
+          "orders": 62,
+          "pnl": -24.6,
+          "sell_realized": 0.0,
+          "settlement_realized": -24.6
+        },
+        {
+          "buy_cost": 24.6,
+          "fills": 1,
+          "first_utc": "2026-06-04T08:40:01.673000Z",
+          "last_utc": "2026-06-04T08:46:26.176000Z",
+          "market_id": "0xc0258c988a08841707eeb4ca84dbc9af3d1765c3bc0ec0e672d97610bc593412",
+          "orders": 39,
+          "pnl": -24.6,
+          "sell_realized": 0.0,
+          "settlement_realized": -24.6
+        },
+        {
+          "buy_cost": 18.9,
+          "fills": 1,
+          "first_utc": "2026-06-02T14:06:08.215000Z",
+          "last_utc": "2026-06-02T14:11:44.018000Z",
+          "market_id": "0x68c9e7a69036340332c0e409cc6ace52b172d2499b2eeb22da620bbc5899cec1",
+          "orders": 26,
+          "pnl": -18.9,
+          "sell_realized": 0.0,
+          "settlement_realized": -18.9
+        },
+        {
+          "buy_cost": 18.9,
+          "fills": 1,
+          "first_utc": "2026-06-05T02:40:01.366000Z",
+          "last_utc": "2026-06-05T02:46:31.385000Z",
+          "market_id": "0x7d516a74b5a27ad8ba15ef4ae256eaf208dd15dc33c5f3a494b29f388b7ec951",
+          "orders": 52,
+          "pnl": -18.9,
+          "sell_realized": 0.0,
+          "settlement_realized": -18.9
+        },
+        {
+          "buy_cost": 17.7,
+          "fills": 1,
+          "first_utc": "2026-06-03T23:40:01.740000Z",
+          "last_utc": "2026-06-03T23:46:28.958000Z",
+          "market_id": "0x2c325d311dad6006dd2e8b2e878438bd88fed0f9073fb63af40230b28f64e1e9",
+          "orders": 1,
+          "pnl": -17.7,
+          "sell_realized": 0.0,
+          "settlement_realized": -17.7
+        },
+        {
+          "buy_cost": 17.1,
+          "fills": 1,
+          "first_utc": "2026-06-02T22:55:01.963000Z",
+          "last_utc": "2026-06-02T23:01:44.766000Z",
+          "market_id": "0xc5ef627e42532c84bd376007382f69136e1de0f4248dff9ae3fbeb81356ecb39",
+          "orders": 21,
+          "pnl": -17.1,
+          "sell_realized": 0.0,
+          "settlement_realized": -17.1
+        },
+        {
+          "buy_cost": 16.8,
+          "fills": 1,
+          "first_utc": "2026-06-02T14:20:01.252000Z",
+          "last_utc": "2026-06-02T14:26:37.459000Z",
+          "market_id": "0xb59723127f44a4aad1dfd1939365024b60e0d305dfb27ca7401da5020a55da89",
+          "orders": 22,
+          "pnl": -16.8,
+          "sell_realized": 0.0,
+          "settlement_realized": -16.8
+        },
+        {
+          "buy_cost": 16.5001,
+          "fills": 1,
+          "first_utc": "2026-06-04T21:30:01.691000Z",
+          "last_utc": "2026-06-04T21:36:28.204000Z",
+          "market_id": "0x5930dc841ddc17cb031d6347cec422261309352a9cd8b0a8b3e25b48db481fcf",
+          "orders": 21,
+          "pnl": -16.5001,
+          "sell_realized": 0.0,
+          "settlement_realized": -16.5001
+        },
+        {
+          "buy_cost": 16.5001,
+          "fills": 1,
+          "first_utc": "2026-06-05T02:25:01.340000Z",
+          "last_utc": "2026-06-05T02:31:31.440000Z",
+          "market_id": "0x0b39aea47c2bae423623f145a4866102647e098de1a956bacb05d89281333049",
+          "orders": 21,
+          "pnl": -16.5001,
+          "sell_realized": 0.0,
+          "settlement_realized": -16.5001
+        },
+        {
+          "buy_cost": 16.3739,
+          "fills": 1,
+          "first_utc": "2026-06-03T23:20:01.002000Z",
+          "last_utc": "2026-06-03T23:26:27.441000Z",
+          "market_id": "0xdd439573cd64423725315c03b272bc3902530edbc800fe5dad161751c24410fc",
+          "orders": 21,
+          "pnl": -16.3739,
+          "sell_realized": 0.0,
+          "settlement_realized": -16.3739
+        }
+      ],
+      "writeoff_realized_usdc": 0.0
+    },
+    {
+      "best_closed_markets": [
+        {
+          "buy_cost": 12.9,
+          "fills": 2,
+          "first_utc": "2026-06-04T23:00:01Z",
+          "last_utc": "2026-06-04T23:06:26.704000Z",
+          "market_id": "0x65c70dcabcc4f089d904ad48369f86524e483f4f26d70abfcde95d0a6e10f3ac",
+          "orders": 2,
+          "pnl": 15.595,
+          "sell_realized": 15.595,
+          "settlement_realized": 0.0
+        },
+        {
+          "buy_cost": 12.9,
+          "fills": 2,
+          "first_utc": "2026-06-03T17:50:01.042000Z",
+          "last_utc": "2026-06-03T18:07:16.527000Z",
+          "market_id": "0xdfe26220b221debe6b1b6f647215602c5490e9b12ae4209aa833485fba0e9a08",
+          "orders": 24,
+          "pnl": 15.595,
+          "sell_realized": 15.595,
+          "settlement_realized": 0.0
+        },
+        {
+          "buy_cost": 14.4,
+          "fills": 2,
+          "first_utc": "2026-06-02T14:05:01.754000Z",
+          "last_utc": "2026-06-02T14:11:44.018000Z",
+          "market_id": "0x68c9e7a69036340332c0e409cc6ace52b172d2499b2eeb22da620bbc5899cec1",
+          "orders": 64,
+          "pnl": 15.2792,
+          "sell_realized": 15.2792,
+          "settlement_realized": 0.0
+        },
+        {
+          "buy_cost": 13.5,
+          "fills": 2,
+          "first_utc": "2026-06-04T13:35:01.677000Z",
+          "last_utc": "2026-06-04T13:41:28.692000Z",
+          "market_id": "0x2849c6905cfe2061889c439f59e0f4cabd062a1a61c241595c57b001e6542000",
+          "orders": 2,
+          "pnl": 15.0366,
+          "sell_realized": 15.0366,
+          "settlement_realized": 0.0
+        },
+        {
+          "buy_cost": 14.1,
+          "fills": 2,
+          "first_utc": "2026-06-03T04:55:01.734000Z",
+          "last_utc": "2026-06-03T05:02:17.150000Z",
+          "market_id": "0xb7b2af364be53124bb5f866829852c7a26c9a2d698d4a3ac1d141ab2f08828ed",
+          "orders": 9,
+          "pnl": 14.4781,
+          "sell_realized": 14.4781,
+          "settlement_realized": 0.0
+        },
+        {
+          "buy_cost": 14.4,
+          "fills": 2,
+          "first_utc": "2026-06-04T23:50:01.003000Z",
+          "last_utc": "2026-06-04T23:56:29.676000Z",
+          "market_id": "0x6ef2be2da943addfddfab6aa70757ea981b1e5a45e9e3faf700f2e9b4f7581cb",
+          "orders": 4,
+          "pnl": 14.1989,
+          "sell_realized": 14.1989,
+          "settlement_realized": 0.0
+        },
+        {
+          "buy_cost": 14.4,
+          "fills": 2,
+          "first_utc": "2026-06-03T05:00:01.073000Z",
+          "last_utc": "2026-06-03T05:07:09.854000Z",
+          "market_id": "0x3b8f116d43445d5ba38f28eaf1c5c9c53c8f73b0360c4a0703358b3806382a9d",
+          "orders": 2,
+          "pnl": 14.1989,
+          "sell_realized": 14.1989,
+          "settlement_realized": 0.0
+        },
+        {
+          "buy_cost": 14.7,
+          "fills": 2,
+          "first_utc": "2026-06-03T02:30:01.767000Z",
+          "last_utc": "2026-06-03T02:36:44.177000Z",
+          "market_id": "0x1edd056f15506f692a1997d1b04935eac9985bbf9d73aa340921888f5a080dea",
+          "orders": 4,
+          "pnl": 13.9197,
+          "sell_realized": 13.9197,
+          "settlement_realized": 0.0
+        },
+        {
+          "buy_cost": 14.7,
+          "fills": 2,
+          "first_utc": "2026-06-03T01:35:01.730000Z",
+          "last_utc": "2026-06-03T01:42:10.202000Z",
+          "market_id": "0x3834d9719d5e22ce5b323ab64b304065ca651d92e3de113bea5fb54b4cd0c585",
+          "orders": 59,
+          "pnl": 13.9197,
+          "sell_realized": 13.9197,
+          "settlement_realized": 0.0
+        },
+        {
+          "buy_cost": 15.0,
+          "fills": 2,
+          "first_utc": "2026-06-04T14:10:01.291000Z",
+          "last_utc": "2026-06-04T14:16:28.535000Z",
+          "market_id": "0x74688d363bbdf99e0f551ef07ce06b26f2e3281e69ad5bc686098bafaff1d788",
+          "orders": 2,
+          "pnl": 13.6605,
+          "sell_realized": 13.6605,
+          "settlement_realized": 0.0
+        }
+      ],
+      "buy_cost_usdc": 1797.4999,
+      "buy_fee_usdc": 52.9558,
+      "buy_price_stats": {
+        "count": 181,
+        "p10": 0.42,
+        "p50": 0.51,
+        "p90": 0.6
+      },
+      "buy_shares": 3417.854472,
+      "cancel_lifetime_ms": {
+        "count": 4795,
+        "max": 299032,
+        "p50": 277193,
+        "p90": 296679.6,
+        "p99": 298949.24
+      },
+      "cancel_order_rate": 0.95785058,
+      "cancelled_orders": 4795,
+      "closed_realized_plus_rebate_usdc": -279.55936,
+      "closed_realized_pnl_usdc": -283.0599,
+      "conservative_total_after_zero_mark_usdc": -279.55936,
+      "event_count": 15829,
+      "fee_sum_usdc": 54.5211,
+      "fill_order_rate": 0.05313624,
+      "fill_shares_stats": {
+        "count": 288,
+        "max": 30.0,
+        "p50": 14.7584935,
+        "p90": 29.0193,
+        "p99": 30.0
+      },
+      "filled_orders": 266,
+      "filled_outcome_events": {
+        "down": 65,
+        "up": 223
+      },
+      "filled_side_events": {
+        "buy": 181,
+        "sell": 107
+      },
+      "first_event_utc": "2026-06-02T14:00:25.344000Z",
+      "full_fill_lifetime_ms": {
+        "count": 211,
+        "max": 282,
+        "p50": 40,
+        "p90": 156,
+        "p99": 272.4
+      },
+      "full_fill_orders": 211,
+      "kind_counts": {
+        "CancelRequested": 9,
+        "Cancelled": 4795,
+        "FilledFull": 211,
+        "FilledPartial": 77,
+        "RestingPlaced": 4827,
+        "Submitted": 5006,
+        "settlement": 904
+      },
+      "last_event_utc": "2026-06-05T18:06:18.976000Z",
+      "market_count": 905,
+      "negative_closed_markets": 97,
+      "negative_closed_sum_usdc": -902.0786,
+      "open_cost_basis_usdc": 0,
+      "open_order_count": 0,
+      "open_position_count": 0,
+      "open_positions": [],
+      "open_shares": 0,
+      "order_lifetime_ms": {
+        "count": 5006,
+        "max": 299032,
+        "p50": 274679.5,
+        "p90": 296514.5,
+        "p99": 298945.5
+      },
+      "partial_fill_orders": 61,
+      "positive_closed_markets": 75,
+      "positive_closed_sum_usdc": 619.0187,
+      "profile": "m3_b2",
+      "rebate": {
+        "by_day": {
+          "2026-06-02": 0.23139,
+          "2026-06-03": 0.67095,
+          "2026-06-04": 2.12278,
+          "2026-06-05": 0.47542
+        },
+        "counts": {
+          "maker_rebate_accrual": 92,
+          "maker_rebate_carry": 2,
+          "maker_rebate_payout": 1
+        },
+        "events": 95,
+        "first_ts": "2026-06-02T14:04:58.946000Z",
+        "last_pending_usdc": 0.47542,
+        "last_ts": "2026-06-05T11:35:04.175000Z",
+        "total_accrual_usdc": 3.50054
+      },
+      "resting_orders": 4827,
+      "sell_fee_usdc": 1.5653,
+      "sell_price_stats": {
+        "count": 107,
+        "p10": 0.022,
+        "p50": 0.99,
+        "p90": 0.99
+      },
+      "sell_proceeds_usdc": 1487.4091,
+      "sell_realized_usdc": 439.30081502,
+      "sell_shares": 1912.945367,
+      "settlement_realized_usdc": -722.36071502,
+      "submitted_offset": {},
+      "submitted_orders": 5006,
+      "submitted_outcome": {
+        "down": 2276,
+        "up": 2730
+      },
+      "submitted_side": {
+        "buy": 3601,
+        "sell": 1405
+      },
+      "submitted_slot": {},
+      "terminal_orders": 5006,
+      "top_filled_hours": [
+        [
+          "2026-06-04T23:00Z",
+          27
+        ],
+        [
+          "2026-06-03T19:00Z",
+          23
+        ],
+        [
+          "2026-06-03T05:00Z",
+          22
+        ],
+        [
+          "2026-06-03T08:00Z",
+          22
+        ],
+        [
+          "2026-06-02T14:00Z",
+          20
+        ],
+        [
+          "2026-06-03T02:00Z",
+          20
+        ],
+        [
+          "2026-06-03T18:00Z",
+          20
+        ],
+        [
+          "2026-06-04T13:00Z",
+          19
+        ],
+        [
+          "2026-06-03T09:00Z",
+          16
+        ],
+        [
+          "2026-06-03T01:00Z",
+          14
+        ],
+        [
+          "2026-06-05T02:00Z",
+          13
+        ],
+        [
+          "2026-06-05T11:00Z",
+          11
+        ]
+      ],
+      "top_markets_by_submitted_orders": [
+        [
+          "0xc80416987ac8afe7b346bc4805fbaa35d0b7e14e6bacec3361bfa23fc7b81c92",
+          215
+        ],
+        [
+          "0xdd4e8655e5ee7e40cfda03a5ea8e4772034e005868883ea73a67c0640416be31",
+          188
+        ],
+        [
+          "0xdae77a34262404178da813a421f8573ea145433a6fa758c65cb336863fe15077",
+          136
+        ],
+        [
+          "0xb2503fec85e6693cae9817fb3f5ed350f29e29919ede439e3e5581b3154fcec8",
+          123
+        ],
+        [
+          "0x73455491c423401757fbcdf8ed53f2d0194730d1fae58ee3abb7e1466f78944b",
+          107
+        ],
+        [
+          "0x651c37fd9a16e8bd7fa15d60a2d8473861e0a869eb8a77aebf6c304fbfb7e5c2",
+          89
+        ],
+        [
+          "0x4e65841b93e88febcffa9b26da8be917974ed6ae80241dc51d4ded41f2b376b9",
+          88
+        ],
+        [
+          "0xd70352c38be843162110c2a4de2621497fbd39480d701e687c7223f27689fce4",
+          77
+        ],
+        [
+          "0x73bcb7fd4b49320c2013e5980248dca1d8efb6156aa6a6fe76b09095ad903156",
+          75
+        ],
+        [
+          "0xfee3ea9fdbd265252e48da212d162310af367b318ea0099f8e02309cbea72215",
+          75
+        ]
+      ],
+      "top_submitted_hours": [
+        [
+          "2026-06-05T02:00Z",
+          645
+        ],
+        [
+          "2026-06-04T23:00Z",
+          503
+        ],
+        [
+          "2026-06-05T11:00Z",
+          397
+        ],
+        [
+          "2026-06-03T19:00Z",
+          378
+        ],
+        [
+          "2026-06-04T04:00Z",
+          378
+        ],
+        [
+          "2026-06-03T05:00Z",
+          323
+        ],
+        [
+          "2026-06-04T13:00Z",
+          319
+        ],
+        [
+          "2026-06-02T14:00Z",
+          314
+        ],
+        [
+          "2026-06-03T18:00Z",
+          250
+        ],
+        [
+          "2026-06-03T08:00Z",
+          239
+        ],
+        [
+          "2026-06-04T22:00Z",
+          236
+        ],
+        [
+          "2026-06-03T01:00Z",
+          219
+        ]
+      ],
+      "turnover_buy_cost_vs_100_start": 17.974999,
+      "worst_closed_markets": [
+        {
+          "buy_cost": 20.4,
+          "fills": 2,
+          "first_utc": "2026-06-03T05:05:01.680000Z",
+          "last_utc": "2026-06-03T05:12:09.986000Z",
+          "market_id": "0xb484633a8fb4af46c2045864949497c6c2039e0c21b6691341218540ea9da9db",
+          "orders": 51,
+          "pnl": -19.0311,
+          "sell_realized": -19.0311,
+          "settlement_realized": 0.0
+        },
+        {
+          "buy_cost": 18.9,
+          "fills": 1,
+          "first_utc": "2026-06-04T22:30:02.304000Z",
+          "last_utc": "2026-06-04T22:36:28.638000Z",
+          "market_id": "0xd70352c38be843162110c2a4de2621497fbd39480d701e687c7223f27689fce4",
+          "orders": 77,
+          "pnl": -18.9,
+          "sell_realized": 0.0,
+          "settlement_realized": -18.9
+        },
+        {
+          "buy_cost": 18.3,
+          "fills": 1,
+          "first_utc": "2026-06-05T11:15:01.012000Z",
+          "last_utc": "2026-06-05T11:21:27.438000Z",
+          "market_id": "0x2737868a3d30abfb53ec7d872e41da2086dd90c6fdc8dafe1138c65ffe4ea63d",
+          "orders": 45,
+          "pnl": -18.3,
+          "sell_realized": 0.0,
+          "settlement_realized": -18.3
+        },
+        {
+          "buy_cost": 17.4,
+          "fills": 1,
+          "first_utc": "2026-06-04T14:00:02.358000Z",
+          "last_utc": "2026-06-04T14:06:23.046000Z",
+          "market_id": "0xe09d5783210e9165ee3bfeac39305b6cce62daed33985f4af50d5be545b2aea6",
+          "orders": 28,
+          "pnl": -17.4,
+          "sell_realized": 0.0,
+          "settlement_realized": -17.4
+        },
+        {
+          "buy_cost": 16.8,
+          "fills": 1,
+          "first_utc": "2026-06-03T05:10:01.001000Z",
+          "last_utc": "2026-06-03T05:17:11.015000Z",
+          "market_id": "0x651c37fd9a16e8bd7fa15d60a2d8473861e0a869eb8a77aebf6c304fbfb7e5c2",
+          "orders": 89,
+          "pnl": -16.8,
+          "sell_realized": 0.0,
+          "settlement_realized": -16.8
+        },
+        {
+          "buy_cost": 16.2,
+          "fills": 1,
+          "first_utc": "2026-06-05T02:25:01.340000Z",
+          "last_utc": "2026-06-05T02:31:31.440000Z",
+          "market_id": "0x0b39aea47c2bae423623f145a4866102647e098de1a956bacb05d89281333049",
+          "orders": 36,
+          "pnl": -16.2,
+          "sell_realized": 0.0,
+          "settlement_realized": -16.2
+        },
+        {
+          "buy_cost": 15.6085,
+          "fills": 1,
+          "first_utc": "2026-06-02T23:15:01.003000Z",
+          "last_utc": "2026-06-02T23:21:39.875000Z",
+          "market_id": "0x6b251a99d0e6aaaaad1a219e156473891dff241d6c5880e1e76a4b8d5540e9b5",
+          "orders": 2,
+          "pnl": -15.6085,
+          "sell_realized": 0.0,
+          "settlement_realized": -15.6085
+        },
+        {
+          "buy_cost": 15.6,
+          "fills": 1,
+          "first_utc": "2026-06-02T14:40:01.003000Z",
+          "last_utc": "2026-06-02T14:51:16.531000Z",
+          "market_id": "0x2bc21142976afb65c0c24e7aee26d14130e549460e727842dbf12df5e3e6af60",
+          "orders": 31,
+          "pnl": -15.6,
+          "sell_realized": 0.0,
+          "settlement_realized": -15.6
+        },
+        {
+          "buy_cost": 15.6,
+          "fills": 1,
+          "first_utc": "2026-06-02T14:50:01.037000Z",
+          "last_utc": "2026-06-02T14:56:37.937000Z",
+          "market_id": "0x8a8c1abd44c0a0c9ea3bf370899fcfd92ebe99aad4e2fdba762958c51825638d",
+          "orders": 28,
+          "pnl": -15.6,
+          "sell_realized": 0.0,
+          "settlement_realized": -15.6
+        },
+        {
+          "buy_cost": 15.6,
+          "fills": 1,
+          "first_utc": "2026-06-03T01:55:01.003000Z",
+          "last_utc": "2026-06-03T02:01:50.211000Z",
+          "market_id": "0x113f2a6cdf0fd7a88ba6b9f38ba766443ad6fcd14ed5f119078a84cc4f5fbc1f",
+          "orders": 21,
+          "pnl": -15.6,
+          "sell_realized": 0.0,
+          "settlement_realized": -15.6
+        }
+      ],
+      "writeoff_realized_usdc": 0.0
+    },
+    {
+      "best_closed_markets": [
+        {
+          "buy_cost": 7.5,
+          "fills": 2,
+          "first_utc": "2026-06-05T15:00:02.909000Z",
+          "last_utc": "2026-06-05T15:06:32.562000Z",
+          "market_id": "0x906fb0b000f99e326161707e7a87cb3781d796a10a63f8798b6b3ae95af97e62",
+          "orders": 18,
+          "pnl": 20.4,
+          "sell_realized": 20.4,
+          "settlement_realized": 0.0
+        },
+        {
+          "buy_cost": 5.2164,
+          "fills": 2,
+          "first_utc": "2026-06-04T08:00:01.848000Z",
+          "last_utc": "2026-06-04T08:06:25.845000Z",
+          "market_id": "0x4a54bb715327a44d891eeae5d4d52108249677bfb639a9078af4a83054c83533",
+          "orders": 25,
+          "pnl": 16.0117,
+          "sell_realized": 16.0117,
+          "settlement_realized": 0.0
+        },
+        {
+          "buy_cost": 4.8,
+          "fills": 2,
+          "first_utc": "2026-06-05T14:55:23.580000Z",
+          "last_utc": "2026-06-05T15:01:31.888000Z",
+          "market_id": "0x99f86cbdafc37fb90c63389cc65a6bda0e27f3c4d1fcd89bcf287975148c9b10",
+          "orders": 2,
+          "pnl": 10.0396,
+          "sell_realized": 10.0396,
+          "settlement_realized": 0.0
+        },
+        {
+          "buy_cost": 4.95,
+          "fills": 2,
+          "first_utc": "2026-06-04T02:30:01.866000Z",
+          "last_utc": "2026-06-04T02:36:25.292000Z",
+          "market_id": "0x325e5ccea970a3a821f5cae9feea65ec7e78584e0a0b7cb38f69df738f32d29a",
+          "orders": 18,
+          "pnl": 9.8896,
+          "sell_realized": 9.8896,
+          "settlement_realized": 0.0
+        },
+        {
+          "buy_cost": 5.55,
+          "fills": 2,
+          "first_utc": "2026-06-03T12:10:01.366000Z",
+          "last_utc": "2026-06-03T12:16:32.080000Z",
+          "market_id": "0x57f816a6ab75d7197be9a78791cec43fa5ae4bab50ecb58a57e3270c985d9b00",
+          "orders": 37,
+          "pnl": 9.2896,
+          "sell_realized": 9.2896,
+          "settlement_realized": 0.0
+        },
+        {
+          "buy_cost": 6.15,
+          "fills": 1,
+          "first_utc": "2026-06-03T09:55:01.253000Z",
+          "last_utc": "2026-06-03T10:02:15.715000Z",
+          "market_id": "0xab247aac6c9f4bdfbdc1b7af6219fa28301b4ada3c5e7d6ee3589cf6148c3764",
+          "orders": 31,
+          "pnl": 8.85,
+          "sell_realized": 0.0,
+          "settlement_realized": 8.85
+        },
+        {
+          "buy_cost": 5.55,
+          "fills": 2,
+          "first_utc": "2026-06-04T19:10:01.118000Z",
+          "last_utc": "2026-06-04T19:16:32.251000Z",
+          "market_id": "0x01cea4bf7c773497ea611f4eb224aba8a024449e59a8d9be06261960e5473214",
+          "orders": 25,
+          "pnl": 8.6352,
+          "sell_realized": 8.6352,
+          "settlement_realized": 0.0
+        },
+        {
+          "buy_cost": 6.3,
+          "fills": 2,
+          "first_utc": "2026-06-04T18:00:01.071000Z",
+          "last_utc": "2026-06-04T18:06:27.099000Z",
+          "market_id": "0x61a505f17527e87fd5be2d6c81bc647399be7f1eb399dd854c146ab08bb3bb7b",
+          "orders": 11,
+          "pnl": 8.5396,
+          "sell_realized": 8.5396,
+          "settlement_realized": 0.0
+        },
+        {
+          "buy_cost": 6.45,
+          "fills": 2,
+          "first_utc": "2026-06-02T15:45:01.490000Z",
+          "last_utc": "2026-06-02T15:51:41.451000Z",
+          "market_id": "0x3ad4b0ef4313f2dc138a5d4a3bcf8953e55f8ee87da7d74bdf29b61126191782",
+          "orders": 10,
+          "pnl": 8.3896,
+          "sell_realized": 8.3896,
+          "settlement_realized": 0.0
+        },
+        {
+          "buy_cost": 6.6,
+          "fills": 2,
+          "first_utc": "2026-06-04T00:25:03.028000Z",
+          "last_utc": "2026-06-04T00:31:24.054000Z",
+          "market_id": "0x9379f02d7327d9726e98e6151849c0e65815889ebb9109e6b225aed0aa73d15f",
+          "orders": 3,
+          "pnl": 8.3839,
+          "sell_realized": 8.3839,
+          "settlement_realized": 0.0
+        }
+      ],
+      "buy_cost_usdc": 2111.3067,
+      "buy_fee_usdc": 4.9706,
+      "buy_price_stats": {
+        "count": 615,
+        "p10": 0.32,
+        "p50": 0.49,
+        "p90": 0.74
+      },
+      "buy_shares": 4112.930578,
+      "cancel_lifetime_ms": {
+        "count": 14008,
+        "max": 299092,
+        "p50": 232225.5,
+        "p90": 296454.5,
+        "p99": 298965.0
+      },
+      "cancel_order_rate": 0.97399527,
+      "cancelled_orders": 14008,
+      "closed_realized_plus_rebate_usdc": 81.92419,
+      "closed_realized_pnl_usdc": 57.8794,
+      "conservative_total_after_zero_mark_usdc": 80.87339,
+      "event_count": 44485,
+      "fee_sum_usdc": 5.8505,
+      "fill_order_rate": 0.05465165,
+      "fill_shares_stats": {
+        "count": 902,
+        "max": 30.0,
+        "p50": 6.0,
+        "p90": 15.0,
+        "p99": 21.44298935
+      },
+      "filled_orders": 786,
+      "filled_outcome_events": {
+        "down": 460,
+        "up": 442
+      },
+      "filled_side_events": {
+        "buy": 615,
+        "sell": 287
+      },
+      "first_event_utc": "2026-06-02T14:01:00.214000Z",
+      "full_fill_lifetime_ms": {
+        "count": 374,
+        "max": 284,
+        "p50": 103.0,
+        "p90": 238.7,
+        "p99": 279.0
+      },
+      "full_fill_orders": 374,
+      "kind_counts": {
+        "CancelRequested": 46,
+        "Cancelled": 14008,
+        "FilledFull": 374,
+        "FilledPartial": 528,
+        "Rejected": 1,
+        "RestingPlaced": 14242,
+        "Submitted": 14382,
+        "settlement": 904
+      },
+      "last_event_utc": "2026-06-05T18:09:19.239000Z",
+      "market_count": 909,
+      "negative_closed_markets": 251,
+      "negative_closed_sum_usdc": -820.7516,
+      "open_cost_basis_usdc": 1.0508,
+      "open_order_count": 0,
+      "open_position_count": 1,
+      "open_positions": [
+        {
+          "cost_basis_usdc": 1.0508,
+          "market_id": "0xa1bff5ffc0de13e6c6b9544cb0a75e50ce03cefd0d14a15c10cee8ef4400446e",
+          "outcome": "up",
+          "shares": 1.42
+        }
+      ],
+      "open_shares": 1.42,
+      "order_lifetime_ms": {
+        "count": 14382,
+        "max": 299092,
+        "p50": 226819.5,
+        "p90": 296372.0,
+        "p99": 298960.19
+      },
+      "partial_fill_orders": 464,
+      "positive_closed_markets": 293,
+      "positive_closed_sum_usdc": 878.631,
+      "profile": "m5_baseline",
+      "rebate": {
+        "by_day": {
+          "2026-06-02": 3.90302,
+          "2026-06-03": 6.94788,
+          "2026-06-04": 11.2323,
+          "2026-06-05": 1.96159
+        },
+        "counts": {
+          "maker_rebate_accrual": 774,
+          "maker_rebate_payout": 3
+        },
+        "events": 777,
+        "first_ts": "2026-06-02T14:01:10.088000Z",
+        "last_pending_usdc": 1.96159,
+        "last_ts": "2026-06-05T18:08:27.699000Z",
+        "total_accrual_usdc": 24.04479
+      },
+      "resting_orders": 14242,
+      "sell_fee_usdc": 0.8799,
+      "sell_price_stats": {
+        "count": 287,
+        "p10": 0.01,
+        "p50": 0.96,
+        "p90": 0.99
+      },
+      "sell_proceeds_usdc": 1825.5697,
+      "sell_realized_usdc": 318.58350465,
+      "sell_shares": 2844.896555,
+      "settlement_realized_usdc": -250.65390465,
+      "submitted_offset": {},
+      "submitted_orders": 14382,
+      "submitted_outcome": {
+        "down": 10199,
+        "up": 4183
+      },
+      "submitted_side": {
+        "buy": 12860,
+        "sell": 1522
+      },
+      "submitted_slot": {},
+      "terminal_orders": 14382,
+      "top_filled_hours": [
+        [
+          "2026-06-03T17:00Z",
+          27
+        ],
+        [
+          "2026-06-03T13:00Z",
+          24
+        ],
+        [
+          "2026-06-04T17:00Z",
+          24
+        ],
+        [
+          "2026-06-02T22:00Z",
+          23
+        ],
+        [
+          "2026-06-04T07:00Z",
+          23
+        ],
+        [
+          "2026-06-04T15:00Z",
+          23
+        ],
+        [
+          "2026-06-05T14:00Z",
+          23
+        ],
+        [
+          "2026-06-02T15:00Z",
+          22
+        ],
+        [
+          "2026-06-03T14:00Z",
+          22
+        ],
+        [
+          "2026-06-04T08:00Z",
+          22
+        ],
+        [
+          "2026-06-05T15:00Z",
+          22
+        ],
+        [
+          "2026-06-02T21:00Z",
+          21
+        ]
+      ],
+      "top_markets_by_submitted_orders": [
+        [
+          "0x2d4edcd137595d4eb24aec4fd5af7cc8f8e45d4f7c6519c046002f03688677a1",
+          535
+        ],
+        [
+          "0x049f6dede81c0d6f7c39302fcf0ec6ecf40fba2da0424becfc8ca799f5168b44",
+          524
+        ],
+        [
+          "0x78c781e3d16e75b7ef074ccdad805772913b079556a3cc40f6b35ac2fd1530f4",
+          509
+        ],
+        [
+          "0x9de987b8f8b1c7f9432f0b6eeda6369da8ca6521d298fe6b0db4d8ac5cb68c2c",
+          456
+        ],
+        [
+          "0x626711e18f575faaaf4406eb02ad28f3e330bbbc6baf6c373b1ce06fbb84547f",
+          434
+        ],
+        [
+          "0x2b324c83b3518466754ad4e13dff777ce1319ed2850a0e85906ee0b8d68f9584",
+          417
+        ],
+        [
+          "0x76e0fcf20e5527ee91e355888395b591f840a3a7499f959e834d00962a3383bb",
+          415
+        ],
+        [
+          "0xf4713b3f326dc173273ec0705f416a34ac1211666f80e1af5fc797c1f905f615",
+          324
+        ],
+        [
+          "0x5925db73cf55323921455c8fcc810815b822d1247379e2586646d2c8cb660143",
+          307
+        ],
+        [
+          "0xae9837af8137bf12b5c1726bd81ca287b773d1eabeb47e708c3e2fa936c2bdf1",
+          205
+        ]
+      ],
+      "top_submitted_hours": [
+        [
+          "2026-06-03T12:00Z",
+          3199
+        ],
+        [
+          "2026-06-03T15:00Z",
+          1452
+        ],
+        [
+          "2026-06-03T09:00Z",
+          402
+        ],
+        [
+          "2026-06-05T02:00Z",
+          340
+        ],
+        [
+          "2026-06-02T19:00Z",
+          315
+        ],
+        [
+          "2026-06-04T21:00Z",
+          278
+        ],
+        [
+          "2026-06-02T21:00Z",
+          271
+        ],
+        [
+          "2026-06-02T22:00Z",
+          267
+        ],
+        [
+          "2026-06-03T14:00Z",
+          267
+        ],
+        [
+          "2026-06-04T18:00Z",
+          266
+        ],
+        [
+          "2026-06-03T13:00Z",
+          263
+        ],
+        [
+          "2026-06-04T19:00Z",
+          263
+        ]
+      ],
+      "turnover_buy_cost_vs_100_start": 21.113067,
+      "worst_closed_markets": [
+        {
+          "buy_cost": 25.2,
+          "fills": 1,
+          "first_utc": "2026-06-03T21:40:01.003000Z",
+          "last_utc": "2026-06-03T21:46:32.481000Z",
+          "market_id": "0x76be52cda15648a8a24804e9a0cd6ffd7504bf0b76e64481fbd44392aef3f6fe",
+          "orders": 14,
+          "pnl": -25.2,
+          "sell_realized": 0.0,
+          "settlement_realized": -25.2
+        },
+        {
+          "buy_cost": 12.9,
+          "fills": 2,
+          "first_utc": "2026-06-02T19:25:01.003000Z",
+          "last_utc": "2026-06-02T19:31:38.248000Z",
+          "market_id": "0xc395f73359a7bad022e01990bc157f9224e5ed90ee1177ccb3c9b2de1d86db5c",
+          "orders": 87,
+          "pnl": -12.75,
+          "sell_realized": -12.75,
+          "settlement_realized": 0.0
+        },
+        {
+          "buy_cost": 10.95,
+          "fills": 2,
+          "first_utc": "2026-06-04T15:32:00.605000Z",
+          "last_utc": "2026-06-04T15:36:25.062000Z",
+          "market_id": "0x944c58a2045523113e4644cb2d178a015fa45c140807c29650b4c27667946979",
+          "orders": 7,
+          "pnl": -10.8,
+          "sell_realized": -10.8,
+          "settlement_realized": 0.0
+        },
+        {
+          "buy_cost": 9.9,
+          "fills": 1,
+          "first_utc": "2026-06-04T06:00:01.437000Z",
+          "last_utc": "2026-06-04T06:06:29.442000Z",
+          "market_id": "0x38a76523ce5059c348840c58cf9b6eff4d001369bffbfb3ae4e1b7687355f03a",
+          "orders": 39,
+          "pnl": -9.9,
+          "sell_realized": 0.0,
+          "settlement_realized": -9.9
+        },
+        {
+          "buy_cost": 9.6,
+          "fills": 1,
+          "first_utc": "2026-06-04T21:20:01.587000Z",
+          "last_utc": "2026-06-04T21:26:28.133000Z",
+          "market_id": "0xd2eb5ebab96126336dfee1a0e03d09438c989a93893ca5981db6490a833d080b",
+          "orders": 24,
+          "pnl": -9.6,
+          "sell_realized": 0.0,
+          "settlement_realized": -9.6
+        },
+        {
+          "buy_cost": 9.6,
+          "fills": 3,
+          "first_utc": "2026-06-05T05:55:01.001000Z",
+          "last_utc": "2026-06-05T06:03:16.530000Z",
+          "market_id": "0x7f5419601c29699ee5c1b9f2ef3f11ebe7cfd1fb2b65a36736df9853ae6b0357",
+          "orders": 34,
+          "pnl": -9.45,
+          "sell_realized": -9.45,
+          "settlement_realized": 0.0
+        },
+        {
+          "buy_cost": 10.2,
+          "fills": 2,
+          "first_utc": "2026-06-04T04:15:01.033000Z",
+          "last_utc": "2026-06-04T04:21:22.655000Z",
+          "market_id": "0x85ee7a58de02b842c8acdca296197f0d05e5a65d825e23387b49825ffe87ecf5",
+          "orders": 38,
+          "pnl": -9.3,
+          "sell_realized": -9.3,
+          "settlement_realized": 0.0
+        },
+        {
+          "buy_cost": 9.3,
+          "fills": 2,
+          "first_utc": "2026-06-04T01:35:01.001000Z",
+          "last_utc": "2026-06-04T01:41:21.230000Z",
+          "market_id": "0xa4358e58ad7f43ef83a269b0cc2bd7158ffce1c5135f49a447eda3bfc23dca52",
+          "orders": 12,
+          "pnl": -9.15,
+          "sell_realized": -9.15,
+          "settlement_realized": 0.0
+        },
+        {
+          "buy_cost": 9.3,
+          "fills": 2,
+          "first_utc": "2026-06-04T13:35:01.677000Z",
+          "last_utc": "2026-06-04T13:41:28.693000Z",
+          "market_id": "0x2849c6905cfe2061889c439f59e0f4cabd062a1a61c241595c57b001e6542000",
+          "orders": 32,
+          "pnl": -9.15,
+          "sell_realized": -9.15,
+          "settlement_realized": 0.0
+        },
+        {
+          "buy_cost": 9.3,
+          "fills": 2,
+          "first_utc": "2026-06-05T02:10:01.641000Z",
+          "last_utc": "2026-06-05T02:16:29.348000Z",
+          "market_id": "0xd4b0e8f1c00e921d8cd73ea29d6f5fcc6ccf973da5b0b567fafa3004249ca8de",
+          "orders": 25,
+          "pnl": -9.0,
+          "sell_realized": -9.0,
+          "settlement_realized": 0.0
+        }
+      ],
+      "writeoff_realized_usdc": -10.0502
+    },
+    {
+      "best_closed_markets": [
+        {
+          "buy_cost": 347.5968,
+          "fills": 324,
+          "first_utc": "2026-06-02T18:30:00.503000Z",
+          "last_utc": "2026-06-02T18:37:12.572000Z",
+          "market_id": "0xd76b0bf96ce088e22829b1fc4ba41dcef93f10df438026d0e4c6d675a26e0803",
+          "orders": 1341,
+          "pnl": 22.2079,
+          "sell_realized": 4.02555719,
+          "settlement_realized": 18.18234281
+        },
+        {
+          "buy_cost": 370.4215,
+          "fills": 354,
+          "first_utc": "2026-06-04T22:05:00.551000Z",
+          "last_utc": "2026-06-04T22:11:28.591000Z",
+          "market_id": "0x7929b5075780e8db4c57d83ac6ba49420eb3bcce0c089e001ddea0e66c417469",
+          "orders": 1259,
+          "pnl": 17.9916,
+          "sell_realized": 11.31569652,
+          "settlement_realized": 6.67590348
+        },
+        {
+          "buy_cost": 145.8538,
+          "fills": 161,
+          "first_utc": "2026-06-05T06:00:00.502000Z",
+          "last_utc": "2026-06-05T06:06:30.081000Z",
+          "market_id": "0xd0bc4eeea68d839bd0115977a2b587c2db2e0b5f7f9a788ec677dea1de28c668",
+          "orders": 761,
+          "pnl": 16.8864,
+          "sell_realized": 16.84287374,
+          "settlement_realized": 0.04352626
+        },
+        {
+          "buy_cost": 373.7435,
+          "fills": 393,
+          "first_utc": "2026-06-03T16:10:00.819000Z",
+          "last_utc": "2026-06-03T16:16:26.960000Z",
+          "market_id": "0xad8319b99fe3c8d24b89960026b1507aad67fe373724bd50627484bb53f3aec6",
+          "orders": 1421,
+          "pnl": 16.3158,
+          "sell_realized": 20.30207611,
+          "settlement_realized": -3.98627611
+        },
+        {
+          "buy_cost": 264.1581,
+          "fills": 236,
+          "first_utc": "2026-06-02T23:25:00.502000Z",
+          "last_utc": "2026-06-02T23:31:39.807000Z",
+          "market_id": "0xa82d452f7e73aeef8be94b5710ec87f535910c13a14540f91e8a3770c8c5a69e",
+          "orders": 1271,
+          "pnl": 15.9343,
+          "sell_realized": 7.66838789,
+          "settlement_realized": 8.26591211
+        },
+        {
+          "buy_cost": 463.6244,
+          "fills": 425,
+          "first_utc": "2026-06-02T15:20:00.506000Z",
+          "last_utc": "2026-06-02T15:26:38.671000Z",
+          "market_id": "0xd610f25e2eae838718786c361fb522140193fe9f7afc8e1093188faf11d52ef0",
+          "orders": 1433,
+          "pnl": 15.8999,
+          "sell_realized": 15.64664025,
+          "settlement_realized": 0.25325975
+        },
+        {
+          "buy_cost": 435.5763,
+          "fills": 420,
+          "first_utc": "2026-06-03T14:05:00.333000Z",
+          "last_utc": "2026-06-03T14:11:36.979000Z",
+          "market_id": "0xd7551b26a68c37ed2073bd138ccdfbba091d1911e8c14f73e8fa31077754979d",
+          "orders": 1423,
+          "pnl": 13.5936,
+          "sell_realized": 14.32163356,
+          "settlement_realized": -0.72803356
+        },
+        {
+          "buy_cost": 261.2915,
+          "fills": 246,
+          "first_utc": "2026-06-05T09:15:00.936000Z",
+          "last_utc": "2026-06-05T09:21:30.429000Z",
+          "market_id": "0xc70df863ea879228e2b505e6be118e9da6e4178eba8f30334543444b05273c82",
+          "orders": 1058,
+          "pnl": 13.2105,
+          "sell_realized": 13.57539568,
+          "settlement_realized": -0.36489568
+        },
+        {
+          "buy_cost": 423.6552,
+          "fills": 399,
+          "first_utc": "2026-06-02T15:35:00.618000Z",
+          "last_utc": "2026-06-02T15:41:37.816000Z",
+          "market_id": "0x1979eefe4d7b1db6c7346177b7d736e2c2709051833278c0008b5a9a66b05ea6",
+          "orders": 1404,
+          "pnl": 11.5794,
+          "sell_realized": 12.19943019,
+          "settlement_realized": -0.62003019
+        },
+        {
+          "buy_cost": 378.0305,
+          "fills": 372,
+          "first_utc": "2026-06-04T09:30:01.164000Z",
+          "last_utc": "2026-06-04T09:36:25.757000Z",
+          "market_id": "0xe88f430212057c3bf3657b141ae70d1bda37a4521ef12e7c4ed342e8a4b65889",
+          "orders": 1231,
+          "pnl": 11.2775,
+          "sell_realized": 11.41561772,
+          "settlement_realized": -0.13811772
+        }
+      ],
+      "buy_cost_usdc": 182689.68969999,
+      "buy_fee_usdc": 306.4055,
+      "buy_price_stats": {
+        "count": 94625,
+        "p10": 0.12,
+        "p50": 0.51,
+        "p90": 0.92
+      },
+      "buy_shares": 357570.22929703,
+      "cancel_lifetime_ms": {
+        "count": 797482,
+        "max": 737502,
+        "p50": 448.0,
+        "p90": 240798.0,
+        "p99": 294458.0
+      },
+      "cancel_order_rate": 0.86337757,
+      "cancelled_orders": 797482,
+      "closed_realized_plus_rebate_usdc": 4650.02692237,
+      "closed_realized_pnl_usdc": 1790.71090237,
+      "conservative_total_after_zero_mark_usdc": 4637.54152,
+      "event_count": 2936992,
+      "fee_sum_usdc": 373.1013,
+      "fill_order_rate": 0.17737369,
+      "fill_shares_stats": {
+        "count": 177234,
+        "max": 5.0,
+        "p50": 5.0,
+        "p90": 5.0,
+        "p99": 5.0
+      },
+      "filled_orders": 163836,
+      "filled_outcome_events": {
+        "down": 90055,
+        "up": 87179
+      },
+      "filled_side_events": {
+        "buy": 94625,
+        "sell": 82609
+      },
+      "first_event_utc": "2026-06-02T14:00:33.622000Z",
+      "full_fill_lifetime_ms": {
+        "count": 126240,
+        "max": 289,
+        "p50": 124.0,
+        "p90": 233.0,
+        "p99": 279.0
+      },
+      "full_fill_orders": 126240,
+      "kind_counts": {
+        "CancelRequested": 119824,
+        "Cancelled": 797482,
+        "FilledFull": 126240,
+        "FilledPartial": 50994,
+        "Rejected": 1,
+        "RestingPlaced": 917869,
+        "Submitted": 923677,
+        "settlement": 905
+      },
+      "last_event_utc": "2026-06-05T18:09:19.239000Z",
+      "market_count": 911,
+      "negative_closed_markets": 186,
+      "negative_closed_sum_usdc": -271.7122,
+      "open_cost_basis_usdc": 12.48540237,
+      "open_order_count": 0,
+      "open_position_count": 2,
+      "open_positions": [
+        {
+          "cost_basis_usdc": 2.33339367,
+          "market_id": "0xa1bff5ffc0de13e6c6b9544cb0a75e50ce03cefd0d14a15c10cee8ef4400446e",
+          "outcome": "down",
+          "shares": 11.623854
+        },
+        {
+          "cost_basis_usdc": 10.1520087,
+          "market_id": "0xa1bff5ffc0de13e6c6b9544cb0a75e50ce03cefd0d14a15c10cee8ef4400446e",
+          "outcome": "up",
+          "shares": 13.400097
+        }
+      ],
+      "open_shares": 25.023951,
+      "order_lifetime_ms": {
+        "count": 923722,
+        "max": 737502,
+        "p50": 279.0,
+        "p90": 231458.9,
+        "p99": 293466.0
+      },
+      "partial_fill_orders": 47539,
+      "positive_closed_markets": 707,
+      "positive_closed_sum_usdc": 2062.42310237,
+      "profile": "mpv2_r1_a3_seq120_seed2",
+      "rebate": {
+        "by_day": {
+          "2026-06-02": 453.13308,
+          "2026-06-03": 963.37738,
+          "2026-06-04": 1112.51582,
+          "2026-06-05": 330.28974
+        },
+        "counts": {
+          "maker_rebate_accrual": 171033,
+          "maker_rebate_payout": 3
+        },
+        "events": 171036,
+        "first_ts": "2026-06-02T14:00:34.741000Z",
+        "last_pending_usdc": 330.28974,
+        "last_ts": "2026-06-05T18:09:02.027000Z",
+        "total_accrual_usdc": 2859.31602
+      },
+      "resting_orders": 917869,
+      "sell_fee_usdc": 66.6958,
+      "sell_price_stats": {
+        "count": 82609,
+        "p10": 0.14,
+        "p50": 0.55,
+        "p90": 0.94
+      },
+      "sell_proceeds_usdc": 181532.26770001,
+      "sell_realized_usdc": 1894.21069325,
+      "sell_shares": 349405.87502301,
+      "settlement_realized_usdc": -84.97026875,
+      "submitted_offset": {
+        "improve_1_tick": 75834,
+        "join_best": 847843
+      },
+      "submitted_orders": 923677,
+      "submitted_outcome": {
+        "down": 461080,
+        "up": 462597
+      },
+      "submitted_side": {
+        "buy": 753671,
+        "sell": 170006
+      },
+      "submitted_slot": {
+        "down_buy": 376959,
+        "down_sell": 84121,
+        "up_buy": 376712,
+        "up_sell": 85885
+      },
+      "terminal_orders": 923677,
+      "top_filled_hours": [
+        [
+          "2026-06-03T16:00Z",
+          3470
+        ],
+        [
+          "2026-06-02T15:00Z",
+          3387
+        ],
+        [
+          "2026-06-05T14:00Z",
+          3364
+        ],
+        [
+          "2026-06-03T22:00Z",
+          3127
+        ],
+        [
+          "2026-06-04T22:00Z",
+          3065
+        ],
+        [
+          "2026-06-05T13:00Z",
+          3052
+        ],
+        [
+          "2026-06-03T14:00Z",
+          3028
+        ],
+        [
+          "2026-06-04T12:00Z",
+          3028
+        ],
+        [
+          "2026-06-05T16:00Z",
+          2983
+        ],
+        [
+          "2026-06-05T15:00Z",
+          2950
+        ],
+        [
+          "2026-06-04T10:00Z",
+          2917
+        ],
+        [
+          "2026-06-04T13:00Z",
+          2872
+        ]
+      ],
+      "top_markets_by_submitted_orders": [
+        [
+          "0xa1ef8ff35edda5ae6a363e6e36dbf03ad1189493046df3daea6344c819ae7e97",
+          1444
+        ],
+        [
+          "0xe1078e03e0b748624a674df0533e218160ca877e9b303a50561e687be09cb0fd",
+          1441
+        ],
+        [
+          "0x94de16ed0096861e8c2b1dbc064c31c1382b02582c1cf3ec7f13237b67801f82",
+          1437
+        ],
+        [
+          "0xd610f25e2eae838718786c361fb522140193fe9f7afc8e1093188faf11d52ef0",
+          1433
+        ],
+        [
+          "0xd7551b26a68c37ed2073bd138ccdfbba091d1911e8c14f73e8fa31077754979d",
+          1423
+        ],
+        [
+          "0xad8319b99fe3c8d24b89960026b1507aad67fe373724bd50627484bb53f3aec6",
+          1421
+        ],
+        [
+          "0xacb10bf7c01e494a6526a504c728877738f901450a8c87fec7771a8fbbfe837b",
+          1421
+        ],
+        [
+          "0x2dc647ffb743095d4abbbb44f11065406874aa1b887712b4772d4c6db8c3ef14",
+          1420
+        ],
+        [
+          "0xbc654fb9d6a1791b388e247ac3c2075117be090eb433d5ec50f9d00dda5b052a",
+          1412
+        ],
+        [
+          "0xb81a8ebf220e0d4079d48ce7a19295d230f854a372946519dc29f77f71cea5fd",
+          1412
+        ]
+      ],
+      "top_submitted_hours": [
+        [
+          "2026-06-04T22:00Z",
+          14545
+        ],
+        [
+          "2026-06-03T16:00Z",
+          14068
+        ],
+        [
+          "2026-06-02T23:00Z",
+          13974
+        ],
+        [
+          "2026-06-03T22:00Z",
+          13903
+        ],
+        [
+          "2026-06-04T01:00Z",
+          13803
+        ],
+        [
+          "2026-06-03T14:00Z",
+          13792
+        ],
+        [
+          "2026-06-03T03:00Z",
+          13760
+        ],
+        [
+          "2026-06-02T15:00Z",
+          13756
+        ],
+        [
+          "2026-06-03T00:00Z",
+          13670
+        ],
+        [
+          "2026-06-04T08:00Z",
+          13624
+        ],
+        [
+          "2026-06-03T23:00Z",
+          13444
+        ],
+        [
+          "2026-06-04T09:00Z",
+          13383
+        ]
+      ],
+      "turnover_buy_cost_vs_100_start": 1826.896897,
+      "worst_closed_markets": [
+        {
+          "buy_cost": 283.2294,
+          "fills": 259,
+          "first_utc": "2026-06-02T18:10:00.744000Z",
+          "last_utc": "2026-06-02T18:16:38.605000Z",
+          "market_id": "0xd2f20213bb6c6e3a97b8f638dee3a80668c9458063b539211f68e2fb5124df10",
+          "orders": 1252,
+          "pnl": -8.2078,
+          "sell_realized": -3.81912283,
+          "settlement_realized": -4.38867717
+        },
+        {
+          "buy_cost": 300.8255,
+          "fills": 276,
+          "first_utc": "2026-06-04T07:05:00.575000Z",
+          "last_utc": "2026-06-04T07:11:31.876000Z",
+          "market_id": "0xb4ffd6e8905d37ac1040e951cf9d32106e7c8be347da00301bf0bf34912073c9",
+          "orders": 1322,
+          "pnl": -7.8543,
+          "sell_realized": -7.28952594,
+          "settlement_realized": -0.56477406
+        },
+        {
+          "buy_cost": 257.9002,
+          "fills": 252,
+          "first_utc": "2026-06-04T05:15:00.752000Z",
+          "last_utc": "2026-06-04T05:21:24.564000Z",
+          "market_id": "0xa034b1e48475192cdf4fc16bfefde919105aa387117becfbb9f15690a5f966c4",
+          "orders": 1247,
+          "pnl": -7.7662,
+          "sell_realized": -7.85883439,
+          "settlement_realized": 0.09263439
+        },
+        {
+          "buy_cost": 213.3862,
+          "fills": 200,
+          "first_utc": "2026-06-04T03:45:00.753000Z",
+          "last_utc": "2026-06-04T03:51:35.600000Z",
+          "market_id": "0x82de0e5434db2555276eda3abd5b83a6cbdeb37bde820ffb8872c5a9ba64b349",
+          "orders": 1241,
+          "pnl": -7.046,
+          "sell_realized": -5.00757998,
+          "settlement_realized": -2.03842002
+        },
+        {
+          "buy_cost": 232.4775,
+          "fills": 272,
+          "first_utc": "2026-06-04T13:10:01.072000Z",
+          "last_utc": "2026-06-04T13:16:23.290000Z",
+          "market_id": "0x6d23cdfd58c78d54f618cadcb36fb4d9cbcf573a7efefb3d327720166c918258",
+          "orders": 1233,
+          "pnl": -6.7109,
+          "sell_realized": -4.27252534,
+          "settlement_realized": -2.43837466
+        },
+        {
+          "buy_cost": 79.7585,
+          "fills": 64,
+          "first_utc": "2026-06-05T04:30:01.002000Z",
+          "last_utc": "2026-06-05T04:33:28.316000Z",
+          "market_id": "0xb9ead515c7fe23a5cb66b4003de2ffcae073ec2043c69d23a0efb89a0e619bc8",
+          "orders": 656,
+          "pnl": -6.5085,
+          "sell_realized": 0.41411957,
+          "settlement_realized": -6.92261957
+        },
+        {
+          "buy_cost": 325.9233,
+          "fills": 316,
+          "first_utc": "2026-06-05T15:00:00.648000Z",
+          "last_utc": "2026-06-05T15:06:32.562000Z",
+          "market_id": "0x906fb0b000f99e326161707e7a87cb3781d796a10a63f8798b6b3ae95af97e62",
+          "orders": 1159,
+          "pnl": -5.5986,
+          "sell_realized": -3.23728365,
+          "settlement_realized": -2.36131635
+        },
+        {
+          "buy_cost": 217.8145,
+          "fills": 230,
+          "first_utc": "2026-06-05T12:55:00.501000Z",
+          "last_utc": "2026-06-05T13:01:42.449000Z",
+          "market_id": "0x59dce16a7db16a4196ad73a5ca78008def3815394879f01620c789e6e2976512",
+          "orders": 1256,
+          "pnl": -5.3922,
+          "sell_realized": -4.9945278,
+          "settlement_realized": -0.3976722
+        },
+        {
+          "buy_cost": 200.9304,
+          "fills": 192,
+          "first_utc": "2026-06-03T05:35:01.010000Z",
+          "last_utc": "2026-06-03T05:41:40.804000Z",
+          "market_id": "0xa8797223de22200f5f189f89e403e7b2bd4282b9b82f26dbaa480db34816046d",
+          "orders": 1168,
+          "pnl": -5.1887,
+          "sell_realized": -0.7267316,
+          "settlement_realized": -4.4619684
+        },
+        {
+          "buy_cost": 292.8421,
+          "fills": 285,
+          "first_utc": "2026-06-04T19:20:00.837000Z",
+          "last_utc": "2026-06-04T19:26:32.874000Z",
+          "market_id": "0xfe603bcc5a2b0a9f5d6b0f0f98c6ededa0d69cd60eea75b3354ee51faee5eac7",
+          "orders": 1350,
+          "pnl": -5.0887,
+          "sell_realized": -5.56714778,
+          "settlement_realized": 0.47844778
+        }
+      ],
+      "writeoff_realized_usdc": -18.52952213
+    }
+  ],
+  "winner": {
+    "adjusted_total_pnl_usdc": 1791.3144,
+    "nav_last": 1891.3144,
+    "profile_id": "mpv2_r1_a3_seq120_seed2",
+    "rank": 1,
+    "total_unique_filled_orders": 163836,
+    "total_unique_submitted_orders": 923677
+  }
+}

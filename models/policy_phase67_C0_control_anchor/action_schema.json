@@ -1,0 +1,18 @@
+{
+  "offset_classes": [
+    "join_best",
+    "improve_1_tick",
+    "passive_1_tick"
+  ],
+  "quote_threshold": 0.55,
+  "schema_version": "maker_policy_v2_action_schema_v1",
+  "size_classes": [
+    "min_order_size"
+  ],
+  "slots": [
+    "up_buy",
+    "down_buy",
+    "up_sell",
+    "down_sell"
+  ]
+}

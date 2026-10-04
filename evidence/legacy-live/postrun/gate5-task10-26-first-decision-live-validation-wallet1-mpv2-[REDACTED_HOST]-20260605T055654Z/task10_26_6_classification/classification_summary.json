@@ -1,0 +1,115 @@
+{
+  "run_id": "gate5-task10-26-first-decision-live-validation-wallet1-mpv2-[REDACTED_HOST]-20260605T055654Z",
+  "task": "10.26.6",
+  "classification_generated_utc": "2026-06-05T07:00:51Z",
+  "overall_classification": "real_sdk_submit_reached_fail_closed_no_open_orders_current_account_safe",
+  "success_path_proven": false,
+  "success_path_reason": "wrapper_exit_code_1_and_manifest_status_fail_closed",
+  "exactly_one_wrapper_run_evidence": {
+    "wrapper_exit_code": 1,
+    "wrapper_started_utc": "2026-06-05T06:36:48Z",
+    "wrapper_finished_utc": "2026-06-05T06:42:31Z"
+  },
+  "decisive_runtime_fields": {
+    "no_submit": false,
+    "submit_enabled": true,
+    "signing_started": true,
+    "submitted_order_count": 2,
+    "signed_payload_count": 2,
+    "accepted_order_count": 1,
+    "user_channel_event_count": 1,
+    "order_state_arbitration_row_count": 2,
+    "active_redeem_started": false,
+    "status": "fail_closed",
+    "fail_closed_reasons": [
+      "strategy_tick_failed: gate5_tiny_live_smoke_cancel_fail_closed: sdk_cancel_response_not_all_canceled",
+      "gate5_final_reconciliation:sdk_clob_trades_query_failed",
+      "gate5_final_reconciliation:sdk_clob_trades_error_kind:internal"
+    ]
+  },
+  "legacy_label_note": "phase/mode labels may contain no_submit, but classification uses no_submit=false, submit_enabled=true, signing_started=true, and live order counts.",
+  "order_lifecycle": {
+    "accepted_order_id": "0xbb11866fdc6a9970717d3985fc2d3722b365cbe4148e635836cd6148210c2c14",
+    "submitted_source_order_ids": [
+      "maker-policy-v2:0xded0b7683eaef2a0c72871d33a895a052d836192d7bb9f4d3d05e398527193ae:1780641727144:1:up_buy:join_best:6900:1.000",
+      "maker-policy-v2:0xded0b7683eaef2a0c72871d33a895a052d836192d7bb9f4d3d05e398527193ae:1780641727144:2:down_buy:join_best:3000:1.000"
+    ],
+    "submitted_order_count": 2,
+    "signed_payload_count": 2,
+    "accepted_order_count": 1,
+    "order_report_fail_closed": true,
+    "order_report_fail_closed_reasons": [
+      "sdk_post_order_empty_order_id",
+      "sdk_post_order_response_not_all_accepted"
+    ],
+    "ttl_cancel_after_ms": 250,
+    "cancel_fail_closed": true,
+    "cancel_fail_closed_reasons": [
+      "sdk_cancel_response_not_all_canceled"
+    ],
+    "cancel_not_canceled": {
+      "0xbb11866fdc6a9970717d3985fc2d3722b365cbe4148e635836cd6148210c2c14": "order can't be found - already canceled or matched"
+    },
+    "final_clob_open_order_count": 0,
+    "runtime_local_open_order_estimate": 1,
+    "open_order_count_semantics": "runtime_local_estimate_compatibility_field"
+  },
+  "account_safety": {
+    "pre_wrapper_balance_raw": "100402500",
+    "immediate_post_wrapper_balance_raw": "96952500",
+    "current_balance_raw": "101952500",
+    "immediate_post_open_order_count": 0,
+    "current_open_order_count": 0,
+    "current_fail_closed": false,
+    "current_account_fail_closed": false,
+    "current_sdk_balance_allowance_queried": true,
+    "current_sdk_open_orders_queried": true,
+    "current_max_allowance_present": true
+  },
+  "exposure_observation": {
+    "real_exposure_observed": true,
+    "basis": "balance decreased immediately after accepted order and run reconciliation reported data_position_count=1/data_value_count=1/data_total_value_usdc=2.675",
+    "final_reconciliation_data_position_count": 1,
+    "final_reconciliation_data_value_count": 1,
+    "final_reconciliation_data_total_value_usdc": "2.675",
+    "current_balance_increased_after_immediate_post": true,
+    "current_position_status_verified": false,
+    "current_position_status_note": "Task 10.26.6 refreshed SDK account/open-orders only; it did not run a current data-position/value query because no standalone approved SDK CLI exists in the reviewed runtime path. Do not overclaim no remaining position from account preflight alone."
+  },
+  "final_reconciliation": {
+    "fail_closed": true,
+    "fail_closed_reasons": [
+      "sdk_clob_trades_query_failed",
+      "sdk_clob_trades_error_kind:internal"
+    ],
+    "sdk_clob_orders_queried": true,
+    "sdk_clob_order_details_queried": true,
+    "sdk_clob_trades_queried": true,
+    "sdk_data_positions_queried": true,
+    "sdk_data_value_queried": true,
+    "clob_order_detail_count": 1,
+    "clob_trade_count": 0,
+    "clob_open_order_count": 0
+  },
+  "process_safety": {
+    "checked_text": "checked_utc=2026-06-05T06:59:42Z\nlive_runtime_exact_pids=absent\ncargo_exact_pids=absent\nrustc_exact_pids=absent\nactive_redeem_process_matches=absent\nactive_redeem_marker_absent=[PRIVATE_HOME]/live-runtime/active-redeem\nactive_redeem_marker_absent=[PRIVATE_HOME]/live-runtime/active_redeem\nactive_redeem_marker_absent=[PRIVATE_HOME]/live-runtime/redeem-active\nactive_redeem_marker_absent=[PRIVATE_HOME]/live-runtime/gate5/active-redeem\nactive_redeem_marker_absent=[PRIVATE_HOME]/live-runtime/gate5/active_redeem\nactive_redeem_marker_absent=[PRIVATE_HOME]/live-runtime/gate5/redeem-state\nactive_redeem_marker_absent=[PRIVATE_HOME]/live-runtime/gate5/redeem.lock\nactive_redeem_marker_absent=[PRIVATE_HOME]/live-runtime/gate5/redeem.pid\nactive_redeem_marker_absent=[PRIVATE_HOME]/live-runtime/gate5/active-redeem.lock\nactive_redeem_marker_absent=[PRIVATE_HOME]/live-runtime/gate5/active_redeem.lock\nactive_redeem_marker_absent=[PRIVATE_HOME]/live-runtime/gate5/active-redeem.state\nactive_redeem_marker_absent=[PRIVATE_HOME]/live-runtime/gate5/active_redeem.state\nactive_redeem_named_markers=absent\ncargo_command=absent\nrustc_command=absent\nsource_tree_absent=[PRIVATE_HOME]/live-trade\n",
+    "active_redeem_started_in_manifest": false,
+    "active_redeem_started_in_reconciliation": false,
+    "redeem_attempt_count": 0
+  },
+  "forbidden_actions_not_taken_in_task10_26_6": [
+    "second_wrapper_run",
+    "active_redeem",
+    "raw_rest_manual_signing_sdk_bypass",
+    "wallet_model_expansion",
+    "long_duration_run",
+    "aws_rust_build_test_fmt_check",
+    "secret_bearing_artifact_pull"
+  ],
+  "evidence_hashes": {
+    "remote_sha256s_sha256": "a6a2d24df40156647c8df36a1744375b3db3ac374679051b8d244d233178ecf0",
+    "current_safety_sha256s_sha256": "0f66218a6a55b1277585942efc9d93a268be706d2c20b1cebc2c94dd63896620",
+    "task10_26_5_execution_summary_sha256": "185425256309f2bf297c62be7e47cc644572f6ee36e034ee36d6a81d46b96d94"
+  },
+  "next_step_recommendation": "GPT-5.5/xhigh review, then Task 10.26.7 docs/source closeout; no retry, second wrapper, or active redeem without separate user approval."
+}

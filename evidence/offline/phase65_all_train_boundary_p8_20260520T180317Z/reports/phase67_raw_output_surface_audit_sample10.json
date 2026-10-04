@@ -1,0 +1,631 @@
+{
+  "candidate_count": 7,
+  "candidate_reports": [
+    {
+      "candidate_id": "primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed2",
+      "legal_quote_prob_summary": {
+        "count": 20,
+        "max": 1.0,
+        "mean": 1.0,
+        "min": 1.0,
+        "p01": 1.0,
+        "p99": 1.0
+      },
+      "policy_tick_count": 10,
+      "risk_score_summary": {
+        "count": 10,
+        "max": 0.562283456325531,
+        "mean": 0.23161920607089997,
+        "min": 0.13822126388549805,
+        "p01": 0.13824104517698288,
+        "p99": 0.5612926697731018
+      },
+      "slot_quote_prob_summary": {
+        "down_buy": {
+          "count": 10,
+          "max": 1.0,
+          "mean": 1.0,
+          "min": 1.0,
+          "p01": 1.0,
+          "p99": 1.0
+        },
+        "down_sell": {
+          "count": 10,
+          "max": 1.0,
+          "mean": 0.9999999880790711,
+          "min": 0.9999998807907104,
+          "p01": 0.9999998915195465,
+          "p99": 1.0
+        },
+        "up_buy": {
+          "count": 10,
+          "max": 1.0,
+          "mean": 1.0,
+          "min": 1.0,
+          "p01": 1.0,
+          "p99": 1.0
+        },
+        "up_sell": {
+          "count": 10,
+          "max": 1.0,
+          "mean": 0.9999999880790711,
+          "min": 0.9999998807907104,
+          "p01": 0.9999998915195465,
+          "p99": 1.0
+        }
+      }
+    },
+    {
+      "candidate_id": "primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed3",
+      "legal_quote_prob_summary": {
+        "count": 20,
+        "max": 1.0,
+        "mean": 1.0,
+        "min": 1.0,
+        "p01": 1.0,
+        "p99": 1.0
+      },
+      "policy_tick_count": 10,
+      "risk_score_summary": {
+        "count": 10,
+        "max": 0.6931799054145813,
+        "mean": 0.5683947324752807,
+        "min": 0.10956844687461853,
+        "p01": 0.10959542453289033,
+        "p99": 0.6930076646804809
+      },
+      "slot_quote_prob_summary": {
+        "down_buy": {
+          "count": 10,
+          "max": 1.0,
+          "mean": 1.0,
+          "min": 1.0,
+          "p01": 1.0,
+          "p99": 1.0
+        },
+        "down_sell": {
+          "count": 10,
+          "max": 1.0,
+          "mean": 1.0,
+          "min": 1.0,
+          "p01": 1.0,
+          "p99": 1.0
+        },
+        "up_buy": {
+          "count": 10,
+          "max": 1.0,
+          "mean": 1.0,
+          "min": 1.0,
+          "p01": 1.0,
+          "p99": 1.0
+        },
+        "up_sell": {
+          "count": 10,
+          "max": 1.0,
+          "mean": 1.0,
+          "min": 1.0,
+          "p01": 1.0,
+          "p99": 1.0
+        }
+      }
+    },
+    {
+      "candidate_id": "primary_R2_A1_seq120_bs2048_ep30_lev0p5_sr0p0_sm0p1_seed2",
+      "legal_quote_prob_summary": {
+        "count": 20,
+        "max": 1.0,
+        "mean": 1.0,
+        "min": 1.0,
+        "p01": 1.0,
+        "p99": 1.0
+      },
+      "policy_tick_count": 10,
+      "risk_score_summary": {
+        "count": 10,
+        "max": 0.44894590973854065,
+        "mean": 0.35987321138381956,
+        "min": 0.32896947860717773,
+        "p01": 0.32897271335124967,
+        "p99": 0.4487792104482651
+      },
+      "slot_quote_prob_summary": {
+        "down_buy": {
+          "count": 10,
+          "max": 1.0,
+          "mean": 1.0,
+          "min": 1.0,
+          "p01": 1.0,
+          "p99": 1.0
+        },
+        "down_sell": {
+          "count": 10,
+          "max": 1.0,
+          "mean": 1.0,
+          "min": 1.0,
+          "p01": 1.0,
+          "p99": 1.0
+        },
+        "up_buy": {
+          "count": 10,
+          "max": 1.0,
+          "mean": 1.0,
+          "min": 1.0,
+          "p01": 1.0,
+          "p99": 1.0
+        },
+        "up_sell": {
+          "count": 10,
+          "max": 1.0,
+          "mean": 1.0,
+          "min": 1.0,
+          "p01": 1.0,
+          "p99": 1.0
+        }
+      }
+    },
+    {
+      "candidate_id": "primary_R3_A6_seq120_bs2048_ep30_lev0p5_sr0p05_sm0p1_seed2",
+      "legal_quote_prob_summary": {
+        "count": 20,
+        "max": 1.0,
+        "mean": 0.9999981701374054,
+        "min": 0.9999810457229614,
+        "p01": 0.9999812948703766,
+        "p99": 1.0
+      },
+      "policy_tick_count": 10,
+      "risk_score_summary": {
+        "count": 10,
+        "max": 0.7131261229515076,
+        "mean": 0.663949191570282,
+        "min": 0.5687716603279114,
+        "p01": 0.5689511269330978,
+        "p99": 0.712594353556633
+      },
+      "slot_quote_prob_summary": {
+        "down_buy": {
+          "count": 10,
+          "max": 1.0,
+          "mean": 0.9999982357025147,
+          "min": 0.9999823570251465,
+          "p01": 0.9999839448928833,
+          "p99": 1.0
+        },
+        "down_sell": {
+          "count": 10,
+          "max": 1.0,
+          "mean": 0.9999977469444274,
+          "min": 0.9999774694442749,
+          "p01": 0.9999794971942901,
+          "p99": 1.0
+        },
+        "up_buy": {
+          "count": 10,
+          "max": 1.0,
+          "mean": 0.9999981045722961,
+          "min": 0.9999810457229614,
+          "p01": 0.9999827516078948,
+          "p99": 1.0
+        },
+        "up_sell": {
+          "count": 10,
+          "max": 1.0,
+          "mean": 0.9999885797500611,
+          "min": 0.9998857975006104,
+          "p01": 0.9998960757255554,
+          "p99": 1.0
+        }
+      }
+    },
+    {
+      "candidate_id": "primary_R4_LB2_512_seq120_bs512_ep30_lev0p5_sr0p05_sm0p1_seed1",
+      "legal_quote_prob_summary": {
+        "count": 20,
+        "max": 1.0,
+        "mean": 1.0,
+        "min": 1.0,
+        "p01": 1.0,
+        "p99": 1.0
+      },
+      "policy_tick_count": 10,
+      "risk_score_summary": {
+        "count": 10,
+        "max": 0.7271167635917664,
+        "mean": 0.6715382516384125,
+        "min": 0.5073261260986328,
+        "p01": 0.5095912945270539,
+        "p99": 0.7264497035741806
+      },
+      "slot_quote_prob_summary": {
+        "down_buy": {
+          "count": 10,
+          "max": 1.0,
+          "mean": 1.0,
+          "min": 1.0,
+          "p01": 1.0,
+          "p99": 1.0
+        },
+        "down_sell": {
+          "count": 10,
+          "max": 1.0,
+          "mean": 1.0,
+          "min": 1.0,
+          "p01": 1.0,
+          "p99": 1.0
+        },
+        "up_buy": {
+          "count": 10,
+          "max": 1.0,
+          "mean": 1.0,
+          "min": 1.0,
+          "p01": 1.0,
+          "p99": 1.0
+        },
+        "up_sell": {
+          "count": 10,
+          "max": 1.0,
+          "mean": 1.0,
+          "min": 1.0,
+          "p01": 1.0,
+          "p99": 1.0
+        }
+      }
+    },
+    {
+      "candidate_id": "primary_R4_LB2_512_seq120_bs512_ep30_lev0p5_sr0p05_sm0p1_seed2",
+      "legal_quote_prob_summary": {
+        "count": 20,
+        "max": 1.0,
+        "mean": 1.0,
+        "min": 1.0,
+        "p01": 1.0,
+        "p99": 1.0
+      },
+      "policy_tick_count": 10,
+      "risk_score_summary": {
+        "count": 10,
+        "max": 0.8901773691177368,
+        "mean": 0.8185645043849945,
+        "min": 0.6797942519187927,
+        "p01": 0.6805701291561127,
+        "p99": 0.8874532747268676
+      },
+      "slot_quote_prob_summary": {
+        "down_buy": {
+          "count": 10,
+          "max": 1.0,
+          "mean": 1.0,
+          "min": 1.0,
+          "p01": 1.0,
+          "p99": 1.0
+        },
+        "down_sell": {
+          "count": 10,
+          "max": 1.0,
+          "mean": 1.0,
+          "min": 1.0,
+          "p01": 1.0,
+          "p99": 1.0
+        },
+        "up_buy": {
+          "count": 10,
+          "max": 1.0,
+          "mean": 1.0,
+          "min": 1.0,
+          "p01": 1.0,
+          "p99": 1.0
+        },
+        "up_sell": {
+          "count": 10,
+          "max": 1.0,
+          "mean": 1.0,
+          "min": 1.0,
+          "p01": 1.0,
+          "p99": 1.0
+        }
+      }
+    },
+    {
+      "candidate_id": "primary_R6_C2_control_seq180_bs4096_ep30_lev0p25_sr0p1_sm0p0_seed2",
+      "legal_quote_prob_summary": {
+        "count": 20,
+        "max": 1.0,
+        "mean": 1.0,
+        "min": 1.0,
+        "p01": 1.0,
+        "p99": 1.0
+      },
+      "policy_tick_count": 10,
+      "risk_score_summary": {
+        "count": 10,
+        "max": 0.6362330913543701,
+        "mean": 0.5919850587844848,
+        "min": 0.48426663875579834,
+        "p01": 0.48541749954223634,
+        "p99": 0.6359948146343232
+      },
+      "slot_quote_prob_summary": {
+        "down_buy": {
+          "count": 10,
+          "max": 1.0,
+          "mean": 1.0,
+          "min": 1.0,
+          "p01": 1.0,
+          "p99": 1.0
+        },
+        "down_sell": {
+          "count": 10,
+          "max": 1.0,
+          "mean": 1.0,
+          "min": 1.0,
+          "p01": 1.0,
+          "p99": 1.0
+        },
+        "up_buy": {
+          "count": 10,
+          "max": 1.0,
+          "mean": 1.0,
+          "min": 1.0,
+          "p01": 1.0,
+          "p99": 1.0
+        },
+        "up_sell": {
+          "count": 10,
+          "max": 1.0,
+          "mean": 1.0,
+          "min": 1.0,
+          "p01": 1.0,
+          "p99": 1.0
+        }
+      }
+    }
+  ],
+  "common_row_count": 10,
+  "cross_candidate_raw_output": {
+    "pairwise": [
+      {
+        "common_rows": 10,
+        "left": "primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed2",
+        "quote_prob_max_abs_diff": 1.1920928955078125e-07,
+        "quote_prob_mean_abs_diff": 5.9604645663569045e-09,
+        "right": "primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed3",
+        "risk_score_max_abs_diff": 0.5524949431419373,
+        "risk_score_mean_abs_diff": 0.5155998319387436
+      },
+      {
+        "common_rows": 10,
+        "left": "primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed2",
+        "quote_prob_max_abs_diff": 1.1920928955078125e-07,
+        "quote_prob_mean_abs_diff": 5.9604645663569045e-09,
+        "right": "primary_R2_A1_seq120_bs2048_ep30_lev0p5_sr0p0_sm0p1_seed2",
+        "risk_score_max_abs_diff": 0.20127040147781372,
+        "risk_score_mean_abs_diff": 0.1717577189207077
+      },
+      {
+        "common_rows": 10,
+        "left": "primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed2",
+        "quote_prob_max_abs_diff": 0.00011420249938964844,
+        "quote_prob_mean_abs_diff": 4.339218321547378e-06,
+        "right": "primary_R3_A6_seq120_bs2048_ep30_lev0p5_sr0p05_sm0p1_seed2",
+        "risk_score_max_abs_diff": 0.5687765181064606,
+        "risk_score_mean_abs_diff": 0.432329985499382
+      },
+      {
+        "common_rows": 10,
+        "left": "primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed2",
+        "quote_prob_max_abs_diff": 1.1920928955078125e-07,
+        "quote_prob_mean_abs_diff": 5.9604645663569045e-09,
+        "right": "primary_R4_LB2_512_seq120_bs512_ep30_lev0p5_sr0p05_sm0p1_seed1",
+        "risk_score_max_abs_diff": 0.5814837217330933,
+        "risk_score_mean_abs_diff": 0.4546665221452713
+      },
+      {
+        "common_rows": 10,
+        "left": "primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed2",
+        "quote_prob_max_abs_diff": 1.1920928955078125e-07,
+        "quote_prob_mean_abs_diff": 5.9604645663569045e-09,
+        "right": "primary_R4_LB2_512_seq120_bs512_ep30_lev0p5_sr0p05_sm0p1_seed2",
+        "risk_score_max_abs_diff": 0.7301688194274902,
+        "risk_score_mean_abs_diff": 0.5869452983140946
+      },
+      {
+        "common_rows": 10,
+        "left": "primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed2",
+        "quote_prob_max_abs_diff": 1.1920928955078125e-07,
+        "quote_prob_mean_abs_diff": 5.9604645663569045e-09,
+        "right": "primary_R6_C2_control_seq180_bs4096_ep30_lev0p25_sr0p1_sm0p0_seed2",
+        "risk_score_max_abs_diff": 0.4977920353412628,
+        "risk_score_mean_abs_diff": 0.3868133634328842
+      },
+      {
+        "common_rows": 10,
+        "left": "primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed3",
+        "quote_prob_max_abs_diff": 0.0,
+        "quote_prob_mean_abs_diff": 0.0,
+        "right": "primary_R2_A1_seq120_bs2048_ep30_lev0p5_sr0p0_sm0p1_seed2",
+        "risk_score_max_abs_diff": 0.3605755567550659,
+        "risk_score_mean_abs_diff": 0.3438421130180359
+      },
+      {
+        "common_rows": 10,
+        "left": "primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed3",
+        "quote_prob_max_abs_diff": 0.00011420249938964844,
+        "quote_prob_mean_abs_diff": 4.333257493271958e-06,
+        "right": "primary_R3_A6_seq120_bs2048_ep30_lev0p5_sr0p05_sm0p1_seed2",
+        "risk_score_max_abs_diff": 0.46119728684425354,
+        "risk_score_mean_abs_diff": 0.1116674780845642
+      },
+      {
+        "common_rows": 10,
+        "left": "primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed3",
+        "quote_prob_max_abs_diff": 0.0,
+        "quote_prob_mean_abs_diff": 0.0,
+        "right": "primary_R4_LB2_512_seq120_bs512_ep30_lev0p5_sr0p05_sm0p1_seed1",
+        "risk_score_max_abs_diff": 0.4229262173175812,
+        "risk_score_mean_abs_diff": 0.1055118978023529
+      },
+      {
+        "common_rows": 10,
+        "left": "primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed3",
+        "quote_prob_max_abs_diff": 0.0,
+        "quote_prob_mean_abs_diff": 0.0,
+        "right": "primary_R4_LB2_512_seq120_bs512_ep30_lev0p5_sr0p05_sm0p1_seed2",
+        "risk_score_max_abs_diff": 0.5785469114780426,
+        "risk_score_mean_abs_diff": 0.25016977190971373
+      },
+      {
+        "common_rows": 10,
+        "left": "primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed3",
+        "quote_prob_max_abs_diff": 0.0,
+        "quote_prob_mean_abs_diff": 0.0,
+        "right": "primary_R6_C2_control_seq180_bs4096_ep30_lev0p25_sr0p1_sm0p0_seed2",
+        "risk_score_max_abs_diff": 0.3871857821941376,
+        "risk_score_mean_abs_diff": 0.12878646850585937
+      },
+      {
+        "common_rows": 10,
+        "left": "primary_R2_A1_seq120_bs2048_ep30_lev0p5_sr0p0_sm0p1_seed2",
+        "quote_prob_max_abs_diff": 0.00011420249938964844,
+        "quote_prob_mean_abs_diff": 4.333257493271958e-06,
+        "right": "primary_R3_A6_seq120_bs2048_ep30_lev0p5_sr0p05_sm0p1_seed2",
+        "risk_score_max_abs_diff": 0.37057167291641235,
+        "risk_score_mean_abs_diff": 0.3040759801864624
+      },
+      {
+        "common_rows": 10,
+        "left": "primary_R2_A1_seq120_bs2048_ep30_lev0p5_sr0p0_sm0p1_seed2",
+        "quote_prob_max_abs_diff": 0.0,
+        "quote_prob_mean_abs_diff": 0.0,
+        "right": "primary_R4_LB2_512_seq120_bs512_ep30_lev0p5_sr0p05_sm0p1_seed1",
+        "risk_score_max_abs_diff": 0.3905676007270813,
+        "risk_score_mean_abs_diff": 0.3116650402545929
+      },
+      {
+        "common_rows": 10,
+        "left": "primary_R2_A1_seq120_bs2048_ep30_lev0p5_sr0p0_sm0p1_seed2",
+        "quote_prob_max_abs_diff": 0.0,
+        "quote_prob_mean_abs_diff": 0.0,
+        "right": "primary_R4_LB2_512_seq120_bs512_ep30_lev0p5_sr0p05_sm0p1_seed2",
+        "risk_score_max_abs_diff": 0.5348760485649109,
+        "risk_score_mean_abs_diff": 0.45869129300117495
+      },
+      {
+        "common_rows": 10,
+        "left": "primary_R2_A1_seq120_bs2048_ep30_lev0p5_sr0p0_sm0p1_seed2",
+        "quote_prob_max_abs_diff": 0.0,
+        "quote_prob_mean_abs_diff": 0.0,
+        "right": "primary_R6_C2_control_seq180_bs4096_ep30_lev0p25_sr0p1_sm0p0_seed2",
+        "risk_score_max_abs_diff": 0.30179834365844727,
+        "risk_score_mean_abs_diff": 0.2321118474006653
+      },
+      {
+        "common_rows": 10,
+        "left": "primary_R3_A6_seq120_bs2048_ep30_lev0p5_sr0p05_sm0p1_seed2",
+        "quote_prob_max_abs_diff": 0.00011420249938964844,
+        "quote_prob_mean_abs_diff": 4.333257493271958e-06,
+        "right": "primary_R4_LB2_512_seq120_bs512_ep30_lev0p5_sr0p05_sm0p1_seed1",
+        "risk_score_max_abs_diff": 0.13877856731414795,
+        "risk_score_mean_abs_diff": 0.034399276971817015
+      },
+      {
+        "common_rows": 10,
+        "left": "primary_R3_A6_seq120_bs2048_ep30_lev0p5_sr0p05_sm0p1_seed2",
+        "quote_prob_max_abs_diff": 0.00011420249938964844,
+        "quote_prob_mean_abs_diff": 4.333257493271958e-06,
+        "right": "primary_R4_LB2_512_seq120_bs512_ep30_lev0p5_sr0p05_sm0p1_seed2",
+        "risk_score_max_abs_diff": 0.23553043603897095,
+        "risk_score_mean_abs_diff": 0.15461531281471252
+      },
+      {
+        "common_rows": 10,
+        "left": "primary_R3_A6_seq120_bs2048_ep30_lev0p5_sr0p05_sm0p1_seed2",
+        "quote_prob_max_abs_diff": 0.00011420249938964844,
+        "quote_prob_mean_abs_diff": 4.333257493271958e-06,
+        "right": "primary_R6_C2_control_seq180_bs4096_ep30_lev0p25_sr0p1_sm0p0_seed2",
+        "risk_score_max_abs_diff": 0.09895139932632446,
+        "risk_score_mean_abs_diff": 0.07196413278579712
+      },
+      {
+        "common_rows": 10,
+        "left": "primary_R4_LB2_512_seq120_bs512_ep30_lev0p5_sr0p05_sm0p1_seed1",
+        "quote_prob_max_abs_diff": 0.0,
+        "quote_prob_mean_abs_diff": 0.0,
+        "right": "primary_R4_LB2_512_seq120_bs512_ep30_lev0p5_sr0p05_sm0p1_seed2",
+        "risk_score_max_abs_diff": 0.21138572692871094,
+        "risk_score_mean_abs_diff": 0.14702625274658204
+      },
+      {
+        "common_rows": 10,
+        "left": "primary_R4_LB2_512_seq120_bs512_ep30_lev0p5_sr0p05_sm0p1_seed1",
+        "quote_prob_max_abs_diff": 0.0,
+        "quote_prob_mean_abs_diff": 0.0,
+        "right": "primary_R6_C2_control_seq180_bs4096_ep30_lev0p25_sr0p1_sm0p0_seed2",
+        "risk_score_max_abs_diff": 0.18409866094589233,
+        "risk_score_mean_abs_diff": 0.07955319285392762
+      },
+      {
+        "common_rows": 10,
+        "left": "primary_R4_LB2_512_seq120_bs512_ep30_lev0p5_sr0p05_sm0p1_seed2",
+        "quote_prob_max_abs_diff": 0.0,
+        "quote_prob_mean_abs_diff": 0.0,
+        "right": "primary_R6_C2_control_seq180_bs4096_ep30_lev0p25_sr0p1_sm0p0_seed2",
+        "risk_score_max_abs_diff": 0.28085052967071533,
+        "risk_score_mean_abs_diff": 0.22657944560050963
+      }
+    ]
+  },
+  "provenance": {
+    "candidate_ids": [
+      "primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed2",
+      "primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed3",
+      "primary_R2_A1_seq120_bs2048_ep30_lev0p5_sr0p0_sm0p1_seed2",
+      "primary_R3_A6_seq120_bs2048_ep30_lev0p5_sr0p05_sm0p1_seed2",
+      "primary_R4_LB2_512_seq120_bs512_ep30_lev0p5_sr0p05_sm0p1_seed1",
+      "primary_R4_LB2_512_seq120_bs512_ep30_lev0p5_sr0p05_sm0p1_seed2",
+      "primary_R6_C2_control_seq180_bs4096_ep30_lev0p25_sr0p1_sm0p0_seed2"
+    ],
+    "max_rows": 10,
+    "row_key_samples": [
+      {
+        "dataset_version": "20260425",
+        "decision_ts_ms": 1777030510250,
+        "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+        "window_id": "1777017600-1777032000"
+      },
+      {
+        "dataset_version": "20260425",
+        "decision_ts_ms": 1777030510500,
+        "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+        "window_id": "1777017600-1777032000"
+      },
+      {
+        "dataset_version": "20260425",
+        "decision_ts_ms": 1777030510750,
+        "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+        "window_id": "1777017600-1777032000"
+      },
+      {
+        "dataset_version": "20260425",
+        "decision_ts_ms": 1777030511000,
+        "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+        "window_id": "1777017600-1777032000"
+      },
+      {
+        "dataset_version": "20260425",
+        "decision_ts_ms": 1777030511250,
+        "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+        "window_id": "1777017600-1777032000"
+      }
+    ],
+    "source_run_root": "poly-arb-ai/training/maker_policy_v2_phase6_runs/phase65_all_train_boundary_p8_20260520T180317Z",
+    "source_summary": "poly-arb-ai/training/maker_policy_v2_phase6_runs/phase65_all_train_boundary_p8_20260520T180317Z/reports/phase65_summary.json"
+  },
+  "raw_output_gate": {
+    "paper_trade_approval": false,
+    "reason": "raw legal quote probabilities are saturated near always-enable",
+    "short_replay_allowed": false,
+    "verdict": "FAIL_NO_MAKER_EDGE"
+  },
+  "sampled_row_count": 70,
+  "schema_version": "phase67_raw_output_surface_audit_v1"
+}

@@ -1,0 +1,16 @@
+{
+  "artifact_root_recreated_after_path_hash_fix": true,
+  "bundle_base": "f3efc68fa2098d5677ccc2666082d712dab6db93",
+  "bundle_path": "source://v2-577d409.bundle",
+  "bundle_sha256": "066fc0b981f8063597f9141f0e688e03767b148310c1c9e86a5fa2c28084777d",
+  "local_commit": "577d409ce8113d64b9798198f15b4030eba962b7",
+  "preexisting_untracked_remote_paths": [
+    "poly-arb-ai/training/alpha_v2_survival_buffer_audit_20260515T044912Z/",
+    "poly-arb-ai/training/alpha_v2_survival_buffer_audit_20260515T045109Z/"
+  ],
+  "remote_commit": "577d409ce8113d64b9798198f15b4030eba962b7",
+  "remote_fetch_ref": "refs/remotes/bundle/V2-phase58-evidence",
+  "schema_version": "phase58_sync_manifest_v1",
+  "sync_method": "git bundle + rsync + git merge --ff-only",
+  "updated_at_utc": "2026-05-18T09:20:00Z"
+}

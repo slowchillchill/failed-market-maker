@@ -1,0 +1,741 @@
+[
+  {
+    "run_id": "run-four-profile-72h-mpv2-restart-20260527T161918Z",
+    "profile_id": "m3_b1",
+    "source": "evidence/paper/run-four-profile-72h-mpv2-restart-20260527T161918Z/reports/report-20260530T162518Z.json",
+    "metric": "adjusted_total_pnl_usdc",
+    "pnl_usdc": -127.7975,
+    "first_decision_utc": "2026-05-27T16:30:00Z",
+    "last_decision_utc": "2026-05-30T16:25:17Z",
+    "rebate": {
+      "last_pending_usdc": 1.47808,
+      "total_amount_by_event": {
+        "maker_rebate_accrual": 1.47808,
+        "maker_rebate_carry": 0.0
+      },
+      "total_event_counts": {
+        "maker_rebate_accrual": 86,
+        "maker_rebate_carry": 3
+      },
+      "window_amount_by_event": {
+        "maker_rebate_accrual": 1.47808,
+        "maker_rebate_carry": 0.0
+      },
+      "window_event_counts": {
+        "maker_rebate_accrual": 86,
+        "maker_rebate_carry": 3
+      }
+    },
+    "risk_control": {
+      "adjusted_total_pnl_usdc": -127.7975,
+      "closed_segment_pnl_usdc": -135.5555,
+      "current_segment_pnl_usdc": 7.758,
+      "late_liability_writeoff_count": 10,
+      "segment_reset_count": 10,
+      "state": {
+        "cooldown_until_ms": null,
+        "enabled": true,
+        "profile_id": "m3_b1",
+        "segment_id": "m3_b1:11",
+        "segment_peak_nav_usdc": 127.2396,
+        "segment_seq": 11,
+        "segment_start_principal_usdc": 100.0,
+        "status": "active",
+        "trigger": null,
+        "updated_ts_ms": 1780143527988
+      },
+      "window_closed_segment_pnl_usdc": -135.5555
+    }
+  },
+  {
+    "run_id": "run-four-profile-72h-mpv2-restart-20260527T161918Z",
+    "profile_id": "m3_b2",
+    "source": "evidence/paper/run-four-profile-72h-mpv2-restart-20260527T161918Z/reports/report-20260530T162518Z.json",
+    "metric": "adjusted_total_pnl_usdc",
+    "pnl_usdc": -100.6707,
+    "first_decision_utc": "2026-05-27T16:30:00Z",
+    "last_decision_utc": "2026-05-30T15:41:43Z",
+    "rebate": {
+      "last_pending_usdc": 1.17407,
+      "total_amount_by_event": {
+        "maker_rebate_accrual": 2.72605,
+        "maker_rebate_carry": 0.0,
+        "maker_rebate_payout": 1.55198
+      },
+      "total_event_counts": {
+        "maker_rebate_accrual": 145,
+        "maker_rebate_carry": 2,
+        "maker_rebate_payout": 1
+      },
+      "window_amount_by_event": {
+        "maker_rebate_accrual": 2.72605,
+        "maker_rebate_carry": 0.0,
+        "maker_rebate_payout": 1.55198
+      },
+      "window_event_counts": {
+        "maker_rebate_accrual": 145,
+        "maker_rebate_carry": 2,
+        "maker_rebate_payout": 1
+      }
+    },
+    "risk_control": {
+      "adjusted_total_pnl_usdc": -100.6707,
+      "closed_segment_pnl_usdc": -100.6707,
+      "current_segment_pnl_usdc": 0.0,
+      "late_liability_writeoff_count": 9,
+      "segment_reset_count": 12,
+      "state": {
+        "cooldown_until_ms": 1780184503652,
+        "enabled": true,
+        "profile_id": "m3_b2",
+        "segment_id": "m3_b2:13",
+        "segment_peak_nav_usdc": 103.2339,
+        "segment_seq": 13,
+        "segment_start_principal_usdc": 100.0,
+        "status": "await_segment_safe_to_reset",
+        "trigger": "stop_loss",
+        "updated_ts_ms": 1780155703652
+      },
+      "window_closed_segment_pnl_usdc": -100.6707
+    }
+  },
+  {
+    "run_id": "run-four-profile-72h-mpv2-restart-20260527T161918Z",
+    "profile_id": "m5_baseline",
+    "source": "evidence/paper/run-four-profile-72h-mpv2-restart-20260527T161918Z/reports/report-20260530T162518Z.json",
+    "metric": "adjusted_total_pnl_usdc",
+    "pnl_usdc": 20.1954,
+    "first_decision_utc": "2026-05-27T16:30:00Z",
+    "last_decision_utc": "2026-05-30T16:25:17Z",
+    "rebate": {
+      "last_pending_usdc": 2.02174,
+      "total_amount_by_event": {
+        "maker_rebate_accrual": 14.25784,
+        "maker_rebate_payout": 12.2361
+      },
+      "total_event_counts": {
+        "maker_rebate_accrual": 958,
+        "maker_rebate_payout": 3
+      },
+      "window_amount_by_event": {
+        "maker_rebate_accrual": 14.25784,
+        "maker_rebate_payout": 12.2361
+      },
+      "window_event_counts": {
+        "maker_rebate_accrual": 958,
+        "maker_rebate_payout": 3
+      }
+    },
+    "risk_control": {
+      "adjusted_total_pnl_usdc": 20.1954,
+      "closed_segment_pnl_usdc": 26.2011,
+      "current_segment_pnl_usdc": -6.0057,
+      "late_liability_writeoff_count": 16,
+      "segment_reset_count": 4,
+      "state": {
+        "cooldown_until_ms": null,
+        "enabled": true,
+        "profile_id": "m5_baseline",
+        "segment_id": "m5_baseline:5",
+        "segment_peak_nav_usdc": 114.6411,
+        "segment_seq": 5,
+        "segment_start_principal_usdc": 100.0,
+        "status": "active",
+        "trigger": null,
+        "updated_ts_ms": 1780145692499
+      },
+      "window_closed_segment_pnl_usdc": 26.2011
+    }
+  },
+  {
+    "run_id": "run-four-profile-72h-mpv2-restart-20260527T161918Z",
+    "profile_id": "mpv2_r1_a3_seq120_seed2",
+    "source": "evidence/paper/run-four-profile-72h-mpv2-restart-20260527T161918Z/reports/report-20260530T162518Z.json",
+    "metric": "adjusted_total_pnl_usdc",
+    "pnl_usdc": 1114.9697,
+    "first_decision_utc": "2026-05-27T16:30:00Z",
+    "last_decision_utc": "2026-05-30T16:25:17Z",
+    "rebate": {
+      "last_pending_usdc": 263.88963,
+      "total_amount_by_event": {
+        "maker_rebate_accrual": 1385.00148,
+        "maker_rebate_payout": 1121.11185
+      },
+      "total_event_counts": {
+        "maker_rebate_accrual": 163147,
+        "maker_rebate_payout": 3
+      },
+      "window_amount_by_event": {
+        "maker_rebate_accrual": 1385.00148,
+        "maker_rebate_payout": 1121.11185
+      },
+      "window_event_counts": {
+        "maker_rebate_accrual": 163147,
+        "maker_rebate_payout": 3
+      }
+    },
+    "risk_control": {
+      "adjusted_total_pnl_usdc": 1114.9697,
+      "closed_segment_pnl_usdc": 0,
+      "current_segment_pnl_usdc": 1114.9697,
+      "late_liability_writeoff_count": 16,
+      "segment_reset_count": 0,
+      "state": {
+        "cooldown_until_ms": null,
+        "enabled": true,
+        "profile_id": "mpv2_r1_a3_seq120_seed2",
+        "segment_id": "mpv2_r1_a3_seq120_seed2:1",
+        "segment_peak_nav_usdc": 1213.7969,
+        "segment_seq": 1,
+        "segment_start_principal_usdc": 100.0,
+        "status": "active",
+        "trigger": null,
+        "updated_ts_ms": 0
+      },
+      "window_closed_segment_pnl_usdc": 0
+    }
+  },
+  {
+    "run_id": "run-four-profile-7d-direct-official-20260602T135518Z",
+    "profile_id": "m3_b1",
+    "source": "evidence/paper/run-four-profile-7d-direct-official-20260602T135518Z/reports/standard/report-terminated-20260607T122104Z.json",
+    "metric": "adjusted_total_pnl_usdc",
+    "pnl_usdc": -298.0387,
+    "first_decision_utc": "2026-06-02T14:00:00Z",
+    "last_decision_utc": "2026-06-05T11:37:05Z",
+    "rebate": {
+      "last_pending_usdc": 1.17421,
+      "total_amount_by_event": {
+        "maker_rebate_accrual": 1.17421,
+        "maker_rebate_carry": 0.0
+      },
+      "total_event_counts": {
+        "maker_rebate_accrual": 83,
+        "maker_rebate_carry": 3
+      },
+      "window_amount_by_event": {},
+      "window_event_counts": {}
+    },
+    "risk_control": {
+      "adjusted_total_pnl_usdc": -298.0387,
+      "closed_segment_pnl_usdc": -298.0387,
+      "current_segment_pnl_usdc": 0.0,
+      "late_liability_writeoff_count": 8,
+      "segment_reset_count": 9,
+      "state": {
+        "cooldown_until_ms": null,
+        "enabled": true,
+        "profile_id": "m3_b1",
+        "segment_id": "m3_b1:10",
+        "segment_peak_nav_usdc": 100.0,
+        "segment_seq": 10,
+        "segment_start_principal_usdc": 100.0,
+        "status": "rejoin_observe_only",
+        "trigger": null,
+        "updated_ts_ms": 1780688225324
+      },
+      "window_closed_segment_pnl_usdc": 0
+    }
+  },
+  {
+    "run_id": "run-four-profile-7d-direct-official-20260602T135518Z",
+    "profile_id": "m3_b2",
+    "source": "evidence/paper/run-four-profile-7d-direct-official-20260602T135518Z/reports/standard/report-terminated-20260607T122104Z.json",
+    "metric": "adjusted_total_pnl_usdc",
+    "pnl_usdc": -224.9895,
+    "first_decision_utc": "2026-06-02T14:00:00Z",
+    "last_decision_utc": "2026-06-05T11:44:01Z",
+    "rebate": {
+      "last_pending_usdc": 0.47542,
+      "total_amount_by_event": {
+        "maker_rebate_accrual": 1.98798,
+        "maker_rebate_carry": 0.0,
+        "maker_rebate_payout": 1.51256
+      },
+      "total_event_counts": {
+        "maker_rebate_accrual": 92,
+        "maker_rebate_carry": 2,
+        "maker_rebate_payout": 1
+      },
+      "window_amount_by_event": {},
+      "window_event_counts": {}
+    },
+    "risk_control": {
+      "adjusted_total_pnl_usdc": -224.9895,
+      "closed_segment_pnl_usdc": -224.9895,
+      "current_segment_pnl_usdc": 0.0,
+      "late_liability_writeoff_count": 8,
+      "segment_reset_count": 11,
+      "state": {
+        "cooldown_until_ms": null,
+        "enabled": true,
+        "profile_id": "m3_b2",
+        "segment_id": "m3_b2:12",
+        "segment_peak_nav_usdc": 100.0,
+        "segment_seq": 12,
+        "segment_start_principal_usdc": 100.0,
+        "status": "rejoin_observe_only",
+        "trigger": null,
+        "updated_ts_ms": 1780688641234
+      },
+      "window_closed_segment_pnl_usdc": 0
+    }
+  },
+  {
+    "run_id": "run-four-profile-7d-direct-official-20260602T135518Z",
+    "profile_id": "m5_baseline",
+    "source": "evidence/paper/run-four-profile-7d-direct-official-20260602T135518Z/reports/standard/report-terminated-20260607T122104Z.json",
+    "metric": "adjusted_total_pnl_usdc",
+    "pnl_usdc": 84.7787,
+    "first_decision_utc": "2026-06-02T14:00:00Z",
+    "last_decision_utc": "2026-06-05T18:09:59Z",
+    "rebate": {
+      "last_pending_usdc": 1.96159,
+      "total_amount_by_event": {
+        "maker_rebate_accrual": 13.00319,
+        "maker_rebate_payout": 11.0416
+      },
+      "total_event_counts": {
+        "maker_rebate_accrual": 774,
+        "maker_rebate_payout": 3
+      },
+      "window_amount_by_event": {},
+      "window_event_counts": {}
+    },
+    "risk_control": {
+      "adjusted_total_pnl_usdc": 84.7787,
+      "closed_segment_pnl_usdc": 87.7337,
+      "current_segment_pnl_usdc": -2.955,
+      "late_liability_writeoff_count": 6,
+      "segment_reset_count": 8,
+      "state": {
+        "cooldown_until_ms": null,
+        "enabled": true,
+        "profile_id": "m5_baseline",
+        "segment_id": "m5_baseline:9",
+        "segment_peak_nav_usdc": 100.0,
+        "segment_seq": 9,
+        "segment_start_principal_usdc": 100.0,
+        "status": "active",
+        "trigger": null,
+        "updated_ts_ms": 1780682417094
+      },
+      "window_closed_segment_pnl_usdc": 0
+    }
+  },
+  {
+    "run_id": "run-four-profile-7d-direct-official-20260602T135518Z",
+    "profile_id": "mpv2_r1_a3_seq120_seed2",
+    "source": "evidence/paper/run-four-profile-7d-direct-official-20260602T135518Z/reports/standard/report-terminated-20260607T122104Z.json",
+    "metric": "adjusted_total_pnl_usdc",
+    "pnl_usdc": 1791.3144,
+    "first_decision_utc": "2026-06-02T14:00:00Z",
+    "last_decision_utc": "2026-06-05T18:09:59Z",
+    "rebate": {
+      "last_pending_usdc": 330.28974,
+      "total_amount_by_event": {
+        "maker_rebate_accrual": 1594.80288,
+        "maker_rebate_payout": 1264.51314
+      },
+      "total_event_counts": {
+        "maker_rebate_accrual": 171033,
+        "maker_rebate_payout": 3
+      },
+      "window_amount_by_event": {},
+      "window_event_counts": {}
+    },
+    "risk_control": {
+      "adjusted_total_pnl_usdc": 1791.3144,
+      "closed_segment_pnl_usdc": 0,
+      "current_segment_pnl_usdc": 1791.3144,
+      "late_liability_writeoff_count": 8,
+      "segment_reset_count": 0,
+      "state": {
+        "cooldown_until_ms": null,
+        "enabled": true,
+        "profile_id": "mpv2_r1_a3_seq120_seed2",
+        "segment_id": "mpv2_r1_a3_seq120_seed2:1",
+        "segment_peak_nav_usdc": 1901.436,
+        "segment_seq": 1,
+        "segment_start_principal_usdc": 100.0,
+        "status": "active",
+        "trigger": null,
+        "updated_ts_ms": 0
+      },
+      "window_closed_segment_pnl_usdc": 0
+    }
+  },
+  {
+    "run_id": "run-p22-three-profile-72h-20260517T022156Z",
+    "profile_id": "m5_baseline",
+    "source": "evidence/paper/run-p22-three-profile-72h-20260517T022156Z/reports/report-20260517T083623Z.json",
+    "metric": "nav_delta_total",
+    "pnl_usdc": -99.553,
+    "first_decision_utc": "2026-05-17T02:25:00Z",
+    "last_decision_utc": "2026-05-17T08:35:17Z",
+    "rebate": {
+      "last_pending_usdc": 1.76991,
+      "total_amount_by_event": {
+        "maker_rebate_accrual": 1.76991
+      },
+      "total_event_counts": {
+        "maker_rebate_accrual": 104
+      },
+      "window_amount_by_event": {
+        "maker_rebate_accrual": 1.76991
+      },
+      "window_event_counts": {
+        "maker_rebate_accrual": 104
+      }
+    },
+    "risk_control": {}
+  },
+  {
+    "run_id": "run-p22-three-profile-72h-20260517T022156Z",
+    "profile_id": "m3_b1",
+    "source": "evidence/paper/run-p22-three-profile-72h-20260517T022156Z/reports/report-20260517T083623Z.json",
+    "metric": "nav_delta_total",
+    "pnl_usdc": 100.0507,
+    "first_decision_utc": "2026-05-17T02:25:00Z",
+    "last_decision_utc": "2026-05-17T08:35:17Z",
+    "rebate": {
+      "last_pending_usdc": 0.98329,
+      "total_amount_by_event": {
+        "maker_rebate_accrual": 0.98329
+      },
+      "total_event_counts": {
+        "maker_rebate_accrual": 52
+      },
+      "window_amount_by_event": {
+        "maker_rebate_accrual": 0.98329
+      },
+      "window_event_counts": {
+        "maker_rebate_accrual": 52
+      }
+    },
+    "risk_control": {}
+  },
+  {
+    "run_id": "run-p22-three-profile-72h-20260517T022156Z",
+    "profile_id": "m3_b2",
+    "source": "evidence/paper/run-p22-three-profile-72h-20260517T022156Z/reports/report-20260517T083623Z.json",
+    "metric": "nav_delta_total",
+    "pnl_usdc": -99.0588,
+    "first_decision_utc": "2026-05-17T02:25:00Z",
+    "last_decision_utc": "2026-05-17T08:35:17Z",
+    "rebate": {
+      "last_pending_usdc": 2.55943,
+      "total_amount_by_event": {
+        "maker_rebate_accrual": 2.55943
+      },
+      "total_event_counts": {
+        "maker_rebate_accrual": 146
+      },
+      "window_amount_by_event": {
+        "maker_rebate_accrual": 2.55943
+      },
+      "window_event_counts": {
+        "maker_rebate_accrual": 146
+      }
+    },
+    "risk_control": {}
+  },
+  {
+    "run_id": "run-tpsl-three-profile-72h-no-raw-tp30-20260517T223411Z",
+    "profile_id": "m5_baseline",
+    "source": "evidence/paper/run-tpsl-three-profile-72h-no-raw-tp30-20260517T223411Z/final-reports/report-20260519T135915Z.json",
+    "metric": "adjusted_total_pnl_usdc",
+    "pnl_usdc": -47.7168,
+    "first_decision_utc": "2026-05-17T22:35:00Z",
+    "last_decision_utc": "2026-05-19T12:29:45Z",
+    "rebate": {
+      "last_pending_usdc": 5.00255,
+      "total_amount_by_event": {
+        "maker_rebate_accrual": 10.57331,
+        "maker_rebate_carry": 0.0,
+        "maker_rebate_payout": 5.57076
+      },
+      "total_event_counts": {
+        "maker_rebate_accrual": 730,
+        "maker_rebate_carry": 1,
+        "maker_rebate_payout": 1
+      },
+      "window_amount_by_event": {
+        "maker_rebate_accrual": 6.08648,
+        "maker_rebate_payout": 5.57076
+      },
+      "window_event_counts": {
+        "maker_rebate_accrual": 458,
+        "maker_rebate_payout": 1
+      }
+    },
+    "risk_control": {
+      "adjusted_total_pnl_usdc": -47.7168,
+      "closed_segment_pnl_usdc": -47.7168,
+      "current_segment_pnl_usdc": 0.0,
+      "late_liability_writeoff_count": 2,
+      "segment_reset_count": 3,
+      "state": {
+        "cooldown_until_ms": 1779222586091,
+        "enabled": true,
+        "profile_id": "m5_baseline",
+        "segment_id": "m5_baseline:4",
+        "segment_peak_nav_usdc": 109.309,
+        "segment_seq": 4,
+        "segment_start_principal_usdc": 100.0,
+        "status": "await_segment_safe_to_reset",
+        "trigger": "stop_loss",
+        "updated_ts_ms": 1779193786091
+      },
+      "window_closed_segment_pnl_usdc": -50.016
+    }
+  },
+  {
+    "run_id": "run-tpsl-three-profile-72h-no-raw-tp30-20260517T223411Z",
+    "profile_id": "m3_b1",
+    "source": "evidence/paper/run-tpsl-three-profile-72h-no-raw-tp30-20260517T223411Z/final-reports/report-20260519T135915Z.json",
+    "metric": "adjusted_total_pnl_usdc",
+    "pnl_usdc": -55.7933,
+    "first_decision_utc": "2026-05-17T22:35:00Z",
+    "last_decision_utc": "2026-05-19T13:31:27Z",
+    "rebate": {
+      "last_pending_usdc": 1.21516,
+      "total_amount_by_event": {
+        "maker_rebate_accrual": 3.21485,
+        "maker_rebate_carry": 0.0,
+        "maker_rebate_payout": 1.99969
+      },
+      "total_event_counts": {
+        "maker_rebate_accrual": 209,
+        "maker_rebate_carry": 1,
+        "maker_rebate_payout": 1
+      },
+      "window_amount_by_event": {
+        "maker_rebate_accrual": 2.19278,
+        "maker_rebate_payout": 1.99969
+      },
+      "window_event_counts": {
+        "maker_rebate_accrual": 154,
+        "maker_rebate_payout": 1
+      }
+    },
+    "risk_control": {
+      "adjusted_total_pnl_usdc": -55.7933,
+      "closed_segment_pnl_usdc": -55.7933,
+      "current_segment_pnl_usdc": 0.0,
+      "late_liability_writeoff_count": 2,
+      "segment_reset_count": 4,
+      "state": {
+        "cooldown_until_ms": 1779226287357,
+        "enabled": true,
+        "profile_id": "m3_b1",
+        "segment_id": "m3_b1:5",
+        "segment_peak_nav_usdc": 115.8243,
+        "segment_seq": 5,
+        "segment_start_principal_usdc": 100.0,
+        "status": "await_segment_safe_to_reset",
+        "trigger": "stop_loss",
+        "updated_ts_ms": 1779197487357
+      },
+      "window_closed_segment_pnl_usdc": -34.1621
+    }
+  },
+  {
+    "run_id": "run-tpsl-three-profile-72h-no-raw-tp30-20260517T223411Z",
+    "profile_id": "m3_b2",
+    "source": "evidence/paper/run-tpsl-three-profile-72h-no-raw-tp30-20260517T223411Z/final-reports/report-20260519T135915Z.json",
+    "metric": "adjusted_total_pnl_usdc",
+    "pnl_usdc": 78.4222,
+    "first_decision_utc": "2026-05-17T22:35:00Z",
+    "last_decision_utc": "2026-05-19T12:02:55Z",
+    "rebate": {
+      "last_pending_usdc": 2.99571,
+      "total_amount_by_event": {
+        "maker_rebate_accrual": 7.65883,
+        "maker_rebate_carry": 0.0,
+        "maker_rebate_payout": 4.66312
+      },
+      "total_event_counts": {
+        "maker_rebate_accrual": 427,
+        "maker_rebate_carry": 1,
+        "maker_rebate_payout": 1
+      },
+      "window_amount_by_event": {
+        "maker_rebate_accrual": 3.4471,
+        "maker_rebate_payout": 4.66312
+      },
+      "window_event_counts": {
+        "maker_rebate_accrual": 208,
+        "maker_rebate_payout": 1
+      }
+    },
+    "risk_control": {
+      "adjusted_total_pnl_usdc": 78.4222,
+      "closed_segment_pnl_usdc": 78.4222,
+      "current_segment_pnl_usdc": 0.0,
+      "late_liability_writeoff_count": 2,
+      "segment_reset_count": 7,
+      "state": {
+        "cooldown_until_ms": 1779220975934,
+        "enabled": true,
+        "profile_id": "m3_b2",
+        "segment_id": "m3_b2:8",
+        "segment_peak_nav_usdc": 122.4612,
+        "segment_seq": 8,
+        "segment_start_principal_usdc": 100.0,
+        "status": "await_segment_safe_to_reset",
+        "trigger": "stop_loss",
+        "updated_ts_ms": 1779192175934
+      },
+      "window_closed_segment_pnl_usdc": -26.9216
+    }
+  },
+  {
+    "run_id": "run-tpsl-three-profile-72h-no-raw-v2merge-tp30-20260519T141035Z",
+    "profile_id": "m5_baseline",
+    "source": "evidence/paper/run-tpsl-three-profile-72h-no-raw-v2merge-tp30-20260519T141035Z/codex_reports/report-20260522T234126Z.json",
+    "metric": "adjusted_total_pnl_usdc",
+    "pnl_usdc": -0.4547,
+    "first_decision_utc": "2026-05-19T14:15:00Z",
+    "last_decision_utc": "2026-05-22T14:14:59Z",
+    "rebate": {
+      "last_pending_usdc": 3.0992,
+      "total_amount_by_event": {
+        "maker_rebate_accrual": 13.3249,
+        "maker_rebate_payout": 10.2257
+      },
+      "total_event_counts": {
+        "maker_rebate_accrual": 816,
+        "maker_rebate_payout": 3
+      },
+      "window_amount_by_event": {
+        "maker_rebate_accrual": 13.3249,
+        "maker_rebate_payout": 10.2257
+      },
+      "window_event_counts": {
+        "maker_rebate_accrual": 816,
+        "maker_rebate_payout": 3
+      }
+    },
+    "risk_control": {
+      "adjusted_total_pnl_usdc": -0.4547,
+      "closed_segment_pnl_usdc": -7.3058,
+      "current_segment_pnl_usdc": 6.8511,
+      "late_liability_writeoff_count": 23,
+      "segment_reset_count": 4,
+      "state": {
+        "cooldown_until_ms": null,
+        "enabled": true,
+        "profile_id": "m5_baseline",
+        "segment_id": "m5_baseline:5",
+        "segment_peak_nav_usdc": 100.0,
+        "segment_seq": 5,
+        "segment_start_principal_usdc": 100.0,
+        "status": "active",
+        "trigger": null,
+        "updated_ts_ms": 1779458298638
+      },
+      "window_closed_segment_pnl_usdc": -7.3058
+    }
+  },
+  {
+    "run_id": "run-tpsl-three-profile-72h-no-raw-v2merge-tp30-20260519T141035Z",
+    "profile_id": "m3_b1",
+    "source": "evidence/paper/run-tpsl-three-profile-72h-no-raw-v2merge-tp30-20260519T141035Z/codex_reports/report-20260522T234126Z.json",
+    "metric": "adjusted_total_pnl_usdc",
+    "pnl_usdc": -104.6874,
+    "first_decision_utc": "2026-05-19T14:15:00Z",
+    "last_decision_utc": "2026-05-22T07:07:34Z",
+    "rebate": {
+      "last_pending_usdc": 1.17065,
+      "total_amount_by_event": {
+        "maker_rebate_accrual": 1.17065,
+        "maker_rebate_carry": 0.0
+      },
+      "total_event_counts": {
+        "maker_rebate_accrual": 95,
+        "maker_rebate_carry": 3
+      },
+      "window_amount_by_event": {
+        "maker_rebate_accrual": 1.17065,
+        "maker_rebate_carry": 0.0
+      },
+      "window_event_counts": {
+        "maker_rebate_accrual": 95,
+        "maker_rebate_carry": 3
+      }
+    },
+    "risk_control": {
+      "adjusted_total_pnl_usdc": -104.6874,
+      "closed_segment_pnl_usdc": -104.6874,
+      "current_segment_pnl_usdc": 0.0,
+      "late_liability_writeoff_count": 23,
+      "segment_reset_count": 6,
+      "state": {
+        "cooldown_until_ms": 1779462454364,
+        "enabled": true,
+        "profile_id": "m3_b1",
+        "segment_id": "m3_b1:7",
+        "segment_peak_nav_usdc": 117.1768,
+        "segment_seq": 7,
+        "segment_start_principal_usdc": 100.0,
+        "status": "await_segment_safe_to_reset",
+        "trigger": "stop_loss",
+        "updated_ts_ms": 1779433654364
+      },
+      "window_closed_segment_pnl_usdc": -104.6874
+    }
+  },
+  {
+    "run_id": "run-tpsl-three-profile-72h-no-raw-v2merge-tp30-20260519T141035Z",
+    "profile_id": "m3_b2",
+    "source": "evidence/paper/run-tpsl-three-profile-72h-no-raw-v2merge-tp30-20260519T141035Z/codex_reports/report-20260522T234126Z.json",
+    "metric": "adjusted_total_pnl_usdc",
+    "pnl_usdc": 43.092,
+    "first_decision_utc": "2026-05-19T14:15:00Z",
+    "last_decision_utc": "2026-05-22T13:49:21Z",
+    "rebate": {
+      "last_pending_usdc": 1.24089,
+      "total_amount_by_event": {
+        "maker_rebate_accrual": 2.79488,
+        "maker_rebate_carry": 0.0,
+        "maker_rebate_payout": 1.55399
+      },
+      "total_event_counts": {
+        "maker_rebate_accrual": 183,
+        "maker_rebate_carry": 2,
+        "maker_rebate_payout": 1
+      },
+      "window_amount_by_event": {
+        "maker_rebate_accrual": 2.79488,
+        "maker_rebate_carry": 0.0,
+        "maker_rebate_payout": 1.55399
+      },
+      "window_event_counts": {
+        "maker_rebate_accrual": 183,
+        "maker_rebate_carry": 2,
+        "maker_rebate_payout": 1
+      }
+    },
+    "risk_control": {
+      "adjusted_total_pnl_usdc": 43.092,
+      "closed_segment_pnl_usdc": 43.092,
+      "current_segment_pnl_usdc": 0.0,
+      "late_liability_writeoff_count": 22,
+      "segment_reset_count": 13,
+      "state": {
+        "cooldown_until_ms": 1779464961932,
+        "enabled": true,
+        "profile_id": "m3_b2",
+        "segment_id": "m3_b2:14",
+        "segment_peak_nav_usdc": 131.2301,
+        "segment_seq": 14,
+        "segment_start_principal_usdc": 100.0,
+        "status": "await_segment_safe_to_reset",
+        "trigger": "take_profit",
+        "updated_ts_ms": 1779457761932
+      },
+      "window_closed_segment_pnl_usdc": 43.092
+    }
+  }
+]

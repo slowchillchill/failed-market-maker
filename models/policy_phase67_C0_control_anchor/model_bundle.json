@@ -1,0 +1,103 @@
+{
+  "action_schema_version": "maker_policy_v2_action_schema_v1",
+  "alpha_source_bundle_sha256": "036d3c15f2db2f6b6b0ab77a5464486536a4e739101e7292933666a31f742ef4",
+  "alpha_source_run_id": "primary_R6_C2_control_seq180_bs4096_ep30_lev0p25_sr0p1_sm0p0_seed2",
+  "bundle_version": "maker_policy_v2_phase63_smoke",
+  "feature_order_version": "v2_maker_160",
+  "independent_test_data_boundary": [
+    "20260514",
+    "20260515",
+    "20260516",
+    "20260517",
+    "20260518"
+  ],
+  "model_kind": "maker_policy_v2",
+  "n_features": 160,
+  "renderer_config_sha256": "cc314f8e4a9c69ed45e087fa9cb63ef87ea88c3448c23a382cc96a9a07febcf5",
+  "required_files": {
+    "action_schema.json": {
+      "sha256": "cc314f8e4a9c69ed45e087fa9cb63ef87ea88c3448c23a382cc96a9a07febcf5"
+    },
+    "alpha_source_manifest.json": {
+      "sha256": "32c4acb4a6e3cf7c186d78d7137da767f950485e590fc2b8199a97f25578e91c"
+    },
+    "feature_spec.json": {
+      "sha256": "75b066ecc09733248e5f4766561762f35d2cbac8e61c562b882590badb0767cf"
+    },
+    "model.onnx": {
+      "sha256": "528620811eb8db5eea1b5a1135d07e4e8144660564babd2fc69afc0f7c40491d"
+    },
+    "normalization.npz": {
+      "sha256": "5228e49a1ed18b592bb6d846566288279ff9c9ecb2389fe883a6c2b3b7571b93"
+    },
+    "policy_config.json": {
+      "sha256": "8ad7038b30b5aada81e8860c9aeb5cd9a4d639ced4b146160658d3dfbdb0b39f"
+    },
+    "reward_config.json": {
+      "sha256": "599fe6331cbe83e11621caa3d4ed0b61ec46eb1daf3106e180db13591ef7d2b5"
+    }
+  },
+  "reward_horizon_version": "maker_reward_v2_v1",
+  "schema_version": 1,
+  "training_data_boundary": {
+    "alpha_source_run_id": "primary_R6_C2_control_seq180_bs4096_ep30_lev0p25_sr0p1_sm0p0_seed2",
+    "candidate_design_id": "C0_control_anchor",
+    "phase": "phase67_small_batch_repair",
+    "train": [
+      "20260425"
+    ],
+    "window_mode": "phase67_small_batch_explicit_selection",
+    "windows": [
+      {
+        "dataset_version": "20260425",
+        "valid_join_rows": 46,
+        "window_id": "1777017600-1777032000"
+      },
+      {
+        "dataset_version": "20260425",
+        "valid_join_rows": 47,
+        "window_id": "1777032000-1777046400"
+      },
+      {
+        "dataset_version": "20260425",
+        "valid_join_rows": 39,
+        "window_id": "1777046400-1777060800"
+      },
+      {
+        "dataset_version": "20260425",
+        "valid_join_rows": 47,
+        "window_id": "1777060800-1777075200"
+      },
+      {
+        "dataset_version": "20260425",
+        "valid_join_rows": 45,
+        "window_id": "1777075200-1777089600"
+      },
+      {
+        "dataset_version": "20260425",
+        "valid_join_rows": 47,
+        "window_id": "1777089600-1777104000"
+      },
+      {
+        "dataset_version": "20260425",
+        "valid_join_rows": 47,
+        "window_id": "1777104000-1777118400"
+      },
+      {
+        "dataset_version": "20260425",
+        "valid_join_rows": 45,
+        "window_id": "1777118400-1777132800"
+      },
+      {
+        "dataset_version": "20260425",
+        "valid_join_rows": 44,
+        "window_id": "1777132800-1777147200"
+      },
+      {
+        "dataset_version": "20260425",
+        "valid_join_rows": 45,
+        "window_id": "1777147200-1777161600"
+      }
+    ]
+  }
+}

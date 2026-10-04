@@ -1,0 +1,2095 @@
+{
+  "scope": "restricted checkpoint loads, tensor equality to local source, strict architecture load, finite synthetic forward for every weight, ONNX checker/external-data loading, NPZ arrays and chained deployment; no performance or profitability claim",
+  "versions": {
+    "python": "3.14.4",
+    "torch": "2.11.0+cu130",
+    "numpy": "2.3.5",
+    "onnx": "1.21.0"
+  },
+  "results": [
+    {
+      "path": "models/m3_run3/best_model.pt",
+      "model_id": "m3_run3",
+      "parameters": 419556,
+      "input_shape": [
+        1,
+        240,
+        65
+      ],
+      "outputs": {
+        "signal_logits": [
+          1,
+          2
+        ],
+        "signal_ev": [
+          1,
+          2
+        ]
+      },
+      "all_source_tensors_equal": true,
+      "epoch": 1,
+      "status": "passed"
+    },
+    {
+      "path": "models/m3_run3/feature_stats.npz",
+      "model_id": "m3_run3",
+      "arrays": {
+        "mean": [
+          65
+        ],
+        "std": [
+          65
+        ],
+        "feature_cols": [
+          65
+        ]
+      },
+      "status": "passed"
+    },
+    {
+      "path": "models/m3_run_v7_M3-B1/best_model.pt",
+      "model_id": "m3_run_v7_M3-B1",
+      "parameters": 419556,
+      "input_shape": [
+        1,
+        100,
+        65
+      ],
+      "outputs": {
+        "signal_logits": [
+          1,
+          2
+        ],
+        "signal_ev": [
+          1,
+          2
+        ]
+      },
+      "all_source_tensors_equal": true,
+      "epoch": 13,
+      "status": "passed"
+    },
+    {
+      "path": "models/m3_run_v7_M3-B1/collection-paper/feature_stats_65.npz",
+      "model_id": "m3_run_v7_M3-B1",
+      "arrays": {
+        "mean": [
+          65
+        ],
+        "std": [
+          65
+        ],
+        "feature_cols": [
+          65
+        ]
+      },
+      "status": "passed"
+    },
+    {
+      "path": "models/m3_run_v7_M3-B1/collection-paper/model.onnx",
+      "model_id": "m3_run_v7_M3-B1",
+      "inputs": [
+        {
+          "name": "obs",
+          "shape": [
+            1,
+            100,
+            76
+          ]
+        }
+      ],
+      "outputs": {
+        "signal_logits": [
+          1,
+          2
+        ],
+        "signal_ev": [
+          1,
+          2
+        ],
+        "policy_logits": [
+          1,
+          6
+        ],
+        "size_logits": [
+          1,
+          3
+        ],
+        "order_type_logits": [
+          1,
+          2
+        ],
+        "limit_price_level_logits": [
+          1,
+          5
+        ],
+        "risk_score": [
+          1,
+          1
+        ]
+      },
+      "initializer_elements": 480909,
+      "status": "passed"
+    },
+    {
+      "path": "models/m3_run_v7_M3-B1/collection-training/feature_stats_65.npz",
+      "model_id": "m3_run_v7_M3-B1",
+      "arrays": {
+        "mean": [
+          65
+        ],
+        "std": [
+          65
+        ],
+        "feature_cols": [
+          65
+        ]
+      },
+      "status": "passed"
+    },
+    {
+      "path": "models/m3_run_v7_M3-B1/collection-training/model.onnx",
+      "model_id": "m3_run_v7_M3-B1",
+      "inputs": [
+        {
+          "name": "obs",
+          "shape": [
+            1,
+            100,
+            76
+          ]
+        }
+      ],
+      "outputs": {
+        "signal_logits": [
+          1,
+          2
+        ],
+        "signal_ev": [
+          1,
+          2
+        ],
+        "policy_logits": [
+          1,
+          6
+        ],
+        "size_logits": [
+          1,
+          3
+        ],
+        "order_type_logits": [
+          1,
+          2
+        ],
+        "limit_price_level_logits": [
+          1,
+          5
+        ],
+        "risk_score": [
+          1,
+          1
+        ]
+      },
+      "initializer_elements": 480909,
+      "status": "passed"
+    },
+    {
+      "path": "models/m3_run_v7_M3-B1/feature_stats.npz",
+      "model_id": "m3_run_v7_M3-B1",
+      "arrays": {
+        "mean": [
+          65
+        ],
+        "std": [
+          65
+        ],
+        "feature_cols": [
+          65
+        ]
+      },
+      "status": "passed"
+    },
+    {
+      "path": "models/m3_run_v7_M3-B2/best_model.pt",
+      "model_id": "m3_run_v7_M3-B2",
+      "parameters": 419556,
+      "input_shape": [
+        1,
+        100,
+        65
+      ],
+      "outputs": {
+        "signal_logits": [
+          1,
+          2
+        ],
+        "signal_ev": [
+          1,
+          2
+        ]
+      },
+      "all_source_tensors_equal": true,
+      "epoch": 12,
+      "status": "passed"
+    },
+    {
+      "path": "models/m3_run_v7_M3-B2/collection-paper/feature_stats_65.npz",
+      "model_id": "m3_run_v7_M3-B2",
+      "arrays": {
+        "mean": [
+          65
+        ],
+        "std": [
+          65
+        ],
+        "feature_cols": [
+          65
+        ]
+      },
+      "status": "passed"
+    },
+    {
+      "path": "models/m3_run_v7_M3-B2/collection-paper/model.onnx",
+      "model_id": "m3_run_v7_M3-B2",
+      "inputs": [
+        {
+          "name": "obs",
+          "shape": [
+            1,
+            100,
+            76
+          ]
+        }
+      ],
+      "outputs": {
+        "signal_logits": [
+          1,
+          2
+        ],
+        "signal_ev": [
+          1,
+          2
+        ],
+        "policy_logits": [
+          1,
+          6
+        ],
+        "size_logits": [
+          1,
+          3
+        ],
+        "order_type_logits": [
+          1,
+          2
+        ],
+        "limit_price_level_logits": [
+          1,
+          5
+        ],
+        "risk_score": [
+          1,
+          1
+        ]
+      },
+      "initializer_elements": 480909,
+      "status": "passed"
+    },
+    {
+      "path": "models/m3_run_v7_M3-B2/collection-training/feature_stats_65.npz",
+      "model_id": "m3_run_v7_M3-B2",
+      "arrays": {
+        "mean": [
+          65
+        ],
+        "std": [
+          65
+        ],
+        "feature_cols": [
+          65
+        ]
+      },
+      "status": "passed"
+    },
+    {
+      "path": "models/m3_run_v7_M3-B2/collection-training/model.onnx",
+      "model_id": "m3_run_v7_M3-B2",
+      "inputs": [
+        {
+          "name": "obs",
+          "shape": [
+            1,
+            100,
+            76
+          ]
+        }
+      ],
+      "outputs": {
+        "signal_logits": [
+          1,
+          2
+        ],
+        "signal_ev": [
+          1,
+          2
+        ],
+        "policy_logits": [
+          1,
+          6
+        ],
+        "size_logits": [
+          1,
+          3
+        ],
+        "order_type_logits": [
+          1,
+          2
+        ],
+        "limit_price_level_logits": [
+          1,
+          5
+        ],
+        "risk_score": [
+          1,
+          1
+        ]
+      },
+      "initializer_elements": 480909,
+      "status": "passed"
+    },
+    {
+      "path": "models/m3_run_v7_M3-B2/feature_stats.npz",
+      "model_id": "m3_run_v7_M3-B2",
+      "arrays": {
+        "mean": [
+          65
+        ],
+        "std": [
+          65
+        ],
+        "feature_cols": [
+          65
+        ]
+      },
+      "status": "passed"
+    },
+    {
+      "path": "models/m5_v7v72_bc/agent_model_m5.onnx",
+      "model_id": "m5_v7v72_bc",
+      "inputs": [
+        {
+          "name": "obs",
+          "shape": [
+            1,
+            240,
+            76
+          ]
+        }
+      ],
+      "outputs": {
+        "signal_logits": [
+          1,
+          2
+        ],
+        "signal_ev": [
+          1,
+          2
+        ],
+        "policy_logits": [
+          1,
+          6
+        ],
+        "size_logits": [
+          1,
+          3
+        ],
+        "order_type_logits": [
+          1,
+          2
+        ],
+        "limit_price_level_logits": [
+          1,
+          5
+        ],
+        "risk_score": [
+          1,
+          1
+        ]
+      },
+      "initializer_elements": 664493,
+      "status": "passed"
+    },
+    {
+      "path": "models/m5_v7v72_bc/best_model.pt",
+      "model_id": "m5_v7v72_bc",
+      "parameters": 467957,
+      "input_shape": [
+        1,
+        240,
+        76
+      ],
+      "outputs": {
+        "signal_logits": [
+          1,
+          2
+        ],
+        "signal_ev": [
+          1,
+          2
+        ],
+        "policy_logits": [
+          1,
+          6
+        ],
+        "size_logits": [
+          1,
+          3
+        ],
+        "order_type_logits": [
+          1,
+          2
+        ],
+        "limit_price_level_logits": [
+          1,
+          5
+        ],
+        "risk_score": [
+          1,
+          1
+        ]
+      },
+      "all_source_tensors_equal": true,
+      "epoch": 1,
+      "status": "passed"
+    },
+    {
+      "path": "models/m5_v7v72_bc/feature_stats_76.npz",
+      "model_id": "m5_v7v72_bc",
+      "arrays": {
+        "mean": [
+          76
+        ],
+        "std": [
+          76
+        ]
+      },
+      "status": "passed"
+    },
+    {
+      "path": "models/m5_v7v72_bc/last_checkpoint.pt",
+      "model_id": "m5_v7v72_bc",
+      "parameters": 467957,
+      "input_shape": [
+        1,
+        240,
+        76
+      ],
+      "outputs": {
+        "signal_logits": [
+          1,
+          2
+        ],
+        "signal_ev": [
+          1,
+          2
+        ],
+        "policy_logits": [
+          1,
+          6
+        ],
+        "size_logits": [
+          1,
+          3
+        ],
+        "order_type_logits": [
+          1,
+          2
+        ],
+        "limit_price_level_logits": [
+          1,
+          5
+        ],
+        "risk_score": [
+          1,
+          1
+        ]
+      },
+      "all_source_tensors_equal": true,
+      "epoch": 4,
+      "status": "passed"
+    },
+    {
+      "path": "models/m5_iql_0/agent_model_m5.onnx",
+      "model_id": "m5_iql_0",
+      "inputs": [
+        {
+          "name": "obs",
+          "shape": [
+            1,
+            100,
+            76
+          ]
+        }
+      ],
+      "outputs": {
+        "signal_logits": [
+          1,
+          2
+        ],
+        "signal_ev": [
+          1,
+          2
+        ],
+        "policy_logits": [
+          1,
+          6
+        ],
+        "size_logits": [
+          1,
+          3
+        ],
+        "order_type_logits": [
+          1,
+          2
+        ],
+        "limit_price_level_logits": [
+          1,
+          5
+        ],
+        "risk_score": [
+          1,
+          1
+        ]
+      },
+      "initializer_elements": 480909,
+      "status": "passed"
+    },
+    {
+      "path": "models/m5_iql_0/best_model.pt",
+      "model_id": "m5_iql_0",
+      "parameters": 467957,
+      "input_shape": [
+        1,
+        100,
+        76
+      ],
+      "outputs": {
+        "signal_logits": [
+          1,
+          2
+        ],
+        "signal_ev": [
+          1,
+          2
+        ],
+        "policy_logits": [
+          1,
+          6
+        ],
+        "size_logits": [
+          1,
+          3
+        ],
+        "order_type_logits": [
+          1,
+          2
+        ],
+        "limit_price_level_logits": [
+          1,
+          5
+        ],
+        "risk_score": [
+          1,
+          1
+        ]
+      },
+      "all_source_tensors_equal": true,
+      "epoch": 46,
+      "status": "passed"
+    },
+    {
+      "path": "models/m5_iql_0/feature_stats_76.npz",
+      "model_id": "m5_iql_0",
+      "arrays": {
+        "mean": [
+          76
+        ],
+        "std": [
+          76
+        ]
+      },
+      "status": "passed"
+    },
+    {
+      "path": "models/m5_iql_0/final_model.pt",
+      "model_id": "m5_iql_0",
+      "parameters": 467957,
+      "input_shape": [
+        1,
+        100,
+        76
+      ],
+      "outputs": {
+        "signal_logits": [
+          1,
+          2
+        ],
+        "signal_ev": [
+          1,
+          2
+        ],
+        "policy_logits": [
+          1,
+          6
+        ],
+        "size_logits": [
+          1,
+          3
+        ],
+        "order_type_logits": [
+          1,
+          2
+        ],
+        "limit_price_level_logits": [
+          1,
+          5
+        ],
+        "risk_score": [
+          1,
+          1
+        ]
+      },
+      "all_source_tensors_equal": true,
+      "epoch": 50,
+      "status": "passed"
+    },
+    {
+      "path": "models/m5_iql_0/last_checkpoint.pt",
+      "model_id": "m5_iql_0",
+      "parameters": 467957,
+      "input_shape": [
+        1,
+        100,
+        76
+      ],
+      "outputs": {
+        "signal_logits": [
+          1,
+          2
+        ],
+        "signal_ev": [
+          1,
+          2
+        ],
+        "policy_logits": [
+          1,
+          6
+        ],
+        "size_logits": [
+          1,
+          3
+        ],
+        "order_type_logits": [
+          1,
+          2
+        ],
+        "limit_price_level_logits": [
+          1,
+          5
+        ],
+        "risk_score": [
+          1,
+          1
+        ]
+      },
+      "all_source_tensors_equal": true,
+      "epoch": 50,
+      "status": "passed"
+    },
+    {
+      "path": "models/m5_iql_1/agent_model_m5.onnx",
+      "model_id": "m5_iql_1",
+      "inputs": [
+        {
+          "name": "obs",
+          "shape": [
+            1,
+            100,
+            76
+          ]
+        }
+      ],
+      "outputs": {
+        "signal_logits": [
+          1,
+          2
+        ],
+        "signal_ev": [
+          1,
+          2
+        ],
+        "policy_logits": [
+          1,
+          6
+        ],
+        "size_logits": [
+          1,
+          3
+        ],
+        "order_type_logits": [
+          1,
+          2
+        ],
+        "limit_price_level_logits": [
+          1,
+          5
+        ],
+        "risk_score": [
+          1,
+          1
+        ]
+      },
+      "initializer_elements": 480909,
+      "status": "passed"
+    },
+    {
+      "path": "models/m5_iql_1/best_model.pt",
+      "model_id": "m5_iql_1",
+      "parameters": 467957,
+      "input_shape": [
+        1,
+        100,
+        76
+      ],
+      "outputs": {
+        "signal_logits": [
+          1,
+          2
+        ],
+        "signal_ev": [
+          1,
+          2
+        ],
+        "policy_logits": [
+          1,
+          6
+        ],
+        "size_logits": [
+          1,
+          3
+        ],
+        "order_type_logits": [
+          1,
+          2
+        ],
+        "limit_price_level_logits": [
+          1,
+          5
+        ],
+        "risk_score": [
+          1,
+          1
+        ]
+      },
+      "all_source_tensors_equal": true,
+      "epoch": 35,
+      "status": "passed"
+    },
+    {
+      "path": "models/m5_iql_1/feature_stats_76.npz",
+      "model_id": "m5_iql_1",
+      "arrays": {
+        "mean": [
+          76
+        ],
+        "std": [
+          76
+        ]
+      },
+      "status": "passed"
+    },
+    {
+      "path": "models/m5_iql_1/final_model.pt",
+      "model_id": "m5_iql_1",
+      "parameters": 467957,
+      "input_shape": [
+        1,
+        100,
+        76
+      ],
+      "outputs": {
+        "signal_logits": [
+          1,
+          2
+        ],
+        "signal_ev": [
+          1,
+          2
+        ],
+        "policy_logits": [
+          1,
+          6
+        ],
+        "size_logits": [
+          1,
+          3
+        ],
+        "order_type_logits": [
+          1,
+          2
+        ],
+        "limit_price_level_logits": [
+          1,
+          5
+        ],
+        "risk_score": [
+          1,
+          1
+        ]
+      },
+      "all_source_tensors_equal": true,
+      "epoch": 50,
+      "status": "passed"
+    },
+    {
+      "path": "models/m5_iql_1/last_checkpoint.pt",
+      "model_id": "m5_iql_1",
+      "parameters": 467957,
+      "input_shape": [
+        1,
+        100,
+        76
+      ],
+      "outputs": {
+        "signal_logits": [
+          1,
+          2
+        ],
+        "signal_ev": [
+          1,
+          2
+        ],
+        "policy_logits": [
+          1,
+          6
+        ],
+        "size_logits": [
+          1,
+          3
+        ],
+        "order_type_logits": [
+          1,
+          2
+        ],
+        "limit_price_level_logits": [
+          1,
+          5
+        ],
+        "risk_score": [
+          1,
+          1
+        ]
+      },
+      "all_source_tensors_equal": true,
+      "epoch": 50,
+      "status": "passed"
+    },
+    {
+      "path": "models/m5_iql_2/agent_model_m5.onnx",
+      "model_id": "m5_iql_2",
+      "inputs": [
+        {
+          "name": "obs",
+          "shape": [
+            1,
+            100,
+            76
+          ]
+        }
+      ],
+      "outputs": {
+        "signal_logits": [
+          1,
+          2
+        ],
+        "signal_ev": [
+          1,
+          2
+        ],
+        "policy_logits": [
+          1,
+          6
+        ],
+        "size_logits": [
+          1,
+          3
+        ],
+        "order_type_logits": [
+          1,
+          2
+        ],
+        "limit_price_level_logits": [
+          1,
+          5
+        ],
+        "risk_score": [
+          1,
+          1
+        ]
+      },
+      "initializer_elements": 480909,
+      "status": "passed"
+    },
+    {
+      "path": "models/m5_iql_2/best_model.pt",
+      "model_id": "m5_iql_2",
+      "parameters": 467957,
+      "input_shape": [
+        1,
+        100,
+        76
+      ],
+      "outputs": {
+        "signal_logits": [
+          1,
+          2
+        ],
+        "signal_ev": [
+          1,
+          2
+        ],
+        "policy_logits": [
+          1,
+          6
+        ],
+        "size_logits": [
+          1,
+          3
+        ],
+        "order_type_logits": [
+          1,
+          2
+        ],
+        "limit_price_level_logits": [
+          1,
+          5
+        ],
+        "risk_score": [
+          1,
+          1
+        ]
+      },
+      "all_source_tensors_equal": true,
+      "epoch": 43,
+      "status": "passed"
+    },
+    {
+      "path": "models/m5_iql_2/feature_stats_76.npz",
+      "model_id": "m5_iql_2",
+      "arrays": {
+        "mean": [
+          76
+        ],
+        "std": [
+          76
+        ]
+      },
+      "status": "passed"
+    },
+    {
+      "path": "models/m5_iql_2/final_model.pt",
+      "model_id": "m5_iql_2",
+      "parameters": 467957,
+      "input_shape": [
+        1,
+        100,
+        76
+      ],
+      "outputs": {
+        "signal_logits": [
+          1,
+          2
+        ],
+        "signal_ev": [
+          1,
+          2
+        ],
+        "policy_logits": [
+          1,
+          6
+        ],
+        "size_logits": [
+          1,
+          3
+        ],
+        "order_type_logits": [
+          1,
+          2
+        ],
+        "limit_price_level_logits": [
+          1,
+          5
+        ],
+        "risk_score": [
+          1,
+          1
+        ]
+      },
+      "all_source_tensors_equal": true,
+      "epoch": 50,
+      "status": "passed"
+    },
+    {
+      "path": "models/m5_iql_2/last_checkpoint.pt",
+      "model_id": "m5_iql_2",
+      "parameters": 467957,
+      "input_shape": [
+        1,
+        100,
+        76
+      ],
+      "outputs": {
+        "signal_logits": [
+          1,
+          2
+        ],
+        "signal_ev": [
+          1,
+          2
+        ],
+        "policy_logits": [
+          1,
+          6
+        ],
+        "size_logits": [
+          1,
+          3
+        ],
+        "order_type_logits": [
+          1,
+          2
+        ],
+        "limit_price_level_logits": [
+          1,
+          5
+        ],
+        "risk_score": [
+          1,
+          1
+        ]
+      },
+      "all_source_tensors_equal": true,
+      "epoch": 50,
+      "status": "passed"
+    },
+    {
+      "path": "models/alpha_primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed2/best_model.pt",
+      "model_id": "alpha_primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed2",
+      "parameters": 227268,
+      "input_shape": [
+        1,
+        120,
+        160
+      ],
+      "outputs": {
+        "signal_logits": [
+          1,
+          2
+        ],
+        "signal_ev": [
+          1,
+          2
+        ]
+      },
+      "all_source_tensors_equal": true,
+      "epoch": null,
+      "status": "passed"
+    },
+    {
+      "path": "models/alpha_primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed2/normalization.npz",
+      "model_id": "alpha_primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed2",
+      "arrays": {
+        "mean": [
+          160
+        ],
+        "std": [
+          160
+        ]
+      },
+      "status": "passed"
+    },
+    {
+      "path": "models/alpha_primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed2/onnx/model.onnx",
+      "model_id": "alpha_primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed2",
+      "inputs": [
+        {
+          "name": "obs",
+          "shape": [
+            1,
+            120,
+            160
+          ]
+        }
+      ],
+      "outputs": {
+        "signal_logits": [
+          1,
+          2
+        ],
+        "signal_ev": [
+          1,
+          2
+        ]
+      },
+      "initializer_elements": 227588,
+      "status": "passed"
+    },
+    {
+      "path": "models/alpha_primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed2/onnx/normalization.npz",
+      "model_id": "alpha_primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed2",
+      "arrays": {
+        "mean": [
+          160
+        ],
+        "std": [
+          160
+        ]
+      },
+      "status": "passed"
+    },
+    {
+      "path": "models/alpha_primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed3/best_model.pt",
+      "model_id": "alpha_primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed3",
+      "parameters": 227268,
+      "input_shape": [
+        1,
+        120,
+        160
+      ],
+      "outputs": {
+        "signal_logits": [
+          1,
+          2
+        ],
+        "signal_ev": [
+          1,
+          2
+        ]
+      },
+      "all_source_tensors_equal": true,
+      "epoch": null,
+      "status": "passed"
+    },
+    {
+      "path": "models/alpha_primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed3/normalization.npz",
+      "model_id": "alpha_primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed3",
+      "arrays": {
+        "mean": [
+          160
+        ],
+        "std": [
+          160
+        ]
+      },
+      "status": "passed"
+    },
+    {
+      "path": "models/alpha_primary_R2_A1_seq120_bs2048_ep30_lev0p5_sr0p0_sm0p1_seed2/best_model.pt",
+      "model_id": "alpha_primary_R2_A1_seq120_bs2048_ep30_lev0p5_sr0p0_sm0p1_seed2",
+      "parameters": 227268,
+      "input_shape": [
+        1,
+        120,
+        160
+      ],
+      "outputs": {
+        "signal_logits": [
+          1,
+          2
+        ],
+        "signal_ev": [
+          1,
+          2
+        ]
+      },
+      "all_source_tensors_equal": true,
+      "epoch": null,
+      "status": "passed"
+    },
+    {
+      "path": "models/alpha_primary_R2_A1_seq120_bs2048_ep30_lev0p5_sr0p0_sm0p1_seed2/normalization.npz",
+      "model_id": "alpha_primary_R2_A1_seq120_bs2048_ep30_lev0p5_sr0p0_sm0p1_seed2",
+      "arrays": {
+        "mean": [
+          160
+        ],
+        "std": [
+          160
+        ]
+      },
+      "status": "passed"
+    },
+    {
+      "path": "models/alpha_primary_R3_A6_seq120_bs2048_ep30_lev0p5_sr0p05_sm0p1_seed2/best_model.pt",
+      "model_id": "alpha_primary_R3_A6_seq120_bs2048_ep30_lev0p5_sr0p05_sm0p1_seed2",
+      "parameters": 227268,
+      "input_shape": [
+        1,
+        120,
+        160
+      ],
+      "outputs": {
+        "signal_logits": [
+          1,
+          2
+        ],
+        "signal_ev": [
+          1,
+          2
+        ]
+      },
+      "all_source_tensors_equal": true,
+      "epoch": null,
+      "status": "passed"
+    },
+    {
+      "path": "models/alpha_primary_R3_A6_seq120_bs2048_ep30_lev0p5_sr0p05_sm0p1_seed2/normalization.npz",
+      "model_id": "alpha_primary_R3_A6_seq120_bs2048_ep30_lev0p5_sr0p05_sm0p1_seed2",
+      "arrays": {
+        "mean": [
+          160
+        ],
+        "std": [
+          160
+        ]
+      },
+      "status": "passed"
+    },
+    {
+      "path": "models/alpha_primary_R4_LB2_512_seq120_bs512_ep30_lev0p5_sr0p05_sm0p1_seed1/best_model.pt",
+      "model_id": "alpha_primary_R4_LB2_512_seq120_bs512_ep30_lev0p5_sr0p05_sm0p1_seed1",
+      "parameters": 227268,
+      "input_shape": [
+        1,
+        120,
+        160
+      ],
+      "outputs": {
+        "signal_logits": [
+          1,
+          2
+        ],
+        "signal_ev": [
+          1,
+          2
+        ]
+      },
+      "all_source_tensors_equal": true,
+      "epoch": null,
+      "status": "passed"
+    },
+    {
+      "path": "models/alpha_primary_R4_LB2_512_seq120_bs512_ep30_lev0p5_sr0p05_sm0p1_seed1/normalization.npz",
+      "model_id": "alpha_primary_R4_LB2_512_seq120_bs512_ep30_lev0p5_sr0p05_sm0p1_seed1",
+      "arrays": {
+        "mean": [
+          160
+        ],
+        "std": [
+          160
+        ]
+      },
+      "status": "passed"
+    },
+    {
+      "path": "models/alpha_primary_R4_LB2_512_seq120_bs512_ep30_lev0p5_sr0p05_sm0p1_seed2/best_model.pt",
+      "model_id": "alpha_primary_R4_LB2_512_seq120_bs512_ep30_lev0p5_sr0p05_sm0p1_seed2",
+      "parameters": 227268,
+      "input_shape": [
+        1,
+        120,
+        160
+      ],
+      "outputs": {
+        "signal_logits": [
+          1,
+          2
+        ],
+        "signal_ev": [
+          1,
+          2
+        ]
+      },
+      "all_source_tensors_equal": true,
+      "epoch": null,
+      "status": "passed"
+    },
+    {
+      "path": "models/alpha_primary_R4_LB2_512_seq120_bs512_ep30_lev0p5_sr0p05_sm0p1_seed2/normalization.npz",
+      "model_id": "alpha_primary_R4_LB2_512_seq120_bs512_ep30_lev0p5_sr0p05_sm0p1_seed2",
+      "arrays": {
+        "mean": [
+          160
+        ],
+        "std": [
+          160
+        ]
+      },
+      "status": "passed"
+    },
+    {
+      "path": "models/alpha_primary_R5_A4_seq120_bs2048_ep30_lev0p5_sr0p0_sm0p0_seed3/best_model.pt",
+      "model_id": "alpha_primary_R5_A4_seq120_bs2048_ep30_lev0p5_sr0p0_sm0p0_seed3",
+      "parameters": 227268,
+      "input_shape": [
+        1,
+        120,
+        160
+      ],
+      "outputs": {
+        "signal_logits": [
+          1,
+          2
+        ],
+        "signal_ev": [
+          1,
+          2
+        ]
+      },
+      "all_source_tensors_equal": true,
+      "epoch": null,
+      "status": "passed"
+    },
+    {
+      "path": "models/alpha_primary_R5_A4_seq120_bs2048_ep30_lev0p5_sr0p0_sm0p0_seed3/normalization.npz",
+      "model_id": "alpha_primary_R5_A4_seq120_bs2048_ep30_lev0p5_sr0p0_sm0p0_seed3",
+      "arrays": {
+        "mean": [
+          160
+        ],
+        "std": [
+          160
+        ]
+      },
+      "status": "passed"
+    },
+    {
+      "path": "models/alpha_primary_R6_C2_control_seq180_bs4096_ep30_lev0p25_sr0p1_sm0p0_seed2/best_model.pt",
+      "model_id": "alpha_primary_R6_C2_control_seq180_bs4096_ep30_lev0p25_sr0p1_sm0p0_seed2",
+      "parameters": 227268,
+      "input_shape": [
+        1,
+        180,
+        160
+      ],
+      "outputs": {
+        "signal_logits": [
+          1,
+          2
+        ],
+        "signal_ev": [
+          1,
+          2
+        ]
+      },
+      "all_source_tensors_equal": true,
+      "epoch": null,
+      "status": "passed"
+    },
+    {
+      "path": "models/alpha_primary_R6_C2_control_seq180_bs4096_ep30_lev0p25_sr0p1_sm0p0_seed2/normalization.npz",
+      "model_id": "alpha_primary_R6_C2_control_seq180_bs4096_ep30_lev0p25_sr0p1_sm0p0_seed2",
+      "arrays": {
+        "mean": [
+          160
+        ],
+        "std": [
+          160
+        ]
+      },
+      "status": "passed"
+    },
+    {
+      "path": "models/policy_primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed2/model.onnx",
+      "model_id": "policy_primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed2",
+      "inputs": [
+        {
+          "name": "features",
+          "shape": [
+            1,
+            120,
+            160
+          ]
+        },
+        {
+          "name": "alpha",
+          "shape": [
+            1,
+            4
+          ]
+        },
+        {
+          "name": "account_state",
+          "shape": [
+            1,
+            5
+          ]
+        }
+      ],
+      "outputs": {
+        "quote_logits": [
+          1,
+          4
+        ],
+        "offset_logits": [
+          1,
+          4,
+          3
+        ],
+        "size_logits": [
+          1,
+          4,
+          1
+        ],
+        "risk_score": [
+          1,
+          1
+        ]
+      },
+      "initializer_elements": 272469,
+      "status": "passed"
+    },
+    {
+      "path": "models/policy_primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed2/normalization.npz",
+      "model_id": "policy_primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed2",
+      "arrays": {
+        "mean": [
+          160
+        ],
+        "std": [
+          160
+        ]
+      },
+      "status": "passed"
+    },
+    {
+      "path": "models/policy_primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed3/model.onnx",
+      "model_id": "policy_primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed3",
+      "inputs": [
+        {
+          "name": "features",
+          "shape": [
+            1,
+            120,
+            160
+          ]
+        },
+        {
+          "name": "alpha",
+          "shape": [
+            1,
+            4
+          ]
+        },
+        {
+          "name": "account_state",
+          "shape": [
+            1,
+            5
+          ]
+        }
+      ],
+      "outputs": {
+        "quote_logits": [
+          1,
+          4
+        ],
+        "offset_logits": [
+          1,
+          4,
+          3
+        ],
+        "size_logits": [
+          1,
+          4,
+          1
+        ],
+        "risk_score": [
+          1,
+          1
+        ]
+      },
+      "initializer_elements": 272469,
+      "status": "passed"
+    },
+    {
+      "path": "models/policy_primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed3/normalization.npz",
+      "model_id": "policy_primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed3",
+      "arrays": {
+        "mean": [
+          160
+        ],
+        "std": [
+          160
+        ]
+      },
+      "status": "passed"
+    },
+    {
+      "path": "models/policy_primary_R2_A1_seq120_bs2048_ep30_lev0p5_sr0p0_sm0p1_seed2/model.onnx",
+      "model_id": "policy_primary_R2_A1_seq120_bs2048_ep30_lev0p5_sr0p0_sm0p1_seed2",
+      "inputs": [
+        {
+          "name": "features",
+          "shape": [
+            1,
+            120,
+            160
+          ]
+        },
+        {
+          "name": "alpha",
+          "shape": [
+            1,
+            4
+          ]
+        },
+        {
+          "name": "account_state",
+          "shape": [
+            1,
+            5
+          ]
+        }
+      ],
+      "outputs": {
+        "quote_logits": [
+          1,
+          4
+        ],
+        "offset_logits": [
+          1,
+          4,
+          3
+        ],
+        "size_logits": [
+          1,
+          4,
+          1
+        ],
+        "risk_score": [
+          1,
+          1
+        ]
+      },
+      "initializer_elements": 272469,
+      "status": "passed"
+    },
+    {
+      "path": "models/policy_primary_R2_A1_seq120_bs2048_ep30_lev0p5_sr0p0_sm0p1_seed2/normalization.npz",
+      "model_id": "policy_primary_R2_A1_seq120_bs2048_ep30_lev0p5_sr0p0_sm0p1_seed2",
+      "arrays": {
+        "mean": [
+          160
+        ],
+        "std": [
+          160
+        ]
+      },
+      "status": "passed"
+    },
+    {
+      "path": "models/policy_primary_R3_A6_seq120_bs2048_ep30_lev0p5_sr0p05_sm0p1_seed2/model.onnx",
+      "model_id": "policy_primary_R3_A6_seq120_bs2048_ep30_lev0p5_sr0p05_sm0p1_seed2",
+      "inputs": [
+        {
+          "name": "features",
+          "shape": [
+            1,
+            120,
+            160
+          ]
+        },
+        {
+          "name": "alpha",
+          "shape": [
+            1,
+            4
+          ]
+        },
+        {
+          "name": "account_state",
+          "shape": [
+            1,
+            5
+          ]
+        }
+      ],
+      "outputs": {
+        "quote_logits": [
+          1,
+          4
+        ],
+        "offset_logits": [
+          1,
+          4,
+          3
+        ],
+        "size_logits": [
+          1,
+          4,
+          1
+        ],
+        "risk_score": [
+          1,
+          1
+        ]
+      },
+      "initializer_elements": 272469,
+      "status": "passed"
+    },
+    {
+      "path": "models/policy_primary_R3_A6_seq120_bs2048_ep30_lev0p5_sr0p05_sm0p1_seed2/normalization.npz",
+      "model_id": "policy_primary_R3_A6_seq120_bs2048_ep30_lev0p5_sr0p05_sm0p1_seed2",
+      "arrays": {
+        "mean": [
+          160
+        ],
+        "std": [
+          160
+        ]
+      },
+      "status": "passed"
+    },
+    {
+      "path": "models/policy_primary_R4_LB2_512_seq120_bs512_ep30_lev0p5_sr0p05_sm0p1_seed1/model.onnx",
+      "model_id": "policy_primary_R4_LB2_512_seq120_bs512_ep30_lev0p5_sr0p05_sm0p1_seed1",
+      "inputs": [
+        {
+          "name": "features",
+          "shape": [
+            1,
+            120,
+            160
+          ]
+        },
+        {
+          "name": "alpha",
+          "shape": [
+            1,
+            4
+          ]
+        },
+        {
+          "name": "account_state",
+          "shape": [
+            1,
+            5
+          ]
+        }
+      ],
+      "outputs": {
+        "quote_logits": [
+          1,
+          4
+        ],
+        "offset_logits": [
+          1,
+          4,
+          3
+        ],
+        "size_logits": [
+          1,
+          4,
+          1
+        ],
+        "risk_score": [
+          1,
+          1
+        ]
+      },
+      "initializer_elements": 272469,
+      "status": "passed"
+    },
+    {
+      "path": "models/policy_primary_R4_LB2_512_seq120_bs512_ep30_lev0p5_sr0p05_sm0p1_seed1/normalization.npz",
+      "model_id": "policy_primary_R4_LB2_512_seq120_bs512_ep30_lev0p5_sr0p05_sm0p1_seed1",
+      "arrays": {
+        "mean": [
+          160
+        ],
+        "std": [
+          160
+        ]
+      },
+      "status": "passed"
+    },
+    {
+      "path": "models/policy_primary_R4_LB2_512_seq120_bs512_ep30_lev0p5_sr0p05_sm0p1_seed2/model.onnx",
+      "model_id": "policy_primary_R4_LB2_512_seq120_bs512_ep30_lev0p5_sr0p05_sm0p1_seed2",
+      "inputs": [
+        {
+          "name": "features",
+          "shape": [
+            1,
+            120,
+            160
+          ]
+        },
+        {
+          "name": "alpha",
+          "shape": [
+            1,
+            4
+          ]
+        },
+        {
+          "name": "account_state",
+          "shape": [
+            1,
+            5
+          ]
+        }
+      ],
+      "outputs": {
+        "quote_logits": [
+          1,
+          4
+        ],
+        "offset_logits": [
+          1,
+          4,
+          3
+        ],
+        "size_logits": [
+          1,
+          4,
+          1
+        ],
+        "risk_score": [
+          1,
+          1
+        ]
+      },
+      "initializer_elements": 272469,
+      "status": "passed"
+    },
+    {
+      "path": "models/policy_primary_R4_LB2_512_seq120_bs512_ep30_lev0p5_sr0p05_sm0p1_seed2/normalization.npz",
+      "model_id": "policy_primary_R4_LB2_512_seq120_bs512_ep30_lev0p5_sr0p05_sm0p1_seed2",
+      "arrays": {
+        "mean": [
+          160
+        ],
+        "std": [
+          160
+        ]
+      },
+      "status": "passed"
+    },
+    {
+      "path": "models/policy_primary_R6_C2_control_seq180_bs4096_ep30_lev0p25_sr0p1_sm0p0_seed2/model.onnx",
+      "model_id": "policy_primary_R6_C2_control_seq180_bs4096_ep30_lev0p25_sr0p1_sm0p0_seed2",
+      "inputs": [
+        {
+          "name": "features",
+          "shape": [
+            1,
+            180,
+            160
+          ]
+        },
+        {
+          "name": "alpha",
+          "shape": [
+            1,
+            4
+          ]
+        },
+        {
+          "name": "account_state",
+          "shape": [
+            1,
+            5
+          ]
+        }
+      ],
+      "outputs": {
+        "quote_logits": [
+          1,
+          4
+        ],
+        "offset_logits": [
+          1,
+          4,
+          3
+        ],
+        "size_logits": [
+          1,
+          4,
+          1
+        ],
+        "risk_score": [
+          1,
+          1
+        ]
+      },
+      "initializer_elements": 272469,
+      "status": "passed"
+    },
+    {
+      "path": "models/policy_primary_R6_C2_control_seq180_bs4096_ep30_lev0p25_sr0p1_sm0p0_seed2/normalization.npz",
+      "model_id": "policy_primary_R6_C2_control_seq180_bs4096_ep30_lev0p25_sr0p1_sm0p0_seed2",
+      "arrays": {
+        "mean": [
+          160
+        ],
+        "std": [
+          160
+        ]
+      },
+      "status": "passed"
+    },
+    {
+      "path": "models/policy_phase67_C0_control_anchor/model.onnx",
+      "model_id": "policy_phase67_C0_control_anchor",
+      "inputs": [
+        {
+          "name": "features",
+          "shape": [
+            1,
+            180,
+            160
+          ]
+        },
+        {
+          "name": "alpha",
+          "shape": [
+            1,
+            4
+          ]
+        },
+        {
+          "name": "account_state",
+          "shape": [
+            1,
+            5
+          ]
+        }
+      ],
+      "outputs": {
+        "quote_logits": [
+          1,
+          4
+        ],
+        "offset_logits": [
+          1,
+          4,
+          3
+        ],
+        "size_logits": [
+          1,
+          4,
+          1
+        ],
+        "risk_score": [
+          1,
+          1
+        ]
+      },
+      "initializer_elements": 50005,
+      "status": "passed"
+    },
+    {
+      "path": "models/policy_phase67_C0_control_anchor/normalization.npz",
+      "model_id": "policy_phase67_C0_control_anchor",
+      "arrays": {
+        "mean": [
+          160
+        ],
+        "std": [
+          160
+        ]
+      },
+      "status": "passed"
+    },
+    {
+      "path": "models/policy_phase67_P1_signed_reward_filter/model.onnx",
+      "model_id": "policy_phase67_P1_signed_reward_filter",
+      "inputs": [
+        {
+          "name": "features",
+          "shape": [
+            1,
+            120,
+            160
+          ]
+        },
+        {
+          "name": "alpha",
+          "shape": [
+            1,
+            4
+          ]
+        },
+        {
+          "name": "account_state",
+          "shape": [
+            1,
+            5
+          ]
+        }
+      ],
+      "outputs": {
+        "quote_logits": [
+          1,
+          4
+        ],
+        "offset_logits": [
+          1,
+          4,
+          3
+        ],
+        "size_logits": [
+          1,
+          4,
+          1
+        ],
+        "risk_score": [
+          1,
+          1
+        ]
+      },
+      "initializer_elements": 50005,
+      "status": "passed"
+    },
+    {
+      "path": "models/policy_phase67_P1_signed_reward_filter/normalization.npz",
+      "model_id": "policy_phase67_P1_signed_reward_filter",
+      "arrays": {
+        "mean": [
+          160
+        ],
+        "std": [
+          160
+        ]
+      },
+      "status": "passed"
+    },
+    {
+      "path": "models/mpv2_r1_a3_seq120_seed2/alpha/model.onnx",
+      "model_id": "mpv2_r1_a3_seq120_seed2",
+      "inputs": [
+        {
+          "name": "obs",
+          "shape": [
+            1,
+            120,
+            160
+          ]
+        }
+      ],
+      "outputs": {
+        "signal_logits": [
+          1,
+          2
+        ],
+        "signal_ev": [
+          1,
+          2
+        ]
+      },
+      "initializer_elements": 227588,
+      "status": "passed"
+    },
+    {
+      "path": "models/mpv2_r1_a3_seq120_seed2/alpha/normalization.npz",
+      "model_id": "mpv2_r1_a3_seq120_seed2",
+      "arrays": {
+        "mean": [
+          160
+        ],
+        "std": [
+          160
+        ]
+      },
+      "status": "passed"
+    },
+    {
+      "path": "models/mpv2_r1_a3_seq120_seed2/normalization.npz",
+      "model_id": "mpv2_r1_a3_seq120_seed2",
+      "arrays": {
+        "mean": [
+          160
+        ],
+        "std": [
+          160
+        ]
+      },
+      "status": "passed"
+    },
+    {
+      "path": "models/mpv2_r1_a3_seq120_seed2/policy/model.onnx",
+      "model_id": "mpv2_r1_a3_seq120_seed2",
+      "inputs": [
+        {
+          "name": "features",
+          "shape": [
+            1,
+            120,
+            160
+          ]
+        },
+        {
+          "name": "alpha",
+          "shape": [
+            1,
+            4
+          ]
+        },
+        {
+          "name": "account_state",
+          "shape": [
+            1,
+            5
+          ]
+        }
+      ],
+      "outputs": {
+        "quote_logits": [
+          1,
+          4
+        ],
+        "offset_logits": [
+          1,
+          4,
+          3
+        ],
+        "size_logits": [
+          1,
+          4,
+          1
+        ],
+        "risk_score": [
+          1,
+          1
+        ]
+      },
+      "initializer_elements": 272469,
+      "status": "passed"
+    },
+    {
+      "path": "models/mpv2_r1_a3_seq120_seed2/policy/normalization.npz",
+      "model_id": "mpv2_r1_a3_seq120_seed2",
+      "arrays": {
+        "mean": [
+          160
+        ],
+        "std": [
+          160
+        ]
+      },
+      "status": "passed"
+    }
+  ],
+  "deployment_chain": "passed"
+}

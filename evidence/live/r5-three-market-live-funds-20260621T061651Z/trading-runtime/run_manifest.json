@@ -1,0 +1,186 @@
+{
+  "alpha_model_sha256": "6ede2dddb91a80ff0b46d2eabec6fda466a91d4438b60fda2a37646843ad813f",
+  "alpha_normalization_sha256": "aa6b11c14d894789e8ccfef5ca3913972ec5ff14ba7978c5c5813577cfa2ffa7",
+  "binary_sha256": "a0c88fcdc8b6adc31051855447dd6369e019655fd0ee15a790ef31d126540cab",
+  "clob_order_query_attempted": false,
+  "clob_trade_history_query_attempted": false,
+  "condition_id": "0x9c17a169dcc266172b0a76461708597b44fca894f37b53561977325d236a3afb",
+  "condition_ids": [
+    "0x9c17a169dcc266172b0a76461708597b44fca894f37b53561977325d236a3afb"
+  ],
+  "config_sha256": "e5b7ed7e1f1f70b775cc0e10622447957d81974f225df04289aeb63f7f604608",
+  "data_positions_query_attempted": false,
+  "data_value_query_attempted": false,
+  "execution_control": "no_approval_no_marker",
+  "fail_closed": true,
+  "fail_closed_reasons": [
+    "r5_accepted_post_reservation_failed:BlankOrderId",
+    "r5_runtime_audit_bundle_failed:normalized_order_event_duplicate_id:norm:r5-three-market-wallet1-1782022615392:trading:UserChannelOrder:0xedd7af3e1525c69460557cfacc8c0619621da592a5c1d53e8859b0e43f9eba75:user_channel_order_update_ack"
+  ],
+  "hard_failure_reasons": [
+    "r5_accepted_post_reservation_failed:BlankOrderId",
+    "r5_runtime_audit_bundle_failed:normalized_order_event_duplicate_id:norm:r5-three-market-wallet1-1782022615392:trading:UserChannelOrder:0xedd7af3e1525c69460557cfacc8c0619621da592a5c1d53e8859b0e43f9eba75:user_channel_order_update_ack"
+  ],
+  "market_scope": "Polymarket BTC UP/DOWN 5MIN",
+  "mode": "live_validation_r5_execution_orchestrator",
+  "model_id": "mpv2_r1_a3_seq120_seed2",
+  "model_sha256": {
+    "alpha_model": "6ede2dddb91a80ff0b46d2eabec6fda466a91d4438b60fda2a37646843ad813f",
+    "policy_model": "6af822f4a3b9a2476da6d5d344e7423af75fb6944c09ed6271bbae3b74d32bae"
+  },
+  "model_tree_manifest_sha256": "a18d41cb90b012280ab32031542d8f5ba47fdf18619cd5d4c7eb599152df094a",
+  "normalization_contract_verdict": "passed",
+  "normalization_fail_reasons": [
+    "r5_runtime_audit_bundle_failed:normalized_order_event_duplicate_id:norm:r5-three-market-wallet1-1782022615392:trading:UserChannelOrder:0xedd7af3e1525c69460557cfacc8c0619621da592a5c1d53e8859b0e43f9eba75:user_channel_order_update_ack"
+  ],
+  "normalization_review_required": false,
+  "output_dir": "[PRIVATE_HOME]/sdk-live-trade/artifacts/live-validation/R5-three-market/r5-three-market-live-funds-20260621T061651Z/trading-runtime",
+  "platform_account_query_attempted": false,
+  "policy_model_sha256": "6af822f4a3b9a2476da6d5d344e7423af75fb6944c09ed6271bbae3b74d32bae",
+  "policy_normalization_sha256": "4ad4e866af0a52512cc84d8447f585fafda3af16344de3263984877187da0138",
+  "policy_normalization_source": "not_used_by_policy_onnx",
+  "raw_runtime_fail_closed": true,
+  "redaction_status": {
+    "secret_fields_redacted": true,
+    "status": "redacted"
+  },
+  "round_id": "R5",
+  "run_id": "r5-three-market-wallet1-1782022615392",
+  "runtime_report": {
+    "cancel_count": 5,
+    "clob_order_query_attempted": false,
+    "clob_trade_history_query_attempted": false,
+    "data_positions_query_attempted": false,
+    "data_value_query_attempted": false,
+    "execution_control": "no_approval_no_marker",
+    "fail_closed": true,
+    "fail_closed_reasons": [
+      "r5_accepted_post_reservation_failed:BlankOrderId",
+      "r5_runtime_audit_bundle_failed:normalized_order_event_duplicate_id:norm:r5-three-market-wallet1-1782022615392:trading:UserChannelOrder:0xedd7af3e1525c69460557cfacc8c0619621da592a5c1d53e8859b0e43f9eba75:user_channel_order_update_ack"
+    ],
+    "hard_failure_reasons": [
+      "r5_accepted_post_reservation_failed:BlankOrderId",
+      "r5_runtime_audit_bundle_failed:normalized_order_event_duplicate_id:norm:r5-three-market-wallet1-1782022615392:trading:UserChannelOrder:0xedd7af3e1525c69460557cfacc8c0619621da592a5c1d53e8859b0e43f9eba75:user_channel_order_update_ack"
+    ],
+    "normalization_fail_reasons": [
+      "r5_runtime_audit_bundle_failed:normalized_order_event_duplicate_id:norm:r5-three-market-wallet1-1782022615392:trading:UserChannelOrder:0xedd7af3e1525c69460557cfacc8c0619621da592a5c1d53e8859b0e43f9eba75:user_channel_order_update_ack"
+    ],
+    "normalization_review_required": false,
+    "normalized_order_events_streaming": "bounded_writer_created_before_first_tick",
+    "platform_account_query_attempted": false,
+    "post_run_pnl_report": {
+      "data_positions_query_attempted": false,
+      "data_value_query_attempted": false,
+      "final_platform_pnl_status": "final_platform_pnl_unavailable",
+      "local_pnl_evidence_hash": "85af6dad68117b11d9902c6b7450e38a23ec323148f439c90b198e2036e6dd42",
+      "model_local_conservative_nav_delta": null,
+      "model_local_ledger_pnl": "0",
+      "model_local_ledger_pnl_status": "realized_and_settled_only_nav_unobservable",
+      "model_local_realized_pnl": "0",
+      "model_local_settled_pnl": "0",
+      "model_local_unrealized_pnl": null,
+      "model_local_unrealized_pnl_status": "unrealized_pnl_unavailable_nav_unobservable",
+      "nav_observable": false,
+      "platform_account_query_attempted": false,
+      "platform_pnl_evidence_complete": false,
+      "platform_pnl_unavailable_reason": "platform_pnl_not_attempted_r5_local_ledger_mode",
+      "platform_position_value_delta": null,
+      "platform_wallet_total_pnl": null
+    },
+    "post_run_verification_summary": [
+      "r5_runtime_artifact_bundle_written"
+    ],
+    "raw_runtime_fail_closed": true,
+    "sdk_order_actor_clob_trade_query_requests": 0,
+    "sdk_order_actor_safety_gate_status": "not_applicable:r5_local_ledger",
+    "sdk_outcomes_summary": {
+      "actor_output_count": 10,
+      "arbitration_input_count": 20,
+      "clob_order_evidence_count": 0,
+      "clob_order_query_request_count": 0,
+      "clob_trade_evidence_count": 0,
+      "clob_trade_query_request_count": 0,
+      "fail_closed_reason_count": 0,
+      "heartbeat_output_count": 0,
+      "ledger_fill_count": 1,
+      "ledger_reservation_material_count": 11,
+      "matched_post_overlay_count": 0,
+      "materialization": "bounded_summary_no_full_sdk_outcomes",
+      "outcome_count": 10,
+      "sdk_cancel_attempt_count": 5,
+      "sdk_post_attempt_count": 11,
+      "stop_new_orders_reason_count": 0,
+      "terminal_fill_evidence_count": 1
+    },
+    "submit_count": 11,
+    "tick_coverage": 130,
+    "tick_reports_summary": {
+      "fail_closed_tick_count": 2,
+      "feature_market_end_no_open_count": 0,
+      "feature_stale_by_source": {},
+      "feature_stale_count": 0,
+      "feature_warmup_count": 119,
+      "materialization": "bounded_summary_no_per_tick_rows",
+      "model_status_counts": {
+        "approved_sdk_enqueued": 1,
+        "approved_sdk_outcome": 4,
+        "fail_closed": 2,
+        "inference_no_order": 119,
+        "ttl_cancel_timer_enqueued": 4,
+        "ttl_cancel_waiting_for_due": 4
+      },
+      "no_order_reason_counts": {
+        "FeatureWarmup": 119,
+        "ttl_cancel_waiting_for_due": 4
+      },
+      "sdk_cancel_attempt_count": 4,
+      "sdk_command_queue_event_count": 9,
+      "sdk_post_attempt_count": 11,
+      "tick_count": 134,
+      "ttl_cancel_event_count": 29
+    },
+    "top_level_fail_closed": true,
+    "ttl_summary": {
+      "ttl_backpressure_count": 0,
+      "ttl_cancel_ack_late_count": 0,
+      "ttl_cancel_late_count": 0,
+      "ttl_cancel_required_count": 10,
+      "ttl_cancel_sent_count": 7,
+      "ttl_invariant_status": "passed",
+      "ttl_orders_seen": 11,
+      "ttl_terminal_before_due_count": 1
+    },
+    "warning_reasons": []
+  },
+  "runtime_status": "submit_cancel_runtime_pending",
+  "sdk_cancel_attempt_count": 5,
+  "sdk_cancel_attempted": true,
+  "sdk_order_actor_clob_trade_query_requests": 0,
+  "sdk_order_actor_safety_gate_status": "not_applicable:r5_local_ledger",
+  "sdk_outcomes_summary": {
+    "actor_output_count": 10,
+    "arbitration_input_count": 20,
+    "clob_order_evidence_count": 0,
+    "clob_order_query_request_count": 0,
+    "clob_trade_evidence_count": 0,
+    "clob_trade_query_request_count": 0,
+    "fail_closed_reason_count": 0,
+    "heartbeat_output_count": 0,
+    "ledger_fill_count": 1,
+    "ledger_reservation_material_count": 11,
+    "matched_post_overlay_count": 0,
+    "materialization": "bounded_summary_no_full_sdk_outcomes",
+    "outcome_count": 10,
+    "sdk_cancel_attempt_count": 5,
+    "sdk_post_attempt_count": 11,
+    "stop_new_orders_reason_count": 0,
+    "terminal_fill_evidence_count": 1
+  },
+  "sdk_post_attempt_count": 11,
+  "sdk_post_attempted": true,
+  "shared_normalization_sha256": "aa6b11c14d894789e8ccfef5ca3913972ec5ff14ba7978c5c5813577cfa2ffa7",
+  "top_level_fail_closed": true,
+  "wallet_env_path": "[PRIVATE_HOME]/sdk-live-trade/wallets/.env.wallet1",
+  "wallet_id": "wallet1",
+  "warning_reasons": []
+}

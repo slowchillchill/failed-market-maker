@@ -1,0 +1,15 @@
+The Failed Market Maker
+Copyright 2026 slowchillchill
+
+Original model architectures, inference adaptations and retained original weights:
+Apache License 2.0 (LICENSE).
+Curated documentation, model cards, historical experiment and run reports:
+Creative Commons Attribution 4.0 International (LICENSE-CC-BY-4.0).
+
+Minimal inference reuses the original PolyArbSignalModel / PolyArbAgentModel
+and AlphaModelV2 architecture definitions. It does not reproduce the training
+system, execution runtime, raw datasets, credentials or platform account access.
+Historical source paths and personal infrastructure have been redacted.
+
+PyTorch, NumPy, ONNX and ONNX Runtime are dependencies, not relicensed code.
+Polymarket, Binance and Chainlink identify data sources; no endorsement is implied.

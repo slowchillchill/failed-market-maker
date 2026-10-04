@@ -1,0 +1,331 @@
+{
+  "candidate_count": 4,
+  "candidate_reports": [
+    {
+      "candidate_id": "phase67_C0_control_anchor",
+      "legal_quote_prob_summary": {
+        "count": 113784,
+        "max": 1.0,
+        "mean": 0.9999954814075217,
+        "min": 0.999339759349823,
+        "p01": 0.9999294281005859,
+        "p99": 1.0
+      },
+      "policy_tick_count": 50000,
+      "risk_score_summary": {
+        "count": 50000,
+        "max": 0.281072735786438,
+        "mean": 0.016580617524981498,
+        "min": 0.004074782133102417,
+        "p01": 0.00475322812795639,
+        "p99": 0.2539406996965408
+      },
+      "slot_quote_prob_summary": {
+        "down_buy": {
+          "count": 50000,
+          "max": 1.0,
+          "mean": 0.9999999842333793,
+          "min": 0.9999997615814209,
+          "p01": 0.9999998807907104,
+          "p99": 1.0
+        },
+        "down_sell": {
+          "count": 50000,
+          "max": 0.9999822378158569,
+          "mean": 0.999940867524147,
+          "min": 0.9993385672569275,
+          "p01": 0.999505877494812,
+          "p99": 0.9999809265136719
+        },
+        "up_buy": {
+          "count": 50000,
+          "max": 1.0,
+          "mean": 0.9999999976730347,
+          "min": 0.9999997615814209,
+          "p01": 0.9999998807907104,
+          "p99": 1.0
+        },
+        "up_sell": {
+          "count": 50000,
+          "max": 1.0,
+          "mean": 0.9999998453307152,
+          "min": 0.9999996423721313,
+          "p01": 0.9999996423721313,
+          "p99": 1.0
+        }
+      }
+    },
+    {
+      "candidate_id": "phase67_P1_signed_reward_filter",
+      "legal_quote_prob_summary": {
+        "count": 113784,
+        "max": 0.813967764377594,
+        "mean": 0.14977287319054036,
+        "min": 0.014437929727137089,
+        "p01": 0.019910396952182056,
+        "p99": 0.644668276309967
+      },
+      "policy_tick_count": 50000,
+      "risk_score_summary": {
+        "count": 50000,
+        "max": 4.5746564865112305e-05,
+        "mean": 1.5638347864151e-05,
+        "min": 5.662441253662109e-07,
+        "p01": 1.4007091522216797e-06,
+        "p99": 3.7044286727905273e-05
+      },
+      "slot_quote_prob_summary": {
+        "down_buy": {
+          "count": 50000,
+          "max": 0.8046619296073914,
+          "mean": 0.1379616533461772,
+          "min": 0.014437929727137089,
+          "p01": 0.01932236297056079,
+          "p99": 0.6365553504228593
+        },
+        "down_sell": {
+          "count": 50000,
+          "max": 0.8388761281967163,
+          "mean": 0.2292679516106844,
+          "min": 0.08550074696540833,
+          "p01": 0.101409145668149,
+          "p99": 0.787435736656189
+        },
+        "up_buy": {
+          "count": 50000,
+          "max": 0.7885797023773193,
+          "mean": 0.14022350274560974,
+          "min": 0.014768717810511589,
+          "p01": 0.02013268109411001,
+          "p99": 0.6393657058477402
+        },
+        "up_sell": {
+          "count": 50000,
+          "max": 0.8119039535522461,
+          "mean": 0.2372368336558342,
+          "min": 0.09140188992023468,
+          "p01": 0.1118156810104847,
+          "p99": 0.7539868122339248
+        }
+      }
+    },
+    {
+      "candidate_id": "phase67_P2_quote_sparsity_calibrated",
+      "legal_quote_prob_summary": {
+        "count": 113784,
+        "max": 0.8104196190834045,
+        "mean": 0.12928070595991592,
+        "min": 0.014995780773460865,
+        "p01": 0.018341612312942745,
+        "p99": 0.6206389826536176
+      },
+      "policy_tick_count": 50000,
+      "risk_score_summary": {
+        "count": 50000,
+        "max": 0.0,
+        "mean": 0.0,
+        "min": 0.0,
+        "p01": 0.0,
+        "p99": 0.0
+      },
+      "slot_quote_prob_summary": {
+        "down_buy": {
+          "count": 50000,
+          "max": 0.7666687369346619,
+          "mean": 0.12504929908668622,
+          "min": 0.015542861074209213,
+          "p01": 0.01850393634289503,
+          "p99": 0.6074408155679706
+        },
+        "down_sell": {
+          "count": 50000,
+          "max": 0.8152077794075012,
+          "mean": 0.24334940507382155,
+          "min": 0.1483924835920334,
+          "p01": 0.15819179207086564,
+          "p99": 0.7926841396093374
+        },
+        "up_buy": {
+          "count": 50000,
+          "max": 0.7854831218719482,
+          "mean": 0.11633938456237317,
+          "min": 0.014995780773460865,
+          "p01": 0.017939725145697593,
+          "p99": 0.5894926941394814
+        },
+        "up_sell": {
+          "count": 50000,
+          "max": 0.7629364728927612,
+          "mean": 0.18583956370696425,
+          "min": 0.06822879612445831,
+          "p01": 0.08950679518282413,
+          "p99": 0.7172564876079561
+        }
+      }
+    },
+    {
+      "candidate_id": "phase67_P3_binary_slot_policy",
+      "legal_quote_prob_summary": {
+        "count": 113784,
+        "max": 0.8485174179077148,
+        "mean": 0.13652216730130265,
+        "min": 0.003879908937960863,
+        "p01": 0.007792907473631203,
+        "p99": 0.675913723707199
+      },
+      "policy_tick_count": 50000,
+      "risk_score_summary": {
+        "count": 50000,
+        "max": 0.9842456579208374,
+        "mean": 0.9640299774575234,
+        "min": 0.9128764867782593,
+        "p01": 0.9319455516338349,
+        "p99": 0.9787322020530701
+      },
+      "slot_quote_prob_summary": {
+        "down_buy": {
+          "count": 50000,
+          "max": 0.7038571238517761,
+          "mean": 0.10388297310359776,
+          "min": 0.003879908937960863,
+          "p01": 0.007421400081366301,
+          "p99": 0.5927495944499972
+        },
+        "down_sell": {
+          "count": 50000,
+          "max": 0.8485174179077148,
+          "mean": 0.31998226676627994,
+          "min": 0.06123916804790497,
+          "p01": 0.10059764884412288,
+          "p99": 0.7776193141937257
+        },
+        "up_buy": {
+          "count": 50000,
+          "max": 0.7148995399475098,
+          "mean": 0.10702495858579875,
+          "min": 0.004118688404560089,
+          "p01": 0.007817905554547906,
+          "p99": 0.5994002747535712
+        },
+        "up_sell": {
+          "count": 50000,
+          "max": 0.8599362969398499,
+          "mean": 0.3357859496420622,
+          "min": 0.07798126339912415,
+          "p01": 0.11712454974651337,
+          "p99": 0.7979325401782991
+        }
+      }
+    }
+  ],
+  "common_row_count": 50000,
+  "cross_candidate_raw_output": {
+    "pairwise": [
+      {
+        "common_rows": 50000,
+        "left": "phase67_C0_control_anchor",
+        "quote_prob_max_abs_diff": 0.9855620861053467,
+        "quote_prob_mean_abs_diff": 0.8138126730918884,
+        "right": "phase67_P1_signed_reward_filter",
+        "risk_score_max_abs_diff": 0.2810680568218231,
+        "risk_score_mean_abs_diff": 0.01656497917711735
+      },
+      {
+        "common_rows": 50000,
+        "left": "phase67_C0_control_anchor",
+        "quote_prob_max_abs_diff": 0.9850042462348938,
+        "quote_prob_mean_abs_diff": 0.8323407769203186,
+        "right": "phase67_P2_quote_sparsity_calibrated",
+        "risk_score_max_abs_diff": 0.281072735786438,
+        "risk_score_mean_abs_diff": 0.016580617524981498
+      },
+      {
+        "common_rows": 50000,
+        "left": "phase67_C0_control_anchor",
+        "quote_prob_max_abs_diff": 0.9961200952529907,
+        "quote_prob_mean_abs_diff": 0.7833160758018494,
+        "right": "phase67_P3_binary_slot_policy",
+        "risk_score_max_abs_diff": 0.9792230427265167,
+        "risk_score_mean_abs_diff": 0.9474493599325419
+      },
+      {
+        "common_rows": 50000,
+        "left": "phase67_P1_signed_reward_filter",
+        "quote_prob_max_abs_diff": 0.48893648386001587,
+        "quote_prob_mean_abs_diff": 0.04021690785884857,
+        "right": "phase67_P2_quote_sparsity_calibrated",
+        "risk_score_max_abs_diff": 4.5746564865112305e-05,
+        "risk_score_mean_abs_diff": 1.5638347864151e-05
+      },
+      {
+        "common_rows": 50000,
+        "left": "phase67_P1_signed_reward_filter",
+        "quote_prob_max_abs_diff": 0.6085673570632935,
+        "quote_prob_mean_abs_diff": 0.07863656431436539,
+        "right": "phase67_P3_binary_slot_policy",
+        "risk_score_max_abs_diff": 0.9842372834682465,
+        "risk_score_mean_abs_diff": 0.9640143391096592
+      },
+      {
+        "common_rows": 50000,
+        "left": "phase67_P2_quote_sparsity_calibrated",
+        "quote_prob_max_abs_diff": 0.6114382743835449,
+        "quote_prob_mean_abs_diff": 0.08232086151838303,
+        "right": "phase67_P3_binary_slot_policy",
+        "risk_score_max_abs_diff": 0.9842456579208374,
+        "risk_score_mean_abs_diff": 0.9640299774575234
+      }
+    ]
+  },
+  "provenance": {
+    "candidate_ids": [
+      "phase67_C0_control_anchor",
+      "phase67_P1_signed_reward_filter",
+      "phase67_P2_quote_sparsity_calibrated",
+      "phase67_P3_binary_slot_policy"
+    ],
+    "max_rows": 50000,
+    "row_key_samples": [
+      {
+        "dataset_version": "20260425",
+        "decision_ts_ms": 1777030510250,
+        "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+        "window_id": "1777017600-1777032000"
+      },
+      {
+        "dataset_version": "20260425",
+        "decision_ts_ms": 1777030510500,
+        "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+        "window_id": "1777017600-1777032000"
+      },
+      {
+        "dataset_version": "20260425",
+        "decision_ts_ms": 1777030510750,
+        "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+        "window_id": "1777017600-1777032000"
+      },
+      {
+        "dataset_version": "20260425",
+        "decision_ts_ms": 1777030511000,
+        "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+        "window_id": "1777017600-1777032000"
+      },
+      {
+        "dataset_version": "20260425",
+        "decision_ts_ms": 1777030511250,
+        "market_id": "0x000667d9a617b0adf30e5f471f0262b95614e20f32817101267739a0a73378fb",
+        "window_id": "1777017600-1777032000"
+      }
+    ],
+    "source_run_root": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z",
+    "source_summary": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z/reports/phase65_summary.json"
+  },
+  "raw_output_gate": {
+    "paper_trade_approval": false,
+    "reason": "raw model outputs show nonzero cross-candidate differences",
+    "short_replay_allowed": true,
+    "verdict": "PASS_REVIEW"
+  },
+  "sampled_row_count": 200000,
+  "schema_version": "phase67_raw_output_surface_audit_v1"
+}

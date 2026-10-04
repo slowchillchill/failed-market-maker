@@ -1,0 +1,635 @@
+{
+  "alpha_model_sha256": "6ede2dddb91a80ff0b46d2eabec6fda466a91d4438b60fda2a37646843ad813f",
+  "approval_file_path": "[PRIVATE_HOME]/sdk-live-trade/artifacts/live-validation/approvals/r5-2-4m-final-executable-20260612T132921Z.json",
+  "approval_file_sha256": "e841b32ec3acd883899b5e41e945f6e2c9f2bebd0f0fc9b50d73d0d18f7912ed",
+  "approval_id": "r5-2-4m-final-executable-20260612T132921Z",
+  "binary_sha256": "323fdb0656025f353e711c1d97016d70ded5c8c494400321a21fd5e865e38dca",
+  "condition_id": "0x2eafd65707ec12e2d8747d69f4d765aeb2f80deae4e38b3964ae1ac774d2d109",
+  "condition_ids": [
+    "0x2eafd65707ec12e2d8747d69f4d765aeb2f80deae4e38b3964ae1ac774d2d109"
+  ],
+  "config_sha256": "e5b7ed7e1f1f70b775cc0e10622447957d81974f225df04289aeb63f7f604608",
+  "executable_command": "[PRIVATE_HOME]/sdk-live-trade/bin/sdk-live-trade live-validation --config [PRIVATE_HOME]/sdk-live-trade/config/sdk_live_trade.wallet1.mpv2.json --wallet-env [PRIVATE_HOME]/sdk-live-trade/wallets/.env.wallet1 --output-dir [PRIVATE_HOME]/sdk-live-trade/artifacts/live-validation/R5-execution/r5-2-4m-final-executable-20260612T132921Z-run --approval-file [PRIVATE_HOME]/sdk-live-trade/artifacts/live-validation/approvals/r5-2-4m-final-executable-20260612T132921Z.json --round R5 --execute-approved-r5 --r5-external-approved-by chill --r5-external-approved-at 2026-06-12T13:29:21Z --r5-external-approval-source chat_user_message --r5-external-approval-reason user-approved-fresh-executable-approval-direct-execute-after-price-decimal-fix",
+  "execution_disclosure": {
+    "artifact_pullback_path": "[PRIVATE_HOME]/sdk-live-trade/artifacts/live-validation/R5-execution/r5-2-4m-final-executable-20260612T132921Z-run/pullback",
+    "disclosure_only_not_operator_cap": true,
+    "estimated_max_funds_exposed_usdc": "96574500",
+    "estimated_max_loss_usdc": "96574500",
+    "exact_condition_id": "0x2eafd65707ec12e2d8747d69f4d765aeb2f80deae4e38b3964ae1ac774d2d109",
+    "exact_market_slug": "btc-updown-5m-1781271000",
+    "hard_stop_after_evaluated_market_end_secs": 30,
+    "post_run_verification_path": "[PRIVATE_HOME]/sdk-live-trade/artifacts/live-validation/R5-execution/r5-2-4m-final-executable-20260612T132921Z-run/post-run-verification.json",
+    "rollback_path": "[PRIVATE_HOME]/sdk-live-trade/artifacts/rollbacks/r5-2-4m-price-decimal-fix-20260612T132612Z/sdk-live-trade.prev",
+    "wallet_total_balance_usdc": "96574500",
+    "window_end_unix_s": 1781271300,
+    "window_start_unix_s": 1781271000
+  },
+  "external_execution_approval": {
+    "approval_reason": "user-approved-fresh-executable-approval-direct-execute-after-price-decimal-fix",
+    "approval_source": "chat_user_message",
+    "approved_at": "2026-06-12T13:29:21Z",
+    "approved_by": "chill"
+  },
+  "fail_closed": true,
+  "fail_closed_reasons": [
+    "r5_single_market_runtime_live_tick_source_failed:r5_live_tick_source_account_state:NavUnobservable",
+    "r5_final_scoped_cancel_incomplete",
+    "r5_final_reconciliation_unsafe:open_order_missing_from_sdk",
+    "r5_final_reconciliation_unsafe:data_position_up_mismatch",
+    "r5_final_reconciliation_unsafe:data_position_down_mismatch",
+    "r5_final_reconciliation_unsafe:data_position_value_total_mismatch",
+    "r5_final_reconciliation_unsafe:trade_history_unavailable_blocks_new_orders",
+    "r5_final_reconciliation_unsafe:final_snapshot_clob_trades_query_unsafe",
+    "r5_final_reconciliation_unsafe:final_snapshot_fail_closed:clob_trades_query_failed:sdk_internal"
+  ],
+  "git_commit": "2445d56bfbaa068335c36dccf8b57fe2f24b9550",
+  "git_diff_sha256": "44f5e452628d48718ef3c9a4f74e4a27410656c3de60f50666a079ffc7d0138c",
+  "git_dirty_state": "dirty",
+  "market_scope": "Polymarket BTC UP/DOWN 5MIN",
+  "mode": "live_validation_r5_execution_orchestrator",
+  "model_id": "mpv2_r1_a3_seq120_seed2",
+  "model_sha256": {
+    "alpha_model": "6ede2dddb91a80ff0b46d2eabec6fda466a91d4438b60fda2a37646843ad813f",
+    "policy_model": "6af822f4a3b9a2476da6d5d344e7423af75fb6944c09ed6271bbae3b74d32bae"
+  },
+  "model_tree_manifest_sha256": "a18d41cb90b012280ab32031542d8f5ba47fdf18619cd5d4c7eb599152df094a",
+  "output_dir": "[PRIVATE_HOME]/sdk-live-trade/artifacts/live-validation/R5-execution/r5-2-4m-final-executable-20260612T132921Z-run",
+  "policy_model_sha256": "6af822f4a3b9a2476da6d5d344e7423af75fb6944c09ed6271bbae3b74d32bae",
+  "redaction_status": {
+    "secret_fields_redacted": true,
+    "status": "redacted"
+  },
+  "remote_complete_chain_rehearsal_artifact_path": "[PRIVATE_HOME]/sdk-live-trade/artifacts/no-submit-rehearsal/phase2-task2-4m-r5-runtime-closure/r5-2-4m-runtime-closure-20260612T080648Z",
+  "remote_complete_chain_rehearsal_bundle_manifest_sha256": "2786478213bb8418a66d04cad197b14910486f07f79380df7893a85f2e77d97d",
+  "remote_complete_chain_rehearsal_report_sha256": "98024760c31ed2139ed68e26644eb15fe03c06f42391ddd25b09b7b391684441",
+  "round_id": "R5",
+  "run_id": "r5-2-4m-final-executable-20260612T132921Z",
+  "runtime_report": {
+    "cancel_count": 2,
+    "fail_closed": true,
+    "post_run_verification_summary": [
+      "r5_runtime_artifact_bundle_written"
+    ],
+    "submit_count": 2,
+    "tick_coverage": 1200,
+    "tick_reports": [
+      {
+        "model_status": "inference_no_order",
+        "no_order_reason": "FeatureWarmup",
+        "sdk_cancel_attempt_count": 0,
+        "sdk_post_attempt_count": 0,
+        "strategy_intent": null,
+        "tick_id": 0
+      },
+      {
+        "model_status": "inference_no_order",
+        "no_order_reason": "FeatureWarmup",
+        "sdk_cancel_attempt_count": 0,
+        "sdk_post_attempt_count": 0,
+        "strategy_intent": null,
+        "tick_id": 1
+      },
+      {
+        "model_status": "inference_no_order",
+        "no_order_reason": "FeatureWarmup",
+        "sdk_cancel_attempt_count": 0,
+        "sdk_post_attempt_count": 0,
+        "strategy_intent": null,
+        "tick_id": 2
+      },
+      {
+        "model_status": "inference_no_order",
+        "no_order_reason": "FeatureWarmup",
+        "sdk_cancel_attempt_count": 0,
+        "sdk_post_attempt_count": 0,
+        "strategy_intent": null,
+        "tick_id": 3
+      },
+      {
+        "model_status": "inference_no_order",
+        "no_order_reason": "FeatureWarmup",
+        "sdk_cancel_attempt_count": 0,
+        "sdk_post_attempt_count": 0,
+        "strategy_intent": null,
+        "tick_id": 4
+      },
+      {
+        "model_status": "inference_no_order",
+        "no_order_reason": "FeatureWarmup",
+        "sdk_cancel_attempt_count": 0,
+        "sdk_post_attempt_count": 0,
+        "strategy_intent": null,
+        "tick_id": 5
+      },
+      {
+        "model_status": "inference_no_order",
+        "no_order_reason": "FeatureWarmup",
+        "sdk_cancel_attempt_count": 0,
+        "sdk_post_attempt_count": 0,
+        "strategy_intent": null,
+        "tick_id": 6
+      },
+      {
+        "model_status": "inference_no_order",
+        "no_order_reason": "FeatureWarmup",
+        "sdk_cancel_attempt_count": 0,
+        "sdk_post_attempt_count": 0,
+        "strategy_intent": null,
+        "tick_id": 7
+      }
+    ]
+  },
+  "runtime_status": "submit_cancel_runtime_pending",
+  "sdk_cancel_attempt_count": 2,
+  "sdk_cancel_attempted": true,
+  "sdk_outcomes": [
+    {
+      "actor_outputs": [
+        {
+          "audit_events": [
+            {
+              "asset_id": "57582594411829642546086920314881614301133564128415295990186401466422833047961",
+              "blocked_reasons": [],
+              "command_kind": "submit_intent",
+              "condition_id": "0x2eafd65707ec12e2d8747d69f4d765aeb2f80deae4e38b3964ae1ac774d2d109",
+              "event": "r5_sdk_order_actor",
+              "model_id": "mpv2_r1_a3_seq120_seed2",
+              "run_id": "r5-2-4m-final-executable-20260612T132921Z",
+              "scoped_order_count": 0,
+              "sdk_cancel_attempted": false,
+              "sdk_post_attempted": true,
+              "status": "submitted",
+              "wallet_id": "wallet1"
+            }
+          ],
+          "blocked_reasons": [],
+          "clob_trade_query_requests": [],
+          "command": {
+            "SubmitIntent": {
+              "asset_id": "57582594411829642546086920314881614301133564128415295990186401466422833047961",
+              "condition_id": "0x2eafd65707ec12e2d8747d69f4d765aeb2f80deae4e38b3964ae1ac774d2d109",
+              "expiration_unix_secs": 0,
+              "local_intent_id": "prod:r5-2-4m-final-executable-20260612T132921Z:1781271030000:up_buy",
+              "model_id": "mpv2_r1_a3_seq120_seed2",
+              "post_only": true,
+              "price": "0.41",
+              "run_id": "r5-2-4m-final-executable-20260612T132921Z",
+              "side": "BUY",
+              "size": "5",
+              "wallet_id": "wallet1"
+            }
+          },
+          "outputs": [
+            {
+              "arbitration_inputs": [
+                {
+                  "event_sequence": 1,
+                  "fill_size": null,
+                  "platform_order_id": "0xe5c53324ba4fa349fce1dccddeada095e6fb766c85029b0d85a11eaa6a8afc91",
+                  "size_matched": "0",
+                  "source": "SdkPostResponse",
+                  "terminal_status": null,
+                  "trade_id": null,
+                  "transition": "Accepted"
+                }
+              ],
+              "clob_trade_query_requests": [],
+              "command": {
+                "SubmitOrder": {
+                  "asset_id": "57582594411829642546086920314881614301133564128415295990186401466422833047961",
+                  "condition_id": "0x2eafd65707ec12e2d8747d69f4d765aeb2f80deae4e38b3964ae1ac774d2d109",
+                  "expiration_unix_secs": 0,
+                  "local_intent_id": "prod:r5-2-4m-final-executable-20260612T132921Z:1781271030000:up_buy",
+                  "model_id": "mpv2_r1_a3_seq120_seed2",
+                  "post_only": true,
+                  "price": "0.41",
+                  "run_id": "r5-2-4m-final-executable-20260612T132921Z",
+                  "side": "BUY",
+                  "size": "5",
+                  "wallet_id": "wallet1"
+                }
+              },
+              "matched_post_overlays": [],
+              "report": {
+                "final_status": "SdkAccepted",
+                "observations": [
+                  {
+                    "action": "Build",
+                    "asset_id": "57582594411829642546086920314881614301133564128415295990186401466422833047961",
+                    "cancel_scope": null,
+                    "canceled_order_ids": [],
+                    "condition_id": "0x2eafd65707ec12e2d8747d69f4d765aeb2f80deae4e38b3964ae1ac774d2d109",
+                    "error_message": null,
+                    "local_intent_id": "prod:r5-2-4m-final-executable-20260612T132921Z:1781271030000:up_buy",
+                    "making_amount": null,
+                    "model_id": "mpv2_r1_a3_seq120_seed2",
+                    "not_canceled": {},
+                    "phase": "Build",
+                    "platform_order_id": null,
+                    "run_id": "r5-2-4m-final-executable-20260612T132921Z",
+                    "sdk_error_kind": null,
+                    "sdk_status": null,
+                    "side": "BUY",
+                    "status": "Prepared",
+                    "taking_amount": null,
+                    "trade_ids": [],
+                    "wallet_id": "wallet1"
+                  },
+                  {
+                    "action": "Sign",
+                    "asset_id": "57582594411829642546086920314881614301133564128415295990186401466422833047961",
+                    "cancel_scope": null,
+                    "canceled_order_ids": [],
+                    "condition_id": "0x2eafd65707ec12e2d8747d69f4d765aeb2f80deae4e38b3964ae1ac774d2d109",
+                    "error_message": null,
+                    "local_intent_id": "prod:r5-2-4m-final-executable-20260612T132921Z:1781271030000:up_buy",
+                    "making_amount": null,
+                    "model_id": "mpv2_r1_a3_seq120_seed2",
+                    "not_canceled": {},
+                    "phase": "Sign",
+                    "platform_order_id": null,
+                    "run_id": "r5-2-4m-final-executable-20260612T132921Z",
+                    "sdk_error_kind": null,
+                    "sdk_status": null,
+                    "side": "BUY",
+                    "status": "Prepared",
+                    "taking_amount": null,
+                    "trade_ids": [],
+                    "wallet_id": "wallet1"
+                  },
+                  {
+                    "action": "Post",
+                    "asset_id": "57582594411829642546086920314881614301133564128415295990186401466422833047961",
+                    "cancel_scope": null,
+                    "canceled_order_ids": [],
+                    "condition_id": "0x2eafd65707ec12e2d8747d69f4d765aeb2f80deae4e38b3964ae1ac774d2d109",
+                    "error_message": "",
+                    "local_intent_id": "prod:r5-2-4m-final-executable-20260612T132921Z:1781271030000:up_buy",
+                    "making_amount": "0",
+                    "model_id": "mpv2_r1_a3_seq120_seed2",
+                    "not_canceled": {},
+                    "phase": "Post",
+                    "platform_order_id": "0xe5c53324ba4fa349fce1dccddeada095e6fb766c85029b0d85a11eaa6a8afc91",
+                    "run_id": "r5-2-4m-final-executable-20260612T132921Z",
+                    "sdk_error_kind": null,
+                    "sdk_status": "LIVE",
+                    "side": "BUY",
+                    "status": "SdkAccepted",
+                    "taking_amount": "0",
+                    "trade_ids": [],
+                    "wallet_id": "wallet1"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "audit_events": [
+            {
+              "asset_id": "41216788651251486943559520889580266110903347721005553286543370418688598103866",
+              "blocked_reasons": [],
+              "command_kind": "submit_intent",
+              "condition_id": "0x2eafd65707ec12e2d8747d69f4d765aeb2f80deae4e38b3964ae1ac774d2d109",
+              "event": "r5_sdk_order_actor",
+              "model_id": "mpv2_r1_a3_seq120_seed2",
+              "run_id": "r5-2-4m-final-executable-20260612T132921Z",
+              "scoped_order_count": 0,
+              "sdk_cancel_attempted": false,
+              "sdk_post_attempted": true,
+              "status": "submitted",
+              "wallet_id": "wallet1"
+            }
+          ],
+          "blocked_reasons": [],
+          "clob_trade_query_requests": [],
+          "command": {
+            "SubmitIntent": {
+              "asset_id": "41216788651251486943559520889580266110903347721005553286543370418688598103866",
+              "condition_id": "0x2eafd65707ec12e2d8747d69f4d765aeb2f80deae4e38b3964ae1ac774d2d109",
+              "expiration_unix_secs": 0,
+              "local_intent_id": "prod:r5-2-4m-final-executable-20260612T132921Z:1781271030000:down_buy",
+              "model_id": "mpv2_r1_a3_seq120_seed2",
+              "post_only": true,
+              "price": "0.58",
+              "run_id": "r5-2-4m-final-executable-20260612T132921Z",
+              "side": "BUY",
+              "size": "5",
+              "wallet_id": "wallet1"
+            }
+          },
+          "outputs": [
+            {
+              "arbitration_inputs": [
+                {
+                  "event_sequence": 2,
+                  "fill_size": null,
+                  "platform_order_id": "0x0419ac650963baab9681ace20c113c64f90de1f459e877425251a71a880dd6c5",
+                  "size_matched": "0",
+                  "source": "SdkPostResponse",
+                  "terminal_status": null,
+                  "trade_id": null,
+                  "transition": "Accepted"
+                }
+              ],
+              "clob_trade_query_requests": [],
+              "command": {
+                "SubmitOrder": {
+                  "asset_id": "41216788651251486943559520889580266110903347721005553286543370418688598103866",
+                  "condition_id": "0x2eafd65707ec12e2d8747d69f4d765aeb2f80deae4e38b3964ae1ac774d2d109",
+                  "expiration_unix_secs": 0,
+                  "local_intent_id": "prod:r5-2-4m-final-executable-20260612T132921Z:1781271030000:down_buy",
+                  "model_id": "mpv2_r1_a3_seq120_seed2",
+                  "post_only": true,
+                  "price": "0.58",
+                  "run_id": "r5-2-4m-final-executable-20260612T132921Z",
+                  "side": "BUY",
+                  "size": "5",
+                  "wallet_id": "wallet1"
+                }
+              },
+              "matched_post_overlays": [],
+              "report": {
+                "final_status": "SdkAccepted",
+                "observations": [
+                  {
+                    "action": "Build",
+                    "asset_id": "41216788651251486943559520889580266110903347721005553286543370418688598103866",
+                    "cancel_scope": null,
+                    "canceled_order_ids": [],
+                    "condition_id": "0x2eafd65707ec12e2d8747d69f4d765aeb2f80deae4e38b3964ae1ac774d2d109",
+                    "error_message": null,
+                    "local_intent_id": "prod:r5-2-4m-final-executable-20260612T132921Z:1781271030000:down_buy",
+                    "making_amount": null,
+                    "model_id": "mpv2_r1_a3_seq120_seed2",
+                    "not_canceled": {},
+                    "phase": "Build",
+                    "platform_order_id": null,
+                    "run_id": "r5-2-4m-final-executable-20260612T132921Z",
+                    "sdk_error_kind": null,
+                    "sdk_status": null,
+                    "side": "BUY",
+                    "status": "Prepared",
+                    "taking_amount": null,
+                    "trade_ids": [],
+                    "wallet_id": "wallet1"
+                  },
+                  {
+                    "action": "Sign",
+                    "asset_id": "41216788651251486943559520889580266110903347721005553286543370418688598103866",
+                    "cancel_scope": null,
+                    "canceled_order_ids": [],
+                    "condition_id": "0x2eafd65707ec12e2d8747d69f4d765aeb2f80deae4e38b3964ae1ac774d2d109",
+                    "error_message": null,
+                    "local_intent_id": "prod:r5-2-4m-final-executable-20260612T132921Z:1781271030000:down_buy",
+                    "making_amount": null,
+                    "model_id": "mpv2_r1_a3_seq120_seed2",
+                    "not_canceled": {},
+                    "phase": "Sign",
+                    "platform_order_id": null,
+                    "run_id": "r5-2-4m-final-executable-20260612T132921Z",
+                    "sdk_error_kind": null,
+                    "sdk_status": null,
+                    "side": "BUY",
+                    "status": "Prepared",
+                    "taking_amount": null,
+                    "trade_ids": [],
+                    "wallet_id": "wallet1"
+                  },
+                  {
+                    "action": "Post",
+                    "asset_id": "41216788651251486943559520889580266110903347721005553286543370418688598103866",
+                    "cancel_scope": null,
+                    "canceled_order_ids": [],
+                    "condition_id": "0x2eafd65707ec12e2d8747d69f4d765aeb2f80deae4e38b3964ae1ac774d2d109",
+                    "error_message": "",
+                    "local_intent_id": "prod:r5-2-4m-final-executable-20260612T132921Z:1781271030000:down_buy",
+                    "making_amount": "0",
+                    "model_id": "mpv2_r1_a3_seq120_seed2",
+                    "not_canceled": {},
+                    "phase": "Post",
+                    "platform_order_id": "0x0419ac650963baab9681ace20c113c64f90de1f459e877425251a71a880dd6c5",
+                    "run_id": "r5-2-4m-final-executable-20260612T132921Z",
+                    "sdk_error_kind": null,
+                    "sdk_status": "LIVE",
+                    "side": "BUY",
+                    "status": "SdkAccepted",
+                    "taking_amount": "0",
+                    "trade_ids": [],
+                    "wallet_id": "wallet1"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "arbitration_inputs": [
+        {
+          "event_sequence": 1,
+          "fill_size": null,
+          "platform_order_id": "0xe5c53324ba4fa349fce1dccddeada095e6fb766c85029b0d85a11eaa6a8afc91",
+          "size_matched": "0",
+          "source": "SdkPostResponse",
+          "terminal_status": null,
+          "trade_id": null,
+          "transition": "Accepted"
+        },
+        {
+          "event_sequence": 2,
+          "fill_size": null,
+          "platform_order_id": "0x0419ac650963baab9681ace20c113c64f90de1f459e877425251a71a880dd6c5",
+          "size_matched": "0",
+          "source": "SdkPostResponse",
+          "terminal_status": null,
+          "trade_id": null,
+          "transition": "Accepted"
+        }
+      ],
+      "clob_order_evidences": [],
+      "clob_order_query_requests": [],
+      "clob_trade_evidences": [],
+      "clob_trade_query_requests": [],
+      "fail_closed_reasons": [],
+      "heartbeat_outputs": [],
+      "ledger_fills": [],
+      "ledger_reservation_material": [
+        {
+          "asset_id": "57582594411829642546086920314881614301133564128415295990186401466422833047961",
+          "local_intent_id": "prod:r5-2-4m-final-executable-20260612T132921Z:1781271030000:up_buy",
+          "platform_order_id": "0xe5c53324ba4fa349fce1dccddeada095e6fb766c85029b0d85a11eaa6a8afc91",
+          "price": "0.41",
+          "side": "BUY",
+          "size": "5"
+        },
+        {
+          "asset_id": "41216788651251486943559520889580266110903347721005553286543370418688598103866",
+          "local_intent_id": "prod:r5-2-4m-final-executable-20260612T132921Z:1781271030000:down_buy",
+          "platform_order_id": "0x0419ac650963baab9681ace20c113c64f90de1f459e877425251a71a880dd6c5",
+          "price": "0.58",
+          "side": "BUY",
+          "size": "5"
+        }
+      ],
+      "matched_post_overlays": [],
+      "sdk_cancel_attempt_count": 0,
+      "sdk_post_attempt_count": 2,
+      "stop_new_orders_reasons": []
+    },
+    {
+      "actor_outputs": [
+        {
+          "audit_events": [
+            {
+              "asset_id": null,
+              "blocked_reasons": [],
+              "command_kind": "cancel_all_for_run_scoped",
+              "condition_id": "0x2eafd65707ec12e2d8747d69f4d765aeb2f80deae4e38b3964ae1ac774d2d109",
+              "event": "r5_sdk_order_actor",
+              "model_id": "mpv2_r1_a3_seq120_seed2",
+              "run_id": "r5-2-4m-final-executable-20260612T132921Z",
+              "scoped_order_count": 2,
+              "sdk_cancel_attempted": true,
+              "sdk_post_attempted": false,
+              "status": "sdk_rejected",
+              "wallet_id": "wallet1"
+            }
+          ],
+          "blocked_reasons": [],
+          "clob_trade_query_requests": [],
+          "command": {
+            "CancelAllForRunScoped": {
+              "active_orders": [
+                {
+                  "asset_id": "41216788651251486943559520889580266110903347721005553286543370418688598103866",
+                  "condition_id": "0x2eafd65707ec12e2d8747d69f4d765aeb2f80deae4e38b3964ae1ac774d2d109",
+                  "model_id": "mpv2_r1_a3_seq120_seed2",
+                  "platform_order_id": "0x0419ac650963baab9681ace20c113c64f90de1f459e877425251a71a880dd6c5",
+                  "run_id": "r5-2-4m-final-executable-20260612T132921Z",
+                  "wallet_id": "wallet1"
+                },
+                {
+                  "asset_id": "57582594411829642546086920314881614301133564128415295990186401466422833047961",
+                  "condition_id": "0x2eafd65707ec12e2d8747d69f4d765aeb2f80deae4e38b3964ae1ac774d2d109",
+                  "model_id": "mpv2_r1_a3_seq120_seed2",
+                  "platform_order_id": "0xe5c53324ba4fa349fce1dccddeada095e6fb766c85029b0d85a11eaa6a8afc91",
+                  "run_id": "r5-2-4m-final-executable-20260612T132921Z",
+                  "wallet_id": "wallet1"
+                }
+              ],
+              "scope": {
+                "asset_id": null,
+                "condition_id": "0x2eafd65707ec12e2d8747d69f4d765aeb2f80deae4e38b3964ae1ac774d2d109",
+                "model_id": "mpv2_r1_a3_seq120_seed2",
+                "run_id": "r5-2-4m-final-executable-20260612T132921Z",
+                "wallet_id": "wallet1"
+              }
+            }
+          },
+          "outputs": [
+            {
+              "arbitration_inputs": [],
+              "clob_trade_query_requests": [],
+              "command": {
+                "CancelOrder": {
+                  "platform_order_id": "0x0419ac650963baab9681ace20c113c64f90de1f459e877425251a71a880dd6c5"
+                }
+              },
+              "matched_post_overlays": [],
+              "report": {
+                "final_status": "SdkRejected",
+                "observations": [
+                  {
+                    "action": "Cancel",
+                    "asset_id": null,
+                    "cancel_scope": {
+                      "OrderId": "0x0419ac650963baab9681ace20c113c64f90de1f459e877425251a71a880dd6c5"
+                    },
+                    "canceled_order_ids": [],
+                    "condition_id": null,
+                    "error_message": null,
+                    "local_intent_id": null,
+                    "making_amount": null,
+                    "model_id": null,
+                    "not_canceled": {
+                      "0x0419ac650963baab9681ace20c113c64f90de1f459e877425251a71a880dd6c5": "matched orders can't be canceled"
+                    },
+                    "phase": "CancelOrder",
+                    "platform_order_id": null,
+                    "run_id": null,
+                    "sdk_error_kind": null,
+                    "sdk_status": null,
+                    "side": null,
+                    "status": "SdkRejected",
+                    "taking_amount": null,
+                    "trade_ids": [],
+                    "wallet_id": null
+                  }
+                ]
+              }
+            },
+            {
+              "arbitration_inputs": [],
+              "clob_trade_query_requests": [],
+              "command": {
+                "CancelOrder": {
+                  "platform_order_id": "0xe5c53324ba4fa349fce1dccddeada095e6fb766c85029b0d85a11eaa6a8afc91"
+                }
+              },
+              "matched_post_overlays": [],
+              "report": {
+                "final_status": "SdkRejected",
+                "observations": [
+                  {
+                    "action": "Cancel",
+                    "asset_id": null,
+                    "cancel_scope": {
+                      "OrderId": "0xe5c53324ba4fa349fce1dccddeada095e6fb766c85029b0d85a11eaa6a8afc91"
+                    },
+                    "canceled_order_ids": [],
+                    "condition_id": null,
+                    "error_message": null,
+                    "local_intent_id": null,
+                    "making_amount": null,
+                    "model_id": null,
+                    "not_canceled": {
+                      "0xe5c53324ba4fa349fce1dccddeada095e6fb766c85029b0d85a11eaa6a8afc91": "matched orders can't be canceled"
+                    },
+                    "phase": "CancelOrder",
+                    "platform_order_id": null,
+                    "run_id": null,
+                    "sdk_error_kind": null,
+                    "sdk_status": null,
+                    "side": null,
+                    "status": "SdkRejected",
+                    "taking_amount": null,
+                    "trade_ids": [],
+                    "wallet_id": null
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "arbitration_inputs": [],
+      "clob_order_evidences": [],
+      "clob_order_query_requests": [],
+      "clob_trade_evidences": [],
+      "clob_trade_query_requests": [],
+      "fail_closed_reasons": [],
+      "heartbeat_outputs": [],
+      "ledger_fills": [],
+      "ledger_reservation_material": [],
+      "matched_post_overlays": [],
+      "sdk_cancel_attempt_count": 2,
+      "sdk_post_attempt_count": 0,
+      "stop_new_orders_reasons": []
+    }
+  ],
+  "sdk_post_attempt_count": 2,
+  "sdk_post_attempted": true,
+  "single_use_marker_path": "[PRIVATE_HOME]/sdk-live-trade/artifacts/live-validation/approval-use-markers/r5-2-4m-final-executable-20260612T132921Z.used.json",
+  "wallet_env_path": "[PRIVATE_HOME]/sdk-live-trade/wallets/.env.wallet1",
+  "wallet_id": "wallet1"
+}

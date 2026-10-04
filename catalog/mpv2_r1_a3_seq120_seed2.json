@@ -1,0 +1,38 @@
+{
+  "model_id": "mpv2_r1_a3_seq120_seed2",
+  "family": "deployment",
+  "training_candidate": false,
+  "architecture": "Alpha R1 A3 seed2 + MakerPolicy R1 A3 seed2",
+  "parameters": "See component cards / 见组件模型卡",
+  "config": {
+    "alpha_order": [
+      "signal_logits[0]",
+      "signal_logits[1]",
+      "signal_ev[0]",
+      "signal_ev[1]"
+    ],
+    "account_state": [
+      "cash",
+      "nav_before",
+      "shares_up",
+      "shares_down",
+      "active_resting_count"
+    ],
+    "cash_nav_unit": "USDC, not raw token units",
+    "features": [
+      1,
+      120,
+      160
+    ]
+  },
+  "metrics": {
+    "paper": "See run-specific paper table / 见逐次模拟盘表",
+    "live": "See local-ledger table; platform final PnL unavailable / 见本地账本表，平台最终收益不可用"
+  },
+  "completeness": "Deployment copy, not a 25th trained model. Paper and live results belong to this combination. / 部署组合不算第25个训练候选；paper/live成绩仅归属该组合。",
+  "feature_order": "models/mpv2_r1_a3_seq120_seed2/feature_spec.json",
+  "runtime_outputs": "Alpha output is concatenated and passed to policy; runtime executes interpreted quote targets. / Alpha输出拼接后输入Policy，运行时解释报价目标。",
+  "evidence": [
+    "models/mpv2_r1_a3_seq120_seed2/feature_spec.json"
+  ]
+}

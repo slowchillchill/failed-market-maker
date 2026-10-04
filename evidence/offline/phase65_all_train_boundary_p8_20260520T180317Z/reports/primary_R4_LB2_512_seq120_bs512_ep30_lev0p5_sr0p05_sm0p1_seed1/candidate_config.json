@@ -1,0 +1,8 @@
+{
+  "batch_size": 512,
+  "family": "R4_LB2_512",
+  "role": "primary",
+  "run_id": "primary_R4_LB2_512_seq120_bs512_ep30_lev0p5_sr0p05_sm0p1_seed1",
+  "seed": 1,
+  "seq_len": 120
+}

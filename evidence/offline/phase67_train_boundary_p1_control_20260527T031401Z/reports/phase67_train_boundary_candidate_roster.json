@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "alpha_source_run_id": "primary_R6_C2_control_seq180_bs4096_ep30_lev0p25_sr0p1_sm0p0_seed2",
+      "batch_size": 4096,
+      "design_id": "C0_control_anchor",
+      "reason": "Phase 6.7 control anchor for behavior comparison.",
+      "role": "control",
+      "run_id": "phase67_C0_control_anchor",
+      "seq_len": 180
+    },
+    {
+      "alpha_source_run_id": "primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed2",
+      "batch_size": 2048,
+      "design_id": "P1_signed_reward_filter",
+      "reason": "Only small-batch primary with nonzero maker behavior and Gate 3 control separation.",
+      "role": "primary",
+      "run_id": "phase67_P1_signed_reward_filter",
+      "seq_len": 120
+    }
+  ],
+  "excluded_small_batch_candidates": [
+    {
+      "reason": "small-batch short replay was no-quote",
+      "run_id": "phase67_P2_quote_sparsity_calibrated"
+    },
+    {
+      "reason": "small-batch short replay was no-quote",
+      "run_id": "phase67_P3_binary_slot_policy"
+    }
+  ],
+  "schema_version": "phase67_train_boundary_candidate_roster_v1",
+  "source_small_batch_root": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase67_small_batch_repair_20260527T000120Z",
+  "transition_root": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase65_all_train_boundary_p8_20260520T180317Z/transitions"
+}

@@ -1,0 +1,8 @@
+{
+  "batch_size": 4096,
+  "family": "R6_C2_control",
+  "role": "control",
+  "run_id": "primary_R6_C2_control_seq180_bs4096_ep30_lev0p25_sr0p1_sm0p0_seed2",
+  "seed": 2,
+  "seq_len": 180
+}

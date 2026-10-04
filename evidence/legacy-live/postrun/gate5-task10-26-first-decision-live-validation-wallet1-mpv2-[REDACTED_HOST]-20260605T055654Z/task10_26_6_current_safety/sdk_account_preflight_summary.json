@@ -1,0 +1,32 @@
+{
+  "run_id": "gate5-task10-26-first-decision-live-validation-wallet1-mpv2-[REDACTED_HOST]-20260605T055654Z",
+  "enabled_model_id": "mpv2_r1_a3_seq120_seed2",
+  "enabled_wallet_id": "wallet1",
+  "clob_host": "https://clob.polymarket.com",
+  "chain_id": 137,
+  "wallet_env_path": "[PRIVATE_HOME]/live-runtime/wallets/.env.wallet1",
+  "wallet_env_file_mode": "600",
+  "wallet_env_parent_dir_mode": "700",
+  "wallet_env_permissions_ok": true,
+  "wallet_env_gitignored": true,
+  "wallet_env_tracked": false,
+  "secret_fields_present": {
+    "wallet_private_key": true,
+    "clob_api_key": true,
+    "clob_api_secret": true,
+    "clob_api_passphrase": true
+  },
+  "sdk_credentials_constructed": true,
+  "sdk_authenticated_client_constructed": true,
+  "account_snapshot": {
+    "balance": "101952500",
+    "max_allowance_present": true,
+    "open_order_count": 0,
+    "sdk_balance_allowance_queried": true,
+    "sdk_open_orders_queried": true,
+    "fail_closed": false,
+    "fail_closed_reasons": []
+  },
+  "fail_closed": false,
+  "fail_closed_reasons": []
+}

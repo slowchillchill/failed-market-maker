@@ -1,0 +1,33 @@
+{
+  "tick_stream_paths": [
+    "tick_stream/v1.parquet",
+    "tick_stream/v2.parquet",
+    "tick_stream/v3.parquet"
+  ],
+  "label_paths": [
+    "poly-arb-ai/data-pipeline/out/data-v1/labels.parquet",
+    "poly-arb-ai/data-pipeline/out/data-v2/labels.parquet",
+    "poly-arb-ai/data-pipeline/out/data-v3/labels.parquet"
+  ],
+  "split_info": "poly-arb-ai/training/checkpoints/m5_run_bc_diag/split_info.frozen.json",
+  "oracle_mode": "B",
+  "oracle_c_quantile": 0.7,
+  "oracle_c_threshold": null,
+  "init_source": "m3",
+  "freeze_scope": "j1",
+  "m3_checkpoint": "poly-arb-ai/training/checkpoints/m3_run3/best_model.pt",
+  "m3_stats": "poly-arb-ai/training/checkpoints/m3_run3/feature_stats.npz",
+  "run5_checkpoint": null,
+  "seq_len": 240,
+  "epochs": 20,
+  "batch_size": 2048,
+  "lr_policy": 0.001,
+  "lr_open": 0.0001,
+  "weight_decay": 1e-05,
+  "early_stop_patience": 3,
+  "probe_max_samples": 2000,
+  "num_workers": 4,
+  "device": "cuda",
+  "log_every_batches": 10,
+  "output_dir": "[PRIVATE_ROOT]/autodl-tmp/code/poly-arb-2/poly-arb-ai/training/checkpoints/poly-arb-ai/training/checkpoints/m5_run_v7v72_bc/j1_b_from_m3"
+}

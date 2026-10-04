@@ -1,0 +1,212 @@
+{
+  "eval_dir": "poly-arb-ai/training/eval/v7_final/m3_run_v7_M3-B2__test",
+  "n_windows": 25,
+  "n_segments": 5,
+  "segment_size": 5,
+  "segments": [
+    {
+      "segment_index": 0,
+      "n_windows": 5,
+      "windows": [
+        {
+          "dataset_version": "data-v5",
+          "window_id": "1776657600-1776672000",
+          "net_pnl": 29.39580000000001,
+          "total_return_pct": 29.395800000000012
+        },
+        {
+          "dataset_version": "data-v5",
+          "window_id": "1776672000-1776686400",
+          "net_pnl": -22.998199999999997,
+          "total_return_pct": -22.998199999999997
+        },
+        {
+          "dataset_version": "data-v5",
+          "window_id": "1776686400-1776700800",
+          "net_pnl": -34.848600000000005,
+          "total_return_pct": -34.848600000000005
+        },
+        {
+          "dataset_version": "data-v5",
+          "window_id": "1776700800-1776715200",
+          "net_pnl": 2.9898000000000025,
+          "total_return_pct": 2.9898000000000025
+        },
+        {
+          "dataset_version": "data-v5",
+          "window_id": "1776715200-1776729600",
+          "net_pnl": 30.79400000000001,
+          "total_return_pct": 30.79400000000001
+        }
+      ],
+      "total_pnl": 5.33280000000002,
+      "mean_pnl_per_window": 1.066560000000004,
+      "win_count": 3,
+      "lose_count": 2
+    },
+    {
+      "segment_index": 1,
+      "n_windows": 5,
+      "windows": [
+        {
+          "dataset_version": "data-v5",
+          "window_id": "1776729600-1776744000",
+          "net_pnl": 51.3904,
+          "total_return_pct": 51.3904
+        },
+        {
+          "dataset_version": "data-v5",
+          "window_id": "1776744000-1776758400",
+          "net_pnl": 22.534899999999993,
+          "total_return_pct": 22.534899999999993
+        },
+        {
+          "dataset_version": "data-v5",
+          "window_id": "1776758400-1776772800",
+          "net_pnl": 17.438299999999998,
+          "total_return_pct": 17.438299999999998
+        },
+        {
+          "dataset_version": "data-v5",
+          "window_id": "1776772800-1776787200",
+          "net_pnl": -27.842,
+          "total_return_pct": -27.842
+        },
+        {
+          "dataset_version": "data-v5",
+          "window_id": "1776787200-1776801600",
+          "net_pnl": -41.783,
+          "total_return_pct": -41.783
+        }
+      ],
+      "total_pnl": 21.73859999999999,
+      "mean_pnl_per_window": 4.347719999999998,
+      "win_count": 3,
+      "lose_count": 2
+    },
+    {
+      "segment_index": 2,
+      "n_windows": 5,
+      "windows": [
+        {
+          "dataset_version": "data-v5",
+          "window_id": "1776801600-1776816000",
+          "net_pnl": -5.331100000000006,
+          "total_return_pct": -5.331100000000006
+        },
+        {
+          "dataset_version": "data-v5",
+          "window_id": "1776816000-1776830400",
+          "net_pnl": -27.320700000000002,
+          "total_return_pct": -27.320700000000002
+        },
+        {
+          "dataset_version": "data-v5",
+          "window_id": "1776830400-1776844800",
+          "net_pnl": 40.477000000000004,
+          "total_return_pct": 40.477000000000004
+        },
+        {
+          "dataset_version": "data-v5",
+          "window_id": "1776844800-1776859200",
+          "net_pnl": 5.998199999999997,
+          "total_return_pct": 5.998199999999997
+        },
+        {
+          "dataset_version": "data-v5",
+          "window_id": "1776859200-1776873600",
+          "net_pnl": -2.0156999999999954,
+          "total_return_pct": -2.0156999999999954
+        }
+      ],
+      "total_pnl": 11.807699999999997,
+      "mean_pnl_per_window": 2.3615399999999993,
+      "win_count": 2,
+      "lose_count": 3
+    },
+    {
+      "segment_index": 3,
+      "n_windows": 5,
+      "windows": [
+        {
+          "dataset_version": "data-v5",
+          "window_id": "1776873600-1776888000",
+          "net_pnl": 44.5008,
+          "total_return_pct": 44.5008
+        },
+        {
+          "dataset_version": "data-v5",
+          "window_id": "1776888000-1776902400",
+          "net_pnl": -26.876099999999994,
+          "total_return_pct": -26.87609999999999
+        },
+        {
+          "dataset_version": "data-v5",
+          "window_id": "1776902400-1776916800",
+          "net_pnl": 37.796899999999994,
+          "total_return_pct": 37.796899999999994
+        },
+        {
+          "dataset_version": "data-v5",
+          "window_id": "1776916800-1776931200",
+          "net_pnl": 1.7301999999999964,
+          "total_return_pct": 1.7301999999999964
+        },
+        {
+          "dataset_version": "data-v5",
+          "window_id": "1776931200-1776945600",
+          "net_pnl": 17.3228,
+          "total_return_pct": 17.3228
+        }
+      ],
+      "total_pnl": 74.4746,
+      "mean_pnl_per_window": 14.894919999999999,
+      "win_count": 4,
+      "lose_count": 1
+    },
+    {
+      "segment_index": 4,
+      "n_windows": 5,
+      "windows": [
+        {
+          "dataset_version": "data-v5",
+          "window_id": "1776945600-1776960000",
+          "net_pnl": 1.996300000000005,
+          "total_return_pct": 1.996300000000005
+        },
+        {
+          "dataset_version": "data-v5",
+          "window_id": "1776960000-1776974400",
+          "net_pnl": 51.00059999999999,
+          "total_return_pct": 51.0006
+        },
+        {
+          "dataset_version": "data-v5",
+          "window_id": "1776974400-1776988800",
+          "net_pnl": -5.037099999999995,
+          "total_return_pct": -5.037099999999995
+        },
+        {
+          "dataset_version": "data-v5",
+          "window_id": "1776988800-1777003200",
+          "net_pnl": -14.825500000000005,
+          "total_return_pct": -14.825500000000005
+        },
+        {
+          "dataset_version": "data-v5",
+          "window_id": "1777003200-1777017600",
+          "net_pnl": -8.653099999999995,
+          "total_return_pct": -8.653099999999995
+        }
+      ],
+      "total_pnl": 24.4812,
+      "mean_pnl_per_window": 4.896240000000001,
+      "win_count": 2,
+      "lose_count": 3
+    }
+  ],
+  "median_pnl": 21.73859999999999,
+  "worst_pnl": 5.33280000000002,
+  "best_pnl": 74.4746,
+  "mean_pnl": 27.56698
+}

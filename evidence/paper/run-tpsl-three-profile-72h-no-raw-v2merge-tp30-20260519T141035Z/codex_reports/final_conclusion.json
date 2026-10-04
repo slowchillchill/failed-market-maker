@@ -1,0 +1,270 @@
+{
+  "artifacts": {
+    "final_json": "source://paper/paper-trade-history/run-tpsl-three-profile-72h-no-raw-v2merge-tp30-20260519T141035Z/codex_reports/final_conclusion.json",
+    "final_md": "source://paper/paper-trade-history/run-tpsl-three-profile-72h-no-raw-v2merge-tp30-20260519T141035Z/codex_reports/final_conclusion.md",
+    "remote_run": "source://paper/paper-trade-history/run-tpsl-three-profile-72h-no-raw-v2merge-tp30-20260519T141035Z/remote_run",
+    "report_json": "source://paper/paper-trade-history/run-tpsl-three-profile-72h-no-raw-v2merge-tp30-20260519T141035Z/codex_reports/report-20260522T234126Z.json",
+    "report_md": "source://paper/paper-trade-history/run-tpsl-three-profile-72h-no-raw-v2merge-tp30-20260519T141035Z/codex_reports/report-20260522T234126Z.md",
+    "service_evidence": "source://paper/paper-trade-history/run-tpsl-three-profile-72h-no-raw-v2merge-tp30-20260519T141035Z/codex_reports/service_evidence.txt",
+    "sha256_diff": "source://paper/paper-trade-history/run-tpsl-three-profile-72h-no-raw-v2merge-tp30-20260519T141035Z/codex_reports/sha256sum.diff"
+  },
+  "checksum": "remote/local 14 files matched, sha256sum.diff empty",
+  "duration_hours": 72.07269722222222,
+  "end_jst": "2026-05-22 23:15:00 UTC+09:00",
+  "end_utc": "2026-05-22 14:15:00 UTC",
+  "primary_metric": "risk adjusted_total_pnl_usdc",
+  "profiles": [
+    {
+      "adjusted_total_pnl_usdc": -0.4547,
+      "cancelled_orders": 13414,
+      "closed_segment_pnl_usdc": -7.3058,
+      "current_segment_pnl_usdc": 6.8511,
+      "decision_rows": 726980,
+      "fees_usdc": 9.0116,
+      "fill_rate_pct": 6.190717543986677,
+      "filled_orders": 855,
+      "first_decision_utc": "2026-05-19T14:15:00Z",
+      "last_decision_utc": "2026-05-22T14:14:59Z",
+      "nav_delta_total": 6.851100000000002,
+      "nav_last": 106.8511,
+      "profile": "m5_baseline",
+      "realized_pnl_usdc": 2.07700608,
+      "rebate_accrual_usdc": 13.3249,
+      "rebate_payout_usdc": 10.2257,
+      "rebate_pending_usdc": 3.0992,
+      "risk_status": "active",
+      "risk_trigger": null,
+      "sl_closes": 2,
+      "submitted_orders": 13811,
+      "tp_closes": 2
+    },
+    {
+      "adjusted_total_pnl_usdc": -104.6874,
+      "cancelled_orders": 3921,
+      "closed_segment_pnl_usdc": -104.6874,
+      "current_segment_pnl_usdc": 0.0,
+      "decision_rows": 499880,
+      "fees_usdc": 43.9725,
+      "fill_rate_pct": 7.538167938931298,
+      "filled_orders": 316,
+      "first_decision_utc": "2026-05-19T14:15:00Z",
+      "last_decision_utc": "2026-05-22T07:07:34Z",
+      "nav_delta_total": -49.0623,
+      "nav_last": 50.9377,
+      "profile": "m3_b1",
+      "realized_pnl_usdc": -98.7229522,
+      "rebate_accrual_usdc": 1.17065,
+      "rebate_payout_usdc": 0.0,
+      "rebate_pending_usdc": 1.17065,
+      "risk_status": "await_segment_safe_to_reset",
+      "risk_trigger": "stop_loss",
+      "sl_closes": 4,
+      "submitted_orders": 4192,
+      "tp_closes": 3
+    },
+    {
+      "adjusted_total_pnl_usdc": 43.092,
+      "cancelled_orders": 10853,
+      "closed_segment_pnl_usdc": 43.092,
+      "current_segment_pnl_usdc": 0.0,
+      "decision_rows": 290860,
+      "fees_usdc": 74.6309,
+      "fill_rate_pct": 3.841000446627959,
+      "filled_orders": 430,
+      "first_decision_utc": "2026-05-19T14:15:00Z",
+      "last_decision_utc": "2026-05-22T13:49:21Z",
+      "nav_delta_total": 22.342799999999997,
+      "nav_last": 122.3428,
+      "profile": "m3_b2",
+      "realized_pnl_usdc": -4.86726579,
+      "rebate_accrual_usdc": 2.79488,
+      "rebate_payout_usdc": 1.55399,
+      "rebate_pending_usdc": 1.24089,
+      "risk_status": "await_segment_safe_to_reset",
+      "risk_trigger": "take_profit",
+      "sl_closes": 4,
+      "submitted_orders": 11195,
+      "tp_closes": 10
+    }
+  ],
+  "ranking": [
+    "m3_b2",
+    "m5_baseline",
+    "m3_b1"
+  ],
+  "risk_details": {
+    "m3_b1": {
+      "best_close": {
+        "cash_usdc": 135.56569999999994,
+        "closed_pnl_usdc": 36.1455,
+        "cooldown_until_ms": 1779218068730,
+        "event": "risk_control_segment_close",
+        "liquidation_value_usdc": 0.5798,
+        "market_count": 1,
+        "profile_id": "m3_b1",
+        "risk_nav_usdc": 136.1455,
+        "segment_id": "m3_b1:1",
+        "segment_peak_nav_usdc": 151.8012,
+        "segment_start_principal_usdc": 100.0,
+        "trigger": "take_profit",
+        "ts_ms": 1779210868730
+      },
+      "close_count": 7,
+      "last_close": {
+        "cash_usdc": 36.67859999999997,
+        "closed_pnl_usdc": -51.2494,
+        "cooldown_until_ms": 1779462454364,
+        "event": "risk_control_segment_close",
+        "liquidation_value_usdc": 12.072,
+        "market_count": 1,
+        "profile_id": "m3_b1",
+        "risk_nav_usdc": 48.7506,
+        "segment_id": "m3_b1:7",
+        "segment_peak_nav_usdc": 117.1768,
+        "segment_start_principal_usdc": 100.0,
+        "trigger": "stop_loss",
+        "ts_ms": 1779433654364
+      },
+      "trigger_counts": {
+        "stop_loss": 4,
+        "take_profit": 3
+      },
+      "trigger_pnl_usdc": {
+        "stop_loss": -201.7123,
+        "take_profit": 97.0249
+      },
+      "worst_close": {
+        "cash_usdc": 36.67859999999997,
+        "closed_pnl_usdc": -51.2494,
+        "cooldown_until_ms": 1779462454364,
+        "event": "risk_control_segment_close",
+        "liquidation_value_usdc": 12.072,
+        "market_count": 1,
+        "profile_id": "m3_b1",
+        "risk_nav_usdc": 48.7506,
+        "segment_id": "m3_b1:7",
+        "segment_peak_nav_usdc": 117.1768,
+        "segment_start_principal_usdc": 100.0,
+        "trigger": "stop_loss",
+        "ts_ms": 1779433654364
+      }
+    },
+    "m3_b2": {
+      "best_close": {
+        "cash_usdc": 133.84119999999996,
+        "closed_pnl_usdc": 34.1309,
+        "cooldown_until_ms": 1779344981554,
+        "event": "risk_control_segment_close",
+        "liquidation_value_usdc": 0.2897,
+        "market_count": 1,
+        "profile_id": "m3_b2",
+        "risk_nav_usdc": 134.1309,
+        "segment_id": "m3_b2:8",
+        "segment_peak_nav_usdc": 149.1412,
+        "segment_start_principal_usdc": 100.0,
+        "trigger": "take_profit",
+        "ts_ms": 1779337781555
+      },
+      "close_count": 14,
+      "last_close": {
+        "cash_usdc": 107.28880000000001,
+        "closed_pnl_usdc": 21.756,
+        "cooldown_until_ms": 1779464961932,
+        "event": "risk_control_segment_close",
+        "liquidation_value_usdc": 14.4672,
+        "market_count": 1,
+        "profile_id": "m3_b2",
+        "risk_nav_usdc": 121.756,
+        "segment_id": "m3_b2:14",
+        "segment_peak_nav_usdc": 131.2301,
+        "segment_start_principal_usdc": 100.0,
+        "trigger": "take_profit",
+        "ts_ms": 1779457761932
+      },
+      "trigger_counts": {
+        "stop_loss": 4,
+        "take_profit": 10
+      },
+      "trigger_pnl_usdc": {
+        "stop_loss": -200.3777,
+        "take_profit": 243.4697
+      },
+      "worst_close": {
+        "cash_usdc": 36.95449999999998,
+        "closed_pnl_usdc": -50.2337,
+        "cooldown_until_ms": 1779378315911,
+        "event": "risk_control_segment_close",
+        "liquidation_value_usdc": 12.8118,
+        "market_count": 2,
+        "profile_id": "m3_b2",
+        "risk_nav_usdc": 49.7663,
+        "segment_id": "m3_b2:9",
+        "segment_peak_nav_usdc": 111.3662,
+        "segment_start_principal_usdc": 100.0,
+        "trigger": "stop_loss",
+        "ts_ms": 1779349515911
+      }
+    },
+    "m5_baseline": {
+      "best_close": {
+        "cash_usdc": 158.7076999999999,
+        "closed_pnl_usdc": 65.6077,
+        "cooldown_until_ms": 1779458238739,
+        "event": "risk_control_segment_close",
+        "liquidation_value_usdc": 6.9,
+        "market_count": 1,
+        "profile_id": "m5_baseline",
+        "risk_nav_usdc": 165.6077,
+        "segment_id": "m5_baseline:4",
+        "segment_peak_nav_usdc": 193.8582,
+        "segment_start_principal_usdc": 100.0,
+        "trigger": "take_profit",
+        "ts_ms": 1779451038739
+      },
+      "close_count": 4,
+      "last_close": {
+        "cash_usdc": 158.7076999999999,
+        "closed_pnl_usdc": 65.6077,
+        "cooldown_until_ms": 1779458238739,
+        "event": "risk_control_segment_close",
+        "liquidation_value_usdc": 6.9,
+        "market_count": 1,
+        "profile_id": "m5_baseline",
+        "risk_nav_usdc": 165.6077,
+        "segment_id": "m5_baseline:4",
+        "segment_peak_nav_usdc": 193.8582,
+        "segment_start_principal_usdc": 100.0,
+        "trigger": "take_profit",
+        "ts_ms": 1779451038739
+      },
+      "trigger_counts": {
+        "stop_loss": 2,
+        "take_profit": 2
+      },
+      "trigger_pnl_usdc": {
+        "stop_loss": -100.1738,
+        "take_profit": 92.868
+      },
+      "worst_close": {
+        "cash_usdc": 45.236100000000114,
+        "closed_pnl_usdc": -50.1139,
+        "cooldown_until_ms": 1779295074971,
+        "event": "risk_control_segment_close",
+        "liquidation_value_usdc": 4.65,
+        "market_count": 1,
+        "profile_id": "m5_baseline",
+        "risk_nav_usdc": 49.8861,
+        "segment_id": "m5_baseline:1",
+        "segment_peak_nav_usdc": 121.6209,
+        "segment_start_principal_usdc": 100.0,
+        "trigger": "stop_loss",
+        "ts_ms": 1779266274971
+      }
+    }
+  },
+  "run_id": "run-tpsl-three-profile-72h-no-raw-v2merge-tp30-20260519T141035Z",
+  "service_status": "inactive/dead, ExecMainStatus=0, journal warning/error count=0 in run window",
+  "start_jst": "2026-05-19 23:10:38 UTC+09:00",
+  "start_utc": "2026-05-19 14:10:38 UTC",
+  "unsettled_at_shutdown": 3
+}

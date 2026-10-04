@@ -1,0 +1,7 @@
+{
+  "command_sha256": "f042a8f2827c6bedad3a0cabcbb304010b2bafe16dbc4bff605df5df22c063a0",
+  "exit_code": 0,
+  "finished_at": "2026-05-19T05:16:23.188307Z",
+  "run_id": "primary_R6_C2_control_seq180_bs4096_ep30_lev0p25_sr0p1_sm0p0_seed2",
+  "wall_time_s": 6105.269456833601
+}

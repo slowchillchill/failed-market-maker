@@ -1,0 +1,98 @@
+[
+  {
+    "phase": "phase65",
+    "model_id": "policy_primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed2",
+    "window_count": 263,
+    "pnl_usdc": 46401.5289,
+    "verdict": "FAIL_NO_MAKER_EDGE",
+    "source": "evidence/offline/phase65_all_train_boundary_p8_20260520T180317Z/reports/train_boundary_leaderboard.json"
+  },
+  {
+    "phase": "phase65",
+    "model_id": "policy_primary_R6_C2_control_seq180_bs4096_ep30_lev0p25_sr0p1_sm0p0_seed2",
+    "window_count": 263,
+    "pnl_usdc": 46395.7014,
+    "verdict": "FAIL_NO_MAKER_EDGE",
+    "source": "evidence/offline/phase65_all_train_boundary_p8_20260520T180317Z/reports/train_boundary_leaderboard.json"
+  },
+  {
+    "phase": "phase65",
+    "model_id": "policy_primary_R3_A6_seq120_bs2048_ep30_lev0p5_sr0p05_sm0p1_seed2",
+    "window_count": 263,
+    "pnl_usdc": 46373.2969,
+    "verdict": "FAIL_NO_MAKER_EDGE",
+    "source": "evidence/offline/phase65_all_train_boundary_p8_20260520T180317Z/reports/train_boundary_leaderboard.json"
+  },
+  {
+    "phase": "phase65",
+    "model_id": "policy_primary_R2_A1_seq120_bs2048_ep30_lev0p5_sr0p0_sm0p1_seed2",
+    "window_count": 263,
+    "pnl_usdc": 46367.9046,
+    "verdict": "FAIL_NO_MAKER_EDGE",
+    "source": "evidence/offline/phase65_all_train_boundary_p8_20260520T180317Z/reports/train_boundary_leaderboard.json"
+  },
+  {
+    "phase": "phase65",
+    "model_id": "policy_primary_R4_LB2_512_seq120_bs512_ep30_lev0p5_sr0p05_sm0p1_seed2",
+    "window_count": 263,
+    "pnl_usdc": 46366.3567,
+    "verdict": "FAIL_NO_MAKER_EDGE",
+    "source": "evidence/offline/phase65_all_train_boundary_p8_20260520T180317Z/reports/train_boundary_leaderboard.json"
+  },
+  {
+    "phase": "phase65",
+    "model_id": "policy_primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed3",
+    "window_count": 263,
+    "pnl_usdc": 46360.5781,
+    "verdict": "FAIL_NO_MAKER_EDGE",
+    "source": "evidence/offline/phase65_all_train_boundary_p8_20260520T180317Z/reports/train_boundary_leaderboard.json"
+  },
+  {
+    "phase": "phase65",
+    "model_id": "policy_primary_R4_LB2_512_seq120_bs512_ep30_lev0p5_sr0p05_sm0p1_seed1",
+    "window_count": 263,
+    "pnl_usdc": 46356.4291,
+    "verdict": "FAIL_NO_MAKER_EDGE",
+    "source": "evidence/offline/phase65_all_train_boundary_p8_20260520T180317Z/reports/train_boundary_leaderboard.json"
+  },
+  {
+    "phase": "phase66",
+    "model_id": "policy_primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed2",
+    "window_count": 30,
+    "pnl_usdc": 5336.6038,
+    "verdict": "FAIL_NO_MAKER_EDGE",
+    "source": "evidence/offline/phase66_independent_top3_20260526T173313Z/reports/phase66_independent_leaderboard.json"
+  },
+  {
+    "phase": "phase66",
+    "model_id": "policy_primary_R3_A6_seq120_bs2048_ep30_lev0p5_sr0p05_sm0p1_seed2",
+    "window_count": 30,
+    "pnl_usdc": 5334.8892,
+    "verdict": "FAIL_NO_MAKER_EDGE",
+    "source": "evidence/offline/phase66_independent_top3_20260526T173313Z/reports/phase66_independent_leaderboard.json"
+  },
+  {
+    "phase": "phase66",
+    "model_id": "policy_primary_R6_C2_control_seq180_bs4096_ep30_lev0p25_sr0p1_sm0p0_seed2",
+    "window_count": 30,
+    "pnl_usdc": 5332.335599999999,
+    "verdict": "FAIL_NO_MAKER_EDGE",
+    "source": "evidence/offline/phase66_independent_top3_20260526T173313Z/reports/phase66_independent_leaderboard.json"
+  },
+  {
+    "phase": "phase67",
+    "model_id": "policy_phase67_C0_control_anchor",
+    "window_count": 263,
+    "pnl_usdc": 45844.6815,
+    "verdict": "FAIL_CONTROL_AMPLIFICATION",
+    "source": "evidence/offline/phase67_train_boundary_p1_control_20260527T031401Z/reports/phase67_train_boundary_leaderboard.json"
+  },
+  {
+    "phase": "phase67",
+    "model_id": "policy_phase67_P1_signed_reward_filter",
+    "window_count": 263,
+    "pnl_usdc": 6867.811999999999,
+    "verdict": "FAIL_CONTROL_AMPLIFICATION",
+    "source": "evidence/offline/phase67_train_boundary_p1_control_20260527T031401Z/reports/phase67_train_boundary_leaderboard.json"
+  }
+]

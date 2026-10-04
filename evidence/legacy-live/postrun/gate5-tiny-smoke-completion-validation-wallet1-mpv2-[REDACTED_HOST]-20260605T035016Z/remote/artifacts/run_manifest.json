@@ -1,0 +1,59 @@
+{
+  "run_id": "gate5-tiny-smoke-completion-validation-wallet1-mpv2-[REDACTED_HOST]-20260605T035016Z",
+  "phase": "no_submit_live_data_run",
+  "mode": "polymarket_chainlink_binance_no_submit",
+  "run_duration_class": "short_smoke",
+  "status": "fail_closed",
+  "no_submit": false,
+  "enabled_model_count": 1,
+  "enabled_wallet_count": 1,
+  "market_id": "rolling_series",
+  "condition_id": "rolling_series",
+  "observed_market_ids": [
+    "2433609",
+    "2433618"
+  ],
+  "observed_condition_ids": [
+    "0xaca439daf337f96199e785f391b5ad73a38ede5e4197161526d3a7c3bf03e2bf",
+    "0xbf3c938ec62ecab044a46fd42d8d0ac7c1a7a8acd087bdc8fc2b6098ccd42275"
+  ],
+  "max_runtime_ms": 360000,
+  "startup_timeout_ms": 120000,
+  "decision_interval_ms": 1000,
+  "decision_row_count": 116,
+  "model_contract_row_count": 1,
+  "health_row_count": 1454,
+  "source_health_row_count": 133760,
+  "source_ready_observed": true,
+  "model_bundle_loaded": true,
+  "model_inference_started": false,
+  "live_feed_started": true,
+  "submit_enabled": false,
+  "signing_started": false,
+  "submitted_order_count": 0,
+  "signed_payload_count": 0,
+  "accepted_order_count": 0,
+  "user_channel_event_count": 0,
+  "order_state_arbitration_row_count": 0,
+  "cancel_attempt_count": 0,
+  "sample_insufficient_reasons": [],
+  "active_redeem_started": false,
+  "fail_closed_reasons": [
+    "model_inference_not_started_before_runtime_deadline model_id=mpv2_r1_a3_seq120_seed2"
+  ],
+  "generated_at_unix_ms": 1780633319570,
+  "artifact_paths": {
+    "manifest_path": "[PRIVATE_HOME]/live-runtime/gate5/artifacts/gate5-tiny-smoke-completion-validation-wallet1-mpv2-[REDACTED_HOST]-20260605T035016Z/run_manifest.json",
+    "decisions_jsonl_path": "[PRIVATE_HOME]/live-runtime/gate5/artifacts/gate5-tiny-smoke-completion-validation-wallet1-mpv2-[REDACTED_HOST]-20260605T035016Z/decisions.jsonl",
+    "paper_decisions_jsonl_path": "[PRIVATE_HOME]/live-runtime/gate5/artifacts/gate5-tiny-smoke-completion-validation-wallet1-mpv2-[REDACTED_HOST]-20260605T035016Z/paper_decisions.jsonl",
+    "health_jsonl_path": "[PRIVATE_HOME]/live-runtime/gate5/artifacts/gate5-tiny-smoke-completion-validation-wallet1-mpv2-[REDACTED_HOST]-20260605T035016Z/health.jsonl",
+    "source_health_jsonl_path": "[PRIVATE_HOME]/live-runtime/gate5/artifacts/gate5-tiny-smoke-completion-validation-wallet1-mpv2-[REDACTED_HOST]-20260605T035016Z/source_health.jsonl",
+    "model_contracts_jsonl_path": "[PRIVATE_HOME]/live-runtime/gate5/artifacts/gate5-tiny-smoke-completion-validation-wallet1-mpv2-[REDACTED_HOST]-20260605T035016Z/model_contracts.jsonl",
+    "reconciliation_report_path": "[PRIVATE_HOME]/live-runtime/gate5/artifacts/gate5-tiny-smoke-completion-validation-wallet1-mpv2-[REDACTED_HOST]-20260605T035016Z/reconciliation.json",
+    "orders_jsonl_path": "[PRIVATE_HOME]/live-runtime/gate5/artifacts/gate5-tiny-smoke-completion-validation-wallet1-mpv2-[REDACTED_HOST]-20260605T035016Z/orders.jsonl",
+    "user_channel_jsonl_path": "[PRIVATE_HOME]/live-runtime/gate5/artifacts/gate5-tiny-smoke-completion-validation-wallet1-mpv2-[REDACTED_HOST]-20260605T035016Z/user_channel.jsonl",
+    "order_state_arbitration_jsonl_path": "[PRIVATE_HOME]/live-runtime/gate5/artifacts/gate5-tiny-smoke-completion-validation-wallet1-mpv2-[REDACTED_HOST]-20260605T035016Z/order_state_arbitration.jsonl",
+    "cancel_attempts_jsonl_path": "[PRIVATE_HOME]/live-runtime/gate5/artifacts/gate5-tiny-smoke-completion-validation-wallet1-mpv2-[REDACTED_HOST]-20260605T035016Z/cancel_attempts.jsonl",
+    "resource_usage_jsonl_path": "[PRIVATE_HOME]/live-runtime/gate5/artifacts/gate5-tiny-smoke-completion-validation-wallet1-mpv2-[REDACTED_HOST]-20260605T035016Z/resource_usage.jsonl"
+  }
+}

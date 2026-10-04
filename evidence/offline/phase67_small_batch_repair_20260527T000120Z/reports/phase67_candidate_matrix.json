@@ -1,0 +1,62 @@
+{
+  "candidates": [
+    {
+      "action_support_change": "Current support-gated runtime.",
+      "alpha_source_run_id": "primary_R6_C2_control_seq180_bs4096_ep30_lev0p25_sr0p1_sm0p0_seed2",
+      "batch_size": 4096,
+      "design_id": "C0_control_anchor",
+      "purpose": "Existing control/calibration anchor.",
+      "quote_sparsity_lambda": 0.0,
+      "quote_threshold": 0.55,
+      "role": "control",
+      "run_id": "phase67_C0_control_anchor",
+      "seq_len": 180,
+      "training_change": "Reuse current control objective for same-window comparability.",
+      "training_objective": "behavior_clone_advantage"
+    },
+    {
+      "action_support_change": "Current support-gated runtime.",
+      "alpha_source_run_id": "primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed2",
+      "batch_size": 2048,
+      "design_id": "P1_signed_reward_filter",
+      "purpose": "Suppress zero or negative reward legal slots.",
+      "quote_sparsity_lambda": 0.0,
+      "quote_threshold": 0.55,
+      "role": "primary",
+      "run_id": "phase67_P1_signed_reward_filter",
+      "seq_len": 120,
+      "training_change": "Positive reward keeps behavior quote; nonpositive reward trains no-quote.",
+      "training_objective": "signed_reward_filter"
+    },
+    {
+      "action_support_change": "Threshold sweep over 0.75, 0.90, and 0.99.",
+      "alpha_source_run_id": "primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed2",
+      "batch_size": 2048,
+      "design_id": "P2_quote_sparsity_calibrated",
+      "purpose": "Reduce quote-probability saturation.",
+      "quote_sparsity_lambda": 0.05,
+      "quote_threshold": 0.9,
+      "role": "primary",
+      "run_id": "phase67_P2_quote_sparsity_calibrated",
+      "seq_len": 120,
+      "training_change": "Add legal-slot quote sparsity/calibration pressure.",
+      "training_objective": "quote_sparsity_calibrated"
+    },
+    {
+      "action_support_change": "Current support-gated renderer; offset/size non-gating in review.",
+      "alpha_source_run_id": "primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed2",
+      "batch_size": 2048,
+      "design_id": "P3_binary_slot_policy",
+      "purpose": "Align training with the runtime slot-enable contract.",
+      "quote_sparsity_lambda": 0.0,
+      "quote_threshold": 0.55,
+      "role": "primary",
+      "run_id": "phase67_P3_binary_slot_policy",
+      "seq_len": 120,
+      "training_change": "Train slot-enable decision and keep offset/size diagnostic.",
+      "training_objective": "binary_slot_policy"
+    }
+  ],
+  "max_candidate_count": 4,
+  "schema_version": "phase67_candidate_matrix_v1"
+}

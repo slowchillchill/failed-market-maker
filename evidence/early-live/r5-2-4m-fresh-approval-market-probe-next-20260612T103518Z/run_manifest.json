@@ -1,0 +1,11 @@
+{
+  "duration_secs": 1,
+  "market_scope": "Polymarket BTC UP/DOWN 5MIN",
+  "mode": "no_submit_rehearsal",
+  "model_id": "mpv2_r1_a3_seq120_seed2",
+  "run_id": "no-submit-rehearsal-live-1781260500000",
+  "sdk_cancel_attempted": false,
+  "sdk_post_attempted": false,
+  "source_mode": "live",
+  "wallet_id": "wallet1"
+}

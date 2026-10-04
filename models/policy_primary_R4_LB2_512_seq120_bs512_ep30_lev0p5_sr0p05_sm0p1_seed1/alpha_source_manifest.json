@@ -1,0 +1,46 @@
+{
+  "alpha_source_bundle_sha256": "5844e6ff639f3b3da71164c35b1c85f80861cee28274067011a35059f1ce2efe",
+  "alpha_source_run_id": "primary_R4_LB2_512_seq120_bs512_ep30_lev0p5_sr0p05_sm0p1_seed1",
+  "schema_version": "maker_policy_v2_alpha_source_manifest_v1",
+  "support_audit": {
+    "active_slots": [
+      "up_buy",
+      "down_buy",
+      "up_sell",
+      "down_sell"
+    ],
+    "alpha_run_role": "tiny_smoke",
+    "bad_support_rows": 0,
+    "behavior_slot_counts": {
+      "down_buy": 11565331,
+      "down_sell": 2437794,
+      "up_buy": 11546225,
+      "up_sell": 2532668
+    },
+    "legal_slot_counts": {
+      "down_buy": 11565331,
+      "down_sell": 2437794,
+      "up_buy": 11546225,
+      "up_sell": 2532668
+    },
+    "offset_class_counts": {
+      "improve_1_tick": 895382,
+      "join_best": 27186636,
+      "passive_1_tick": 0
+    },
+    "offset_size_support_source": "transition_explicit_support_metadata",
+    "passed": true,
+    "rows": 14451547,
+    "schema_version": "maker_policy_v2_support_audit_v1",
+    "size_class_counts": {
+      "min_order_size": 28082018
+    },
+    "total_supported_actions": 28082018,
+    "unsupported_reason_counts": {
+      "market_end_no_quote": 470067,
+      "no_legal_quote_target": 321415,
+      "stale_features": 1282302,
+      "warmup": 482120
+    }
+  }
+}

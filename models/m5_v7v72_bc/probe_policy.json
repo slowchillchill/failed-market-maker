@@ -1,0 +1,479 @@
+{
+  "best_epoch": 1,
+  "final": {
+    "loss": 0.5030189752578735,
+    "accuracy": 0.839,
+    "n_samples": 2000,
+    "target_counts": {
+      "Hold": 0,
+      "OpenUp": 0,
+      "OpenDown": 2000,
+      "Reduce": 0,
+      "Close": 0,
+      "Flip": 0
+    },
+    "pred_counts": {
+      "Hold": 0,
+      "OpenUp": 322,
+      "OpenDown": 1678,
+      "Reduce": 0,
+      "Close": 0,
+      "Flip": 0
+    },
+    "argmax_distribution": {
+      "Hold": 0.0,
+      "OpenUp": 0.161,
+      "OpenDown": 0.839,
+      "Reduce": 0.0,
+      "Close": 0.0,
+      "Flip": 0.0
+    },
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        322,
+        1678,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "confusion_labels": [
+      "Hold",
+      "OpenUp",
+      "OpenDown",
+      "Reduce",
+      "Close",
+      "Flip"
+    ],
+    "hold_argmax_share": 0.0,
+    "openup_argmax_share": 0.161,
+    "opendown_argmax_share": 0.839,
+    "directional_argmax_share": 1.0,
+    "non_directional_argmax_share": 0.0,
+    "logit_std": 5.380478382110596,
+    "probe_samples": 2000
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "loss": 0.5030189752578735,
+      "accuracy": 0.839,
+      "n_samples": 2000,
+      "target_counts": {
+        "Hold": 0,
+        "OpenUp": 0,
+        "OpenDown": 2000,
+        "Reduce": 0,
+        "Close": 0,
+        "Flip": 0
+      },
+      "pred_counts": {
+        "Hold": 0,
+        "OpenUp": 322,
+        "OpenDown": 1678,
+        "Reduce": 0,
+        "Close": 0,
+        "Flip": 0
+      },
+      "argmax_distribution": {
+        "Hold": 0.0,
+        "OpenUp": 0.161,
+        "OpenDown": 0.839,
+        "Reduce": 0.0,
+        "Close": 0.0,
+        "Flip": 0.0
+      },
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          322,
+          1678,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "confusion_labels": [
+        "Hold",
+        "OpenUp",
+        "OpenDown",
+        "Reduce",
+        "Close",
+        "Flip"
+      ],
+      "hold_argmax_share": 0.0,
+      "openup_argmax_share": 0.161,
+      "opendown_argmax_share": 0.839,
+      "directional_argmax_share": 1.0,
+      "non_directional_argmax_share": 0.0,
+      "logit_std": 5.380478382110596,
+      "probe_samples": 2000
+    },
+    {
+      "epoch": 2,
+      "loss": 0.4721013605594635,
+      "accuracy": 0.8495,
+      "n_samples": 2000,
+      "target_counts": {
+        "Hold": 0,
+        "OpenUp": 0,
+        "OpenDown": 2000,
+        "Reduce": 0,
+        "Close": 0,
+        "Flip": 0
+      },
+      "pred_counts": {
+        "Hold": 0,
+        "OpenUp": 301,
+        "OpenDown": 1699,
+        "Reduce": 0,
+        "Close": 0,
+        "Flip": 0
+      },
+      "argmax_distribution": {
+        "Hold": 0.0,
+        "OpenUp": 0.1505,
+        "OpenDown": 0.8495,
+        "Reduce": 0.0,
+        "Close": 0.0,
+        "Flip": 0.0
+      },
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          301,
+          1699,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "confusion_labels": [
+        "Hold",
+        "OpenUp",
+        "OpenDown",
+        "Reduce",
+        "Close",
+        "Flip"
+      ],
+      "hold_argmax_share": 0.0,
+      "openup_argmax_share": 0.1505,
+      "opendown_argmax_share": 0.8495,
+      "directional_argmax_share": 1.0,
+      "non_directional_argmax_share": 0.0,
+      "logit_std": 6.099316596984863,
+      "probe_samples": 2000
+    },
+    {
+      "epoch": 3,
+      "loss": 0.4996740221977234,
+      "accuracy": 0.8385,
+      "n_samples": 2000,
+      "target_counts": {
+        "Hold": 0,
+        "OpenUp": 0,
+        "OpenDown": 2000,
+        "Reduce": 0,
+        "Close": 0,
+        "Flip": 0
+      },
+      "pred_counts": {
+        "Hold": 0,
+        "OpenUp": 323,
+        "OpenDown": 1677,
+        "Reduce": 0,
+        "Close": 0,
+        "Flip": 0
+      },
+      "argmax_distribution": {
+        "Hold": 0.0,
+        "OpenUp": 0.1615,
+        "OpenDown": 0.8385,
+        "Reduce": 0.0,
+        "Close": 0.0,
+        "Flip": 0.0
+      },
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          323,
+          1677,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "confusion_labels": [
+        "Hold",
+        "OpenUp",
+        "OpenDown",
+        "Reduce",
+        "Close",
+        "Flip"
+      ],
+      "hold_argmax_share": 0.0,
+      "openup_argmax_share": 0.1615,
+      "opendown_argmax_share": 0.8385,
+      "directional_argmax_share": 1.0,
+      "non_directional_argmax_share": 0.0,
+      "logit_std": 6.525012969970703,
+      "probe_samples": 2000
+    },
+    {
+      "epoch": 4,
+      "loss": 0.44281041622161865,
+      "accuracy": 0.858,
+      "n_samples": 2000,
+      "target_counts": {
+        "Hold": 0,
+        "OpenUp": 0,
+        "OpenDown": 2000,
+        "Reduce": 0,
+        "Close": 0,
+        "Flip": 0
+      },
+      "pred_counts": {
+        "Hold": 0,
+        "OpenUp": 284,
+        "OpenDown": 1716,
+        "Reduce": 0,
+        "Close": 0,
+        "Flip": 0
+      },
+      "argmax_distribution": {
+        "Hold": 0.0,
+        "OpenUp": 0.142,
+        "OpenDown": 0.858,
+        "Reduce": 0.0,
+        "Close": 0.0,
+        "Flip": 0.0
+      },
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          284,
+          1716,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "confusion_labels": [
+        "Hold",
+        "OpenUp",
+        "OpenDown",
+        "Reduce",
+        "Close",
+        "Flip"
+      ],
+      "hold_argmax_share": 0.0,
+      "openup_argmax_share": 0.142,
+      "opendown_argmax_share": 0.858,
+      "directional_argmax_share": 1.0,
+      "non_directional_argmax_share": 0.0,
+      "logit_std": 6.838712215423584,
+      "probe_samples": 2000
+    }
+  ]
+}

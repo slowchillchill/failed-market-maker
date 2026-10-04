@@ -1,0 +1,100 @@
+{
+  "active_bundle_count": 7,
+  "active_bundles": [
+    {
+      "alpha_bundle_dir": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase61_preprocess_20260519T150552Z/alpha_v2_bundles/primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed3",
+      "alpha_model_bundle_sha256": "b411afbed7f73dc7571d8e07979b2befb40886d769c1e5c537cde91f38c62a31",
+      "batch_size": 2048,
+      "family": "R1_A3",
+      "invalid_bundle_siblings_excluded": [],
+      "policy_bundle_dir": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase65_all_train_boundary_p8_20260520T180317Z/policies/primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed3/bundle",
+      "policy_model_bundle_sha256": "682bc83a7b1bebd4526f36b8986f2b2f7bc44ab75f309d1f025ac8502ce1dc3c",
+      "role": "primary",
+      "run_id": "primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed3",
+      "seed": 3,
+      "seq_len": 120
+    },
+    {
+      "alpha_bundle_dir": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase61_preprocess_20260519T150552Z/alpha_v2_bundles/primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed2",
+      "alpha_model_bundle_sha256": "f0632600456be4af701439d56cf2fc0870dfb76f4402bba4d993c344b29e92e9",
+      "batch_size": 2048,
+      "family": "R1_A3",
+      "invalid_bundle_siblings_excluded": [],
+      "policy_bundle_dir": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase65_all_train_boundary_p8_20260520T180317Z/policies/primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed2/bundle",
+      "policy_model_bundle_sha256": "3ccfebb638562db9e93945f203ad3fbdf34d0da7ec86e8cbc6d2237e1fba4ffa",
+      "role": "primary",
+      "run_id": "primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed2",
+      "seed": 2,
+      "seq_len": 120
+    },
+    {
+      "alpha_bundle_dir": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase61_preprocess_20260519T150552Z/alpha_v2_bundles/primary_R4_LB2_512_seq120_bs512_ep30_lev0p5_sr0p05_sm0p1_seed1",
+      "alpha_model_bundle_sha256": "5844e6ff639f3b3da71164c35b1c85f80861cee28274067011a35059f1ce2efe",
+      "batch_size": 512,
+      "family": "R4_LB2_512",
+      "invalid_bundle_siblings_excluded": [
+        "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase65_all_train_boundary_p8_20260520T180317Z/policies/primary_R4_LB2_512_seq120_bs512_ep30_lev0p5_sr0p05_sm0p1_seed1/bundle_invalid_batch2048_p3_ec35954_20260522T194059Z"
+      ],
+      "policy_bundle_dir": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase65_all_train_boundary_p8_20260520T180317Z/policies/primary_R4_LB2_512_seq120_bs512_ep30_lev0p5_sr0p05_sm0p1_seed1/bundle",
+      "policy_model_bundle_sha256": "d4357bf1b2c0a9e725ce6c6d711405943b0519395f970e72c79abd97a760e96c",
+      "role": "primary",
+      "run_id": "primary_R4_LB2_512_seq120_bs512_ep30_lev0p5_sr0p05_sm0p1_seed1",
+      "seed": 1,
+      "seq_len": 120
+    },
+    {
+      "alpha_bundle_dir": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase61_preprocess_20260519T150552Z/alpha_v2_bundles/primary_R4_LB2_512_seq120_bs512_ep30_lev0p5_sr0p05_sm0p1_seed2",
+      "alpha_model_bundle_sha256": "d2ca6af1cad8584a2cfa11f917705e44eb50882faffcca635e7bb7326954ac6d",
+      "batch_size": 512,
+      "family": "R4_LB2_512",
+      "invalid_bundle_siblings_excluded": [],
+      "policy_bundle_dir": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase65_all_train_boundary_p8_20260520T180317Z/policies/primary_R4_LB2_512_seq120_bs512_ep30_lev0p5_sr0p05_sm0p1_seed2/bundle",
+      "policy_model_bundle_sha256": "0f92dd81932acb8b4ea7b822232aa0eacc3f542d676eaae4ace562c9084d7fe9",
+      "role": "primary",
+      "run_id": "primary_R4_LB2_512_seq120_bs512_ep30_lev0p5_sr0p05_sm0p1_seed2",
+      "seed": 2,
+      "seq_len": 120
+    },
+    {
+      "alpha_bundle_dir": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase61_preprocess_20260519T150552Z/alpha_v2_bundles/primary_R2_A1_seq120_bs2048_ep30_lev0p5_sr0p0_sm0p1_seed2",
+      "alpha_model_bundle_sha256": "658ef7119c6f676964b8487d231e619a1749777de964420dcc57aeae12ab661c",
+      "batch_size": 2048,
+      "family": "R2_A1",
+      "invalid_bundle_siblings_excluded": [],
+      "policy_bundle_dir": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase65_all_train_boundary_p8_20260520T180317Z/policies/primary_R2_A1_seq120_bs2048_ep30_lev0p5_sr0p0_sm0p1_seed2/bundle",
+      "policy_model_bundle_sha256": "2eb5fcbef4034ddc3b154b23e60e2b40bb98cf4846f9a3504662f8a4535dddbe",
+      "role": "diagnostic",
+      "run_id": "primary_R2_A1_seq120_bs2048_ep30_lev0p5_sr0p0_sm0p1_seed2",
+      "seed": 2,
+      "seq_len": 120
+    },
+    {
+      "alpha_bundle_dir": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase61_preprocess_20260519T150552Z/alpha_v2_bundles/primary_R3_A6_seq120_bs2048_ep30_lev0p5_sr0p05_sm0p1_seed2",
+      "alpha_model_bundle_sha256": "33799546e0dcfcf796f12da19df4ce9f74683e3efb32f3185c93685474304669",
+      "batch_size": 2048,
+      "family": "R3_A6",
+      "invalid_bundle_siblings_excluded": [],
+      "policy_bundle_dir": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase65_all_train_boundary_p8_20260520T180317Z/policies/primary_R3_A6_seq120_bs2048_ep30_lev0p5_sr0p05_sm0p1_seed2/bundle",
+      "policy_model_bundle_sha256": "af68a64876f1f6ad2940c49fd5a21d30c6680334e0fd7f75b193542295d896b7",
+      "role": "diagnostic",
+      "run_id": "primary_R3_A6_seq120_bs2048_ep30_lev0p5_sr0p05_sm0p1_seed2",
+      "seed": 2,
+      "seq_len": 120
+    },
+    {
+      "alpha_bundle_dir": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase61_preprocess_20260519T150552Z/alpha_v2_bundles/primary_R6_C2_control_seq180_bs4096_ep30_lev0p25_sr0p1_sm0p0_seed2",
+      "alpha_model_bundle_sha256": "036d3c15f2db2f6b6b0ab77a5464486536a4e739101e7292933666a31f742ef4",
+      "batch_size": 4096,
+      "family": "R6_C2_control",
+      "invalid_bundle_siblings_excluded": [],
+      "policy_bundle_dir": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase65_all_train_boundary_p8_20260520T180317Z/policies/primary_R6_C2_control_seq180_bs4096_ep30_lev0p25_sr0p1_sm0p0_seed2/bundle",
+      "policy_model_bundle_sha256": "17e05b0e3df36b9d5c631deda407e2f40cbdef283f7a22d49a33736092270449",
+      "role": "control",
+      "run_id": "primary_R6_C2_control_seq180_bs4096_ep30_lev0p25_sr0p1_sm0p0_seed2",
+      "seed": 2,
+      "seq_len": 180
+    }
+  ],
+  "schema_version": "phase65_active_policy_bundle_manifest_v1",
+  "source_run_root": "source://v2/poly-arb-ai/training/maker_policy_v2_phase6_runs/phase65_all_train_boundary_p8_20260520T180317Z"
+}

@@ -1,0 +1,10 @@
+{
+  "artifact_root": "source://v2/poly-arb-ai/training/alpha_v2_phase5_8_signal_gate_runs",
+  "command": "PYTHONPATH=poly-arb-ai [PRIVATE_ROOT]/miniconda3/bin/python3 -u poly-arb-ai/training/run_phase58_signal_gate.py --stop-after primary",
+  "commit": "577d409ce8113d64b9798198f15b4030eba962b7",
+  "exit_file": "source://v2/poly-arb-ai/training/alpha_v2_phase5_8_signal_gate_runs/logs/phase58_primary_tmux_20260518T093913Z.exit",
+  "launched_at_utc": "20260518T093913Z",
+  "runner_log": "source://v2/poly-arb-ai/training/alpha_v2_phase5_8_signal_gate_runs/logs/phase58_primary_tmux_20260518T093913Z.log",
+  "schema_version": "phase58_primary_tmux_launch_v1",
+  "session": "phase58_signal_gate_primary"
+}

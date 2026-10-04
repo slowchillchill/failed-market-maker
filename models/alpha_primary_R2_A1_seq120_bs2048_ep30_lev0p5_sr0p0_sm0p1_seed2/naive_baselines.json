@@ -1,0 +1,8 @@
+{
+  "auc": 0.5,
+  "ev_rank_spearman": 0.0,
+  "no_sort_top_decile_realized_ev": -0.08483745504590946,
+  "both_ev_nan_drop_count": 0,
+  "both_ev_nan_drop_ratio": 0.0,
+  "valid_sample_count": 604995
+}

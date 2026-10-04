@@ -1,0 +1,386 @@
+{
+  "decisions": {
+    "cash_last": 0.4470000000000298,
+    "first_decision_utc": "2026-05-17T02:25:00Z",
+    "gap_total": {},
+    "gap_window": {},
+    "last_decision_utc": "2026-05-17T08:35:17Z",
+    "max_interval_ms": 5656,
+    "nav_delta_total": -99.553,
+    "nav_delta_window": -99.553,
+    "nav_last": 0.447,
+    "nav_start": 100.0,
+    "nav_window_start": 100.0,
+    "total_decision_rate_hz": 3.979533442205281,
+    "total_rows": 88414,
+    "window_decision_rate_hz": 3.979533442205281,
+    "window_max_interval_ms": 5656,
+    "window_rows": 88414
+  },
+  "disk": {
+    "free_gib": 786.6737670898438,
+    "percent": 52.97570991034978,
+    "total_gib": 1875.675796508789,
+    "used_gib": 993.6525688171387
+  },
+  "health": {
+    "total_event_counts": {
+      "booting_observe_only": 1,
+      "market_p2b_set": 228,
+      "market_resolved": 222,
+      "market_resolved_meta": 222,
+      "model_profiles_loaded": 1,
+      "order_lifecycle": 1170,
+      "shutdown_signal": 1,
+      "unsettled_at_shutdown": 3,
+      "worker_spawned": 76
+    },
+    "window_event_counts": {
+      "booting_observe_only": 1,
+      "market_p2b_set": 228,
+      "market_resolved": 222,
+      "market_resolved_meta": 222,
+      "model_profiles_loaded": 1,
+      "order_lifecycle": 1170,
+      "shutdown_signal": 1,
+      "unsettled_at_shutdown": 3,
+      "worker_spawned": 76
+    }
+  },
+  "metadata": {
+    "invalid_rule_rows": 0,
+    "rows": 76,
+    "rule_field_present": {
+      "maker_rebate_rate": 76,
+      "min_order_size": 76,
+      "taker_fee_rate": 76,
+      "tick_size": 76
+    },
+    "valid_rule_rows": 76
+  },
+  "profiles": [
+    {
+      "decisions": {
+        "cash_last": 0.4470000000000298,
+        "first_decision_utc": "2026-05-17T02:25:00Z",
+        "gap_total": {},
+        "gap_window": {},
+        "last_decision_utc": "2026-05-17T08:35:17Z",
+        "max_interval_ms": 5656,
+        "nav_delta_total": -99.553,
+        "nav_delta_window": -99.553,
+        "nav_last": 0.447,
+        "nav_start": 100.0,
+        "nav_window_start": 100.0,
+        "total_decision_rate_hz": 3.979533442205281,
+        "total_rows": 88414,
+        "window_decision_rate_hz": 3.979533442205281,
+        "window_max_interval_ms": 5656,
+        "window_rows": 88414
+      },
+      "path": "paper-trade-history/run-p22-three-profile-72h-20260517T022156Z/remote_run/models/m5_baseline",
+      "profile_id": "m5_baseline",
+      "rebate": {
+        "last_pending_usdc": 1.76991,
+        "total_amount_by_event": {
+          "maker_rebate_accrual": 1.76991
+        },
+        "total_event_counts": {
+          "maker_rebate_accrual": 104
+        },
+        "window_amount_by_event": {
+          "maker_rebate_accrual": 1.76991
+        },
+        "window_event_counts": {
+          "maker_rebate_accrual": 104
+        }
+      },
+      "trades": {
+        "open_order_count": 0,
+        "terminal_unique": 88,
+        "total_events": 450,
+        "total_fee_usdc": 0.2968,
+        "total_kind_counts": {
+          "CancelRequested": 40,
+          "Cancelled": 56,
+          "FilledFull": 44,
+          "FilledPartial": 66,
+          "RestingPlaced": 82,
+          "Submitted": 88,
+          "settlement": 74
+        },
+        "total_realized_pnl_usdc": -99.55290594,
+        "total_side_submitted": {
+          "buy": 48,
+          "sell": 40
+        },
+        "total_unique_cancelled_orders": 56,
+        "total_unique_filled_orders": 71,
+        "total_unique_full_fill_orders": 44,
+        "total_unique_partial_fill_orders": 40,
+        "total_unique_submitted_orders": 88,
+        "window_events": 450,
+        "window_fee_usdc": 0.2968,
+        "window_kind_counts": {
+          "CancelRequested": 40,
+          "Cancelled": 56,
+          "FilledFull": 44,
+          "FilledPartial": 66,
+          "RestingPlaced": 82,
+          "Submitted": 88,
+          "settlement": 74
+        },
+        "window_realized_pnl_usdc": -99.55290594,
+        "window_side_submitted": {
+          "buy": 48,
+          "sell": 40
+        },
+        "window_unique_cancelled_orders": 56,
+        "window_unique_filled_orders": 71,
+        "window_unique_full_fill_orders": 44,
+        "window_unique_partial_fill_orders": 40,
+        "window_unique_submitted_orders": 88
+      }
+    },
+    {
+      "decisions": {
+        "cash_last": 200.05069999999998,
+        "first_decision_utc": "2026-05-17T02:25:00Z",
+        "gap_total": {},
+        "gap_window": {},
+        "last_decision_utc": "2026-05-17T08:35:17Z",
+        "max_interval_ms": 5656,
+        "nav_delta_total": 100.0507,
+        "nav_delta_window": 100.0507,
+        "nav_last": 200.0507,
+        "nav_start": 100.0,
+        "nav_window_start": 100.0,
+        "total_decision_rate_hz": 3.979533442205281,
+        "total_rows": 88414,
+        "window_decision_rate_hz": 3.979533442205281,
+        "window_max_interval_ms": 5656,
+        "window_rows": 88414
+      },
+      "path": "paper-trade-history/run-p22-three-profile-72h-20260517T022156Z/remote_run/models/m3_b1",
+      "profile_id": "m3_b1",
+      "rebate": {
+        "last_pending_usdc": 0.98329,
+        "total_amount_by_event": {
+          "maker_rebate_accrual": 0.98329
+        },
+        "total_event_counts": {
+          "maker_rebate_accrual": 52
+        },
+        "window_amount_by_event": {
+          "maker_rebate_accrual": 0.98329
+        },
+        "window_event_counts": {
+          "maker_rebate_accrual": 52
+        }
+      },
+      "trades": {
+        "open_order_count": 0,
+        "terminal_unique": 71,
+        "total_events": 321,
+        "total_fee_usdc": 6.1093,
+        "total_kind_counts": {
+          "CancelRequested": 19,
+          "Cancelled": 29,
+          "FilledFull": 44,
+          "FilledPartial": 43,
+          "RestingPlaced": 41,
+          "Submitted": 71,
+          "settlement": 74
+        },
+        "total_realized_pnl_usdc": 100.05076142,
+        "total_side_submitted": {
+          "buy": 40,
+          "sell": 31
+        },
+        "total_unique_cancelled_orders": 29,
+        "total_unique_filled_orders": 61,
+        "total_unique_full_fill_orders": 44,
+        "total_unique_partial_fill_orders": 22,
+        "total_unique_submitted_orders": 71,
+        "window_events": 321,
+        "window_fee_usdc": 6.1093,
+        "window_kind_counts": {
+          "CancelRequested": 19,
+          "Cancelled": 29,
+          "FilledFull": 44,
+          "FilledPartial": 43,
+          "RestingPlaced": 41,
+          "Submitted": 71,
+          "settlement": 74
+        },
+        "window_realized_pnl_usdc": 100.05076142,
+        "window_side_submitted": {
+          "buy": 40,
+          "sell": 31
+        },
+        "window_unique_cancelled_orders": 29,
+        "window_unique_filled_orders": 61,
+        "window_unique_full_fill_orders": 44,
+        "window_unique_partial_fill_orders": 22,
+        "window_unique_submitted_orders": 71
+      }
+    },
+    {
+      "decisions": {
+        "cash_last": 0.9411999999999245,
+        "first_decision_utc": "2026-05-17T02:25:00Z",
+        "gap_total": {},
+        "gap_window": {},
+        "last_decision_utc": "2026-05-17T08:35:17Z",
+        "max_interval_ms": 5656,
+        "nav_delta_total": -99.0588,
+        "nav_delta_window": -99.0588,
+        "nav_last": 0.9412,
+        "nav_start": 100.0,
+        "nav_window_start": 100.0,
+        "total_decision_rate_hz": 3.979533442205281,
+        "total_rows": 88414,
+        "window_decision_rate_hz": 3.979533442205281,
+        "window_max_interval_ms": 5656,
+        "window_rows": 88414
+      },
+      "path": "paper-trade-history/run-p22-three-profile-72h-20260517T022156Z/remote_run/models/m3_b2",
+      "profile_id": "m3_b2",
+      "rebate": {
+        "last_pending_usdc": 2.55943,
+        "total_amount_by_event": {
+          "maker_rebate_accrual": 2.55943
+        },
+        "total_event_counts": {
+          "maker_rebate_accrual": 146
+        },
+        "window_amount_by_event": {
+          "maker_rebate_accrual": 2.55943
+        },
+        "window_event_counts": {
+          "maker_rebate_accrual": 146
+        }
+      },
+      "trades": {
+        "open_order_count": 0,
+        "terminal_unique": 127,
+        "total_events": 621,
+        "total_fee_usdc": 1.8565,
+        "total_kind_counts": {
+          "CancelRequested": 58,
+          "Cancelled": 87,
+          "FilledFull": 51,
+          "FilledPartial": 113,
+          "RestingPlaced": 111,
+          "Submitted": 127,
+          "settlement": 74
+        },
+        "total_realized_pnl_usdc": -99.05883888,
+        "total_side_submitted": {
+          "buy": 71,
+          "sell": 56
+        },
+        "total_unique_cancelled_orders": 87,
+        "total_unique_filled_orders": 98,
+        "total_unique_full_fill_orders": 51,
+        "total_unique_partial_fill_orders": 62,
+        "total_unique_submitted_orders": 127,
+        "window_events": 621,
+        "window_fee_usdc": 1.8565,
+        "window_kind_counts": {
+          "CancelRequested": 58,
+          "Cancelled": 87,
+          "FilledFull": 51,
+          "FilledPartial": 113,
+          "RestingPlaced": 111,
+          "Submitted": 127,
+          "settlement": 74
+        },
+        "window_realized_pnl_usdc": -99.05883888,
+        "window_side_submitted": {
+          "buy": 71,
+          "sell": 56
+        },
+        "window_unique_cancelled_orders": 87,
+        "window_unique_filled_orders": 98,
+        "window_unique_full_fill_orders": 51,
+        "window_unique_partial_fill_orders": 62,
+        "window_unique_submitted_orders": 127
+      }
+    }
+  ],
+  "rebate": {
+    "last_pending_usdc": 1.76991,
+    "total_amount_by_event": {
+      "maker_rebate_accrual": 1.76991
+    },
+    "total_event_counts": {
+      "maker_rebate_accrual": 104
+    },
+    "window_amount_by_event": {
+      "maker_rebate_accrual": 1.76991
+    },
+    "window_event_counts": {
+      "maker_rebate_accrual": 104
+    }
+  },
+  "runtime": {
+    "duration_hours": 6.222398888888889,
+    "end_utc": "2026-05-17T08:35:17Z",
+    "git_commit": "d4faf82-three-profile-72h",
+    "latency_mode": "logical_equal_decision",
+    "manifest_total_decisions": 265242,
+    "now_utc": "2026-05-17T08:36:20Z",
+    "run_dir": "paper-trade-history/run-p22-three-profile-72h-20260517T022156Z/remote_run",
+    "service_status": "inactive",
+    "start_utc": "2026-05-17T02:21:56Z",
+    "unsettled_at_shutdown": 3,
+    "window_hours": 24
+  },
+  "trades": {
+    "open_order_count": 0,
+    "terminal_unique": 88,
+    "total_events": 450,
+    "total_fee_usdc": 0.2968,
+    "total_kind_counts": {
+      "CancelRequested": 40,
+      "Cancelled": 56,
+      "FilledFull": 44,
+      "FilledPartial": 66,
+      "RestingPlaced": 82,
+      "Submitted": 88,
+      "settlement": 74
+    },
+    "total_realized_pnl_usdc": -99.55290594,
+    "total_side_submitted": {
+      "buy": 48,
+      "sell": 40
+    },
+    "total_unique_cancelled_orders": 56,
+    "total_unique_filled_orders": 71,
+    "total_unique_full_fill_orders": 44,
+    "total_unique_partial_fill_orders": 40,
+    "total_unique_submitted_orders": 88,
+    "window_events": 450,
+    "window_fee_usdc": 0.2968,
+    "window_kind_counts": {
+      "CancelRequested": 40,
+      "Cancelled": 56,
+      "FilledFull": 44,
+      "FilledPartial": 66,
+      "RestingPlaced": 82,
+      "Submitted": 88,
+      "settlement": 74
+    },
+    "window_realized_pnl_usdc": -99.55290594,
+    "window_side_submitted": {
+      "buy": 48,
+      "sell": 40
+    },
+    "window_unique_cancelled_orders": 56,
+    "window_unique_filled_orders": 71,
+    "window_unique_full_fill_orders": 44,
+    "window_unique_partial_fill_orders": 40,
+    "window_unique_submitted_orders": 88
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "bundle_version": "phase61_primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed2_b9f7280c",
+  "feature_order_version": "v2_maker_160",
+  "model_kind": "alpha_v2",
+  "n_features": 160,
+  "required_files": {
+    "feature_spec.json": {
+      "sha256": "75b066ecc09733248e5f4766561762f35d2cbac8e61c562b882590badb0767cf"
+    },
+    "model.onnx": {
+      "sha256": "6ede2dddb91a80ff0b46d2eabec6fda466a91d4438b60fda2a37646843ad813f"
+    },
+    "normalization.npz": {
+      "sha256": "aa6b11c14d894789e8ccfef5ca3913972ec5ff14ba7978c5c5813577cfa2ffa7"
+    }
+  },
+  "schema_version": 1
+}

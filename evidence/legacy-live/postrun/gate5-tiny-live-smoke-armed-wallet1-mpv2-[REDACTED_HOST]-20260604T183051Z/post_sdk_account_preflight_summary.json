@@ -1,0 +1,9 @@
+{
+  "fail_closed": false,
+  "account_fail_closed": false,
+  "balance": "99744640",
+  "open_order_count": 0,
+  "max_allowance_present": true,
+  "sdk_balance_allowance_queried": true,
+  "sdk_open_orders_queried": true
+}

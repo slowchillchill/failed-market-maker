@@ -1,0 +1,103 @@
+{
+  "action_schema_version": "maker_policy_v2_action_schema_v1",
+  "alpha_source_bundle_sha256": "f0632600456be4af701439d56cf2fc0870dfb76f4402bba4d993c344b29e92e9",
+  "alpha_source_run_id": "primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed2",
+  "bundle_version": "maker_policy_v2_phase63_smoke",
+  "feature_order_version": "v2_maker_160",
+  "independent_test_data_boundary": [
+    "20260514",
+    "20260515",
+    "20260516",
+    "20260517",
+    "20260518"
+  ],
+  "model_kind": "maker_policy_v2",
+  "n_features": 160,
+  "renderer_config_sha256": "cc314f8e4a9c69ed45e087fa9cb63ef87ea88c3448c23a382cc96a9a07febcf5",
+  "required_files": {
+    "action_schema.json": {
+      "sha256": "cc314f8e4a9c69ed45e087fa9cb63ef87ea88c3448c23a382cc96a9a07febcf5"
+    },
+    "alpha_source_manifest.json": {
+      "sha256": "1e1da64cfb61e9cfd4d275975a502e8fef710f689eb19c27353422e4721171ef"
+    },
+    "feature_spec.json": {
+      "sha256": "75b066ecc09733248e5f4766561762f35d2cbac8e61c562b882590badb0767cf"
+    },
+    "model.onnx": {
+      "sha256": "430c9ad3f42570e9fe1b285284a0146c6b3fb38af33626ec63ff2a58f7518c32"
+    },
+    "normalization.npz": {
+      "sha256": "5228e49a1ed18b592bb6d846566288279ff9c9ecb2389fe883a6c2b3b7571b93"
+    },
+    "policy_config.json": {
+      "sha256": "97d867edb7457df6906279fabf88e391cc1af69efc5ba8545aa25fb2115490c7"
+    },
+    "reward_config.json": {
+      "sha256": "036d86604c60692f5deafe68b856f06b02752715398b637010b4eb7abdfe9c6c"
+    }
+  },
+  "reward_horizon_version": "maker_reward_v2_v1",
+  "schema_version": 1,
+  "training_data_boundary": {
+    "alpha_source_run_id": "primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed2",
+    "candidate_design_id": "P1_signed_reward_filter",
+    "phase": "phase67_small_batch_repair",
+    "train": [
+      "20260425"
+    ],
+    "window_mode": "phase67_small_batch_explicit_selection",
+    "windows": [
+      {
+        "dataset_version": "20260425",
+        "valid_join_rows": 46,
+        "window_id": "1777017600-1777032000"
+      },
+      {
+        "dataset_version": "20260425",
+        "valid_join_rows": 47,
+        "window_id": "1777032000-1777046400"
+      },
+      {
+        "dataset_version": "20260425",
+        "valid_join_rows": 39,
+        "window_id": "1777046400-1777060800"
+      },
+      {
+        "dataset_version": "20260425",
+        "valid_join_rows": 47,
+        "window_id": "1777060800-1777075200"
+      },
+      {
+        "dataset_version": "20260425",
+        "valid_join_rows": 45,
+        "window_id": "1777075200-1777089600"
+      },
+      {
+        "dataset_version": "20260425",
+        "valid_join_rows": 47,
+        "window_id": "1777089600-1777104000"
+      },
+      {
+        "dataset_version": "20260425",
+        "valid_join_rows": 47,
+        "window_id": "1777104000-1777118400"
+      },
+      {
+        "dataset_version": "20260425",
+        "valid_join_rows": 45,
+        "window_id": "1777118400-1777132800"
+      },
+      {
+        "dataset_version": "20260425",
+        "valid_join_rows": 44,
+        "window_id": "1777132800-1777147200"
+      },
+      {
+        "dataset_version": "20260425",
+        "valid_join_rows": 45,
+        "window_id": "1777147200-1777161600"
+      }
+    ]
+  }
+}

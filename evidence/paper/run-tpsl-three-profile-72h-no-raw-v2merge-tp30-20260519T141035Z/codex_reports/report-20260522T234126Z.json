@@ -1,0 +1,689 @@
+{
+  "decisions": {
+    "cash_last": 105.0592,
+    "first_decision_utc": "2026-05-19T14:15:00Z",
+    "gap_total": {
+      "gap_binance": 3160,
+      "gap_chainlink": 1407,
+      "has_gap": 4458
+    },
+    "gap_window": {
+      "gap_binance": 3160,
+      "gap_chainlink": 1407,
+      "has_gap": 4458
+    },
+    "last_decision_ts_ms": 1779459299949,
+    "last_decision_utc": "2026-05-22T14:14:59Z",
+    "max_interval_ms": 28800142,
+    "nav_delta_total": 6.851100000000002,
+    "nav_delta_window": 6.851100000000002,
+    "nav_last": 106.8511,
+    "nav_start": 100.0,
+    "nav_window_start": 100.0,
+    "total_decision_rate_hz": 2.8047061999277485,
+    "total_rows": 726980,
+    "window_decision_rate_hz": 2.8047061999277485,
+    "window_max_interval_ms": 28800142,
+    "window_rows": 726980
+  },
+  "disk": {
+    "free_gib": 1422.1769752502441,
+    "percent": 19.09441713346009,
+    "total_gib": 1875.675796508789,
+    "used_gib": 358.1493606567383
+  },
+  "health": {
+    "total_event_counts": {
+      "booting_observe_only": 1,
+      "cancel_stale_active_order": 1120,
+      "chainlink_settlement_pending": 942,
+      "clob_rate_limits_resolved": 1,
+      "duration_markets_reached": 1,
+      "gap": 18,
+      "gap_recovered": 18,
+      "market_p2b_set": 2550,
+      "market_resolved": 2514,
+      "market_resolved_meta": 2514,
+      "model_profiles_loaded": 1,
+      "order_lifecycle": 86670,
+      "order_lifecycle_cancel_on_gap": 618,
+      "order_lifecycle_cancel_on_risk_control": 503,
+      "order_rejected": 1,
+      "risk_control_await_segment_reset": 25,
+      "risk_control_cancel_attempt": 20,
+      "risk_control_late_liability_writeoff": 68,
+      "risk_control_order_blocked": 13,
+      "risk_control_rejoin_active": 23,
+      "risk_control_segment_reset": 23,
+      "risk_control_triggered": 25,
+      "unexpected_unsettled_dropped": 68,
+      "unsettled_at_shutdown": 3,
+      "worker_spawned": 866
+    },
+    "window_event_counts": {
+      "cancel_stale_active_order": 1120,
+      "chainlink_settlement_pending": 942,
+      "duration_markets_reached": 1,
+      "gap": 18,
+      "gap_recovered": 18,
+      "market_p2b_set": 2544,
+      "market_resolved": 2514,
+      "market_resolved_meta": 2514,
+      "order_lifecycle": 86670,
+      "order_lifecycle_cancel_on_gap": 618,
+      "order_lifecycle_cancel_on_risk_control": 503,
+      "order_rejected": 1,
+      "risk_control_await_segment_reset": 25,
+      "risk_control_cancel_attempt": 20,
+      "risk_control_late_liability_writeoff": 68,
+      "risk_control_order_blocked": 13,
+      "risk_control_rejoin_active": 23,
+      "risk_control_segment_reset": 23,
+      "risk_control_triggered": 25,
+      "unexpected_unsettled_dropped": 68,
+      "unsettled_at_shutdown": 3,
+      "worker_spawned": 864
+    }
+  },
+  "metadata": {
+    "invalid_rule_rows": 0,
+    "rows": 866,
+    "rule_field_present": {
+      "maker_rebate_rate": 866,
+      "min_order_size": 866,
+      "taker_fee_rate": 866,
+      "tick_size": 866
+    },
+    "valid_rule_rows": 866
+  },
+  "profiles": [
+    {
+      "decisions": {
+        "cash_last": 105.0592,
+        "first_decision_utc": "2026-05-19T14:15:00Z",
+        "gap_total": {
+          "gap_binance": 3160,
+          "gap_chainlink": 1407,
+          "has_gap": 4458
+        },
+        "gap_window": {
+          "gap_binance": 3160,
+          "gap_chainlink": 1407,
+          "has_gap": 4458
+        },
+        "last_decision_ts_ms": 1779459299949,
+        "last_decision_utc": "2026-05-22T14:14:59Z",
+        "max_interval_ms": 28800142,
+        "nav_delta_total": 6.851100000000002,
+        "nav_delta_window": 6.851100000000002,
+        "nav_last": 106.8511,
+        "nav_start": 100.0,
+        "nav_window_start": 100.0,
+        "total_decision_rate_hz": 2.8047061999277485,
+        "total_rows": 726980,
+        "window_decision_rate_hz": 2.8047061999277485,
+        "window_max_interval_ms": 28800142,
+        "window_rows": 726980
+      },
+      "path": "paper-trade-history/run-tpsl-three-profile-72h-no-raw-v2merge-tp30-20260519T141035Z/remote_run/models/m5_baseline",
+      "profile_id": "m5_baseline",
+      "rebate": {
+        "last_pending_usdc": 3.0992,
+        "total_amount_by_event": {
+          "maker_rebate_accrual": 13.3249,
+          "maker_rebate_payout": 10.2257
+        },
+        "total_event_counts": {
+          "maker_rebate_accrual": 816,
+          "maker_rebate_payout": 3
+        },
+        "window_amount_by_event": {
+          "maker_rebate_accrual": 13.3249,
+          "maker_rebate_payout": 10.2257
+        },
+        "window_event_counts": {
+          "maker_rebate_accrual": 816,
+          "maker_rebate_payout": 3
+        }
+      },
+      "risk_control": {
+        "adjusted_total_pnl_usdc": -0.4547,
+        "closed_segment_pnl_usdc": -7.3058,
+        "current_segment_pnl_usdc": 6.8511,
+        "late_liability_writeoff_count": 23,
+        "segment_reset_count": 4,
+        "state": {
+          "cooldown_until_ms": null,
+          "enabled": true,
+          "profile_id": "m5_baseline",
+          "segment_id": "m5_baseline:5",
+          "segment_peak_nav_usdc": 100.0,
+          "segment_seq": 5,
+          "segment_start_principal_usdc": 100.0,
+          "status": "active",
+          "trigger": null,
+          "updated_ts_ms": 1779458298638
+        },
+        "window_closed_segment_pnl_usdc": -7.3058
+      },
+      "trades": {
+        "open_order_count": 0,
+        "terminal_unique": 13811,
+        "total_events": 42746,
+        "total_fee_usdc": 9.0116,
+        "total_kind_counts": {
+          "CancelRequested": 43,
+          "Cancelled": 13414,
+          "FilledFull": 397,
+          "FilledPartial": 552,
+          "Rejected": 1,
+          "RestingPlaced": 13687,
+          "Submitted": 13811,
+          "settlement": 841
+        },
+        "total_realized_pnl_usdc": 2.07700608,
+        "total_side_submitted": {
+          "buy": 12368,
+          "sell": 1443
+        },
+        "total_unique_cancelled_orders": 13414,
+        "total_unique_filled_orders": 855,
+        "total_unique_full_fill_orders": 397,
+        "total_unique_partial_fill_orders": 507,
+        "total_unique_submitted_orders": 13811,
+        "window_events": 42746,
+        "window_fee_usdc": 9.0116,
+        "window_kind_counts": {
+          "CancelRequested": 43,
+          "Cancelled": 13414,
+          "FilledFull": 397,
+          "FilledPartial": 552,
+          "Rejected": 1,
+          "RestingPlaced": 13687,
+          "Submitted": 13811,
+          "settlement": 841
+        },
+        "window_realized_pnl_usdc": 2.07700608,
+        "window_side_submitted": {
+          "buy": 12368,
+          "sell": 1443
+        },
+        "window_unique_cancelled_orders": 13414,
+        "window_unique_filled_orders": 855,
+        "window_unique_full_fill_orders": 397,
+        "window_unique_partial_fill_orders": 507,
+        "window_unique_submitted_orders": 13811
+      }
+    },
+    {
+      "decisions": {
+        "cash_last": 36.67859999999997,
+        "first_decision_utc": "2026-05-19T14:15:00Z",
+        "gap_total": {
+          "gap_binance": 3160,
+          "gap_chainlink": 281,
+          "gap_polymarket": 1187,
+          "has_gap": 4519
+        },
+        "gap_window": {
+          "gap_binance": 3160,
+          "gap_chainlink": 281,
+          "gap_polymarket": 1187,
+          "has_gap": 4519
+        },
+        "last_decision_ts_ms": 1779433654347,
+        "last_decision_utc": "2026-05-22T07:07:34Z",
+        "max_interval_ms": 28800231,
+        "nav_delta_total": -49.0623,
+        "nav_delta_window": -49.0623,
+        "nav_last": 50.9377,
+        "nav_start": 100.0,
+        "nav_window_start": 100.0,
+        "total_decision_rate_hz": 2.140313565727402,
+        "total_rows": 499880,
+        "window_decision_rate_hz": 2.140313565727402,
+        "window_max_interval_ms": 28800231,
+        "window_rows": 499880
+      },
+      "path": "paper-trade-history/run-tpsl-three-profile-72h-no-raw-v2merge-tp30-20260519T141035Z/remote_run/models/m3_b1",
+      "profile_id": "m3_b1",
+      "rebate": {
+        "last_pending_usdc": 1.17065,
+        "total_amount_by_event": {
+          "maker_rebate_accrual": 1.17065,
+          "maker_rebate_carry": 0.0
+        },
+        "total_event_counts": {
+          "maker_rebate_accrual": 95,
+          "maker_rebate_carry": 3
+        },
+        "window_amount_by_event": {
+          "maker_rebate_accrual": 1.17065,
+          "maker_rebate_carry": 0.0
+        },
+        "window_event_counts": {
+          "maker_rebate_accrual": 95,
+          "maker_rebate_carry": 3
+        }
+      },
+      "risk_control": {
+        "adjusted_total_pnl_usdc": -104.6874,
+        "closed_segment_pnl_usdc": -104.6874,
+        "current_segment_pnl_usdc": 0.0,
+        "late_liability_writeoff_count": 23,
+        "segment_reset_count": 6,
+        "state": {
+          "cooldown_until_ms": 1779462454364,
+          "enabled": true,
+          "profile_id": "m3_b1",
+          "segment_id": "m3_b1:7",
+          "segment_peak_nav_usdc": 117.1768,
+          "segment_seq": 7,
+          "segment_start_principal_usdc": 100.0,
+          "status": "await_segment_safe_to_reset",
+          "trigger": "stop_loss",
+          "updated_ts_ms": 1779433654364
+        },
+        "window_closed_segment_pnl_usdc": -104.6874
+      },
+      "trades": {
+        "open_order_count": 0,
+        "terminal_unique": 4192,
+        "total_events": 13265,
+        "total_fee_usdc": 43.9725,
+        "total_kind_counts": {
+          "CancelRequested": 6,
+          "Cancelled": 3921,
+          "FilledFull": 271,
+          "FilledPartial": 80,
+          "RestingPlaced": 3954,
+          "Submitted": 4192,
+          "settlement": 841
+        },
+        "total_realized_pnl_usdc": -98.7229522,
+        "total_side_submitted": {
+          "buy": 3750,
+          "sell": 442
+        },
+        "total_unique_cancelled_orders": 3921,
+        "total_unique_filled_orders": 316,
+        "total_unique_full_fill_orders": 271,
+        "total_unique_partial_fill_orders": 56,
+        "total_unique_submitted_orders": 4192,
+        "window_events": 13265,
+        "window_fee_usdc": 43.9725,
+        "window_kind_counts": {
+          "CancelRequested": 6,
+          "Cancelled": 3921,
+          "FilledFull": 271,
+          "FilledPartial": 80,
+          "RestingPlaced": 3954,
+          "Submitted": 4192,
+          "settlement": 841
+        },
+        "window_realized_pnl_usdc": -98.7229522,
+        "window_side_submitted": {
+          "buy": 3750,
+          "sell": 442
+        },
+        "window_unique_cancelled_orders": 3921,
+        "window_unique_filled_orders": 316,
+        "window_unique_full_fill_orders": 271,
+        "window_unique_partial_fill_orders": 56,
+        "window_unique_submitted_orders": 4192
+      }
+    },
+    {
+      "decisions": {
+        "cash_last": 107.28880000000001,
+        "first_decision_utc": "2026-05-19T14:15:00Z",
+        "gap_total": {
+          "gap_chainlink": 1091,
+          "has_gap": 1091
+        },
+        "gap_window": {
+          "gap_chainlink": 1091,
+          "has_gap": 1091
+        },
+        "last_decision_ts_ms": 1779457761740,
+        "last_decision_utc": "2026-05-22T13:49:21Z",
+        "max_interval_ms": 28800165,
+        "nav_delta_total": 22.342799999999997,
+        "nav_delta_window": 22.342799999999997,
+        "nav_last": 122.3428,
+        "nav_start": 100.0,
+        "nav_window_start": 100.0,
+        "total_decision_rate_hz": 1.1288415708876074,
+        "total_rows": 290860,
+        "window_decision_rate_hz": 1.1288415708876074,
+        "window_max_interval_ms": 28800165,
+        "window_rows": 290860
+      },
+      "path": "paper-trade-history/run-tpsl-three-profile-72h-no-raw-v2merge-tp30-20260519T141035Z/remote_run/models/m3_b2",
+      "profile_id": "m3_b2",
+      "rebate": {
+        "last_pending_usdc": 1.24089,
+        "total_amount_by_event": {
+          "maker_rebate_accrual": 2.79488,
+          "maker_rebate_carry": 0.0,
+          "maker_rebate_payout": 1.55399
+        },
+        "total_event_counts": {
+          "maker_rebate_accrual": 183,
+          "maker_rebate_carry": 2,
+          "maker_rebate_payout": 1
+        },
+        "window_amount_by_event": {
+          "maker_rebate_accrual": 2.79488,
+          "maker_rebate_carry": 0.0,
+          "maker_rebate_payout": 1.55399
+        },
+        "window_event_counts": {
+          "maker_rebate_accrual": 183,
+          "maker_rebate_carry": 2,
+          "maker_rebate_payout": 1
+        }
+      },
+      "risk_control": {
+        "adjusted_total_pnl_usdc": 43.092,
+        "closed_segment_pnl_usdc": 43.092,
+        "current_segment_pnl_usdc": 0.0,
+        "late_liability_writeoff_count": 22,
+        "segment_reset_count": 13,
+        "state": {
+          "cooldown_until_ms": 1779464961932,
+          "enabled": true,
+          "profile_id": "m3_b2",
+          "segment_id": "m3_b2:14",
+          "segment_peak_nav_usdc": 131.2301,
+          "segment_seq": 14,
+          "segment_start_principal_usdc": 100.0,
+          "status": "await_segment_safe_to_reset",
+          "trigger": "take_profit",
+          "updated_ts_ms": 1779457761932
+        },
+        "window_closed_segment_pnl_usdc": 43.092
+      },
+      "trades": {
+        "open_order_count": 0,
+        "terminal_unique": 11195,
+        "total_events": 34294,
+        "total_fee_usdc": 74.6309,
+        "total_kind_counts": {
+          "CancelRequested": 8,
+          "Cancelled": 10853,
+          "FilledFull": 342,
+          "FilledPartial": 139,
+          "RestingPlaced": 10925,
+          "Submitted": 11195,
+          "settlement": 832
+        },
+        "total_realized_pnl_usdc": -4.86726579,
+        "total_side_submitted": {
+          "buy": 9517,
+          "sell": 1678
+        },
+        "total_unique_cancelled_orders": 10853,
+        "total_unique_filled_orders": 430,
+        "total_unique_full_fill_orders": 342,
+        "total_unique_partial_fill_orders": 108,
+        "total_unique_submitted_orders": 11195,
+        "window_events": 34294,
+        "window_fee_usdc": 74.6309,
+        "window_kind_counts": {
+          "CancelRequested": 8,
+          "Cancelled": 10853,
+          "FilledFull": 342,
+          "FilledPartial": 139,
+          "RestingPlaced": 10925,
+          "Submitted": 11195,
+          "settlement": 832
+        },
+        "window_realized_pnl_usdc": -4.86726579,
+        "window_side_submitted": {
+          "buy": 9517,
+          "sell": 1678
+        },
+        "window_unique_cancelled_orders": 10853,
+        "window_unique_filled_orders": 430,
+        "window_unique_full_fill_orders": 342,
+        "window_unique_partial_fill_orders": 108,
+        "window_unique_submitted_orders": 11195
+      }
+    }
+  ],
+  "rebate": {
+    "last_pending_usdc": 3.0992,
+    "total_amount_by_event": {
+      "maker_rebate_accrual": 13.3249,
+      "maker_rebate_payout": 10.2257
+    },
+    "total_event_counts": {
+      "maker_rebate_accrual": 816,
+      "maker_rebate_payout": 3
+    },
+    "window_amount_by_event": {
+      "maker_rebate_accrual": 13.3249,
+      "maker_rebate_payout": 10.2257
+    },
+    "window_event_counts": {
+      "maker_rebate_accrual": 816,
+      "maker_rebate_payout": 3
+    }
+  },
+  "risk_control": {
+    "primary": {
+      "adjusted_total_pnl_usdc": -0.4547,
+      "closed_segment_pnl_usdc": -7.3058,
+      "current_segment_pnl_usdc": 6.8511,
+      "late_liability_writeoff_count": 23,
+      "segment_reset_count": 4,
+      "state": {
+        "cooldown_until_ms": null,
+        "enabled": true,
+        "profile_id": "m5_baseline",
+        "segment_id": "m5_baseline:5",
+        "segment_peak_nav_usdc": 100.0,
+        "segment_seq": 5,
+        "segment_start_principal_usdc": 100.0,
+        "status": "active",
+        "trigger": null,
+        "updated_ts_ms": 1779458298638
+      },
+      "window_closed_segment_pnl_usdc": -7.3058
+    },
+    "primary_profile_id": "m5_baseline",
+    "profiles": {
+      "m3_b1": {
+        "adjusted_total_pnl_usdc": -104.6874,
+        "closed_segment_pnl_usdc": -104.6874,
+        "current_segment_pnl_usdc": 0.0,
+        "late_liability_writeoff_count": 23,
+        "segment_reset_count": 6,
+        "state": {
+          "cooldown_until_ms": 1779462454364,
+          "enabled": true,
+          "profile_id": "m3_b1",
+          "segment_id": "m3_b1:7",
+          "segment_peak_nav_usdc": 117.1768,
+          "segment_seq": 7,
+          "segment_start_principal_usdc": 100.0,
+          "status": "await_segment_safe_to_reset",
+          "trigger": "stop_loss",
+          "updated_ts_ms": 1779433654364
+        },
+        "window_closed_segment_pnl_usdc": -104.6874
+      },
+      "m3_b2": {
+        "adjusted_total_pnl_usdc": 43.092,
+        "closed_segment_pnl_usdc": 43.092,
+        "current_segment_pnl_usdc": 0.0,
+        "late_liability_writeoff_count": 22,
+        "segment_reset_count": 13,
+        "state": {
+          "cooldown_until_ms": 1779464961932,
+          "enabled": true,
+          "profile_id": "m3_b2",
+          "segment_id": "m3_b2:14",
+          "segment_peak_nav_usdc": 131.2301,
+          "segment_seq": 14,
+          "segment_start_principal_usdc": 100.0,
+          "status": "await_segment_safe_to_reset",
+          "trigger": "take_profit",
+          "updated_ts_ms": 1779457761932
+        },
+        "window_closed_segment_pnl_usdc": 43.092
+      },
+      "m5_baseline": {
+        "adjusted_total_pnl_usdc": -0.4547,
+        "closed_segment_pnl_usdc": -7.3058,
+        "current_segment_pnl_usdc": 6.8511,
+        "late_liability_writeoff_count": 23,
+        "segment_reset_count": 4,
+        "state": {
+          "cooldown_until_ms": null,
+          "enabled": true,
+          "profile_id": "m5_baseline",
+          "segment_id": "m5_baseline:5",
+          "segment_peak_nav_usdc": 100.0,
+          "segment_seq": 5,
+          "segment_start_principal_usdc": 100.0,
+          "status": "active",
+          "trigger": null,
+          "updated_ts_ms": 1779458298638
+        },
+        "window_closed_segment_pnl_usdc": -7.3058
+      }
+    },
+    "state": {
+      "profiles": [
+        {
+          "cooldown_until_ms": null,
+          "enabled": true,
+          "profile_id": "m5_baseline",
+          "segment_id": "m5_baseline:5",
+          "segment_peak_nav_usdc": 100.0,
+          "segment_seq": 5,
+          "segment_start_principal_usdc": 100.0,
+          "status": "active",
+          "trigger": null,
+          "updated_ts_ms": 1779458298638
+        },
+        {
+          "cooldown_until_ms": 1779462454364,
+          "enabled": true,
+          "profile_id": "m3_b1",
+          "segment_id": "m3_b1:7",
+          "segment_peak_nav_usdc": 117.1768,
+          "segment_seq": 7,
+          "segment_start_principal_usdc": 100.0,
+          "status": "await_segment_safe_to_reset",
+          "trigger": "stop_loss",
+          "updated_ts_ms": 1779433654364
+        },
+        {
+          "cooldown_until_ms": 1779464961932,
+          "enabled": true,
+          "profile_id": "m3_b2",
+          "segment_id": "m3_b2:14",
+          "segment_peak_nav_usdc": 131.2301,
+          "segment_seq": 14,
+          "segment_start_principal_usdc": 100.0,
+          "status": "await_segment_safe_to_reset",
+          "trigger": "take_profit",
+          "updated_ts_ms": 1779457761932
+        }
+      ],
+      "updated_ts_ms": 1779458298638
+    },
+    "total_event_counts": {
+      "risk_control_await_segment_reset": 25,
+      "risk_control_cancel_attempt": 20,
+      "risk_control_late_liability_writeoff": 68,
+      "risk_control_order_blocked": 13,
+      "risk_control_rejoin_active": 23,
+      "risk_control_segment_close": 25,
+      "risk_control_segment_reset": 23,
+      "risk_control_triggered": 25
+    },
+    "total_trigger_counts": {
+      "stop_loss": 10,
+      "take_profit": 15
+    },
+    "window_event_counts": {
+      "risk_control_await_segment_reset": 25,
+      "risk_control_cancel_attempt": 20,
+      "risk_control_late_liability_writeoff": 68,
+      "risk_control_order_blocked": 13,
+      "risk_control_rejoin_active": 23,
+      "risk_control_segment_close": 25,
+      "risk_control_segment_reset": 23,
+      "risk_control_triggered": 25
+    },
+    "window_trigger_counts": {
+      "stop_loss": 10,
+      "take_profit": 15
+    }
+  },
+  "runtime": {
+    "duration_hours": 72.07269722222222,
+    "end_utc": "2026-05-22T14:15:00Z",
+    "git_commit": "53f8630",
+    "latency_mode": "logical_equal_decision",
+    "manifest_total_decisions": 1517720,
+    "now_utc": "2026-05-22T14:15:00Z",
+    "run_dir": "paper-trade-history/run-tpsl-three-profile-72h-no-raw-v2merge-tp30-20260519T141035Z/remote_run",
+    "service_status": "inactive/dead",
+    "start_utc": "2026-05-19T14:10:38Z",
+    "unsettled_at_shutdown": 3,
+    "window_hours": 72
+  },
+  "trades": {
+    "open_order_count": 0,
+    "terminal_unique": 13811,
+    "total_events": 42746,
+    "total_fee_usdc": 9.0116,
+    "total_kind_counts": {
+      "CancelRequested": 43,
+      "Cancelled": 13414,
+      "FilledFull": 397,
+      "FilledPartial": 552,
+      "Rejected": 1,
+      "RestingPlaced": 13687,
+      "Submitted": 13811,
+      "settlement": 841
+    },
+    "total_realized_pnl_usdc": 2.07700608,
+    "total_side_submitted": {
+      "buy": 12368,
+      "sell": 1443
+    },
+    "total_unique_cancelled_orders": 13414,
+    "total_unique_filled_orders": 855,
+    "total_unique_full_fill_orders": 397,
+    "total_unique_partial_fill_orders": 507,
+    "total_unique_submitted_orders": 13811,
+    "window_events": 42746,
+    "window_fee_usdc": 9.0116,
+    "window_kind_counts": {
+      "CancelRequested": 43,
+      "Cancelled": 13414,
+      "FilledFull": 397,
+      "FilledPartial": 552,
+      "Rejected": 1,
+      "RestingPlaced": 13687,
+      "Submitted": 13811,
+      "settlement": 841
+    },
+    "window_realized_pnl_usdc": 2.07700608,
+    "window_side_submitted": {
+      "buy": 12368,
+      "sell": 1443
+    },
+    "window_unique_cancelled_orders": 13414,
+    "window_unique_filled_orders": 855,
+    "window_unique_full_fill_orders": 397,
+    "window_unique_partial_fill_orders": 507,
+    "window_unique_submitted_orders": 13811
+  }
+}

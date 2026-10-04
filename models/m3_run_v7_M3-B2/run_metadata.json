@@ -1,0 +1,11 @@
+{
+  "snapshot_epochs_requested": [],
+  "snapshot_epochs_actual": [],
+  "snapshot_warnings": [],
+  "ema_decay": 0.99,
+  "seed": 42,
+  "feature_noise": 0.0,
+  "focal_gamma": 0.0,
+  "best_epoch": 12,
+  "best_val_top10_ev": 0.17339908577982555
+}

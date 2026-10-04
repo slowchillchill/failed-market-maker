@@ -1,0 +1,6 @@
+{
+  "feature_spec.json": "75b066ecc09733248e5f4766561762f35d2cbac8e61c562b882590badb0767cf",
+  "model.onnx": "6ede2dddb91a80ff0b46d2eabec6fda466a91d4438b60fda2a37646843ad813f",
+  "normalization.npz": "aa6b11c14d894789e8ccfef5ca3913972ec5ff14ba7978c5c5813577cfa2ffa7",
+  "train_config.json": "6d18360d3e00179402179937dd34657f2e4bfce91c17661b328116b2b441ffcc"
+}

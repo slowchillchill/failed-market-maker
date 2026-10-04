@@ -1,0 +1,11 @@
+{
+  "run_id": "gate5-tiny-smoke-completion-validation-wallet1-mpv2-[REDACTED_HOST]-20260605T035016Z",
+  "fail_closed": false,
+  "fail_closed_reasons": [],
+  "balance": "100402500",
+  "open_order_count": 0,
+  "sdk_balance_allowance_queried": true,
+  "sdk_open_orders_queried": true,
+  "clob_host": "https://clob.polymarket.com",
+  "max_allowance_present": true
+}

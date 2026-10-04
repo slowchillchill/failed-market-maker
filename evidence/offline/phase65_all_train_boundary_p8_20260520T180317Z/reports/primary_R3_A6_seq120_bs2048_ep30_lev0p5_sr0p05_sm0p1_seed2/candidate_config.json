@@ -1,0 +1,8 @@
+{
+  "batch_size": 2048,
+  "family": "R3_A6",
+  "role": "diagnostic",
+  "run_id": "primary_R3_A6_seq120_bs2048_ep30_lev0p5_sr0p05_sm0p1_seed2",
+  "seed": 2,
+  "seq_len": 120
+}

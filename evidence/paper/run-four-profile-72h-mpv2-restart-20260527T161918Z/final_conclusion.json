@@ -1,0 +1,46 @@
+{
+  "profiles": [
+    {
+      "adjusted_total_pnl_usdc": 1114.9697,
+      "nav_last": 1214.9697,
+      "profile_id": "mpv2_r1_a3_seq120_seed2",
+      "rank": 1,
+      "total_unique_filled_orders": 146840,
+      "total_unique_submitted_orders": 880719
+    },
+    {
+      "adjusted_total_pnl_usdc": 20.1954,
+      "nav_last": 93.9943,
+      "profile_id": "m5_baseline",
+      "rank": 2,
+      "total_unique_filled_orders": 909,
+      "total_unique_submitted_orders": 14628
+    },
+    {
+      "adjusted_total_pnl_usdc": -100.6707,
+      "nav_last": 50.0947,
+      "profile_id": "m3_b2",
+      "rank": 3,
+      "total_unique_filled_orders": 374,
+      "total_unique_submitted_orders": 6843
+    },
+    {
+      "adjusted_total_pnl_usdc": -127.7975,
+      "nav_last": 107.758,
+      "profile_id": "m3_b1",
+      "rank": 4,
+      "total_unique_filled_orders": 237,
+      "total_unique_submitted_orders": 1182
+    }
+  ],
+  "ranking_metric": "final adjusted_total_pnl_usdc",
+  "report_stamp": "20260530T162518Z",
+  "winner": {
+    "adjusted_total_pnl_usdc": 1114.9697,
+    "nav_last": 1214.9697,
+    "profile_id": "mpv2_r1_a3_seq120_seed2",
+    "rank": 1,
+    "total_unique_filled_orders": 146840,
+    "total_unique_submitted_orders": 880719
+  }
+}

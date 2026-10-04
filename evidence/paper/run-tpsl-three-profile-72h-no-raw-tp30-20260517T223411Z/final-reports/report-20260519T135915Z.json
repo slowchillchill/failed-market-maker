@@ -1,0 +1,655 @@
+{
+  "decisions": {
+    "cash_last": 47.28400000000003,
+    "first_decision_utc": "2026-05-17T22:35:00Z",
+    "gap_total": {},
+    "gap_window": {},
+    "last_decision_ts_ms": 1779193785906,
+    "last_decision_utc": "2026-05-19T12:29:45Z",
+    "max_interval_ms": 28800068,
+    "nav_delta_total": -49.566,
+    "nav_delta_window": -49.566,
+    "nav_last": 50.434,
+    "nav_start": 100.0,
+    "nav_window_start": 100.0,
+    "total_decision_rate_hz": 2.7225644869230803,
+    "total_rows": 371592,
+    "window_decision_rate_hz": 3.98380973186833,
+    "window_max_interval_ms": 4780,
+    "window_rows": 228130
+  },
+  "disk": {
+    "free_gib": 41.5315055847168,
+    "percent": 27.20787491817735,
+    "total_gib": 57.07640838623047,
+    "used_gib": 15.529277801513672
+  },
+  "health": {
+    "total_event_counts": {
+      "booting_observe_only": 1,
+      "chainlink_settlement_pending": 84,
+      "clob_rate_limits_resolved": 1,
+      "gap": 2,
+      "gap_recovered": 2,
+      "market_p2b_set": 1419,
+      "market_resolved": 1407,
+      "market_resolved_meta": 1407,
+      "model_profiles_loaded": 1,
+      "order_lifecycle": 4707,
+      "order_rejected": 1,
+      "risk_control_await_segment_reset": 17,
+      "risk_control_late_liability_writeoff": 6,
+      "risk_control_order_blocked": 7,
+      "risk_control_rejoin_active": 14,
+      "risk_control_segment_reset": 14,
+      "risk_control_triggered": 17,
+      "shutdown_signal": 1,
+      "unexpected_unsettled_dropped": 6,
+      "worker_spawned": 473
+    },
+    "window_event_counts": {
+      "chainlink_settlement_pending": 45,
+      "gap": 2,
+      "gap_recovered": 2,
+      "market_p2b_set": 861,
+      "market_resolved": 856,
+      "market_resolved_meta": 856,
+      "order_lifecycle": 2787,
+      "order_rejected": 1,
+      "risk_control_await_segment_reset": 8,
+      "risk_control_late_liability_writeoff": 3,
+      "risk_control_order_blocked": 3,
+      "risk_control_rejoin_active": 7,
+      "risk_control_segment_reset": 7,
+      "risk_control_triggered": 8,
+      "shutdown_signal": 1,
+      "unexpected_unsettled_dropped": 3,
+      "worker_spawned": 287
+    }
+  },
+  "metadata": {
+    "invalid_rule_rows": 0,
+    "rows": 473,
+    "rule_field_present": {
+      "maker_rebate_rate": 473,
+      "min_order_size": 473,
+      "taker_fee_rate": 473,
+      "tick_size": 473
+    },
+    "valid_rule_rows": 473
+  },
+  "profiles": [
+    {
+      "decisions": {
+        "cash_last": 47.28400000000003,
+        "first_decision_utc": "2026-05-17T22:35:00Z",
+        "gap_total": {},
+        "gap_window": {},
+        "last_decision_ts_ms": 1779193785906,
+        "last_decision_utc": "2026-05-19T12:29:45Z",
+        "max_interval_ms": 28800068,
+        "nav_delta_total": -49.566,
+        "nav_delta_window": -49.566,
+        "nav_last": 50.434,
+        "nav_start": 100.0,
+        "nav_window_start": 100.0,
+        "total_decision_rate_hz": 2.7225644869230803,
+        "total_rows": 371592,
+        "window_decision_rate_hz": 3.98380973186833,
+        "window_max_interval_ms": 4780,
+        "window_rows": 228130
+      },
+      "path": "paper-trade-history/run-tpsl-three-profile-72h-no-raw-tp30-20260517T223411Z/remote_run/models/m5_baseline",
+      "profile_id": "m5_baseline",
+      "rebate": {
+        "last_pending_usdc": 5.00255,
+        "total_amount_by_event": {
+          "maker_rebate_accrual": 10.57331,
+          "maker_rebate_carry": 0.0,
+          "maker_rebate_payout": 5.57076
+        },
+        "total_event_counts": {
+          "maker_rebate_accrual": 730,
+          "maker_rebate_carry": 1,
+          "maker_rebate_payout": 1
+        },
+        "window_amount_by_event": {
+          "maker_rebate_accrual": 6.08648,
+          "maker_rebate_payout": 5.57076
+        },
+        "window_event_counts": {
+          "maker_rebate_accrual": 458,
+          "maker_rebate_payout": 1
+        }
+      },
+      "risk_control": {
+        "adjusted_total_pnl_usdc": -47.7168,
+        "closed_segment_pnl_usdc": -47.7168,
+        "current_segment_pnl_usdc": 0.0,
+        "late_liability_writeoff_count": 2,
+        "segment_reset_count": 3,
+        "state": {
+          "cooldown_until_ms": 1779222586091,
+          "enabled": true,
+          "profile_id": "m5_baseline",
+          "segment_id": "m5_baseline:4",
+          "segment_peak_nav_usdc": 109.309,
+          "segment_seq": 4,
+          "segment_start_principal_usdc": 100.0,
+          "status": "await_segment_safe_to_reset",
+          "trigger": "stop_loss",
+          "updated_ts_ms": 1779193786091
+        },
+        "window_closed_segment_pnl_usdc": -50.016
+      },
+      "trades": {
+        "open_order_count": 0,
+        "terminal_unique": 521,
+        "total_events": 2799,
+        "total_fee_usdc": 0.671,
+        "total_kind_counts": {
+          "CancelRequested": 252,
+          "Cancelled": 302,
+          "FilledFull": 287,
+          "FilledPartial": 495,
+          "Rejected": 1,
+          "RestingPlaced": 472,
+          "Submitted": 521,
+          "settlement": 469
+        },
+        "total_realized_pnl_usdc": -58.15658117,
+        "total_side_submitted": {
+          "buy": 310,
+          "sell": 211
+        },
+        "total_unique_cancelled_orders": 302,
+        "total_unique_filled_orders": 471,
+        "total_unique_full_fill_orders": 287,
+        "total_unique_partial_fill_orders": 289,
+        "total_unique_submitted_orders": 521,
+        "window_events": 1736,
+        "window_fee_usdc": 0.2014,
+        "window_kind_counts": {
+          "CancelRequested": 161,
+          "Cancelled": 192,
+          "FilledFull": 163,
+          "FilledPartial": 323,
+          "Rejected": 1,
+          "RestingPlaced": 293,
+          "Submitted": 318,
+          "settlement": 285
+        },
+        "window_realized_pnl_usdc": -52.71584792,
+        "window_side_submitted": {
+          "buy": 190,
+          "sell": 128
+        },
+        "window_unique_cancelled_orders": 192,
+        "window_unique_filled_orders": 287,
+        "window_unique_full_fill_orders": 163,
+        "window_unique_partial_fill_orders": 184,
+        "window_unique_submitted_orders": 318
+      }
+    },
+    {
+      "decisions": {
+        "cash_last": 45.771199999999936,
+        "first_decision_utc": "2026-05-17T22:35:00Z",
+        "gap_total": {
+          "gap_binance": 64,
+          "has_gap": 64
+        },
+        "gap_window": {
+          "gap_binance": 64,
+          "has_gap": 64
+        },
+        "last_decision_ts_ms": 1779197487287,
+        "last_decision_utc": "2026-05-19T13:31:27Z",
+        "max_interval_ms": 28800191,
+        "nav_delta_total": -49.9688,
+        "nav_delta_window": -60.016000000000005,
+        "nav_last": 50.0312,
+        "nav_start": 100.0,
+        "nav_window_start": 110.0472,
+        "total_decision_rate_hz": 1.937561459409403,
+        "total_rows": 271622,
+        "window_decision_rate_hz": 2.291451460437294,
+        "window_max_interval_ms": 28800191,
+        "window_rows": 194184
+      },
+      "path": "paper-trade-history/run-tpsl-three-profile-72h-no-raw-tp30-20260517T223411Z/remote_run/models/m3_b1",
+      "profile_id": "m3_b1",
+      "rebate": {
+        "last_pending_usdc": 1.21516,
+        "total_amount_by_event": {
+          "maker_rebate_accrual": 3.21485,
+          "maker_rebate_carry": 0.0,
+          "maker_rebate_payout": 1.99969
+        },
+        "total_event_counts": {
+          "maker_rebate_accrual": 209,
+          "maker_rebate_carry": 1,
+          "maker_rebate_payout": 1
+        },
+        "window_amount_by_event": {
+          "maker_rebate_accrual": 2.19278,
+          "maker_rebate_payout": 1.99969
+        },
+        "window_event_counts": {
+          "maker_rebate_accrual": 154,
+          "maker_rebate_payout": 1
+        }
+      },
+      "risk_control": {
+        "adjusted_total_pnl_usdc": -55.7933,
+        "closed_segment_pnl_usdc": -55.7933,
+        "current_segment_pnl_usdc": 0.0,
+        "late_liability_writeoff_count": 2,
+        "segment_reset_count": 4,
+        "state": {
+          "cooldown_until_ms": 1779226287357,
+          "enabled": true,
+          "profile_id": "m3_b1",
+          "segment_id": "m3_b1:5",
+          "segment_peak_nav_usdc": 115.8243,
+          "segment_seq": 5,
+          "segment_start_principal_usdc": 100.0,
+          "status": "await_segment_safe_to_reset",
+          "trigger": "stop_loss",
+          "updated_ts_ms": 1779197487357
+        },
+        "window_closed_segment_pnl_usdc": -34.1621
+      },
+      "trades": {
+        "open_order_count": 0,
+        "terminal_unique": 221,
+        "total_events": 1307,
+        "total_fee_usdc": 18.4621,
+        "total_kind_counts": {
+          "CancelRequested": 78,
+          "Cancelled": 105,
+          "FilledFull": 133,
+          "FilledPartial": 165,
+          "RestingPlaced": 136,
+          "Submitted": 221,
+          "settlement": 469
+        },
+        "total_realized_pnl_usdc": -56.60024046,
+        "total_side_submitted": {
+          "buy": 124,
+          "sell": 97
+        },
+        "total_unique_cancelled_orders": 105,
+        "total_unique_filled_orders": 196,
+        "total_unique_full_fill_orders": 133,
+        "total_unique_partial_fill_orders": 83,
+        "total_unique_submitted_orders": 221,
+        "window_events": 883,
+        "window_fee_usdc": 11.0125,
+        "window_kind_counts": {
+          "CancelRequested": 58,
+          "Cancelled": 78,
+          "FilledFull": 89,
+          "FilledPartial": 120,
+          "RestingPlaced": 99,
+          "Submitted": 153,
+          "settlement": 286
+        },
+        "window_realized_pnl_usdc": -34.33245608,
+        "window_side_submitted": {
+          "buy": 86,
+          "sell": 67
+        },
+        "window_unique_cancelled_orders": 78,
+        "window_unique_filled_orders": 135,
+        "window_unique_full_fill_orders": 89,
+        "window_unique_partial_fill_orders": 63,
+        "window_unique_submitted_orders": 153
+      }
+    },
+    {
+      "decisions": {
+        "cash_last": 47.23809999999999,
+        "first_decision_utc": "2026-05-17T22:35:00Z",
+        "gap_total": {},
+        "gap_window": {},
+        "last_decision_ts_ms": 1779192175744,
+        "last_decision_utc": "2026-05-19T12:02:55Z",
+        "max_interval_ms": 28800135,
+        "nav_delta_total": -49.7604,
+        "nav_delta_window": -49.7604,
+        "nav_last": 50.2396,
+        "nav_start": 100.0,
+        "nav_window_start": 100.0,
+        "total_decision_rate_hz": 1.856957054036814,
+        "total_rows": 250459,
+        "window_decision_rate_hz": 1.630977785216579,
+        "window_max_interval_ms": 28800135,
+        "window_rows": 119294
+      },
+      "path": "paper-trade-history/run-tpsl-three-profile-72h-no-raw-tp30-20260517T223411Z/remote_run/models/m3_b2",
+      "profile_id": "m3_b2",
+      "rebate": {
+        "last_pending_usdc": 2.99571,
+        "total_amount_by_event": {
+          "maker_rebate_accrual": 7.65883,
+          "maker_rebate_carry": 0.0,
+          "maker_rebate_payout": 4.66312
+        },
+        "total_event_counts": {
+          "maker_rebate_accrual": 427,
+          "maker_rebate_carry": 1,
+          "maker_rebate_payout": 1
+        },
+        "window_amount_by_event": {
+          "maker_rebate_accrual": 3.4471,
+          "maker_rebate_payout": 4.66312
+        },
+        "window_event_counts": {
+          "maker_rebate_accrual": 208,
+          "maker_rebate_payout": 1
+        }
+      },
+      "risk_control": {
+        "adjusted_total_pnl_usdc": 78.4222,
+        "closed_segment_pnl_usdc": 78.4222,
+        "current_segment_pnl_usdc": 0.0,
+        "late_liability_writeoff_count": 2,
+        "segment_reset_count": 7,
+        "state": {
+          "cooldown_until_ms": 1779220975934,
+          "enabled": true,
+          "profile_id": "m3_b2",
+          "segment_id": "m3_b2:8",
+          "segment_peak_nav_usdc": 122.4612,
+          "segment_seq": 8,
+          "segment_start_principal_usdc": 100.0,
+          "status": "await_segment_safe_to_reset",
+          "trigger": "stop_loss",
+          "updated_ts_ms": 1779192175934
+        },
+        "window_closed_segment_pnl_usdc": -26.9216
+      },
+      "trades": {
+        "open_order_count": 0,
+        "terminal_unique": 348,
+        "total_events": 2008,
+        "total_fee_usdc": 9.3323,
+        "total_kind_counts": {
+          "CancelRequested": 180,
+          "Cancelled": 232,
+          "FilledFull": 143,
+          "FilledPartial": 349,
+          "RestingPlaced": 287,
+          "Submitted": 348,
+          "settlement": 469
+        },
+        "total_realized_pnl_usdc": 100.53339032,
+        "total_side_submitted": {
+          "buy": 215,
+          "sell": 133
+        },
+        "total_unique_cancelled_orders": 232,
+        "total_unique_filled_orders": 289,
+        "total_unique_full_fill_orders": 143,
+        "total_unique_partial_fill_orders": 188,
+        "total_unique_submitted_orders": 348,
+        "window_events": 1024,
+        "window_fee_usdc": 5.4287,
+        "window_kind_counts": {
+          "CancelRequested": 90,
+          "Cancelled": 113,
+          "FilledFull": 62,
+          "FilledPartial": 173,
+          "RestingPlaced": 139,
+          "Submitted": 162,
+          "settlement": 285
+        },
+        "window_realized_pnl_usdc": -39.22513639,
+        "window_side_submitted": {
+          "buy": 102,
+          "sell": 60
+        },
+        "window_unique_cancelled_orders": 113,
+        "window_unique_filled_orders": 134,
+        "window_unique_full_fill_orders": 62,
+        "window_unique_partial_fill_orders": 94,
+        "window_unique_submitted_orders": 162
+      }
+    }
+  ],
+  "rebate": {
+    "last_pending_usdc": 5.00255,
+    "total_amount_by_event": {
+      "maker_rebate_accrual": 10.57331,
+      "maker_rebate_carry": 0.0,
+      "maker_rebate_payout": 5.57076
+    },
+    "total_event_counts": {
+      "maker_rebate_accrual": 730,
+      "maker_rebate_carry": 1,
+      "maker_rebate_payout": 1
+    },
+    "window_amount_by_event": {
+      "maker_rebate_accrual": 6.08648,
+      "maker_rebate_payout": 5.57076
+    },
+    "window_event_counts": {
+      "maker_rebate_accrual": 458,
+      "maker_rebate_payout": 1
+    }
+  },
+  "risk_control": {
+    "primary": {
+      "adjusted_total_pnl_usdc": -47.7168,
+      "closed_segment_pnl_usdc": -47.7168,
+      "current_segment_pnl_usdc": 0.0,
+      "late_liability_writeoff_count": 2,
+      "segment_reset_count": 3,
+      "state": {
+        "cooldown_until_ms": 1779222586091,
+        "enabled": true,
+        "profile_id": "m5_baseline",
+        "segment_id": "m5_baseline:4",
+        "segment_peak_nav_usdc": 109.309,
+        "segment_seq": 4,
+        "segment_start_principal_usdc": 100.0,
+        "status": "await_segment_safe_to_reset",
+        "trigger": "stop_loss",
+        "updated_ts_ms": 1779193786091
+      },
+      "window_closed_segment_pnl_usdc": -50.016
+    },
+    "primary_profile_id": "m5_baseline",
+    "profiles": {
+      "m3_b1": {
+        "adjusted_total_pnl_usdc": -55.7933,
+        "closed_segment_pnl_usdc": -55.7933,
+        "current_segment_pnl_usdc": 0.0,
+        "late_liability_writeoff_count": 2,
+        "segment_reset_count": 4,
+        "state": {
+          "cooldown_until_ms": 1779226287357,
+          "enabled": true,
+          "profile_id": "m3_b1",
+          "segment_id": "m3_b1:5",
+          "segment_peak_nav_usdc": 115.8243,
+          "segment_seq": 5,
+          "segment_start_principal_usdc": 100.0,
+          "status": "await_segment_safe_to_reset",
+          "trigger": "stop_loss",
+          "updated_ts_ms": 1779197487357
+        },
+        "window_closed_segment_pnl_usdc": -34.1621
+      },
+      "m3_b2": {
+        "adjusted_total_pnl_usdc": 78.4222,
+        "closed_segment_pnl_usdc": 78.4222,
+        "current_segment_pnl_usdc": 0.0,
+        "late_liability_writeoff_count": 2,
+        "segment_reset_count": 7,
+        "state": {
+          "cooldown_until_ms": 1779220975934,
+          "enabled": true,
+          "profile_id": "m3_b2",
+          "segment_id": "m3_b2:8",
+          "segment_peak_nav_usdc": 122.4612,
+          "segment_seq": 8,
+          "segment_start_principal_usdc": 100.0,
+          "status": "await_segment_safe_to_reset",
+          "trigger": "stop_loss",
+          "updated_ts_ms": 1779192175934
+        },
+        "window_closed_segment_pnl_usdc": -26.9216
+      },
+      "m5_baseline": {
+        "adjusted_total_pnl_usdc": -47.7168,
+        "closed_segment_pnl_usdc": -47.7168,
+        "current_segment_pnl_usdc": 0.0,
+        "late_liability_writeoff_count": 2,
+        "segment_reset_count": 3,
+        "state": {
+          "cooldown_until_ms": 1779222586091,
+          "enabled": true,
+          "profile_id": "m5_baseline",
+          "segment_id": "m5_baseline:4",
+          "segment_peak_nav_usdc": 109.309,
+          "segment_seq": 4,
+          "segment_start_principal_usdc": 100.0,
+          "status": "await_segment_safe_to_reset",
+          "trigger": "stop_loss",
+          "updated_ts_ms": 1779193786091
+        },
+        "window_closed_segment_pnl_usdc": -50.016
+      }
+    },
+    "state": {
+      "profiles": [
+        {
+          "cooldown_until_ms": 1779222586091,
+          "enabled": true,
+          "profile_id": "m5_baseline",
+          "segment_id": "m5_baseline:4",
+          "segment_peak_nav_usdc": 109.309,
+          "segment_seq": 4,
+          "segment_start_principal_usdc": 100.0,
+          "status": "await_segment_safe_to_reset",
+          "trigger": "stop_loss",
+          "updated_ts_ms": 1779193786091
+        },
+        {
+          "cooldown_until_ms": 1779226287357,
+          "enabled": true,
+          "profile_id": "m3_b1",
+          "segment_id": "m3_b1:5",
+          "segment_peak_nav_usdc": 115.8243,
+          "segment_seq": 5,
+          "segment_start_principal_usdc": 100.0,
+          "status": "await_segment_safe_to_reset",
+          "trigger": "stop_loss",
+          "updated_ts_ms": 1779197487357
+        },
+        {
+          "cooldown_until_ms": 1779220975934,
+          "enabled": true,
+          "profile_id": "m3_b2",
+          "segment_id": "m3_b2:8",
+          "segment_peak_nav_usdc": 122.4612,
+          "segment_seq": 8,
+          "segment_start_principal_usdc": 100.0,
+          "status": "await_segment_safe_to_reset",
+          "trigger": "stop_loss",
+          "updated_ts_ms": 1779192175934
+        }
+      ],
+      "updated_ts_ms": 1779197487357
+    },
+    "total_event_counts": {
+      "risk_control_await_segment_reset": 17,
+      "risk_control_late_liability_writeoff": 6,
+      "risk_control_order_blocked": 7,
+      "risk_control_rejoin_active": 14,
+      "risk_control_segment_close": 17,
+      "risk_control_segment_reset": 14,
+      "risk_control_triggered": 17
+    },
+    "total_trigger_counts": {
+      "stop_loss": 7,
+      "take_profit": 10
+    },
+    "window_event_counts": {
+      "risk_control_await_segment_reset": 8,
+      "risk_control_late_liability_writeoff": 3,
+      "risk_control_order_blocked": 3,
+      "risk_control_rejoin_active": 7,
+      "risk_control_segment_close": 8,
+      "risk_control_segment_reset": 7,
+      "risk_control_triggered": 8
+    },
+    "window_trigger_counts": {
+      "stop_loss": 5,
+      "take_profit": 3
+    }
+  },
+  "runtime": {
+    "duration_hours": 39.30482472222222,
+    "end_utc": "2026-05-19T13:52:29Z",
+    "git_commit": "ff657cb",
+    "latency_mode": "logical_equal_decision",
+    "manifest_total_decisions": 893673,
+    "now_utc": "2026-05-19T13:59:04Z",
+    "run_dir": "paper-trade-history/run-tpsl-three-profile-72h-no-raw-tp30-20260517T223411Z/remote_run",
+    "service_status": "inactive",
+    "start_utc": "2026-05-17T22:34:11Z",
+    "unsettled_at_shutdown": 0,
+    "window_hours": 24
+  },
+  "trades": {
+    "open_order_count": 0,
+    "terminal_unique": 521,
+    "total_events": 2799,
+    "total_fee_usdc": 0.671,
+    "total_kind_counts": {
+      "CancelRequested": 252,
+      "Cancelled": 302,
+      "FilledFull": 287,
+      "FilledPartial": 495,
+      "Rejected": 1,
+      "RestingPlaced": 472,
+      "Submitted": 521,
+      "settlement": 469
+    },
+    "total_realized_pnl_usdc": -58.15658117,
+    "total_side_submitted": {
+      "buy": 310,
+      "sell": 211
+    },
+    "total_unique_cancelled_orders": 302,
+    "total_unique_filled_orders": 471,
+    "total_unique_full_fill_orders": 287,
+    "total_unique_partial_fill_orders": 289,
+    "total_unique_submitted_orders": 521,
+    "window_events": 1736,
+    "window_fee_usdc": 0.2014,
+    "window_kind_counts": {
+      "CancelRequested": 161,
+      "Cancelled": 192,
+      "FilledFull": 163,
+      "FilledPartial": 323,
+      "Rejected": 1,
+      "RestingPlaced": 293,
+      "Submitted": 318,
+      "settlement": 285
+    },
+    "window_realized_pnl_usdc": -52.71584792,
+    "window_side_submitted": {
+      "buy": 190,
+      "sell": 128
+    },
+    "window_unique_cancelled_orders": 192,
+    "window_unique_filled_orders": 287,
+    "window_unique_full_fill_orders": 163,
+    "window_unique_partial_fill_orders": 184,
+    "window_unique_submitted_orders": 318
+  }
+}

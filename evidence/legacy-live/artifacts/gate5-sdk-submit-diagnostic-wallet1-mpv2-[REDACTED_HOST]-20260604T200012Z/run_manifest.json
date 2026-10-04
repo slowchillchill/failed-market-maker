@@ -1,0 +1,59 @@
+{
+  "run_id": "gate5-sdk-submit-diagnostic-wallet1-mpv2-[REDACTED_HOST]-20260604T200012Z",
+  "phase": "no_submit_live_data_run",
+  "mode": "polymarket_chainlink_binance_no_submit",
+  "run_duration_class": "short_smoke",
+  "status": "fail_closed",
+  "no_submit": false,
+  "enabled_model_count": 1,
+  "enabled_wallet_count": 1,
+  "market_id": "rolling_series",
+  "condition_id": "rolling_series",
+  "observed_market_ids": [
+    "2431268",
+    "2431272"
+  ],
+  "observed_condition_ids": [
+    "0x880e06b0fb52bdade32c726755a2d1eab6462799dc97089b86a2908a7c0a66d2",
+    "0xd091adbfa01dd8323a947b6cf7b51c68fed551791e2f313f90e7a4071bb4ac2c"
+  ],
+  "max_runtime_ms": 360000,
+  "startup_timeout_ms": 120000,
+  "decision_interval_ms": 1000,
+  "decision_row_count": 119,
+  "model_contract_row_count": 1,
+  "health_row_count": 1059,
+  "source_health_row_count": 163181,
+  "source_ready_observed": true,
+  "model_bundle_loaded": true,
+  "model_inference_started": true,
+  "live_feed_started": true,
+  "submit_enabled": true,
+  "signing_started": true,
+  "submitted_order_count": 2,
+  "signed_payload_count": 2,
+  "accepted_order_count": 0,
+  "user_channel_event_count": 0,
+  "order_state_arbitration_row_count": 0,
+  "cancel_attempt_count": 0,
+  "sample_insufficient_reasons": [],
+  "active_redeem_started": false,
+  "fail_closed_reasons": [
+    "strategy_tick_failed: gate5_tiny_live_smoke_submit_fail_closed: sdk_submit_failed; sdk_submit_error_kind:status; sdk_submit_error_status_code:405; sdk_submit_error_method:POST; sdk_submit_error_path:/orders; sdk_submit_error_message_category:other_status_error; sdk_submit_error_message_sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  ],
+  "generated_at_unix_ms": 1780604821104,
+  "artifact_paths": {
+    "manifest_path": "[PRIVATE_HOME]/live-runtime/gate5/artifacts/gate5-sdk-submit-diagnostic-wallet1-mpv2-[REDACTED_HOST]-20260604T200012Z/run_manifest.json",
+    "decisions_jsonl_path": "[PRIVATE_HOME]/live-runtime/gate5/artifacts/gate5-sdk-submit-diagnostic-wallet1-mpv2-[REDACTED_HOST]-20260604T200012Z/decisions.jsonl",
+    "paper_decisions_jsonl_path": "[PRIVATE_HOME]/live-runtime/gate5/artifacts/gate5-sdk-submit-diagnostic-wallet1-mpv2-[REDACTED_HOST]-20260604T200012Z/paper_decisions.jsonl",
+    "health_jsonl_path": "[PRIVATE_HOME]/live-runtime/gate5/artifacts/gate5-sdk-submit-diagnostic-wallet1-mpv2-[REDACTED_HOST]-20260604T200012Z/health.jsonl",
+    "source_health_jsonl_path": "[PRIVATE_HOME]/live-runtime/gate5/artifacts/gate5-sdk-submit-diagnostic-wallet1-mpv2-[REDACTED_HOST]-20260604T200012Z/source_health.jsonl",
+    "model_contracts_jsonl_path": "[PRIVATE_HOME]/live-runtime/gate5/artifacts/gate5-sdk-submit-diagnostic-wallet1-mpv2-[REDACTED_HOST]-20260604T200012Z/model_contracts.jsonl",
+    "reconciliation_report_path": "[PRIVATE_HOME]/live-runtime/gate5/artifacts/gate5-sdk-submit-diagnostic-wallet1-mpv2-[REDACTED_HOST]-20260604T200012Z/reconciliation.json",
+    "orders_jsonl_path": "[PRIVATE_HOME]/live-runtime/gate5/artifacts/gate5-sdk-submit-diagnostic-wallet1-mpv2-[REDACTED_HOST]-20260604T200012Z/orders.jsonl",
+    "user_channel_jsonl_path": "[PRIVATE_HOME]/live-runtime/gate5/artifacts/gate5-sdk-submit-diagnostic-wallet1-mpv2-[REDACTED_HOST]-20260604T200012Z/user_channel.jsonl",
+    "order_state_arbitration_jsonl_path": "[PRIVATE_HOME]/live-runtime/gate5/artifacts/gate5-sdk-submit-diagnostic-wallet1-mpv2-[REDACTED_HOST]-20260604T200012Z/order_state_arbitration.jsonl",
+    "cancel_attempts_jsonl_path": "[PRIVATE_HOME]/live-runtime/gate5/artifacts/gate5-sdk-submit-diagnostic-wallet1-mpv2-[REDACTED_HOST]-20260604T200012Z/cancel_attempts.jsonl",
+    "resource_usage_jsonl_path": "[PRIVATE_HOME]/live-runtime/gate5/artifacts/gate5-sdk-submit-diagnostic-wallet1-mpv2-[REDACTED_HOST]-20260604T200012Z/resource_usage.jsonl"
+  }
+}
