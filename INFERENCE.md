@@ -18,6 +18,8 @@ Feature order: [65 columns](contracts/feature_cols.json), [76 columns](contracts
 
 `alpha` order is `[signal_logits[0], signal_logits[1], signal_ev[0], signal_ev[1]]`. `account_state` order is `[cash, nav_before, shares_up, shares_down, active_resting_count]`. **Cash and NAV use USDC, not raw six-decimal token units.** The deployment runner chains Alpha into Policy and returns raw model outputs. It does not decode or submit orders. / 账户现金与NAV使用USDC，不能输入原始代币整数单位。组合入口串联两个模型，只返回原始输出。
 
+The [v1.0.0 release](https://github.com/slowchillchill/failed-market-maker/releases/tag/v1.0.0) contains a historical full snapshot. In a current checkout, extract its model directory while excluding old model cards with `tar -xzf failed-market-maker-v1.0.0.tar.gz --exclude='models/*/README.md' models/`; unpack the entire archive in a separate directory if you need the historical documents. / v1.0.0 是历史完整快照；当前仓库仅提取模型目录并排除旧模型卡，历史整包应在独立目录解压，以免覆盖新版文档。
+
 From the repository root, after obtaining model files:
 
 ```bash

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 310" role="img" aria-label="IQL: fixed versus native execution">
+<title>IQL: fixed versus native execution</title>
+<rect width="1000" height="310" rx="12" fill="#ffffff"/>
+<text x="28" y="35" fill="#263e39" font-family="Arial,Noto Sans CJK SC,sans-serif" font-size="19" text-anchor="start">IQL · SAME CANDIDATE, DIFFERENT EXECUTION</text>
+<text x="28" y="64" fill="#566e64" font-family="Arial,Noto Sans CJK SC,sans-serif" font-size="14" text-anchor="start">Mean return across 24 offline validation windows (%) · not paper or live</text>
+<text x="660" y="94" fill="#176d91" font-family="Arial,Noto Sans CJK SC,sans-serif" font-size="14" text-anchor="start">Fixed</text>
+<text x="810" y="94" fill="#a74731" font-family="Arial,Noto Sans CJK SC,sans-serif" font-size="14" text-anchor="start">Native</text>
+<text x="28" y="133" fill="#263e39" font-family="Arial,Noto Sans CJK SC,sans-serif" font-size="16" text-anchor="start">IQL-0</text>
+<rect x="360.00" y="109" width="383.13" height="17" fill="#176d91"/>
+<text x="751.125275" y="123" fill="#176d91" font-family="Arial,Noto Sans CJK SC,sans-serif" font-size="14" text-anchor="start">+4.9119%</text>
+<rect x="360.00" y="132" width="1.72" height="17" fill="#a74731"/>
+<text x="369.720875" y="146" fill="#a74731" font-family="Arial,Noto Sans CJK SC,sans-serif" font-size="14" text-anchor="start">+0.0221%</text>
+<text x="28" y="195" fill="#263e39" font-family="Arial,Noto Sans CJK SC,sans-serif" font-size="16" text-anchor="start">IQL-1</text>
+<rect x="360.00" y="171" width="233.47" height="17" fill="#176d91"/>
+<text x="601.4663474" y="185" fill="#176d91" font-family="Arial,Noto Sans CJK SC,sans-serif" font-size="14" text-anchor="start">+2.9932%</text>
+<rect x="190.92" y="194" width="169.08" height="17" fill="#a74731"/>
+<text x="182.92297240000002" y="208" fill="#a74731" font-family="Arial,Noto Sans CJK SC,sans-serif" font-size="14" text-anchor="end">-2.1677%</text>
+<text x="28" y="257" fill="#263e39" font-family="Arial,Noto Sans CJK SC,sans-serif" font-size="16" text-anchor="start">IQL-2</text>
+<rect x="360.00" y="233" width="413.00" height="17" fill="#176d91"/>
+<text x="780.9999224000001" y="247" fill="#176d91" font-family="Arial,Noto Sans CJK SC,sans-serif" font-size="14" text-anchor="start">+5.2949%</text>
+<rect x="192.13" y="256" width="167.87" height="17" fill="#a74731"/>
+<text x="184.12645" y="270" fill="#a74731" font-family="Arial,Noto Sans CJK SC,sans-serif" font-size="14" text-anchor="end">-2.1522%</text>
+<line x1="360" x2="360" y1="102" y2="283" stroke="#8da396"/>
+</svg>

@@ -1,5 +1,23 @@
 # policy_primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed2
 
+<!-- scorecard:start -->
+| Metric / 指标 | Result / 成绩 |
+| --- | --- |
+| Phase / 阶段 | 6.5 |
+| Last BC loss / 末轮 BC 损失 | 0.000110815 |
+| Last RL loss / 末轮离线 RL 损失 | 0.000076921 |
+| 263-window sum / 263 窗口收益和 | +46,401.53 |
+| 30-window sum / 30 窗口收益和 | +5,336.60 |
+
+**FAIL_NO_MAKER_EDGE**. Replay sums are independent-window USDC, not account returns. Independent val/test loss: N/A — no report. / 回放为独立窗口收益之和，单位 USDC，不是账户收益。独立验证／测试损失 N/A：无报告。
+
+
+Standalone paper/live **N/A — no corresponding standalone reports**. / 单体模拟盘与实盘 **N/A：无对应独立报告**。
+
+[All results and limitations / 全部成绩与限制](../../RESULTS.md) · [完整中文](../../RESULTS.zh-CN.md)
+
+<!-- scorecard:end -->
+
 [English / 中文](../../README.md) · [Structured model record / 结构化记录](../../catalog/policy_primary_R1_A3_seq120_bs2048_ep30_lev0p25_sr0p0_sm0p0_seed2.json)
 
 **Architecture / 架构:** 160-feature linear projection → 2-layer GRU (128 hidden); 4 Alpha + 5 account values → context MLP; fusion → quote / offset / size / risk heads.
@@ -18,6 +36,9 @@
 
 Raw market observations come from Polymarket, Binance and Chainlink. Data files are not redistributed. Published split/config manifests describe the historical train/validation/test boundaries; a retained manifest does not make the raw dataset downloadable. M3 checkpoints have data paths and historical split rules, but their referenced exact split manifests were not found locally: N/A. / 原始数据来自Polymarket、Binance、Chainlink，本包不分发数据集。M3权重保留数据路径和历史切分规则，但旧路径引用的精确切分清单未找到，为N/A。
 
+<details>
+<summary>Exact retained record / 完整留存记录</summary>
+
 ```json
 {
   "amp": false,
@@ -34,7 +55,12 @@ Raw market observations come from Polymarket, Binance and Chainlink. Data files 
 }
 ```
 
+</details>
+
 **Training / offline / paper / live results / 分层成绩**
+
+<details>
+<summary>Exact retained record / 完整留存记录</summary>
 
 ```json
 {
@@ -45,6 +71,8 @@ Raw market observations come from Polymarket, Binance and Chainlink. Data files 
   "live": "N/A — no standalone corresponding run evidence / 未找到单体对应实盘证据"
 }
 ```
+
+</details>
 
 [All run-specific results, offline comparisons and failure criteria / 全部逐次结果、离线对照与失败判据](../../RESULTS.md) · [中文完整结果](../../RESULTS.zh-CN.md). Maker Phase 6.5/6.6: `FAIL_NO_MAKER_EDGE`; Phase 6.7: `FAIL_CONTROL_AMPLIFICATION`. Offline replay PnL is never substituted for test loss. / 离线回放收益不能代替测试损失。
 

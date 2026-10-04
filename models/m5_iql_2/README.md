@@ -1,5 +1,24 @@
 # m5_iql_2
 
+<!-- scorecard:start -->
+| Metric / 指标 | Result / 成绩 |
+| --- | --- |
+| Best epoch / 最佳轮次 | 43 |
+| Policy loss / 策略损失 | 4.635094 |
+| Val Q loss / 验证 Q 损失 | 0.035254 |
+| Hold best/final / Hold 最佳／末轮 | 94.25% / 95.30% |
+| Fixed return / 固定执行收益率 | +5.2949% |
+| Native return / 原生执行收益率 | -2.1522% |
+
+Returns: mean of 24 offline validation windows. ONNX = best checkpoint; final = epoch 50. / 收益率为 24 个离线验证窗口均值；ONNX 来自最佳权重，末轮为第 50 轮。
+
+
+Standalone paper/live **N/A — no corresponding standalone reports**. / 单体模拟盘与实盘 **N/A：无对应独立报告**。
+
+[All results and limitations / 全部成绩与限制](../../RESULTS.md) · [完整中文](../../RESULTS.zh-CN.md)
+
+<!-- scorecard:end -->
+
 [English / 中文](../../README.md) · [Structured model record / 结构化记录](../../catalog/m5_iql_2.json)
 
 **Architecture / 架构:** Causal TCN market branches + Chainlink MLP + causal Transformer (128 hidden, 2 layers, 4 heads) + 11-state late fusion and execution heads.
@@ -18,13 +37,21 @@
 
 Raw market observations come from Polymarket, Binance and Chainlink. Data files are not redistributed. Published split/config manifests describe the historical train/validation/test boundaries; a retained manifest does not make the raw dataset downloadable. M3 checkpoints have data paths and historical split rules, but their referenced exact split manifests were not found locally: N/A. / 原始数据来自Polymarket、Binance、Chainlink，本包不分发数据集。M3权重保留数据路径和历史切分规则，但旧路径引用的精确切分清单未找到，为N/A。
 
+<details>
+<summary>Exact retained record / 完整留存记录</summary>
+
 ```json
 {}
 ```
 
+</details>
+
 N/A — training hyperparameter config is not embedded in the IQL checkpoint; historical experiment records and split_info.json are provided. / IQL权重未内嵌完整超参数配置，见历史实验记录和切分文件。
 
 **Training / offline / paper / live results / 分层成绩**
+
+<details>
+<summary>Exact retained record / 完整留存记录</summary>
 
 ```json
 {
@@ -39,6 +66,8 @@ N/A — training hyperparameter config is not embedded in the IQL checkpoint; hi
   "live": "N/A — no standalone corresponding run evidence / 未找到单体对应实盘证据"
 }
 ```
+
+</details>
 
 [All run-specific results, offline comparisons and failure criteria / 全部逐次结果、离线对照与失败判据](../../RESULTS.md) · [中文完整结果](../../RESULTS.zh-CN.md). Maker Phase 6.5/6.6: `FAIL_NO_MAKER_EDGE`; Phase 6.7: `FAIL_CONTROL_AMPLIFICATION`. Offline replay PnL is never substituted for test loss. / 离线回放收益不能代替测试损失。
 

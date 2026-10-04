@@ -1,5 +1,29 @@
 # m5_v7v72_bc
 
+<!-- scorecard:start -->
+| Metric / 指标 | Result / 成绩 |
+| --- | --- |
+| Best epoch / 最佳轮次 | 1 |
+| Train accuracy / 训练准确率 | 0.848722 |
+| Val accuracy / 验证准确率 | 0.710701 |
+| Test accuracy / 测试准确率 | 0.682590 |
+
+**Paper / 模拟盘 — all five runs / 全部五轮（USDC）**
+
+| UTC run / 运行 | Metric / 口径 | PnL |
+| --- | --- | --- |
+| [20260517T022156Z](../../evidence/paper/run-p22-three-profile-72h-20260517T022156Z/reports/report-20260517T083623Z.json) | nav_delta_total | -99.5530 |
+| [20260517T223411Z](../../evidence/paper/run-tpsl-three-profile-72h-no-raw-tp30-20260517T223411Z/final-reports/report-20260519T135915Z.json) | adjusted_total_pnl_usdc | -47.7168 |
+| [20260519T141035Z](../../evidence/paper/run-tpsl-three-profile-72h-no-raw-v2merge-tp30-20260519T141035Z/codex_reports/report-20260522T234126Z.json) | adjusted_total_pnl_usdc | -0.4547 |
+| [20260527T161918Z](../../evidence/paper/run-four-profile-72h-mpv2-restart-20260527T161918Z/reports/report-20260530T162518Z.json) | adjusted_total_pnl_usdc | +20.1954 |
+| [20260602T135518Z](../../evidence/paper/run-four-profile-7d-direct-official-20260602T135518Z/reports/standard/report-terminated-20260607T122104Z.json) | adjusted_total_pnl_usdc | +84.7787 |
+
+Signal outputs plus external execution/risk rules; June 2 run stopped early. Live N/A — no corresponding evidence. / 使用 signal 输出和外部执行风控；6 月 2 日运行提前结束。实盘 N/A：无对应证据。
+
+[All results and limitations / 全部成绩与限制](../../RESULTS.md) · [完整中文](../../RESULTS.zh-CN.md)
+
+<!-- scorecard:end -->
+
 [English / 中文](../../README.md) · [Structured model record / 结构化记录](../../catalog/m5_v7v72_bc.json)
 
 **Architecture / 架构:** Causal TCN market branches + Chainlink MLP + causal Transformer (128 hidden, 2 layers, 4 heads) + 11-state late fusion and execution heads.
@@ -18,6 +42,9 @@
 
 Raw market observations come from Polymarket, Binance and Chainlink. Data files are not redistributed. Published split/config manifests describe the historical train/validation/test boundaries; a retained manifest does not make the raw dataset downloadable. M3 checkpoints have data paths and historical split rules, but their referenced exact split manifests were not found locally: N/A. / 原始数据来自Polymarket、Binance、Chainlink，本包不分发数据集。M3权重保留数据路径和历史切分规则，但旧路径引用的精确切分清单未找到，为N/A。
 
+<details>
+<summary>Exact retained record / 完整留存记录</summary>
+
 ```json
 {
   "oracle_mode": "B",
@@ -33,7 +60,12 @@ Raw market observations come from Polymarket, Binance and Chainlink. Data files 
 }
 ```
 
+</details>
+
 **Training / offline / paper / live results / 分层成绩**
+
+<details>
+<summary>Exact retained record / 完整留存记录</summary>
 
 ```json
 {
@@ -50,6 +82,8 @@ Raw market observations come from Polymarket, Binance and Chainlink. Data files 
   "live": "N/A — no standalone corresponding run evidence / 未找到单体对应实盘证据"
 }
 ```
+
+</details>
 
 [All run-specific results, offline comparisons and failure criteria / 全部逐次结果、离线对照与失败判据](../../RESULTS.md) · [中文完整结果](../../RESULTS.zh-CN.md). Maker Phase 6.5/6.6: `FAIL_NO_MAKER_EDGE`; Phase 6.7: `FAIL_CONTROL_AMPLIFICATION`. Offline replay PnL is never substituted for test loss. / 离线回放收益不能代替测试损失。
 

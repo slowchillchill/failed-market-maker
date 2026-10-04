@@ -1,5 +1,21 @@
 # mpv2_r1_a3_seq120_seed2
 
+<!-- scorecard:start -->
+**Deployment combination, not a 25th trained candidate. / 部署组合，不是第 25 个训练候选。**
+
+| Paper run (UTC) / 模拟盘运行 | Adjusted PnL / 调整后收益（USDC） |
+| --- | --- |
+| [20260527T161918Z](../../evidence/paper/run-four-profile-72h-mpv2-restart-20260527T161918Z/reports/report-20260530T162518Z.json) | +1,114.9697 |
+| [20260602T135518Z](../../evidence/paper/run-four-profile-7d-direct-official-20260602T135518Z/reports/standard/report-terminated-20260607T122104Z.json) | +1,791.3144 |
+
+June 2 run: decisions stopped June 5, not a completed seven-day test. / 6 月 2 日运行于 6 月 5 日停止决策，未完成七天测试。
+
+**Live / 实盘:** 13 reports; 6 observable local NAV deltas. Platform final PnL **N/A — not reconciled in all 13 reports**. / 13 份报告中 6 份可观测本地 NAV 变化，平台最终收益 **N/A：全部尚未核对**。
+
+[All results and limitations / 全部成绩与限制](../../RESULTS.md) · [完整中文](../../RESULTS.zh-CN.md)
+
+<!-- scorecard:end -->
+
 [English / 中文](../../README.md) · [Structured model record / 结构化记录](../../catalog/mpv2_r1_a3_seq120_seed2.json)
 
 **Architecture / 架构:** Alpha R1 A3 seed2 + MakerPolicy R1 A3 seed2.
@@ -17,6 +33,9 @@ R1 A3 seed2的Alpha和Policy组合；Alpha分类与EV拼接为4维Policy输入�
 **Training parameters, data and split / 训练参数、数据及切分**
 
 Raw market observations come from Polymarket, Binance and Chainlink. Data files are not redistributed. Published split/config manifests describe the historical train/validation/test boundaries; a retained manifest does not make the raw dataset downloadable. M3 checkpoints have data paths and historical split rules, but their referenced exact split manifests were not found locally: N/A. / 原始数据来自Polymarket、Binance、Chainlink，本包不分发数据集。M3权重保留数据路径和历史切分规则，但旧路径引用的精确切分清单未找到，为N/A。
+
+<details>
+<summary>Exact retained record / 完整留存记录</summary>
 
 ```json
 {
@@ -42,7 +61,12 @@ Raw market observations come from Polymarket, Binance and Chainlink. Data files 
 }
 ```
 
+</details>
+
 **Training / offline / paper / live results / 分层成绩**
+
+<details>
+<summary>Exact retained record / 完整留存记录</summary>
 
 ```json
 {
@@ -50,6 +74,8 @@ Raw market observations come from Polymarket, Binance and Chainlink. Data files 
   "live": "See local-ledger table; platform final PnL unavailable / 见本地账本表，平台最终收益不可用"
 }
 ```
+
+</details>
 
 [All run-specific results, offline comparisons and failure criteria / 全部逐次结果、离线对照与失败判据](../../RESULTS.md) · [中文完整结果](../../RESULTS.zh-CN.md). Maker Phase 6.5/6.6: `FAIL_NO_MAKER_EDGE`; Phase 6.7: `FAIL_CONTROL_AMPLIFICATION`. Offline replay PnL is never substituted for test loss. / 离线回放收益不能代替测试损失。
 

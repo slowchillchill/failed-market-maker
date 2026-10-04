@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 330" role="img" aria-label="June 2 paper run: adjusted PnL, USDC">
+<title>June 2 paper run: adjusted PnL, USDC</title>
+<rect width="1000" height="330" rx="12" fill="#ffffff"/>
+<text x="28" y="35" fill="#263e39" font-family="Arial,Noto Sans CJK SC,sans-serif" font-size="19" text-anchor="start">ONE PAPER RUN · FOUR PROFILES</text>
+<text x="28" y="62" fill="#566e64" font-family="Arial,Noto Sans CJK SC,sans-serif" font-size="14" text-anchor="start">2026-06-02 run · decisions stopped June 5 · adjusted PnL / USDC</text>
+<line x1="350" x2="350" y1="83" y2="270" stroke="#a4b7ad"/>
+<text x="28" y="116" fill="#263e39" font-family="Arial,Noto Sans CJK SC,sans-serif" font-size="16" text-anchor="start">M3 B1</text>
+<rect x="263.57" y="94" width="86.43" height="30" fill="#b64132" rx="3"/>
+<text x="253.568777" y="116" fill="#b64132" font-family="Arial,Noto Sans CJK SC,sans-serif" font-size="16" text-anchor="end">-298.04</text>
+<text x="28" y="161" fill="#263e39" font-family="Arial,Noto Sans CJK SC,sans-serif" font-size="16" text-anchor="start">M3 B2</text>
+<rect x="284.75" y="139" width="65.25" height="30" fill="#b64132" rx="3"/>
+<text x="274.753045" y="161" fill="#b64132" font-family="Arial,Noto Sans CJK SC,sans-serif" font-size="16" text-anchor="end">-224.99</text>
+<text x="28" y="206" fill="#263e39" font-family="Arial,Noto Sans CJK SC,sans-serif" font-size="16" text-anchor="start">M5 BC</text>
+<rect x="350.00" y="184" width="24.59" height="30" fill="#167658" rx="3"/>
+<text x="384.585823" y="206" fill="#167658" font-family="Arial,Noto Sans CJK SC,sans-serif" font-size="16" text-anchor="start">+84.78</text>
+<text x="28" y="251" fill="#263e39" font-family="Arial,Noto Sans CJK SC,sans-serif" font-size="16" text-anchor="start">R1 Alpha + Policy</text>
+<rect x="350.00" y="229" width="519.48" height="30" fill="#167658" rx="3"/>
+<text x="879.481176" y="251" fill="#167658" font-family="Arial,Noto Sans CJK SC,sans-serif" font-size="16" text-anchor="start">+1,791.31</text>
+<text x="28" y="305" fill="#566e64" font-family="Arial,Noto Sans CJK SC,sans-serif" font-size="14" text-anchor="start">Simulation only. Not a completed seven-day test. Values are not live account returns.</text>
+</svg>
